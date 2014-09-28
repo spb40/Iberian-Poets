@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPlace>
+    <place xml:id="sobroso">
+        <placeName>Soverosas' Court</placeName>
+        <location>
+            <geo>42.206017 -8.463789</geo>
+        </location>
+    </place>
+    <place xml:id="coimbra">
+        <placeName>Court of Sancho I, King of Portugal</placeName>
+        <location>
+            <geo>40.25 -8.45</geo>
+        </location>
+    </place>
+    <place xml:id="dmartim">
+        <placeName>Court of Martim Sanches, Count of Trastámara</placeName>
+        <location>
+            <geo>42.062991 -7.717664</geo>
+        </location>
+    </place>
+    <place xml:id="soesto">
+        <placeName>Court of Rodrigo Gómez de Trastámara</placeName>
+        <location>
+            <geo>43.219722 -9.005</geo>
+        </location>
+    </place>
+    <place xml:id="jaen">
+        <placeName>Court of Ferdinand III of Castile (while conquering Al-Andalus)</placeName>
+        <location>
+            <geo>37.765406 -3.790256</geo>
+        </location>
+    </place>
+    <place xml:id="lopo">
+        <placeName>Court of Lope Díaz I de Haro</placeName>
+        <location>
+            <geo>42.6 -2.8</geo>
+        </location>
+    </place>
+    <place xml:id="meneses">
+        <placeName>Court of Telo Afonso de Meneses</placeName>
+        <location>
+            <geo>41.941667 -4.92</geo>
+        </location>
+    </place>
+    <place xml:id="bragança">
+        <placeName>Bragança</placeName>
+        <location>
+            <geo>41.807517 -6.756857</geo>
+        </location>
+    </place>
+    <place xml:id="afonsX">
+        <placeName>Court of Alfonso X, King of Castile, Leon and Galicia</placeName>
+        <location>
+            <geo n="1">37.385872 -5.993112</geo>
+            <geo n="2">39.857531 -4.023828</geo>
+            <geo n="3">41.652032 -4.728216</geo>
+        </location>
+    </place>
+    <place xml:id="afonsII">
+        <placeName>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona</placeName>
+        <location>
+            <geo>41.650192 -0.883533</geo>
+        </location>
+    </place>
+
+    <place xml:id="rodeiro">
+        <placeName>Circle of D. Múnio de Rodeiro</placeName>
+        <location>
+            <geo>42.65, -7.95</geo>
+        </location>
+    </place>
+    <place xml:id="afonsIII">
+        <placeName>Court of Afonso III, King of Portugal</placeName>
+        <location>
+            <geo>40.25 -8.45</geo>
+        </location>
+    </place>
+    <place xml:id="sanchoII">
+        <placeName>Court of Sancho II, King of Portugal</placeName>
+        <location>
+            <geo>40.25 -8.45</geo>
+        </location>
+    </place>
+    <place xml:id="serpa">
+        <placeName>Court of D. Fernado de la Serpa</placeName>
+        <location>
+            <geo>38.570833 -7.909444</geo>
+        </location>
+    </place>
+    <place xml:id="sousa">
+        <placeName>Court of D. Gonçalo Garcia de Sousa</placeName>
+        <location>
+            <geo>41.087778 -8.520278</geo>
+        </location>
+    </place>
+    <place xml:id="sanchoIV">
+        <placeName>Court of Sancho IV</placeName>
+        <location>
+            <geo>39.856667 -4.024444</geo>
+        </location>
+    </place>
+</listPlace>
+
+

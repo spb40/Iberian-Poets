@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE doc [
-<!ENTITY biblList SYSTEM "file:/home/helena/Desktop/Tese/biblList.xml">
-<!ENTITY PlaceList SYSTEM "file:/home/helena/Desktop/Computational Methods in the Humanities/PlaceList.xml">
+<!DOCTYPE TEI [
+<!ENTITY biblList SYSTEM "biblList.xml">
+<!ENTITY PlaceList SYSTEM "PlaceList.xml">
 ]>
 
-<?xml-model href="file:/home/helena/Desktop/Tese/tei_authors.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tei-authors.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>

@@ -99,6 +99,18 @@
             <geo>39.856667 -4.024444</geo>
         </location>
     </place>
+    <place xml:id="vigo">
+        <placeName>Vigo</placeName>
+        <location>
+            <geo>42.223078 -8.731278</geo>
+        </location>
+    </place>
+    <place xml:id="dinis">
+        <placeName>Court of King Denis of Portugal</placeName>
+        <location>
+            <geo>38.716667 -9.133333</geo>
+        </location>
+    </place>
 </listPlace>
 
 

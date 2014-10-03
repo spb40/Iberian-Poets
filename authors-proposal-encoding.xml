@@ -46,7 +46,7 @@
                     <msIdentifier>
                         <msName>Pergaminho Vindel</msName>
                         <altIdentifier>
-                            <idno xml:id="R">N</idno>
+                            <idno xml:id="N">N</idno>
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
@@ -787,8 +787,7 @@
                     <persName>Pero da Ponte</persName>
                     <nationality cert="medium" key="gl">Galician</nationality>
                     <birth>
-                        <placeName></placeName>
-                        <geo></geo>
+                        <location cert="unknown"/>
                     </birth>
                     <socecStatus key="sq">Squire</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
@@ -805,6 +804,78 @@
                     </listBibl>
                     <witDetail wit="#A #B #V"/>
                 </person>
+                <person xml:id="MartCod">
+                    <persName>Martin Codax</persName>
+                    <nationality cert="medium" key="gl">Galician</nationality>
+                    <birth>
+                        <location cert="unknown"/>
+                    </birth>
+                    <socecStatus key="unknown" cert="unknown">Unknown</socecStatus>
+                    <occupation key="jn">Jongleur</occupation>
+                    <floruit from="1240" to="1275" period="3rd">
+                        <location corresp="#vigo"/>
+                    </floruit>
+                    <listBibl>
+                        <bibl corresp="#B524V107N1"/>
+                        <bibl corresp="#B525V108N2"/>
+                        <bibl corresp="#B526V109N3"/>
+                        <bibl corresp="#B527V110N4"/>
+                        <bibl corresp="#B528V111N5"/>
+                        <bibl corresp="#B529V112N6"/>
+                        <bibl corresp="#B520aV113N7"/>
+                    </listBibl>
+                    <witDetail wit="#N #B #V"/>
+                </person>
+                
+                <person xml:id="Den">
+                    <persName>Dom Dinis</persName>
+                    <nationality key="pt" cert="high">Portuguese</nationality>
+                    <birth>
+                        <location>
+                            <placeName>Lisbon</placeName>
+                            <geo>38.716667 -9.133333</geo>
+                        </location>
+                    </birth>
+                    <socecStatus key="nb">Noble</socecStatus>
+                    <occupation key="tr">Trobadour</occupation>
+                    <floruit from="1279" to="1235" period="3">
+                        <location corresp="#dinis"/>                        
+                    </floruit>
+                    <listBibl>
+                        <bibl corresp="#B1278V884R1"/>
+                        <bibl corresp="#B1279V885R2"/>
+                        <bibl corresp="#B1280V886R3"/>
+                        <bibl corresp="#B1281V887R4"/>
+                        <bibl corresp="#B1282V888R5"/>
+                        <bibl corresp="#B1283V889R6"/>
+                        <bibl corresp="#B1284V890R7"/>
+                        
+                    </listBibl>
+                    <witDetail wit="#R #B #V"/>
+                </person>
+                
+               <!-- 
+                <person xml:id="">
+                    <persName></persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="">
+                        <location corresp=""/>
+
+                    </floruit>
+                    <listBibl>
+
+                    </listBibl>
+                    <witDetail wit="#A #B #V"/>
+                </person> -->
+
             </listPerson>
         </body>
         <back>

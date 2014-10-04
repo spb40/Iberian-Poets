@@ -59,14 +59,28 @@
                 </msDesc>
                 <msDesc>
                     <msIdentifier>
-                        <msName xml:id="M">M</msName>
+                        <msName>A Folha de Madrid</msName>
+                        <altIdentifier>
+                            <idno xml:id="M">M</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
                 <msDesc>
                     <msIdentifier>
-                        <msName xml:id="P">P</msName>
+                    <msName>As Folhas do Porto</msName>
+                    <altIdentifier>
+                        <idno xml:id="P">P</idno>
+                    </altIdentifier>
                     </msIdentifier>
                 </msDesc>
+                <bibl>
+                    Base de datos da Lírica Profana Galego-Portuguesa (MedDB), versión 2.3.3, Centro Ramón Piñeiro para a Investigación en Humanidades 
+                    <ref>http://www.cirp.es</ref>
+                </bibl>
+                <bibl>
+                    Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas Medievais Galego Portuguesas [base de dados online]. 
+                    Lisboa: Instituto de Estudos Medievais, FCSH/NOVA. <ref>http://cantigas.fcsh.unl.pt</ref>.
+                </bibl>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -105,8 +119,7 @@
                     <occupation key="tr">Trobadour</occupation>
                     <floruit from="1220" to="1230" period="2nd" cert="low">
                         <location corresp="#sobroso"/>                   
-                    </floruit>
-                    
+                    </floruit>                    
                     <witDetail wit="#A #B"/>
                 </person>
                 
@@ -123,8 +136,7 @@
                     <floruit from="1215" to="1246" period="2nd" cert="low">
                         <location corresp="#coimbra"/>                     
                         <location corresp="#dmartim"/>
-                    </floruit>
-                    
+                    </floruit>                    
                     <witDetail wit="#A #B"/>
                     </person>
 
@@ -140,8 +152,7 @@
                     <occupation key="tr">Trobadour</occupation>
                     <floruit when="1223" to="1257" period="2nd" cert="low">
                         <location corresp="#dmartim"/>
-                    </floruit>
-                    
+                    </floruit>                    
                     <witDetail wit="#A #B"/>
                 </person>                    
                 
@@ -160,8 +171,7 @@
                        <location corresp="#coimbra"/>
                        <location corresp="#soesto"/>
                        <location from="1941" to="1949" corresp="#jaen"/>
-                    </floruit>
-                    
+                    </floruit>                    
                     <witDetail wit="#A #B"/>
                 </person>
         
@@ -573,7 +583,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1279" to="1235" period="3">
+                    <floruit from="1279" to="1235" period="3rd">
                         <location corresp="#dinis"/>                        
                     </floruit>                    
                     <witDetail wit="#R #B #V"/>
@@ -590,7 +600,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1248" to="1295" period="3">
+                    <floruit from="1248" to="1295" period="3rd">
                         <location corresp="#sanchoIV"/>
                     </floruit>                   
                     <witDetail wit="#A #B #V"/>
@@ -605,7 +615,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1280" to="1320" period="3">
+                    <floruit from="1280" to="1320" period="3rd">
                         <location corresp="#afonsX"/>                        
                     </floruit>                    
                     <witDetail wit="#A #B #V"/>
@@ -622,7 +632,7 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1250" to="1265" period="3">
+                    <floruit from="1250" to="1265" period="3rd">
                         <location corresp="#afonsX"/>                        
                     </floruit>                    
                     <witDetail wit="#A #B #V"/>
@@ -639,7 +649,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1250" to="1275" period="3">
+                    <floruit from="1250" to="1275" period="3rd">
                         <location>
                             <placeName>Calvelo</placeName>
                             <geo>41.681944, -8.543333</geo>
@@ -657,7 +667,7 @@
                     </birth>
                     <socecStatus key="cl">Clergyman</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1240" to="1270" period="3">
+                    <floruit from="1240" to="1270" period="3rd">
                         <location corresp="#afonsX"/>                        
                     </floruit>                    
                     <witDetail wit="#A #B #V"/>
@@ -675,14 +685,323 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1290" to="1325" period="4">
+                    <floruit from="1290" to="1325" period="4th">
                         <location corresp="#dinis"/>
                         <location corresp="#afonsIV"/>                        
                     </floruit>                    
                     <witDetail wit="#M #P #B #V"/>
                 </person>
-   
-               <!-- 
+                
+              
+               <!-- <person xml:id="FerEsq">
+                    <persName>Fernand' Esquio</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="3rd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person> 
+                
+                <person xml:id="PPort">
+                    <persName>Pedro de Portugal, Conde de Barcelos</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="4th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                
+                <person xml:id="EstGuar">
+                    <persName>Estevan da Guarda</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="4th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+           
+                <person xml:id="Johan">
+                    <persName>Johan, jograr morador en León</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="4th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="AfSchz">
+                    <persName>Afonso Sanchez</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="4th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="EstCoe">
+                    <persName>Estevan Coelho</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="4th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                
+                <person xml:id="AlvAf">
+                    <persName>Alvaro Afonso</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="5th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="DieGvz">
+                    <persName>Diogo Gonçalvez de Montemor-o-Novo</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="5th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="FerEa">
+                    <persName>Fernand' Eanes</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="5th">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="GarMdzEi">
+                    <persName>Garcia Mendiz d' Eixo</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="1st">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="OsEa">
+                    <persName>Osoir' Anes</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="MonFdzMir">
+                    <persName>Nuno (Monio) Fernandez de Mirapeixe</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="BernBon">
+                    <persName>Bernal de Bonaval</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="AfSrzSam">
+                    <persName>Afonso Soarez Sarraça (Sança)</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="PVelho">
+                    <persName>Pero Velho de Taveirós</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="RoyGmzBret">
+                    <persName>Roi Gomez de Briteiros</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="PGarAm">
+                    <persName>Pero Garcia d' Ambroa</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="GonçGar">
+                    <persName>Gonçalo Garcia</persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="2nd">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>
+                
                 <person xml:id="">
                     <persName></persName>
                     <nationality key="" cert=""></nationality>
@@ -697,10 +1016,27 @@
                     <floruit from="" to="" period="">
                         <location corresp=""/>
                     </floruit>                    
-                    <witDetail wit="#A #B #V"/>
-                </person> -->
-
-            </listPerson>
+                    <witDetail wit=""/>
+                </person>
+                
+                <person xml:id="">
+                    <persName></persName>
+                    <nationality key="" cert=""></nationality>
+                    <birth>                       
+                        <location>
+                            <placeName></placeName>
+                            <geo></geo>
+                        </location>
+                    </birth>
+                    <socecStatus key=""></socecStatus>
+                    <occupation key=""></occupation>
+                    <floruit from="" to="" period="">
+                        <location corresp=""/>
+                    </floruit>                    
+                    <witDetail wit=""/>
+                </person>-->
+                
+                </listPerson>
         </body>
         <back>
             <ab>&placeList;</ab>

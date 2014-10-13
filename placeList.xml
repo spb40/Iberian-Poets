@@ -123,6 +123,18 @@
             <geo>38.716667 -9.133333</geo>
         </location>
     </place>
+    <place xml:id="lalim">
+        <placeName>Court of D. Pedro, Conde de Barcelos</placeName>
+        <location>
+            <geo>41.033333 -7.816667</geo>
+        </location>
+    </place>
+    <place xml:id="afonsXI">
+        <placeName>Court of Alfonso XI</placeName>
+        <location>
+            <geo>-4.728561,41.651981,0</geo>
+        </location>
+    </place>
 </listPlace>
 
 

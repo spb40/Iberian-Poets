@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPlace>
+    <place xml:id="sobroso">
+        <location>
+            <placeName type="short">The Soverosas</placeName>
+            <placeName type="full">Family Soverosas' Court</placeName>
+            <geo>-8.463789,42.206017,0</geo>
+        </location>
+    </place>
+    <place xml:id="sanchoI">
+        <location>
+            <placeName type="short">Sancho I</placeName>
+            <placeName type="full">Court of Sancho I, King of Portugal</placeName>
+            <geo>-8.45,40.25,0</geo>
+        </location>
+    </place>
+    <place xml:id="traba">
+        <location>
+            <placeName type="short">The Trabas</placeName>
+            <placeName type="full">Family Traba Court</placeName>
+            <geo>-7.717664,42.062991,0</geo>
+        </location>
+    </place>
+    <place xml:id="dmartim">
+        <location>
+            <placeName type="short">Martim Sanches</placeName>
+            <placeName type="full">Court of Martim Sanches, Count of Trastámara</placeName>
+            <geo>-7.717664,42.062991,0</geo>
+        </location>
+    </place>
+    <place xml:id="soesto">
+        <location>
+            <placeName type="short">Rodrigo Gómez</placeName>
+            <placeName type="full">Court of Rodrigo Gómez de Trastámara</placeName>
+            <geo>-7.583333,43.65,0</geo>
+        </location>
+    </place>
+    <place xml:id="jaen">
+        <location>
+            <placeName type="short">Ferdinand III</placeName>
+            <placeName type="full">Court of Ferdinand III of Castile (while conquering
+                Al-Andalus)</placeName>
+            <geo>-3.790256,37.765406,0</geo>
+        </location>
+    </place>
+    <place xml:id="haro">
+        <location>
+            <placeName type="short">Lope Díaz de Haro</placeName>
+            <placeName type="full">Court of Lope Díaz I de Haro</placeName>
+            <geo>-2.8,42.6,0</geo>
+        </location>
+    </place>
+    <place xml:id="meneses">
+        <location>
+            <placeName type="short">Telo Afonso de Meneses</placeName>
+            <placeName type="full">Court of Telo Afonso de Meneses</placeName>
+            <geo>-4.92,41.941667,0</geo>
+        </location>
+    </place>
+    <place xml:id="bragança">
+        <location>
+            <placeName type="short">Bragança</placeName>
+            <placeName type="full">Bragança</placeName>
+            <geo>-6.756857,41.807517,0</geo>
+        </location>
+    </place>
+    <place xml:id="afonsX">
+        <location>
+            <placeName type="short">Alfonso X</placeName>
+            <placeName type="full">Court of Alfonso X, King of Castile, Leon and Galicia</placeName>
+            <geo>-4.728216,41.652032,0</geo>
+        </location>
+    </place>
+    <place xml:id="afonsII">
+        <location>
+            <placeName type="short">Alfonso II</placeName>
+            <placeName type="full">Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona</placeName>
+            <geo>-0.883533,41.650192,0</geo>
+        </location>
+    </place>
+
+    <place xml:id="rodeiro">
+        <location>
+            <placeName type="short">Múnio de Rodeiro</placeName>
+            <placeName type="full">Circle of D. Múnio de Rodeiro</placeName>
+            <geo>-7.95,42.65,0</geo>
+        </location>
+    </place>
+    <place xml:id="afonsIII">
+        <location>
+            <placeName type="short">Afonso III</placeName>
+            <placeName type="full">Court of Afonso III, King of Portugal</placeName>
+            <geo>-8.46,40.26,0</geo>
+        </location>
+    </place>
+    <place xml:id="sanchoII">
+        <location>
+            <placeName type="short">Sancho II</placeName>
+            <placeName type="full">Court of Sancho II, King of Portugal</placeName>
+            <geo>-8.45,40.25,100</geo>
+        </location>
+    </place>
+    <place xml:id="serpa">
+        <location>
+            <placeName type="short">Fernado de la Serpa</placeName>
+            <placeName type="full">Court of D. Fernado de la Serpa</placeName>
+            <geo>-7.909444,38.570833,0</geo>
+        </location>
+    </place>
+    <place xml:id="sousa">
+        <location>
+            <placeName type="short">The Sousas</placeName>
+            <placeName type="full">Court of D. Gonçalo Garcia de Sousa</placeName>
+            <geo>-8.520278,41.087778,0</geo>
+        </location>
+    </place>
+    <place xml:id="sanchoIV">
+        <location>
+            <placeName type="short">Sancho IV</placeName>
+            <placeName type="full">Court of Sancho IV</placeName>
+            <geo>-4.024444,39.856667,0</geo>
+        </location>
+    </place>
+    <place xml:id="vigo">
+        <location>
+            <placeName type="short">Vigo</placeName>
+            <placeName type="full">Vigo</placeName>
+            <geo>-8.731278,42.223078,0</geo>
+        </location>
+    </place>
+    <place xml:id="dinis">
+        <location>
+            <placeName type="short">D. Dinis</placeName>
+            <placeName type="full">Court of King Denis of Portugal</placeName>
+            <geo>-9.1334,38.7167,100</geo>
+        </location>
+    </place>
+    <place xml:id="afonsIV">
+        <location>
+            <placeName type="short">Afonso IV</placeName>
+            <placeName type="full">Court of Afonso IV</placeName>
+            <geo>-9.133333,38.716667,0</geo>
+        </location>
+    </place>
+    <place xml:id="lalim">
+        <location>
+            <placeName type="short">Count of Barcelos</placeName>
+            <placeName/>
+            <placeName type="full">Court of Pedro Afonso, Count of Barcelos</placeName>
+            <geo>-7.816667,41.033333,0</geo>
+        </location>
+    </place>
+    <place xml:id="afonsXI">
+        <location>
+            <placeName type="short">Alfonso XI</placeName>
+            <placeName type="full">Court of Alfonso XI</placeName>
+            <geo>-4.728561,41.651981,0</geo>
+        </location>
+    </place>
+    <place xml:id="afonsIX">
+        <location>
+            <placeName type="short">Alfonso IX</placeName>
+            <placeName type="full">Court of Alfonso IX of León</placeName>
+            <geo>-5.570956,42.600636,0</geo>
+        </location>
+    </place>
+    <place xml:id="infpedro">
+        <location>
+            <placeName type="short">Infante Pedro</placeName>
+            <placeName type="full">Court of Infante Pedro, Duke of Coimbra</placeName>
+            <geo>-9.133333,38.716667,0</geo>
+        </location>
+    </place>
+</listPlace>

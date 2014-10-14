@@ -8,42 +8,26 @@
         <kml>
             <Document>
                 <name>Trial</name>
-                <Style id="BlackLine">
+                <Style id="WhiteLine">
                     <LineStyle>
-                        <color>87000000</color>
-                        <width>6</width>
+                        <color>50FFFFFF</color>
+                        <width>3</width>
                     </LineStyle>
                 </Style>
-                <Style id="GreyLine">
+                <Style id="purpleLine">
                     <LineStyle>
-                        <color>50BEBEBE</color>
-                        <width>4</width>
+                        <color>50FF78B4</color>
+                        <width>2</width>
                     </LineStyle>
                 </Style>
                 <xsl:apply-templates select="text"/>
             </Document>
         </kml>
     </xsl:template>
-    <!--    <xsl:variable name="corresp">
-        <xsl:text>#</xsl:text>
-        <xsl:value-of select="back/ab/listPlace/place/string(@xml:id)"/>
-    </xsl:variable>
-    <xsl:variable name="ID">
-        <xsl:value-of
-            select="substring-after((body/listPerson/person/floruit/location/string(@corresp)), '#')"
-        />
-    </xsl:variable>
-    <xsl:variable name="floruitGeo">
-        <xsl:for-each select="location[string(@corresp) = $corresp]">
-            <xsl:value-of select="back/ab/listPlace/place[@xml:id = $ID]/location/geo"/>
-        </xsl:for-each>
-    </xsl:variable>-->
-
     <xsl:template match="person">
-        <xsl:variable name="floruitGeo">
+         <xsl:variable name="floruitGeo">
             <xsl:value-of
-                select="//back//place[@xml:id = current()/floruit/location/@corresp/substring(.,2)]//geo"
-            />
+                select="//back//place[@xml:id = current()/floruit/location/substring(@corresp, 2)]//geo"/>
         </xsl:variable>
         <Placemark>
             <name>
@@ -93,10 +77,10 @@
         <Placemark>
             <xsl:choose>
                 <xsl:when test="floruit/location[@cert='low']">
-                    <styleUrl>#GreyLine</styleUrl>
+                    <styleUrl>#purpleLine</styleUrl>
                 </xsl:when>
                 <xsl:otherwise>
-                    <styleUrl>#BlackLine</styleUrl>
+                    <styleUrl>#WhiteLine</styleUrl>
                 </xsl:otherwise>
             </xsl:choose>
             <LineString>

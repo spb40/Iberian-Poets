@@ -280,6 +280,11 @@
                 <person sameAs="#MartMo">
                     <persName>Martin Moxa <addName>(alternative ID)</addName></persName>
                     <nationality cert="low" key="arag">Aragonese</nationality>
+                    <birth>
+                        <location cert="unknown">                           
+                            <geo>-0.893443,41.935556,0</geo>
+                        </location>
+                    </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="cl">Clergyman</socecStatus>
                     <floruit from="1270" to="1280" period="3rd">

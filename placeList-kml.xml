@@ -18,7 +18,7 @@
         <location>
             <placeName type="short">The Trabas</placeName>
             <placeName type="full">Family Traba Court</placeName>
-            <geo>-7.717664,42.062991,0</geo>
+            <geo>-7.71765,42.063,100</geo>
         </location>
     </place>
     <place xml:id="dmartim">
@@ -38,8 +38,7 @@
     <place xml:id="jaen">
         <location>
             <placeName type="short">Ferdinand III</placeName>
-            <placeName type="full">Court of Ferdinand III of Castile (while conquering
-                Al-Andalus)</placeName>
+            <placeName type="full">Court of Ferdinand III of Castile (while conquering Al-Andalus)</placeName>
             <geo>-3.790256,37.765406,0</geo>
         </location>
     </place>
@@ -145,7 +144,7 @@
     <place xml:id="lalim">
         <location>
             <placeName type="short">Count of Barcelos</placeName>
-            <placeName/>
+            
             <placeName type="full">Court of Pedro Afonso, Count of Barcelos</placeName>
             <geo>-7.816667,41.033333,0</geo>
         </location>
@@ -154,7 +153,7 @@
         <location>
             <placeName type="short">Alfonso XI</placeName>
             <placeName type="full">Court of Alfonso XI</placeName>
-            <geo>-4.728561,41.651981,0</geo>
+            <geo>-4.728565,41.652,100</geo>
         </location>
     </place>
     <place xml:id="afonsIX">

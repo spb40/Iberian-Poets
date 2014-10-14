@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <songList>
-    <song author="Johan Soarez de Pávia" period="1" songID="B1330bis, V937">
+    <song author="#JSrzPav" period="1st" songID="B1330bisV937">
         <songID> B1330bis, V937</songID>
-        <author>Johan Soarez de Pávia</author>
+        <author corresp="#JSrzPav">Johan Soarez de Pávia</author>
         <period>1</period>
         <text>
             <line>Ora faz host'o senhor de Navarra,</line>
@@ -32,9 +32,9 @@
         </text>
     </song>
 
-    <song author="Osoiro Anes" period="1" songID="B38">
-        <songID> B38</songID>
-        <author>Osoiro Anes</author>
+    <song author="#OsEa" period="1" songID="B38">
+        <songID>B38</songID>
+        <author corresp="#OsEa">Osoir' Anes</author>
         <period>1</period>
         <text>
             <line>Sazom é já de me partir </line>
@@ -72,9 +72,9 @@
         </text>
     </song>
 
-    <song author="Osoiro Anes" period="1" songID="B40">
+    <song author="#OsEa" period="1" songID="B40">
         <songID> B40</songID>
-        <author>Osoiro Anes</author>
+        <author corresp="#OsEa">Osoir' Anes</author>
         <period>1</period>
         <text>
             <line>E por que me desamades, </line>
@@ -134,9 +134,9 @@
         </text>
     </song>
 
-    <song author="Johan Soarez Somesso" period="2" songID="A16, B109">
+    <song author="#JSrzSom" period="2" songID="A16B109">
         <songID> A16, B109</songID>
-        <author>Johan Soarez Somesso</author>
+        <author corresp="#JSrzSom">Johan Soarez Somesso</author>
         <period>2</period>
         <text>
             <line>Muitas vezes em meu cuidar</line>
@@ -170,9 +170,9 @@
         </text>
     </song>
 
-    <song author="Johan Soarez Somesso" period="2" songID="A19, B112">
+    <song author="#JSrzSom" period="2" songID="A19B112">
         <songID> A19, B112</songID>
-        <author>Johan Soarez Somesso</author>
+        <author corresp="#JSrzSom">Johan Soarez Somesso</author>
         <period>2</period>
         <text>
             <line>Muitos dizem que perderám</line>
@@ -206,9 +206,9 @@
         </text>
     </song>
 
-    <song author="Pai Soarez de Taveirós" period="2" songID="A35, B150">
+    <song author="#PaySrzTav" period="2" songID="A35B150">
         <songID> A35, B150</songID>
-        <author>Pai Soarez de Taveirós</author>
+        <author corresp="PaySrzTav">Pai Soarez de Taveirós</author>
         <period>2</period>
         <text>
             <line>Como morreu quem nunca bem</line>
@@ -234,9 +234,9 @@
         </text>
     </song>
 
-    <song author="Pai Soarez de Taveirós" period="2" songID="B145">
+    <song author="#PaySrzTav" period="2" songID="B145">
         <songID> B145</songID>
-        <author>Pai Soarez de Taveirós</author>
+        <author corresp="PaySrzTav">Pai Soarez de Taveirós</author>
         <period>2</period>
         <text>
             <line>Cuidava-<pronoun person="1" gramRelation="" lemma="me" age="old">m'</pronoun>eu, quando nom entendia</line>
@@ -270,9 +270,9 @@
         </text>
     </song>
 
-    <song author="Matin Codax" period="3" songID="B1280, N3, V886">
+    <song author="#MartCod" period="3" songID="B1280N3V886">
         <songID> B1280, N3, V886</songID>
-        <author>Martin Codax</author>
+        <author corresp="#MartCod">Martin Codax</author>
         <period>3</period>
         <text>
             <line>Mia irmana fremosa, treides <pronoun person="" gramRelation="" lemma="" age="new">comigo</pronoun></line>
@@ -290,9 +290,9 @@
         </text>
     </song>
 
-    <song author="Martin Codaz" period="3" songID="B1281, N4, V887">
+    <song author="#MartCod" period="3" songID="B1281N4V887">
         <songID> B1281, N4, V887</songID>
-        <author>Martin Codax</author>
+        <author corresp="#MartCod">Martin Codax</author>
         <period>3</period>
         <text>
             <line>Ai Deus, <pronoun person="" gramRelation="" lemma="" age="">se</pronoun> sab'ora meu amigo</line>
@@ -316,9 +316,9 @@
         </text>
     </song>
 
-    <song author="Martin Soarez" period="3" songID="B1366, V974">
+    <song author="#MartSrz" period="3" songID="B1366V974">
         <songID> B1366, V974</songID>
-        <author>Martin Soarez</author>
+        <author corresp="#MartSrz">Martin Soarez</author>
         <period>3</period>
         <text>
             <line>Foi um dia Lopo jograr</line>
@@ -336,9 +336,9 @@
         </text>
     </song>
 
-    <song author="Martin Soarez" period="3" songID="B143">
+    <song author="#MartSrz" period="3" songID="B143">
         <songID> B143</songID>
-        <author>Martin Soarez</author>
+        <author corresp="#MartSrz">Martin Soarez</author>
         <period>3</period>
         <text>
             <line>Pero nom fui a Ultramar,</line>
@@ -385,9 +385,9 @@
         </text>
     </song>
 
-    <song author="Fernand' Esquio" period="3" songID="B1299, V903">
+    <song author="#FerEsq" period="3" songID="B1299V903">
         <songID> B1299, V903</songID>
-        <author>Fernand' Esquio</author>
+        <author corresp="#FerEsq">Fernand' Esquio</author>
         <period>3</period>
         <text>
             <line>- Que adubastes, amigo, alá em Lug'u andastes,</line>
@@ -408,9 +408,9 @@
         </text>
     </song>
 
-    <song author="Estevan da Guarda" period="4" songID="B1313, V918">
+    <song author="#EstGuar" period="4" songID="B1313V918">
         <songID> B1313, V918</songID>
-        <author>Estevan da Guarda</author>
+        <author corresp="#EstGuar">Estevan da Guarda</author>
         <period>4</period>
         <text>
             <line>Diss'hoj'<pronoun person="" gramRelation="" lemma="" age="">el</pronoun>-rei: - Pois Dom Foão mais val</line>
@@ -434,9 +434,9 @@
         </text>
     </song>
 
-    <song author="Estevan da Guarda" period="4" songID="B1305, V910">
+    <song author="#EstGuar" period="4" songID="B1305V910">
         <songID> B1305, V910</songID>
-        <author>Estevan da Guarda</author>
+        <author corresp="#EstGuar">Estevan da Guarda</author>
         <period>4</period>
         <text>
             <line>Meu dano fiz por tal juiz pedir</line>
@@ -463,9 +463,9 @@
         </text>
     </song>
 
-    <song author="Alfonso Sanchez" period="4" songID="B414, V25">
+    <song author="#AfSchz" period="4" songID="B414V25">
         <songID> B414, V25</songID>
-        <author>Afonso Sanchez</author>
+        <author corresp="#AfSchz">Afonso Sanchez</author>
         <period>4</period>
         <text>
             <line>Pois que vós per i mais valer cuidades,</line>
@@ -495,9 +495,9 @@
         </text>
     </song>
 
-    <song author="Alfonso Sanchez" period="4" songID="B409, V20">
+    <song author="#AfSchz" period="4" songID="B409V20">
         <songID> B409, V20</songID>
-        <author>Afonso Sanchez</author>
+        <author corresp="#AfSchz">Afonso Sanchez</author>
         <period>4</period>
         <text>
             <line>Sempre <pronoun person="" gramRelation="" lemma="" age="">vos</pronoun> eu doutra rem mais amei,</line>
@@ -523,9 +523,9 @@
         </text>
     </song>
 
-    <song author="Diogo Gonçalves de Montemor-o-Novo" period="5" songID="B1075bis, V666">
+    <song author="#DieGvz" period="5" songID="B1075bisV666">
         <songID> B1075bis, V666</songID>
-        <author>Diogo Gonçalves de Montemor-o-Novo</author>
+        <author corresp="#DieGvz">Diogo Gonçalves de Montemor-o-Novo</author>
         <period>5</period>
         <text>
             <line>Co[<pronoun person="1" gramRelation="" lemma="me" age="old">m'</pronoun>] homem ferido com ferro e com pau,</line>
@@ -549,9 +549,9 @@
         </text>
     </song>
 
-    <song author="Fernand' Eanes" period="5" songID="V387">
+    <song author="#FerEa" period="5" songID="V387">
         <songID>V387</songID>
-        <author>Fernand' Eanes</author>
+        <author corresp="#FerEa">Fernand' Eanes</author>
         <period>5</period>
         <text>
             <line>Do Port'and'e vou mudar,</line>
@@ -579,9 +579,9 @@
         </text>
     </song>
 
-    <song author="Alvaro Afonso" period="5" songID="V410">
+    <song author="#AlvAf" period="5" songID="V410">
         <songID> V410</songID>
-        <author>Alvaro Afonso</author>
+        <author corresp="#AlvAf">Alvaro Afonso</author>
         <period>5</period>
         <text>
             <line>Luis Vaasques, depois que parti</line>

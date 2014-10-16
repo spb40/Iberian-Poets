@@ -2,8 +2,6 @@
 <!DOCTYPE TEI [
 <!ENTITY placeList-kml SYSTEM "placeList-kml.xml">
 ]>
-
-<?xml-model href="TEI-personography.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -216,7 +214,7 @@
                     <birth>
                         <location cert="unknown">
                             <placeName>Leon</placeName>
-                            <geo>-5.569066,42.599246,0</geo>
+                            <geo>-5.6,42.5,0</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
@@ -424,7 +422,8 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1235" to="1270" period="3rd">
-                        <location to="1242" corresp="#serpa"/>
+                        <location from="1235" to="1237" corresp="#serpa"/>
+                        <location from="1238" to="1241" corresp="#berenguer"/>
                         <location from="1242" to="1248" corresp="#jaen"/>
                         <location from="1249" corresp="#afonsoIII"/>
                     </floruit>
@@ -740,7 +739,7 @@
                     <birth>
                         <location>
                             <placeName>León</placeName>
-                            <geo>-5.566944,42.598889,0</geo>
+                            <geo>-5.54,42.57,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
@@ -1048,7 +1047,7 @@
                     <nationality key="leo" cert="medium">Leonese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>-5.565462,42.599902,0</geo>
+                            <geo>-5.57,42.7,50</geo>
                         </location>
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
@@ -1073,7 +1072,7 @@
                         <location corresp="#dinis"/>
                     </floruit>
 </person>
-                <!--
+               
                 
                  <person xml:id="Picandon">
                     <persName>Picandon</persName>
@@ -1085,11 +1084,13 @@
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
-                    <occupation key="tr">Troubadour</occupation>
+                    <occupation key="jn">Jongleur</occupation>
                     <floruit from="1230" to="1260" period="3rd">
-                        <location corresp=""/>
+                        <location corresp="#jaen" from="1236" to="1237"/>
+                        <location corresp="#berenguer" from="1239" to="1243"/>
                     </floruit>
 </person>
+                <!--
                 
                 <person xml:id="Arn">
                     <persName>Arnaldo</persName>

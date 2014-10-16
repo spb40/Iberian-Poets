@@ -453,7 +453,7 @@
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-8.076944,41.098333 -3.790256,37.765406,0 -7.909444,38.570833,0</coordinates>
+            <coordinates>-8.076944,41.098333 -3.790256,37.765406,0 -7.909444,38.570833,0 5.445429,43.526304,0</coordinates>
          </LineString>
       </Placemark>
 
@@ -1219,6 +1219,29 @@
             <coordinates>-0.9,42,0 -4.024444,39.856667,0 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
+               
+                
+                 <Placemark>
+         <name>Picandon</name>
+         <description>, Picandon's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates> -3.790256,37.765406,0 5.445429,43.526304,0</coordinates>
+         </LineString>
+      </Placemark>
                 
 
             
@@ -1561,6 +1584,20 @@
          </Style>
          <Point>
             <coordinates>-9.133333,38.716667,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Raimon Berenguer IV, Count of Provence</name>
+         <description>Court of Raimon Berenguer IV</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>5.445429,43.526304,0</coordinates>
          </Point>
       </Placemark>
 

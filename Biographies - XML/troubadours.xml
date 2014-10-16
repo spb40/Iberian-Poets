@@ -75,14 +75,16 @@
                 </msDesc>
                 <bibl>
                     Base de datos da Lírica Profana Galego-Portuguesa (MedDB), versión 2.3.3, Centro Ramón Piñeiro para a Investigación en Humanidades 
-                    <ref>http://www.cirp.es</ref>
+                    <ref >http://www.cirp.es</ref>
                 </bibl>
                 <bibl>
                     Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas Medievais Galego Portuguesas [base de dados online]. 
                     Lisboa: Instituto de Estudos Medievais, FCSH/NOVA. <ref>http://cantigas.fcsh.unl.pt</ref>.
                 </bibl>
             </sourceDesc>
+           
         </fileDesc>
+        
     </teiHeader>
     <text>
         <body>

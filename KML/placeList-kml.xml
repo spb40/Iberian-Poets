@@ -170,4 +170,11 @@
             <geo>-9.133333,38.716667,0</geo>
         </location>
     </place>
+    <place xml:id="berenguer">
+        <location>
+            <placeName type="short">Raimon Berenguer IV, Count of Provence</placeName>
+            <placeName type="full">Court of Raimon Berenguer IV</placeName>
+            <geo>5.445429,43.526304,0</geo>
+        </location>
+    </place>
 </listPlace>

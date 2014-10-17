@@ -172,8 +172,8 @@
     </place>
     <place xml:id="berenguer">
         <location>
-            <placeName type="short">Raimon Berenguer IV, Count of Provence</placeName>
-            <placeName type="full">Court of Raimon Berenguer IV</placeName>
+            <placeName type="short">Raimon Berenguer IV</placeName>
+            <placeName type="full">Court of Raimon Berenguer IV, Count of Provence</placeName>
             <geo>5.445429,43.526304,0</geo>
         </location>
     </place>

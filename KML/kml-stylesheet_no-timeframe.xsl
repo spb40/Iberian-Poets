@@ -9,15 +9,11 @@
             <Document>
                 <name>Trial</name>
                 <Style id="WhiteLine">
-                    <LineStyle>
-                        <color>50FFFFFF</color>
-                        <width>3</width>
-                    </LineStyle>
                 </Style>
                 <Style id="purpleLine">
                     <LineStyle>
                         <color>50FF78B4</color>
-                        <width>2</width>
+                        <width>3</width>
                     </LineStyle>
                 </Style>
                 <xsl:apply-templates select="text"/>

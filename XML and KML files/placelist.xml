@@ -38,7 +38,7 @@
     <place xml:id="jaen" type="royal">
         <location>
             <placeName type="short">Ferdinand III</placeName>
-            <placeName type="full">Court of Ferdinand III of Castile (while conquering Al-Andalus)</placeName>
+            <placeName type="full">Court of Ferdinand III of Castile</placeName>
             <geo>-3.790256,37.765406,0</geo>
         </location>
     </place>
@@ -144,7 +144,7 @@
     <place xml:id="lalim" type="noble">
         <location>
             <placeName type="short">Count of Barcelos</placeName>
-            
+
             <placeName type="full">Court of Pedro Afonso, Count of Barcelos</placeName>
             <geo>-7.816667,41.033333,0</geo>
         </location>

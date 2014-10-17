@@ -26,9 +26,6 @@
             <xsl:value-of
                 select="//back//place[@xml:id = current()/floruit/location/substring(@corresp, 2)]//geo"/>
         </xsl:variable>
-        <xsl:variable name="corresp">
-            <xsl:value-of select="current()[floruit/location/substring(@corresp, 2)]/@xml:id"/>
-        </xsl:variable>
         <Placemark>
             <name>
                 <xsl:value-of select="persName"/>
@@ -101,8 +98,8 @@
         </Placemark>
     </xsl:template>
 
-    <xsl:template match="place[not(@xml:id = person[floruit[@period='3']]/location/substring(@corresp, 2))]"/>
-    <xsl:template match="place[@xml:id = $corresp]">
+    <xsl:template match="place[not(@xml:id = //person/floruit[@period='3']/location/substring(@corresp, 2))]"/>
+    <xsl:template  match="place[@xml:id = //person/floruit[@period='3']/location/substring(@corresp, 2)]">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName[@type='short']"/>

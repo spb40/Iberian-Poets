@@ -107,7 +107,7 @@
 
                 <Placemark>
          <name>Pai Soarez de Taveirós</name>
-         <description>Taveirós, Pai Soarez de Taveirós's place of birth</description>
+         <description>Tabeirós, Pai Soarez de Taveirós's place of birth</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -925,8 +925,8 @@
             <coordinates>-8.314163,41.719828,0 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
-           
-                
+
+
                 <Placemark>
          <name>Alvaro Afonso</name>
          <description>Place of birth unknown</description>
@@ -948,7 +948,7 @@
             <coordinates>-8.0734,39.7138,100 </coordinates>
          </LineString>
       </Placemark>
-                          
+
                 <Placemark>
          <name>Diogo Gonçalvez de Montemor-o-Novo</name>
          <description>Place of birth unknown</description>
@@ -970,7 +970,7 @@
             <coordinates>-8.073386,39.713715,0 -7.910463,38.558734,0</coordinates>
          </LineString>
       </Placemark>
-                
+
                 <Placemark>
          <name>Fernand' Eanes</name>
          <description>Place of birth unknown</description>
@@ -996,7 +996,7 @@
 
                 <Placemark>
          <name>Garcia Mendiz d' Eixo</name>
-         <description>Terras dos Sousa, Garcia Mendiz d' Eixo's place of birth</description>
+         <description>Eixo, Garcia Mendiz d' Eixo's place of birth</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1005,18 +1005,18 @@
             </IconStyle>
          </Style>
          <Point>
-            <coordinates>-8.520278,41.087778,0</coordinates>
+            <coordinates>-8.570415,40.631709,0</coordinates>
          </Point>
       </Placemark>
       <Placemark>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-8.520278,41.087778,0 -8.47,40.24,200 -0.883533,41.650192,0 -8.520278,41.087778,0 -5.570956,42.600636,0</coordinates>
+            <coordinates>-8.570415,40.631709,0 -8.47,40.24,200 -0.883533,41.650192,0 -8.520278,41.087778,0 -5.570956,42.600636,0</coordinates>
          </LineString>
       </Placemark>
 
-                
+
                 <Placemark>
          <name>Osoir' Anes</name>
          <description>Ribadavia, Osoir' Anes's place of birth</description>
@@ -1061,7 +1061,7 @@
             <coordinates>-7.903228,42.425060,0 -7.71765,42.063,100</coordinates>
          </LineString>
       </Placemark>
-               
+
                 <Placemark>
          <name>Nuno (Monio) Fernandez de Mirapeixe</name>
          <description>Place of birth unknown</description>
@@ -1083,7 +1083,7 @@
             <coordinates>-8.659817,42.738587,0 -7.583333,43.65,0</coordinates>
          </LineString>
       </Placemark>
-               
+
                 <Placemark>
          <name>Bernal de Bonaval</name>
          <description>Place of birth unknown</description>
@@ -1105,7 +1105,7 @@
             <coordinates>-8.66,42.74,0 -8.520278,41.087778,0</coordinates>
          </LineString>
       </Placemark>
-                  
+
                 <Placemark>
          <name>Afonso Soarez Sarraça</name>
          <description>Cercedo de Montes, Afonso Soarez Sarraça's place of birth</description>
@@ -1127,7 +1127,95 @@
             <coordinates>-7.966667,42.466667,0 -7.950980,42.538597,0</coordinates>
          </LineString>
       </Placemark>
-                
+
+                <Placemark>
+         <name>Pero Velho de Taveirós</name>
+         <description>Tabeirós, Pero Velho de Taveirós's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.5,42.7,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.5,42.7,100 -8.47,40.24,200 -7.583333,43.65,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                <Placemark>
+         <name>Roi Gomez de Briteiros</name>
+         <description>Braga, Roi Gomez de Briteiros's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.42,41.5,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.42,41.5,100 -8.46,40.26,0 -5.570956,42.600636,0</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                <Placemark>
+         <name>Pero Garcia d' Ambroa</name>
+         <description>San Tirso de Ambroa, Pero Garcia d' Ambroa's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.604003,43.133772,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.604003,43.133772,0 -7.583333,43.65,0 -3.790256,37.765406,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                <Placemark>
+         <name>Johan Airas</name>
+         <description>Compostela, Johan Airas's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.56,42.9,120</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.56,42.9,120 -4.728216,41.652032,0 -4.024444,39.856667,0</coordinates>
+         </LineString>
+      </Placemark>
 
                 <Placemark>
          <name>Alfonso X</name>
@@ -1174,8 +1262,8 @@
             <coordinates>-5.826969,42.552194,0 -4.728216,41.652032,0 -4.024444,39.856667,0</coordinates>
          </LineString>
       </Placemark>
-                
-                
+
+
                 <Placemark>
          <name>Pero Goterrez</name>
          <description>Place of birth unknown</description>
@@ -1197,7 +1285,7 @@
             <coordinates>-5.57,42.7,50 -4.728216,41.652032,0</coordinates>
          </LineString>
       </Placemark>
-                
+
                 <Placemark>
          <name>Caldeiron</name>
          <description>Place of birth unknown</description>
@@ -1219,11 +1307,80 @@
             <coordinates>-0.9,42,0 -4.024444,39.856667,0 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
-               
-                
-                 <Placemark>
+
+
+                <Placemark>
          <name>Picandon</name>
-         <description>, Picandon's place of birth</description>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-0.578333,44.838611,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-0.578333,44.838611,0 -3.790256,37.765406,0 5.445429,43.526304,0</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                <Placemark>
+         <name>Lourenzo</name>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.1,39.8,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.1,39.8,0 -4.728216,41.652032,0 -8.46,40.26,0</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                <Placemark>
+         <name>Arnaldo</name>
+         <description>Toulouse, Arnaldo's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>1.444,43.6045,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>1.444,43.6045,0 -4.728216,41.652032,0 5.445429,43.526304,0</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                <Placemark>
+         <name>Afonso Fernandez Cebolhilha</name>
+         <description>Sevilla, Afonso Fernandez Cebolhilha's place of birth</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1232,17 +1389,60 @@
             </IconStyle>
          </Style>
          <Point>
-            <coordinates/>
+            <coordinates>-5.986944,37.377222,0</coordinates>
          </Point>
       </Placemark>
       <Placemark>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates> -3.790256,37.765406,0 5.445429,43.526304,0</coordinates>
+            <coordinates>-5.986944,37.377222,0 -4.024444,39.856667,0</coordinates>
          </LineString>
       </Placemark>
-                
+
+                <Placemark>
+         <name>Alfonso XI</name>
+         <description>Salamanca, Alfonso XI's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-5.663889,40.965,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-5.663889,40.965,0 -4.8,41.7,100</coordinates>
+         </LineString>
+      </Placemark>
+
+                <Placemark>
+         <name>Gomez Garcia</name>
+         <description>Toledo, Gomez Garcia's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.024815,39.860365,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-4.024815,39.860365,0 -4.024444,39.856667,0</coordinates>
+         </LineString>
+      </Placemark>
 
             
         

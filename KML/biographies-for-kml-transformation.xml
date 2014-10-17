@@ -2,6 +2,7 @@
 <!DOCTYPE TEI [
 <!ENTITY placeList-kml SYSTEM "placeList-kml.xml">
 ]>
+<?xml-model href="tei_personography.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -16,7 +17,7 @@
                         3.0)</ref></licence>
                 </availability>
             </publicationStmt>
-            <sourceDesc>
+            <!-- <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <msName>Cancioneiro da Ajuda</msName>
@@ -73,15 +74,36 @@
                         </altIdentifier>
                     </msIdentifier>
                 </msDesc>
-                <bibl> Base de datos da Lírica Profana Galego-Portuguesa (MedDB), versión 2.3.3,
+            </sourceDesc>-->
+            <sourceDesc>
+                <p>Born digital.</p>
+                <p>Data regarding the biographies of the jengleurs and troubadours was mainly extracted from the
+                    databases <emph><ref corresp="#medDB">Base de datos da Lírica Profana Galego-Portuguesa (MedDB)</ref></emph>and
+                    <emph><ref corresp="#fsch">Cantigas Medievais Galego Portuguesas [base de dados online]</ref></emph>.</p>
+                <p>Coordinates were taken from <ref target="http://en.wikipedia.org/wiki/Wikipedia:GeoHack">GeoHack</ref> and 
+                    <ref target="https://www.google.com/maps">Google Maps</ref>.</p>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl xml:id="medDB"> Base de datos da Lírica Profana Galego-Portuguesa (MedDB), versión 2.3.3,
                     Centro Ramón Piñeiro para a Investigación en Humanidades
-                        <ref>http://www.cirp.es</ref>
+                    <ref target="http://www.cirp.es">http://www.cirp.es</ref>
                 </bibl>
-                <bibl> Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas
+                <bibl xml:id="fsch"> Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas
                     Medievais Galego Portuguesas [base de dados online]. Lisboa: Instituto de
-                    Estudos Medievais, FCSH/NOVA. <ref>http://cantigas.fcsh.unl.pt</ref>. </bibl>
+                    Estudos Medievais, FCSH/NOVA. <ref target="http://cantigas.fcsh.unl.pt">http://cantigas.fcsh.unl.pt</ref>. </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p>TEI schema</p>
+            <p>Metadata model similar to the one used by <ref corresp="#medDB">MedBB</ref></p>
+            <projectDesc>
+                <p><ref target="http://iberian.obdurodon.org"><title>Mapping Medieval Galician-Portuguese Literature and its Networks</title></ref></p>
+                <p>Course project of: <ref target="http://dh.obdurodon.org">Computational Methods in the Humanities</ref> (Autumn 2014), course designed and instructed by
+                Prof. David J. Birnbaum.</p>                
+            </projectDesc>
+            <geoDecl>
+            </geoDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
@@ -98,7 +120,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1200" to="1240" period="2nd">
+                    <floruit from="1200" to="1240" period="2">
                         <location corresp="#sobroso"/>
                     </floruit>
                 </person>
@@ -114,7 +136,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1220" to="1230" period="2nd" cert="low">
+                    <floruit from="1220" to="1230" period="2" cert="low">
                         <location corresp="#sobroso"/>
                     </floruit>
                 </person>
@@ -130,7 +152,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1215" to="1246" period="2nd" cert="low">
+                    <floruit from="1215" to="1246" period="2" cert="low">
                         <location corresp="#sanchoI"/>
                         <location corresp="#dmartim"/>
                     </floruit>
@@ -147,9 +169,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit when="1223" to="1257" period="2nd" cert="low">
-                        
-                    </floruit>
+                    <floruit when="1223" to="1257" period="2" cert="low"> </floruit>
                 </person>
 
                 <person xml:id="PaySrzTav">
@@ -157,16 +177,16 @@
                     <nationality cert="high" key="gl">Galician</nationality>
                     <birth>
                         <location>
-                            <placeName>Taveirós</placeName>
+                            <placeName>Tabeirós</placeName>
                             <geo>-8.492129,42.686679,0</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1125" to="1250" period="2nd">
+                    <floruit from="1125" to="1250" period="2">
                         <location corresp="#sanchoI"/>
                         <location corresp="#soesto"/>
-                        <location from="1941" to="1949" corresp="#jaen"/>
+                        <location from="1241" to="1249" corresp="#jaen"/>
                     </floruit>
                 </person>
 
@@ -175,13 +195,13 @@
                     <nationality cert="low" key="gl">Galician</nationality>
                     <birth cert="low">
                         <location>
-                            <placeName>Camán (Pontevedra)</placeName>                            
+                            <placeName>Camán (Pontevedra)</placeName>
                             <geo>-8.251545,42.145014,0</geo>
                         </location>
                     </birth>
                     <occupation cert="unknown" key="unknown">Unknown</occupation>
                     <socecStatus key="unknown" cert="unknown"/>
-                    <floruit from="1240" to="1260" period="3rd">
+                    <floruit from="1240" to="1260" period="3">
                         <location cert="unknown">
                             <placeName>Unknown location</placeName>
                             <geo>-8.2516,42.145,100</geo>
@@ -200,7 +220,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="nb">Noble</socecStatus>
-                    <floruit from="1246" to="1280" period="3rd">
+                    <floruit from="1246" to="1280" period="3">
                         <location from="1245" to="1250">
                             <geo corresp="#jaen"/>
                         </location>
@@ -219,7 +239,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1240" to="1260" period="3rd">
+                    <floruit from="1240" to="1260" period="3">
                         <location cert="low" corresp="#jaen"/>
                         <location cert="medium" corresp="#afonsX"/>
                     </floruit>
@@ -236,7 +256,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1250" to="1275" period="3rd" cert="medium"/>
+                    <floruit from="1250" to="1275" period="3" cert="medium"/>
 
 
                 </person>
@@ -251,7 +271,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1200" to="1230" period="1st" cert="low">
+                    <floruit from="1200" to="1230" period="1" cert="low">
                         <location>
                             <note>Unknown</note>
                         </location>
@@ -270,7 +290,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="cl">Clergyman</socecStatus>
-                    <floruit from="1270" to="1280" period="3rd">
+                    <floruit from="1270" to="1280" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -279,13 +299,13 @@
                     <persName>Martin Moxa <addName>(alternative ID)</addName></persName>
                     <nationality cert="low" key="arag">Aragonese</nationality>
                     <birth>
-                        <location cert="unknown">                           
+                        <location cert="unknown">
                             <geo>-0.893443,41.935556,0</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="cl">Clergyman</socecStatus>
-                    <floruit from="1270" to="1280" period="3rd">
+                    <floruit from="1270" to="1280" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -302,7 +322,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1170" to="1200" period="1st">
+                    <floruit from="1170" to="1200" period="1">
                         <location corresp="#afonsII"/>
                     </floruit>
                 </person>
@@ -318,7 +338,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1230" to="1270" period="3rd">
+                    <floruit from="1230" to="1270" period="3">
                         <location corresp="#jaen"/>
                     </floruit>
                 </person>
@@ -333,7 +353,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1190" to="1230" period="2nd">
+                    <floruit from="1190" to="1230" period="2">
                         <location corresp="#rodeiro"/>
                     </floruit>
                 </person>
@@ -349,7 +369,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1230" to="1260" period="3rd">
+                    <floruit from="1230" to="1260" period="3">
                         <location corresp="#jaen"/>
                     </floruit>
                 </person>
@@ -365,10 +385,10 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1220" to="1250" period="2nd">
-                        <location to="1938" corresp="#sousa"/>
-                        <location corresp="#jaen" from="1939" to="1945"/>
-                        <location from="1246" corresp="#afonsIII"/>
+                    <floruit from="1220" to="1250" period="2">
+                        <location from="1220" to="1238" corresp="#sousa"/>
+                        <location corresp="#jaen" from="1239" to="1245"/>
+                        <location from="1246" to="1250" corresp="#afonsIII"/>
                     </floruit>
                 </person>
 
@@ -383,7 +403,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1240" to="1270" period="3rd">
+                    <floruit from="1240" to="1270" period="3">
                         <location to="1252" corresp="#jaen"/>
                         <location from="1253" corresp="#afonsX"/>
                     </floruit>
@@ -400,7 +420,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1235" to="1260" period="3rd">
+                    <floruit from="1235" to="1260" period="3">
                         <location corresp="#sobroso"/>
                         <location corresp="#sanchoII" to="1245"/>
                         <location corresp="#jaen" from="1246" to="1253"/>
@@ -421,7 +441,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1235" to="1270" period="3rd">
+                    <floruit from="1235" to="1270" period="3">
                         <location from="1235" to="1237" corresp="#serpa"/>
                         <location from="1238" to="1241" corresp="#berenguer"/>
                         <location from="1242" to="1248" corresp="#jaen"/>
@@ -440,7 +460,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1240" to="1280" period="3rd">
+                    <floruit from="1240" to="1280" period="3">
                         <location corresp="#afonsoX"/>
                     </floruit>
                 </person>
@@ -456,7 +476,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1238" to="1286" period="3rd">
+                    <floruit from="1238" to="1286" period="3">
                         <location corresp="#soesto"/>
                     </floruit>
                 </person>
@@ -472,7 +492,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1258" to="1275" period="3rd">
+                    <floruit from="1258" to="1275" period="3">
                         <location corresp="#afonsIII"/>
                     </floruit>
                 </person>
@@ -504,11 +524,11 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1240" to="1265" period="3rd">
-                        <location corresp="#sousa" to="1943"/>
-                        <location corresp="#jaen" from="1944" to="1948"/>
-                        <location corresp="#afonsX" from="1949" to="1953"/>
-                        <location from="1253" corresp="#afonsIII"/>
+                    <floruit from="1240" to="1265" period="3">
+                        <location corresp="#sousa" from="1240" to="1243"/>
+                        <location corresp="#jaen" from="1244" to="1248"/>
+                        <location corresp="#afonsX" from="1249" to="1253"/>
+                        <location from="1253" to="1265" corresp="#afonsIII"/>
                     </floruit>
                 </person>
 
@@ -523,9 +543,9 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1260" to="1295" period="3rd">
-                        <location to="1283" corresp="#afonsX"/>
-                        <location from="1284" corresp="#sanchoIV"/>
+                    <floruit from="1260" to="1295" period="3">
+                        <location from="1260" to="1283" corresp="#afonsX"/>
+                        <location from="1284" to="1295" corresp="#sanchoIV"/>
                     </floruit>
                 </person>
                 <person xml:id="PPon">
@@ -538,7 +558,7 @@
                     </birth>
                     <socecStatus key="sq">Squire</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1235" to="1275" period="3rd">
+                    <floruit from="1235" to="1275" period="3">
                         <location corresp="#jaen"/>
                         <location corresp="#afonsX"/>
                         <location corresp="#haro"/>
@@ -555,7 +575,7 @@
                     </birth>
                     <socecStatus key="unknown" cert="unknown">Unknown</socecStatus>
                     <occupation key="jn">Jongleur</occupation>
-                    <floruit from="1240" to="1275" period="3rd">
+                    <floruit from="1240" to="1275" period="3">
                         <location corresp="#vigo"/>
                     </floruit>
                 </person>
@@ -571,7 +591,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1279" to="1235" period="3rd">
+                    <floruit from="1279" to="1235" period="3">
                         <location corresp="#dinis"/>
                     </floruit>
                 </person>
@@ -587,7 +607,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1248" to="1295" period="3rd">
+                    <floruit from="1248" to="1295" period="3">
                         <location corresp="#sanchoIV"/>
                     </floruit>
                 </person>
@@ -603,7 +623,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1280" to="1320" period="3rd">
+                    <floruit from="1280" to="1320" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -619,7 +639,7 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1250" to="1265" period="3rd">
+                    <floruit from="1250" to="1265" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -635,7 +655,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1250" to="1275" period="3rd">
+                    <floruit from="1250" to="1275" period="3">
                         <location>
                             <placeName>Calvelo</placeName>
                             <geo>-8.543333,41.681944,0</geo>
@@ -655,7 +675,7 @@
                     </birth>
                     <socecStatus key="cl">Clergyman</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1240" to="1270" period="3rd">
+                    <floruit from="1240" to="1270" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -672,7 +692,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1290" to="1325" period="4th">
+                    <floruit from="1290" to="1325" period="4">
                         <location corresp="#dinis"/>
                         <location corresp="#afonsIV"/>
                     </floruit>
@@ -690,7 +710,7 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1290" to="1315" period="3rd">
+                    <floruit from="1290" to="1315" period="3">
                         <location corresp="#soesto"/>
                     </floruit>
                 </person>
@@ -707,7 +727,7 @@
                     </birth>
                     <socecStatus key="tr">Troubadour</socecStatus>
                     <occupation key="nb">Noble</occupation>
-                    <floruit from="1300" to="1350" period="4th">
+                    <floruit from="1300" to="1350" period="4">
                         <location from="1300" to="1318" corresp="#dinis"/>
                         <location corresp="#afonsXI" from="1319" to="1322"/>
                         <location from="1323" to="1325" corresp="#dinis"/>
@@ -727,7 +747,7 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1320" to="1350" period="4th">
+                    <floruit from="1320" to="1350" period="4">
                         <location corresp="#dinis" from="1320" to="1325"/>
                         <location corresp="#afonsIV" from="1326" to="1350"/>
                     </floruit>
@@ -744,7 +764,7 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="jn">Jongleur</occupation>
-                    <floruit from="1320" to="1340" period="4th">
+                    <floruit from="1320" to="1340" period="4">
                         <location corresp="#dinis" from="1320" to="1325"/>
                         <location corresp="#lalim" from="1326" to="1340"/>
                     </floruit>
@@ -762,7 +782,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1289" to="1328" period="4th">
+                    <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
                         <location from="1324" to="1328"/>
                     </floruit>
@@ -781,12 +801,12 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1300" to="1325" period="4th">
+                    <floruit from="1300" to="1325" period="4">
                         <location corresp="#dinis"/>
                     </floruit>
                 </person>
-           
-                
+
+
                 <person xml:id="AlvAf">
                     <persName>Alvaro Afonso</persName>
                     <nationality key="pt" cert="high">Portuguese</nationality>
@@ -797,11 +817,11 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
-                    <floruit from="1440" to="1450" period="5th">
+                    <floruit from="1440" to="1450" period="5">
                         <location corresp="infpedro"/>
                     </floruit>
-</person>
-                          
+                </person>
+
                 <person xml:id="DieGvz">
                     <persName>Diogo Gonçalvez de Montemor-o-Novo</persName>
                     <nationality key="pt" cert="medium">Portuguese</nationality>
@@ -812,14 +832,14 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
-                    <floruit from="1450" to="1480" period="5th">
+                    <floruit from="1450" to="1480" period="5">
                         <location>
-                           <placeName>Évora</placeName>
+                            <placeName>Évora</placeName>
                             <geo>-7.910463,38.558734,0</geo>
                         </location>
                     </floruit>
-</person>
-                
+                </person>
+
                 <person xml:id="FerEa">
                     <persName>Fernand' Eanes</persName>
                     <nationality key="pt" cert="medium">Portuguese</nationality>
@@ -830,13 +850,13 @@
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
-                    <floruit from="1450" to="1480" period="5th">
+                    <floruit from="1450" to="1480" period="5">
                         <location cert="unknown">
                             <placeName>Unknown location</placeName>
                             <geo>-8.0734,39.7138,100</geo>
                         </location>
                     </floruit>
-</person>
+                </person>
 
 
                 <person xml:id="GarMdzEi">
@@ -844,13 +864,13 @@
                     <nationality key="pt" cert="high">Portuguese</nationality>
                     <birth>
                         <location>
-                            <placeName>Terras dos Sousa</placeName>
-                            <geo>-8.520278,41.087778,0</geo>
+                            <placeName>Eixo</placeName>
+                            <geo>-8.570415,40.631709,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1190" to="1239" period="1st">
+                    <floruit from="1190" to="1239" period="1">
                         <location corresp="#sanchoI" from="1190" to="1211"/>
                         <location corresp="#afonsIX" from="1212" to="1217"/>
                         <location corresp="#afonsII" from="1218" to="1224"/>
@@ -858,7 +878,7 @@
                     </floruit>
                 </person>
 
-                
+
                 <person xml:id="OsEa">
                     <persName>Osoir' Anes</persName>
                     <nationality key="gl" cert="medium">Galician</nationality>
@@ -870,10 +890,10 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1180" to="1220" period="1st">
+                    <floruit from="1180" to="1220" period="1">
                         <location corresp="#traba"/>
                     </floruit>
-                    </person>
+                </person>
 
 
                 <person xml:id="FerPaezTal">
@@ -887,11 +907,11 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1220" to="1240" period="2nd">
+                    <floruit from="1220" to="1240" period="2">
                         <location corresp="#traba"/>
                     </floruit>
                 </person>
-               
+
                 <person xml:id="MonFdzMir">
                     <persName>Nuno (Monio) Fernandez de Mirapeixe</persName>
                     <nationality key="gl" cert="medium">Galician</nationality>
@@ -902,11 +922,11 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1211" to="1243" period="2nd">
+                    <floruit from="1211" to="1243" period="2">
                         <location corresp="#soesto"/>
                     </floruit>
-</person>
-               
+                </person>
+
                 <person xml:id="BernBon">
                     <persName>Bernal de Bonaval</persName>
                     <nationality key="gl" cert="medium">Galician</nationality>
@@ -917,11 +937,11 @@
                     </birth>
                     <socecStatus key="un">Unknown</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1230" to="1260" period="2nd">
+                    <floruit from="1230" to="1260" period="2">
                         <location corresp="#sousa"/>
                     </floruit>
-</person>
-                  
+                </person>
+
                 <person xml:id="AfSrzSam">
                     <persName>Afonso Soarez Sarraça</persName>
                     <nationality key="gl" cert="high">Galician</nationality>
@@ -933,78 +953,82 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1225" to="1250" period="2nd">
+                    <floruit from="1225" to="1250" period="2">
                         <location cert="unknown">
                             <placeName>Oseira</placeName>
                             <geo>-7.950980,42.538597,0</geo>
                         </location>
                     </floruit>
-</person>
-                <!--  
+                </person>
+
                 <person xml:id="PVelho">
                     <persName>Pero Velho de Taveirós</persName>
-                    <nationality key="" cert=""></nationality>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Tabeirós</placeName>
+                            <geo>-8.5,42.7,100</geo>
                         </location>
                     </birth>
-                    <socecStatus key=""></socecStatus>
-                    <occupation key=""></occupation>
-                    <floruit from="" to="" period="2nd">
-                        <location corresp=""/>
+                    <socecStatus key="kn">Knight</socecStatus>
+                    <occupation key="tr">Troubadour</occupation>
+                    <floruit from="1225" to="1250" period="2">
+                        <location corresp="#soesto"/>
+                        <location corresp="#sanchoI"/>
                     </floruit>
-</person>
-                
+                </person>
+
                 <person xml:id="RoyGmzBret">
                     <persName>Roi Gomez de Briteiros</persName>
-                    <nationality key="" cert=""></nationality>
+                    <nationality key="pt" cert="high">Portuguese</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Braga</placeName>
+                            <geo>-8.42,41.5,100</geo>
                         </location>
                     </birth>
-                    <socecStatus key=""></socecStatus>
-                    <occupation key=""></occupation>
-                    <floruit from="" to="" period="2nd">
-                        <location corresp=""/>
+                    <socecStatus key="nb">Noble</socecStatus>
+                    <occupation key="tr">Troubador</occupation>
+                    <floruit from="1225" to="1250" period="2">
+                        <location corresp="#afonsIX" from="1225" to="1244"/>
+                        <location corresp="#afonsIII" from="1245" to="1250"/>
                     </floruit>
-</person>
-                
+                </person>
+
+
                 <person xml:id="PGarAm">
                     <persName>Pero Garcia d' Ambroa</persName>
-                    <nationality key="" cert=""></nationality>
+                    <nationality key="gl" cert="medium">Galician</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>San Tirso de Ambroa</placeName>
+                            <geo>-8.604003,43.133772,0</geo>
                         </location>
                     </birth>
-                    <socecStatus key=""></socecStatus>
-                    <occupation key=""></occupation>
-                    <floruit from="" to="" period="2nd">
-                        <location corresp=""/>
+                    <socecStatus key="kn">Knight</socecStatus>
+                    <occupation key="tr">Troubadour</occupation>
+                    <floruit from="1228" to="1260" period="2">
+                        <location corresp="#soesto"/>
+                        <location corresp="#jaen"/>
                     </floruit>
-</person>
-                
-                <person xml:id="GonçGar">
-                    <persName>Gonçalo Garcia</persName>
-                    <nationality key="" cert=""></nationality>
+                </person>
+
+                <person xml:id="JAy">
+                    <persName>Johan Airas</persName>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Compostela</placeName>
+                            <geo>-8.56,42.9,120</geo>
                         </location>
                     </birth>
-                    <socecStatus key=""></socecStatus>
-                    <occupation key=""></occupation>
-                    <floruit from="" to="" period="2nd">
-                        <location corresp=""/>
+                    <socecStatus key="br">Bourgeoise</socecStatus>
+                    <occupation key="tr">Troubadour</occupation>
+                    <floruit from="1270" to="1295" period="3">
+                        <location corresp="#afonsX"/>
+                        <location corresp="#sanchoIV"/>
                     </floruit>
-</person>
-                -->
+                </person>
 
                 <person xml:id="AlfX">
                     <persName>Alfonso X</persName>
@@ -1017,7 +1041,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1242" to="1284" period="3rd">
+                    <floruit from="1242" to="1284" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -1035,13 +1059,13 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Trobadour</occupation>
-                    <floruit from="1250	" to="1275" period="3rd">
+                    <floruit from="1250	" to="1275" period="3">
                         <location corresp="#afonsX"/>
                         <location corresp="#sanchoIV"/>
                     </floruit>
-</person>
-                
-                
+                </person>
+
+
                 <person xml:id="PGtrz">
                     <persName>Pero Goterrez</persName>
                     <nationality key="leo" cert="medium">Leonese</nationality>
@@ -1052,111 +1076,127 @@
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1245	" to="1275" period="3rd">
+                    <floruit from="1245	" to="1275" period="3">
                         <location corresp="#afonsX"/>
                     </floruit>
-</person>
-                
+                </person>
+
                 <person xml:id="Cald">
                     <persName>Caldeiron</persName>
                     <nationality key="arag" cert="medium">Aragonese</nationality>
                     <birth>
-                        <location cert="unknown">                           
+                        <location cert="unknown">
                             <geo>-0.9,42,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="jn">Jongleur</occupation>
-                    <floruit from="1275" to="1300" period="3rd">
+                    <floruit from="1275" to="1300" period="3">
                         <location corresp="#sanchoIV"/>
                         <location corresp="#dinis"/>
                     </floruit>
-</person>
-               
-                
-                 <person xml:id="Picandon">
+                </person>
+
+
+                <person xml:id="Picandon">
                     <persName>Picandon</persName>
                     <nationality key="occ" cert="high">Occitan</nationality>
                     <birth>
-                        <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                        <location cert="unknown">
+                            <geo>-0.578333,44.838611,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="jn">Jongleur</occupation>
-                    <floruit from="1230" to="1260" period="3rd">
+                    <floruit from="1230" to="1260" period="3">
                         <location corresp="#jaen" from="1236" to="1237"/>
                         <location corresp="#berenguer" from="1239" to="1243"/>
                     </floruit>
-</person>
-                <!--
-                
+                </person>
+
+
+                <person xml:id="Lour">
+                    <persName>Lourenzo</persName>
+                    <nationality key="pt" cert="medium">Portuguese</nationality>
+                    <birth>
+                        <location cert="unknown">
+                            <geo>-8.1,39.8,0</geo>
+                        </location>
+                    </birth>
+                    <socecStatus key="unknown">Unknown</socecStatus>
+                    <occupation key="jn">Jongleur</occupation>
+                    <floruit from="1250" to="1275" period="3">
+                        <location corresp="#afonsIII"/>
+                        <location corresp="#afonsX"/>
+                    </floruit>
+                </person>
+
+
                 <person xml:id="Arn">
                     <persName>Arnaldo</persName>
                     <nationality key="occ" cert="medium">Occitan</nationality>
                     <birth>
-                        <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                        <location cert="low">
+                            <placeName>Toulouse</placeName>
+                            <geo>1.444,43.6045,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1220" to="1260" period="3rd">
-                        <location corresp=""/>
+                    <floruit from="1220" to="1260" period="3">
+                        <location corresp="#berenguer" from="1220" to="1245"/>
+                        <location corresp="#afonsX" from="1246" to="1260"/>
                     </floruit>
-</person>
-                
-                 <person xml:id="AfFdzCob">
+                </person>
+
+
+                <person xml:id="AfFdzCob">
                     <persName>Afonso Fernandez Cebolhilha</persName>
                     <nationality key="sev" cert="high">Sevillan</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Sevilla</placeName>
+                            <geo>-5.986944,37.377222,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1275" to="1300" period="3rd">
-                        <location corresp=""/>
+                    <floruit from="1275" to="1300" period="3">
+                        <location corresp="#sanchoIV"/>
                     </floruit>
-</person>
-                
-                 <person xml:id="AlfXI">
-                    <persName>Afonso XI</persName>
+                </person>
+
+                <person xml:id="AlfXI">
+                    <persName>Alfonso XI</persName>
                     <nationality key="sev" cert="high">Castilian</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Salamanca</placeName>
+                            <geo>-5.663889,40.965,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1325" to="1350" period="4th">
-                        <location corresp=""/>
+                    <floruit from="1325" to="1350" period="4">
+                        <location corresp="#afonsXI"/>
                     </floruit>
-</person>
-                
-                 <person xml:id="GmzGar">
-                    <persName>Gomez Garcia, abade de Valadolide</persName>
+                </person>
+
+                <person xml:id="GmzGar">
+                    <persName>Gomez Garcia</persName>
                     <nationality key="sev" cert="high">Castilian</nationality>
                     <birth>
                         <location>
-                            <placeName></placeName>
-                            <geo></geo>
+                            <placeName>Toledo</placeName>
+                            <geo>-4.024815,39.860365,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="cl">Clergyman</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit from="1275" to="1286" period="3rd">
-                        <location corresp=""/>
+                    <floruit from="1275" to="1286" period="3">
+                        <location corresp="#sanchoIV"/>
                     </floruit>
-</person>
-
--->
+                </person>
 
             </listPerson>
         </body>

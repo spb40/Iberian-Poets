@@ -1170,7 +1170,7 @@
 
                 <person xml:id="AlfXI">
                     <persName>Alfonso XI</persName>
-                    <nationality key="sev" cert="high">Castilian</nationality>
+                    <nationality key="cas" cert="high">Castilian</nationality>
                     <birth>
                         <location>
                             <placeName>Salamanca</placeName>
@@ -1186,7 +1186,7 @@
 
                 <person xml:id="GmzGar">
                     <persName>Gomez Garcia</persName>
-                    <nationality key="sev" cert="high">Castilian</nationality>
+                    <nationality key="cas" cert="high">Castilian</nationality>
                     <birth>
                         <location>
                             <placeName>Toledo</placeName>

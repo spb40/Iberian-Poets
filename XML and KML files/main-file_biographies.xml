@@ -183,7 +183,7 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1125" to="1250" period="2">
+                    <floruit from="1225" to="1250" period="2">
                         <location corresp="#sanchoI"/>
                         <location corresp="#soesto"/>
                         <location from="1241" to="1249" corresp="#jaen"/>

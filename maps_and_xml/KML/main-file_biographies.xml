@@ -223,9 +223,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="nb">Noble</socecStatus>
                     <floruit from="1246" to="1280" period="3">
-                        <location from="1245" to="1250">
-                            <geo corresp="#jaen"/>
-                        </location>
+                        <location from="1245" to="1250" corresp="#jaen"/>                          
                         <location from="1251" to="1280" corresp="#sousa"/>
                     </floruit>
                 </person>
@@ -400,7 +398,7 @@
                     <birth>
                         <location>
                             <placeName>Sabadim</placeName>
-                            <geo>-8.4425,41.906111</geo>
+                            <geo>-8.4425,41.906111,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>
@@ -427,7 +425,7 @@
                         <location corresp="#sanchoII" to="1245"/>
                         <location corresp="#jaen" from="1246" to="1253"/>
                         <location from="1254" to="1260">
-                            <geo>-8.245,41.35</geo>
+                            <geo>-8.245,41.35,0</geo>
                         </location>
                     </floruit>
                 </person>
@@ -438,7 +436,7 @@
                     <birth>
                         <location>
                             <placeName>Ribadouro</placeName>
-                            <geo>-8.076944,41.098333</geo>
+                            <geo>-8.076944,41.098333,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>

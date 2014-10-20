@@ -126,7 +126,7 @@
                 </person>
 
                 <person sameAs="#JSrzSom">
-                    <persName>Johan Soarez Somesso</persName>
+                    <persName>Johan Soarez Somesso<addName>(alternative ID)</addName></persName>
                     <nationality cert="low" key="pt">Portuguese</nationality>
                     <birth cert="low">
                         <location>
@@ -142,7 +142,7 @@
                 </person>
 
                 <person xml:id="JSrzSom">
-                    <persName>Johan Soarez Somesso <addName>(alternative ID)</addName></persName>
+                    <persName>Johan Soarez Somesso</persName>
                     <nationality cert="low" key="gl">Galician</nationality>
                     <birth cert="low">
                         <location>
@@ -784,7 +784,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
-                        <location from="1324" to="1328"/>
+                        <!--<location from="1324" to="1328"/>-->
                     </floruit>
                 </person>
 
@@ -818,7 +818,7 @@
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1440" to="1450" period="5">
-                        <location corresp="infpedro"/>
+                        <location corresp="#infpedro"/>
                     </floruit>
                 </person>
 

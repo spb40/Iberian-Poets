@@ -13,8 +13,7 @@
     <xsl:template match="location">
         <xsl:value-of
             select="concat(ancestor::person/persName,';', ancestor::person/@xml:id | @sameAs, ';', ancestor::person/nationality/@key, ';', parent::floruit/@period, ';',
-            if (@corresp) then (following::place[@xml:id = current()/substring(@corresp, 2)]/location/placeName[@type='short']) 
-            else (placeName),'&#x0a;')"
+            if (@corresp) then (//place[@xml:id = current()/substring(@corresp, 2)]/location/placeName[@type='short']) else ((placeName), ';', (@type)),'&#x0a;')"
         />
     </xsl:template>
     <xsl:template match="place"/>

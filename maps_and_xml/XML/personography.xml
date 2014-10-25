@@ -134,7 +134,7 @@
                 </person>
 
                 <person sameAs="#JSrzSom">
-                    <persName>Johan Soarez Somesso</persName>
+                    <persName>Johan Soarez Somesso <addName>(alternative ID)</addName></persName>
                     <nationality cert="low" key="pt">Portuguese</nationality>
                     <birth cert="low">
                         <location>
@@ -150,7 +150,7 @@
                 </person>
 
                 <person xml:id="JSrzSom">
-                    <persName>Johan Soarez Somesso <addName>(alternative ID)</addName>
+                    <persName>Johan Soarez Somesso
                </persName>
                     <nationality cert="low" key="gl">Galician</nationality>
                     <birth cert="low">
@@ -214,7 +214,7 @@
                     <occupation cert="unknown" key="unknown">Unknown</occupation>
                     <socecStatus key="unknown" cert="unknown"/>
                     <floruit from="1240" to="1260" period="3">
-                        <location cert="unknown">
+                        <location cert="unknown" type="unknown">
                             <placeName>Unknown location</placeName>
                             <geo>42.145,-8.2516</geo>
                         </location>
@@ -356,7 +356,7 @@
                 </person>
                 <person xml:id="AyCarp">
                     <persName>Airas Fernandes "Carpancho"</persName>
-                    <nationality key="gl" cert="high">Galego</nationality>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
                             <placeName>Compostela</placeName>
@@ -436,9 +436,6 @@
                         <location corresp="#sobroso"/>
                         <location corresp="#sanchoII" to="1245"/>
                         <location corresp="#jaen" from="1246" to="1253"/>
-                        <location from="1254" to="1260">
-                            <geo>41.35,-8.245</geo>
-                        </location>
                     </floruit>
                 </person>
 
@@ -520,7 +517,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit>
+                    <floruit period="3" from="1248" to="1273">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -669,7 +666,7 @@
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1250" to="1275" period="3">
-                        <location>
+                        <location type="noble">
                             <placeName>Calvelo</placeName>
                             <geo>41.681944,-8.543333</geo>
                         </location>
@@ -846,7 +843,7 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1450" to="1480" period="5">
-                        <location>
+                        <location type="noble">
                             <placeName>Évora</placeName>
                             <geo>38.558734,-7.910463</geo>
                         </location>
@@ -968,7 +965,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
                         <location cert="unknown">
-                            <placeName>Oseira</placeName>
+                            <placeName type="noble">Oseira</placeName>
                             <geo>42.538597,-7.950980</geo>
                         </location>
                     </floruit>

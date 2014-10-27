@@ -14,12 +14,12 @@
         <xsl:choose>
             <xsl:when test="./@corresp">
             <xsl:value-of
-                select="concat(ancestor::person/persName,';', ancestor::person/@xml:id | @sameAs, ';', ancestor::person/nationality/@key, ';', parent::floruit/@period, ';',
+                select="concat(ancestor::person/persName, ';', ancestor::person/nationality/@key, ';', parent::floruit/@period, ';',
                 following::place[@xml:id = current()/substring(@corresp, 2)]/location/placeName[@type='short'], ';', following::place[@xml:id = current()/substring(@corresp, 2)]/@type , '&#x0a;')"/>
         </xsl:when>
         <xsl:otherwise>
             <xsl:value-of
-                select="concat(ancestor::person/persName,';', ancestor::person/@xml:id | @sameAs, ';', ancestor::person/nationality/@key, ';', parent::floruit/@period, ';',
+                select="concat(ancestor::person/persName,';', ancestor::person/nationality/@key, ';', parent::floruit/@period, ';',
                 placeName, ';', @type,'&#x0a;')"
             />
         </xsl:otherwise>

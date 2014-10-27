@@ -676,7 +676,7 @@
 
                 <person xml:id="RoyFdz">
                     <persName>Roi Fernandiz de Santiago</persName>
-                    <nationality key="gl" cert="high"/>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
                             <placeName>Compostela</placeName>
@@ -908,7 +908,7 @@
 
                 <person xml:id="FerPaezTal">
                     <persName>Fernan Paez de Tamalancos</persName>
-                    <nationality key="gl" cert="high"/>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
                             <placeName>Tamallancos</placeName>

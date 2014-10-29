@@ -68,23 +68,23 @@
                 <fs xml:id="migo" feats="#accented #p1 #comitative #archaic #metaphony"/>
                 <fs xml:id="tigo" feats="#accented #p2 #comitative #archaic #metaphony"/>
                 <fs xml:id="sigo" feats="#accented #p3p6 #comitative #archaic #metaphony"/>
-                <fs xml:id="nosco" feats="#accented #p4 #comitative #archaic #metaphony"/>
-                <fs xml:id="vosco" feats="#accented #p5 #comitative #archaic #metaphony"/>
-                <fs xml:id="li" feats="#archaic #assimilation #dative #p3"/>
-                <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern"/>
-                <fs xml:id="lis" feats="#archaic #assimilation #dative #p6"/>
-                <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern"/>
-                <fs xml:id="che" feats="#p2 #dative #archaic #assimilation"/>
-                <fs xml:id="xe" feats="#archaic #p3p6 #assimilation"/>
+                <fs xml:id="nosco" feats="#accented #p4 #comitative #archaic"/>
+                <fs xml:id="vosco" feats="#accented #p5 #comitative #archaic"/>
+                <fs xml:id="li" feats="#archaic #assimilation #dative #p3 #unaccented"/>
+                <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern #unaccented"/>
+                <fs xml:id="lis" feats="#archaic #assimilation #dative #p6 #unaccented"/>
+                <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern #unaccented"/>
+                <fs xml:id="che" feats="#p2 #dative #archaic #assimilation #unaccented"/>
+                <fs xml:id="xe" feats="#archaic #p3p6 #assimilation #unaccented"/>
                 <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/>
                 <!--If there is no occurrences of "xe", don't bother marking-up any "se"-->
                 <fs xml:id="me" feats="#modern #p1 #acusative #unaccented #not_assim"/>
                 <fs xml:id="m_" feats="#p1 #acusative #unaccented #not_assim #not_vowel"/>
                 <!-- The variation in these last three is related to the grammatical function and not to the form itself, 
                     so you won't be able to recognise which one is the correct one. Choose one randomly, and I'll review it later-->
-                <fs xml:id="te_dative" feats="#p2 #dative #modern"/>
-                <fs xml:id="te_acusative" feats="#p2 #acusative #modern"/>
-                <fs xml:id="mi_acusative" feats="#p1 #archaic"/>
+                <fs xml:id="te_dative" feats="#p2 #dative #modern #unaccented"/>
+                <fs xml:id="te_acusative" feats="#p2 #acusative #modern #unaccented"/>
+                <fs xml:id="mi_acusative" feats="#p1 #archaic #unaccented"/>
             </fvLib>
         </body>
     </text>

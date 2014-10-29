@@ -25,7 +25,6 @@
             <ab/>
             <fLib>
                 <f name="accented_forms" xml:id="accented"/>
-                <f name="preposition_object" xml:id="prepObj"/>
                 <f name="archaic" xml:id="archaic"/>
                 <f name="modern" xml:id="modern"/>
                 <f name="comitative" xml:id="comitative"/>
@@ -77,11 +76,12 @@
                 <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern"/>
                 <fs xml:id="che" feats="#p2 #dative #archaic #assimilation"/>
                 <fs xml:id="xe" feats="#archaic #p3p6 #assimilation"/>
-                <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/> <!--If there is no occurrences of "xe", don't bother marking-up this one-->
+                <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/>
+                <!--If there is no occurrences of "xe", don't bother marking-up any "se"-->
                 <fs xml:id="me" feats="#modern #p1 #acusative #unaccented #not_assim"/>
                 <fs xml:id="m_" feats="#p1 #acusative #unaccented #not_assim #not_vowel"/>
-                <!-- The variation in these last three is related to the function and not the form itself, so you won't be able to recognise which one is the
-                correct one. Choose randomly one, and I'll fix it later-->
+                <!-- The variation in these last three is related to the grammatical function and not to the form itself, 
+                    so you won't be able to recognise which one is the correct one. Choose one randomly, and I'll review it later-->
                 <fs xml:id="te_dative" feats="#p2 #dative #modern"/>
                 <fs xml:id="te_acusative" feats="#p2 #acusative #modern"/>
                 <fs xml:id="mi_acusative" feats="#p1 #archaic"/>

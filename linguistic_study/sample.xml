@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="features.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head><name role="author" corresp="#JSrzPav">Johan Soarez de Pávia</name>
+            </head>
+
+            <lg type="song">
+               <l>Ora faz host'o senhor de Navarra,</l>
+               <l>pois em Proenç'est <w ana="#el">el</w>-rei
+                  d'Aragom;</l>
+               <l>nom lh'ham medo de pico nem de marra</l>
+               <l>Tarraçona, pero vezinhos som,</l>
+               <l>nem ham medo de lhis poer boçom</l>
+               <l>e riir-<w ana="#se">s'</w>-am muit'em dura
+                  edarra;</l>
+               <l>mais <w ana="#se">se</w> Deus traj'o senhor de
+                  Monçon,</l>
+               <l>bem <w ana="#mi">mi</w> cuid'eu que a cunca
+                  lhis varra.</l>
+               <l><w ana="#se">Se</w> lh'o bom rei varrê'la
+                  escudela</l>
+               <l>que de Pamplona oístes nomear,</l>
+               <l>mal ficará aquest'outr'em Todela,</l>
+               <l>que al nom há [a] que olhos alçar:</l>
+               <l>ca verrá i o bom rei sejornar</l>
+               <l>e destruir atá burgo d'Estela,</l>
+               <l>e veredes Navarros lazerar</l>
+               <l>e o senhor que os todos caudela.</l>
+               <l>Quand'<w ana="#el">el</w>-rei sal de Todela,
+                  estrẽa</l>
+               <l><w ana="#ele">ele</w> sa host'e tod'o seu
+                  poder;</l>
+               <l>bem sofrem i de trabalh'e de pẽa,</l>
+               <l>ca vam a furt'e tornam-<w ana="#se">s'</w>em
+                  correr;</l>
+               <l>guarda-<w ana="#se">s'</w><w ana="#el">el</w>-rei, com'é de bom saber,</l>
+               <l>que o nom filhe luz em terra alhẽa,</l>
+               <l>e onde sal, i <w ana="#se">s'</w>ar torn'a
+                  jazer</l>
+               <l>ao jantar ou <w ana="#se">se</w> nom aa cẽa.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

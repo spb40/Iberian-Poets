@@ -3,9 +3,6 @@
    <Document>
       <name>Trial</name>
       <Style id="WhiteLine">
-         <LineStyle>
-            <color>50000000</color>
-         </LineStyle>
       </Style>
       <Style id="purpleLine">
          <LineStyle>

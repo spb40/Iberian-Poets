@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>Trial period-2</name>
+      <Style id="WhiteLine">
+         <LineStyle>
+            <color>50000000</color>
+         </LineStyle>
+      </Style>
+      <Style id="purpleLine">
+         <LineStyle>
+            <color>50FF78B4</color>
+            <width>3</width>
+         </LineStyle>
+      </Style>
+        
+            
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+
+                
+
+                
+
+
+                
+
+                
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+                
+
+
+                
+
+
+
+                
+
+
+                <Placemark>
+         <name>Alvaro Afonso</name>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.0734,39.7138,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.0734,39.7138,100 -9.133333,38.716667,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                <Placemark>
+         <name>Diogo Gonçalvez de Montemor-o-Novo</name>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.073386,39.713715,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.073386,39.713715,0 -7.910463,38.558734,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                <Placemark>
+         <name>Fernand' Eanes</name>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.07338,39.71371,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.07338,39.71371,0 -8.0734,39.7138,100</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                
+
+
+                
+
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+
+                
+
+                
+
+                
+
+
+
+                
+
+
+                
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+                
+
+                
+
+            
+        
+        
+            
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <Placemark>
+         <name>Infante Pedro</name>
+         <description>Court of Infante Pedro, Duke of Coimbra</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-9.133333,38.716667,0</coordinates>
+         </Point>
+      </Placemark>
+    
+      <Placemark>
+         <name>Évora</name>
+         <description>Évora</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.910463,38.558734,0</coordinates>
+         </Point>
+      </Placemark>
+      
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Somewhere in Portugal</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.0734,39.7138,100</coordinates>
+         </Point>
+      </Placemark>
+
+
+        
+    </Document>
+</kml>

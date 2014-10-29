@@ -4,7 +4,7 @@
       <name>Trial period-2</name>
       <Style id="WhiteLine">
          <LineStyle>
-            <color>50FFFFFF</color>
+            <color>50000000</color>
             <width>3</width>
          </LineStyle>
       </Style>

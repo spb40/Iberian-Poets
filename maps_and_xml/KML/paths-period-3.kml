@@ -2,7 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
       <name>Trial period-3</name>
-      <Style id="WhiteLine"/>
+      <Style id="WhiteLine">
+         <LineStyle>
+            <color>50000000</color>
+         </LineStyle>
+      </Style>
       <Style id="purpleLine">
          <LineStyle>
             <color>50FF78B4</color>

@@ -35,12 +35,19 @@ p{
     padding-left:250px;
 }
 
-table {
+table.one {
 
     table-layout: fixed;
     border: 5px #FF8822;
-    padding-right:400px;
-    padding-left:400px
+   margin-left:320px;
+   margin-right:250px
+} 
+
+table.two {
+
+    table-layout: fixed;
+    border: 5px #FF8822;
+   margin-left:370px;
 } 
 
 tr.head {
@@ -48,10 +55,11 @@ tr.head {
     text-transform: uppercase;
     background-color:#D45710    
     }
+    
 
 td {
     padding: 10px;
-    
+    vertical-align:middle   
 }
 
 

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>Trial period-2</name>
+      <Style id="WhiteLine">
+         <LineStyle>
+         <color>50000000</color>
+         </LineStyle>
+      </Style>
+      <Style id="purpleLine">
+         <LineStyle>
+            <color>50FF78B4</color>
+            <width>3</width>
+         </LineStyle>
+      </Style>
+        
+            
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                <Placemark>
+         <name>Fernan Padron (alternative ID)</name>
+         <description>Place of birth unknown</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.659817,42.738587,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.659817,42.738587,0 </coordinates>
+         </LineString>
+      </Placemark>
+
+                
+
+                
+
+
+                <Placemark>
+         <name>Johan Soarez de Pavia </name>
+         <description>Paiva, Johan Soarez de Pavia 's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.269722,41.046389,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.269722,41.046389,0 -0.883533,41.650192,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                
+                <Placemark>
+         <name>Airas Fernandes "Carpancho"</name>
+         <description>Compostela, Airas Fernandes "Carpancho"'s place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.55,42.866667,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.55,42.866667,0 -7.95,42.65,0</coordinates>
+         </LineString>
+      </Placemark>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+
+                
+
+                
+
+
+                
+
+                
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+                
+
+
+                
+
+
+
+                
+
+
+                
+
+                
+
+                
+
+
+                <Placemark>
+         <name>Garcia Mendiz d' Eixo</name>
+         <description>Eixo, Garcia Mendiz d' Eixo's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.570415,40.631709,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.570415,40.631709,0 -8.47,40.24,200 -0.883533,41.650192,0 -8.520278,41.087778,0 -5.570956,42.600636,0</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                <Placemark>
+         <name>Osoir' Anes</name>
+         <description>Ribadavia, Osoir' Anes's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.143495,42.288255,0</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.143495,42.288255,0 -7.71765,42.063,100</coordinates>
+         </LineString>
+      </Placemark>
+
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+
+                
+
+                
+
+                
+
+
+
+                
+
+
+                
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+
+                
+
+                
+
+                
+
+            
+        
+        
+            
+
+    
+      <Placemark>
+         <name>Sancho I</name>
+         <description>Court of Sancho I, King of Portugal</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.47,40.24,200</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>The Trabas</name>
+         <description>Family Traba Court</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.71765,42.063,100</coordinates>
+         </Point>
+      </Placemark>
+    
+    
+    
+    
+    
+    
+    
+      <Placemark>
+         <name>Alfonso II</name>
+         <description>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-0.883533,41.650192,0</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+         <name>Múnio de Rodeiro</name>
+         <description>Circle of D. Múnio de Rodeiro</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.95,42.65,0</coordinates>
+         </Point>
+      </Placemark>
+    
+    
+    
+      <Placemark>
+         <name>The Sousas</name>
+         <description>Court of D. Gonçalo Garcia de Sousa</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.520278,41.087778,0</coordinates>
+         </Point>
+      </Placemark>
+    
+    
+    
+    
+    
+    
+      <Placemark>
+         <name>Alfonso IX</name>
+         <description>Court of Alfonso IX of León</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-5.570956,42.600636,0</coordinates>
+         </Point>
+      </Placemark>
+    
+    
+
+
+        
+    </Document>
+</kml>

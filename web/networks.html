@@ -9,34 +9,78 @@
     <body>
         <!--#include virtual="NavMenu.html" -->
         <h2>Caption</h2>
-        <table border="2">
+        <table border="2" class="two">
             <tr class="head">
-                <th>Key</th>
+                <th colspan="2">Key</th>
                 <th>Legend</th>
             </tr>
             <tr>
-                <td>Paths color</td>
-                <td>Period</td>
+                <td rowspan="4">Path color</td>
+
+                <td style="color:#FFED67">Yellow</td>
+                <td>First and Second Periods</td>
             </tr>
             <tr>
-                <td>Paths width</td>
+                <td style="color:#d45710">Orange</td>
+                <td>Third Period</td>
+            </tr>
+            <tr>
+                <td style="color:#2d8c19">Green</td>
+                <td>Fourth Period</td>
+            </tr>
+            <tr>
+                <td style="color:##ffffff">White</td>
+                <td>Fifth Period</td>
+            </tr>
+            <tr>
+                <td colspan="2">Path width</td>
                 <td>Edgebetweenness</td>
             </tr>
             <tr>
-                <td>Node color</td>
-                <td>Type of entity</td>
+                <td rowspan="4">Path stroke</td>
+                <td>Dots</td>
+                <td>Origin: Castilian</td>
             </tr>
             <tr>
-                <td>Node size</td>
+                <td>Dash</td>
+                <td>Origin: Aragonese, Italian or Occitan</td>
+            </tr>
+            <tr>
+                <td>Forwards Slash</td>
+                <td>Origin: Galician</td>
+            </tr>
+            <tr>
+                <td>Solid line</td>
+                <td>Origin: Portuguese</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Node color</td>
+                <td style="color:#ffb581">Light Pink</td>
+                <td>Royal court</td>
+            </tr>
+            <tr>
+                <td style="color:#b34137">Maroon</td>
+                <td>Lordship</td>
+            </tr>
+            <tr>
+                <td style="color:#ffff7d">Light Yellow</td>
+                <td>Troubadour</td>
+            </tr>
+            <tr>
+                <td>White</td>
+                <td>Geographical place</td>
+            </tr>
+            <tr>
+                <td colspan="2">Node size</td>
                 <td>Degree Centrality</td>
             </tr>
             <tr>
-                <td>Font size</td>
+                <td colspan="2">Font size</td>
                 <td>Number of directed edges</td>
             </tr>
         </table>
         <div>
-            <img src="/images/colored-draft-1.svg" alt="cytoscape_draft" height="800" width="675"/>
+            <img src="/images/colored-draft-1.svg" alt="cytoscape_draft" height="800" width="675" />
         </div>
     </body>
 </html>

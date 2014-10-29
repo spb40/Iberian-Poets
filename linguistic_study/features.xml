@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="feature-library.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Feature library for the Iberian Poets project</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by-nc/3.0/">Creative
+                            Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab/>
+            <fLib>
+                <f name="accented_forms" xml:id="accented"/>
+                <f name="preposition_object" xml:id="prepObj"/>
+                <f name="archaic" xml:id="archaic"/>
+                <f name="modern" xml:id="modern"/>
+                <f name="comitative" xml:id="comitative"/>
+                <f name="prep_cum" xml:id="repetition"/>
+                <f name="metaphonic_result" xml:id="metaphony"/>
+                <f name="unaccented_forms" xml:id="unaccented"/>
+                <f name="not_adjacent_sounds" xml:id="not_assim"/>
+                <f name="direct_object" xml:id="acusative"/>
+                <f name="indirect_object" xml:id="dative"/>
+                <f name="adjacent_sounds" xml:id="assimilation"/>
+                <f name="person_1" xml:id="p1"/>
+                <f name="person_2" xml:id="p2"/>
+                <f name="person_3" xml:id="p3"/>
+                <f name="person_4" xml:id="p4"/>
+                <f name="person_5" xml:id="p5"/>
+                <f name="person_6" xml:id="p6"/>
+                <f name="person_3_6" xml:id="p3p6"/>
+                <f name="masculine" xml:id="m"/>
+                <f name="neuter" xml:id="n"/>
+                <f name="apocope" xml:id="not_vowel"/>
+            </fLib>
+            <fvLib>
+                <fs xml:id="mi" feats="#accented #p1 #dative #modern"/>
+                <fs xml:id="mim" feats="#dative #p1 #accented #archaic"/>
+                <fs xml:id="ele" feats="#accented #p3 #archaic #m"/>
+                <fs xml:id="el" feats="#accented #p3 #modern #m"/>
+                <fs xml:id="ello" feats="#accented #p3 #n #archaic"/>
+                <fs xml:id="eles" feats="#p6 #accented #modern"/>
+                <fs xml:id="eis" feats="#accented #p6 #archaic"/>
+                <fs xml:id="comigo" feats="#accented #p1 #comitative #modern"/>
+                <fs xml:id="contigo" feats="#accented #p2 #comitative #modern"/>
+                <fs xml:id="consigo" feats="#accented #p3p6 #comitative #modern"/>
+                <fs xml:id="connosco" feats="#accented #p4 #comitative #modern"/>
+                <fs xml:id="convosco" feats="#accented #p5 #comitative #modern"/>
+                <fs xml:id="mego" feats="#accented #p1 #comitative #archaic"/>
+                <fs xml:id="tego" feats="#accented #p2 #comitative #archaic"/>
+                <fs xml:id="sego" feats="#accented #p3p6 #comitative #archaic"/>
+                <fs xml:id="comego" feats="#accented #p1 #comitative #archaic #repetition"/>
+                <fs xml:id="contego" feats="#accented #p2 #comitative #archaic #repetition"/>
+                <fs xml:id="consego" feats="#accented #p3p6 #comitative #archaic #repetition"/>
+                <fs xml:id="migo" feats="#accented #p1 #comitative #archaic #metaphony"/>
+                <fs xml:id="tigo" feats="#accented #p2 #comitative #archaic #metaphony"/>
+                <fs xml:id="sigo" feats="#accented #p3p6 #comitative #archaic #metaphony"/>
+                <fs xml:id="nosco" feats="#accented #p4 #comitative #archaic #metaphony"/>
+                <fs xml:id="vosco" feats="#accented #p5 #comitative #archaic #metaphony"/>
+                <fs xml:id="li" feats="#archaic #assimilation #dative #p3"/>
+                <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern"/>
+                <fs xml:id="lis" feats="#archaic #assimilation #dative #p6"/>
+                <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern"/>
+                <fs xml:id="che" feats="#p2 #dative #archaic #assimilation"/>
+                <fs xml:id="xe" feats="#archaic #p3p6 #assimilation"/>
+                <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/> <!--If there is no occurrences of "xe", don't bother marking-up this one-->
+                <fs xml:id="me" feats="#modern #p1 #acusative #unaccented #not_assim"/>
+                <fs xml:id="m_" feats="#p1 #acusative #unaccented #not_assim #not_vowel"/>
+                <!-- The variation in these last three is related to the function and not the form itself, so you won't be able to recognise which one is the
+                correct one. Choose randomly one, and I'll fix it later-->
+                <fs xml:id="te_dative" feats="#p2 #dative #modern"/>
+                <fs xml:id="te_acusative" feats="#p2 #acusative #modern"/>
+                <fs xml:id="mi_acusative" feats="#p1 #archaic"/>
+            </fvLib>
+        </body>
+    </text>
+</TEI>

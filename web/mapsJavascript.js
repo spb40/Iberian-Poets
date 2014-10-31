@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Medieval Galician-Portuguese Poetry</title>
-    </head>
-    <body>
-        
-<svg 
+function popup() {
+    var popupWindow = window.open("","","width=1071,height=729");
+    popupWindow.document.write("<svg 
      version="1.1"
      baseProfile="full"
      xmlns="http://www.w3.org/2000/svg"
@@ -1165,6 +1158,6 @@
 <text fill-opacity="1" font-style="normal" font-family="Helvetica" font-weight="normal" stroke="none" fill="#cccccc" font-size="14" x="0" y="0">Alfonso XI</text>
 </g> <!-- transform -->
 </g> <!-- default stroke -->
-</svg> <!-- bounding box -->
-    </body>
-</html>
+</svg><!-- bounding box -->");
+    
+}

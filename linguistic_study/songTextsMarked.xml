@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<songList>
-    <song author="#JSrzPav" period="1st" songID="B1330bisV937">
+<?xml-model href="tei_diachronic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="features.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <song author="#JSrzPav" period="1st" songID="B1330bisV937">
         
         <author corresp="#JSrzPav">Johan Soarez de Pávia</author>
         
@@ -12,7 +29,7 @@
             <l>nem ham medo de lhis poer boçom</l>
             <l>e riir-<w person="" gramRelation="" lemma="se" age="">s'</w>-am muit'em dura edarra;</l>
             <l>mais <w person="" gramRelation="" lemma="" age="">se</w> Deus traj'o senhor de Monçon,</l>
-            <l>bem <w person="" gramRelation="" lemma="" age="old">mi</w> cuid'eu que a cunca lhis varra.</l>
+            <l>bem <w ana="#mi">mi</w> cuid'eu que a cunca lhis varra.</l>
             <l><w person="" gramRelation="" lemma="" age="">Se</w> lh'o bom rei varrê'la escudela</l>
             <l>que de Pamplona oístes nomear,</l>
             <l>mal ficará aquest'outr'em Todela,</l>
@@ -596,4 +613,6 @@
             <l>qual me ela par'ceu, tão ressanhuda (...)</l>
         </lg>
     </song>
-</songList>
+        </body>
+    </text>
+</TEI>

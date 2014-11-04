@@ -13,99 +13,7 @@
             <width>3</width>
          </LineStyle>
       </Style>
-        
-            
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-                
-
-                
-
-                
-
-
-                
-
-                
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-                
-
-
-                
-
-
-
-                
-
-
-                <Placemark>
+      <Placemark>
          <name>Alvaro Afonso</name>
          <description>Place of birth unknown</description>
          <Style>
@@ -127,8 +35,7 @@
             <coordinates>-8.0734,39.7138,100 -9.133333,38.716667,100</coordinates>
          </LineString>
       </Placemark>
-
-                <Placemark>
+      <Placemark>
          <name>Diogo Gonçalvez de Montemor-o-Novo</name>
          <description>Place of birth unknown</description>
          <Style>
@@ -150,8 +57,21 @@
             <coordinates>-8.1,39.8,100 -7.910463,38.558734,100</coordinates>
          </LineString>
       </Placemark>
-
-                <Placemark>
+      <Placemark>
+         <name>Évora</name>
+         <description>Évora</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.910463,38.558734,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Fernand' Eanes</name>
          <description>Place of birth unknown</description>
          <Style>
@@ -173,87 +93,20 @@
             <coordinates>-8,39.6,100 -7.9,39.7,100</coordinates>
          </LineString>
       </Placemark>
-
-
-                
-
-
-                
-
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-
-                
-
-                
-
-                
-
-
-
-                
-
-
-                
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-                
-
-                
-
-            
-        
-        
-            
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.9,39.7,100</coordinates>
+         </Point>
+      </Placemark>
       <Placemark>
          <name>Infante Pedro</name>
          <description>Court of Infante Pedro, Duke of Coimbra (noble court)</description>
@@ -268,9 +121,5 @@
             <coordinates>-9.133333,38.716667,100</coordinates>
          </Point>
       </Placemark>
-    
-
-
-        
-    </Document>
+   </Document>
 </kml>

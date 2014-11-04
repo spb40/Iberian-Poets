@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
-      <name>Period 2</name>
+      <name>Period 3</name>
       <Style id="WhiteLine">
          <LineStyle>
             <width>3</width>
@@ -34,6 +34,20 @@
             <tessellate>0</tessellate>
             <coordinates>-8.251545,42.145014,100 -8.2516,42.145,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.2516,42.145,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Alfonso Lopez de Baian</name>
@@ -102,7 +116,20 @@
             <coordinates>-8.7,42.7,100 </coordinates>
          </LineString>
       </Placemark>
-
+      <Placemark>
+         <name/>
+         <description/>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
+      </Placemark>
       <Placemark>
          <name>Martin Moxa</name>
          <description>Compostela, Martin Moxa's place of birth</description>
@@ -147,7 +174,6 @@
             <coordinates>-0.893443,41.935556,100 -4.728216,41.652032,100</coordinates>
          </LineString>
       </Placemark>
-
       <Placemark>
          <name>Martin Soarez</name>
          <description>Riba de Lima (Minho), Martin Soarez's place of birth</description>
@@ -170,7 +196,6 @@
             <coordinates>-8.833333,41.683333,100 -3.790256,37.765406,100</coordinates>
          </LineString>
       </Placemark>
-
       <Placemark>
          <name>Nuno Fernandez Torneol</name>
          <description>Compostela, Nuno Fernandez Torneol's place of birth</description>
@@ -193,7 +218,6 @@
             <coordinates>-8.56,42.9,100 -3.790256,37.765406,100</coordinates>
          </LineString>
       </Placemark>
-
       <Placemark>
          <name>Roi Queimado</name>
          <description>Sabadim, Roi Queimado's place of birth</description>
@@ -553,6 +577,20 @@
          </LineString>
       </Placemark>
       <Placemark>
+         <name>Calvelo</name>
+         <description>Calvelo</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.543333,41.681944,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Roi Fernandiz de Santiago</name>
          <description>Compostela, Roi Fernandiz de Santiago's place of birth</description>
          <Style>
@@ -574,7 +612,6 @@
             <coordinates>-8.55,42.866667,100 -4.728216,41.652032,100</coordinates>
          </LineString>
       </Placemark>
-
       <Placemark>
          <name>Fernand' Esquio</name>
          <description>Terras do Neda, Fernand' Esquio's place of birth</description>
@@ -799,7 +836,6 @@
             <coordinates>-5.986944,37.377222,100 -4.024444,39.856667,100</coordinates>
          </LineString>
       </Placemark>
-
       <Placemark>
          <name>Gomez Garcia</name>
          <description>Toledo, Gomez Garcia's place of birth</description>
@@ -836,9 +872,6 @@
             <coordinates>-8.463789,42.206017,100</coordinates>
          </Point>
       </Placemark>
-
-
-
       <Placemark>
          <name>Rodrigo Gómez</name>
          <description>Court of Rodrigo Gómez de Trastámara (noble court)</description>
@@ -895,7 +928,6 @@
             <coordinates>-4.92,41.941667,100</coordinates>
          </Point>
       </Placemark>
-
       <Placemark>
          <name>Alfonso X</name>
          <description>Court of Alfonso X, King of Castile, Leon and Galicia (royal court)</description>
@@ -910,8 +942,6 @@
             <coordinates>-4.728216,41.652032,100</coordinates>
          </Point>
       </Placemark>
-
-
       <Placemark>
          <name>Afonso III</name>
          <description>Court of Afonso III, King of Portugal (royal court)</description>

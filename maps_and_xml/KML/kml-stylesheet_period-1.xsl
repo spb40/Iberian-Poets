@@ -102,6 +102,9 @@
                 </coordinates>
             </LineString>
         </Placemark>
+        <xsl:if test="floruit[not(location/@corresp)]">
+            <xsl:apply-templates select="floruit[@period='1']"/>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="place[not(@xml:id = //person/floruit[@period='1']/location/substring(@corresp, 2))]"/>

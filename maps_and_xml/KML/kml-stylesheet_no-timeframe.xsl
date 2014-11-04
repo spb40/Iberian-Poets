@@ -118,6 +118,9 @@
                 </coordinates>
             </Point>
         </Placemark>
+        <xsl:if test="floruit[not(location/@corresp)]">
+            <xsl:apply-templates select="floruit"/>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="floruit">

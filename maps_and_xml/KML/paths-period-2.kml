@@ -102,6 +102,20 @@
          </LineString>
       </Placemark>
       <Placemark>
+         <name/>
+         <description/>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Pai Soarez de Taveirós</name>
          <description>Tabeirós, Pai Soarez de Taveirós's place of birth</description>
          <Style>
@@ -234,6 +248,20 @@
             <tessellate>0</tessellate>
             <coordinates>-7.966667,42.466667,100 -7.950980,42.538597,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Oseira</name>
+         <description>Oseira</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.950980,42.538597,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Pero Velho de Taveirós</name>

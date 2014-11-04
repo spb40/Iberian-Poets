@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
-      <name>Trial period-2</name>
+      <name>Period 5</name>
       <Style id="WhiteLine">
          <LineStyle>
-            <color>50000000</color>
+            <width>3</width>
          </LineStyle>
       </Style>
       <Style id="purpleLine">
@@ -15,7 +15,6 @@
       </Style>
         
             
-
                 
 
                 
@@ -121,10 +120,11 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Alvaro Afonso's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-8.0734,39.7138,100 -9.133333,38.716667,0</coordinates>
+            <coordinates>-8.0734,39.7138,100 -9.133333,38.716667,100</coordinates>
          </LineString>
       </Placemark>
 
@@ -139,14 +139,15 @@
             </IconStyle>
          </Style>
          <Point>
-            <coordinates>-8.073386,39.713715,0</coordinates>
+            <coordinates>-8.1,39.8,100</coordinates>
          </Point>
       </Placemark>
       <Placemark>
+         <description>Diogo Gonçalvez de Montemor-o-Novo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-8.073386,39.713715,0 -7.910463,38.558734,0</coordinates>
+            <coordinates>-8.1,39.8,100 -7.910463,38.558734,100</coordinates>
          </LineString>
       </Placemark>
 
@@ -161,14 +162,15 @@
             </IconStyle>
          </Style>
          <Point>
-            <coordinates>-8.07338,39.71371,0</coordinates>
+            <coordinates>-8,39.6,100</coordinates>
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernand' Eanes's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-8.07338,39.71371,0 -8.0734,39.7138,100</coordinates>
+            <coordinates>-8,39.6,100 -7.9,39.7,100</coordinates>
          </LineString>
       </Placemark>
 
@@ -254,7 +256,7 @@
     
       <Placemark>
          <name>Infante Pedro</name>
-         <description>Court of Infante Pedro, Duke of Coimbra</description>
+         <description>Court of Infante Pedro, Duke of Coimbra (noble court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -263,39 +265,10 @@
             </IconStyle>
          </Style>
          <Point>
-            <coordinates>-9.133333,38.716667,0</coordinates>
+            <coordinates>-9.133333,38.716667,100</coordinates>
          </Point>
       </Placemark>
     
-      <Placemark>
-         <name>Évora</name>
-         <description>Évora</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.910463,38.558734,0</coordinates>
-         </Point>
-      </Placemark>
-      
-      <Placemark>
-         <name>Unknown location</name>
-         <description>Somewhere in Portugal</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.0734,39.7138,100</coordinates>
-         </Point>
-      </Placemark>
 
 
         

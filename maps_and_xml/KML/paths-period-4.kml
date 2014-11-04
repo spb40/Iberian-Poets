@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
-      <name>Trial period-2</name>
+      <name>Period 4</name>
       <Style id="WhiteLine">
          <LineStyle>
             <color>50000000</color>
@@ -13,79 +13,7 @@
             <width>3</width>
          </LineStyle>
       </Style>
-        
-            
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-                
-
-                
-
-                
-
-
-                
-
-                
-
-                
-
-
-                
-
-
-                <Placemark>
+      <Placemark>
          <name>Vasco Martins de Resende</name>
          <description>Resende, Vasco Martins de Resende's place of birth</description>
          <Style>
@@ -106,12 +34,7 @@
             <coordinates>-7.95,41.1,0 -9.1334,38.7167,100 -9.133333,38.716667,0</coordinates>
          </LineString>
       </Placemark>
-
-
-                
-
-
-                <Placemark>
+      <Placemark>
          <name>Pedro de Portugal, Conde de Barcelos</name>
          <description>Court of D. Denis, Pedro de Portugal, Conde de Barcelos's place of birth</description>
          <Style>
@@ -129,12 +52,11 @@
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-9.1333,38.7166,1 -9.1334,38.7167,100 -7.816667,41.033333,0 -4.8,41.7,100</coordinates>
+            <coordinates>-9.1333,38.7166,1 -9.1334,38.7167,100 -7.816667,41.033333,0
+               -4.8,41.7,100</coordinates>
          </LineString>
       </Placemark>
-
-
-                <Placemark>
+      <Placemark>
          <name>Estevan da Guarda</name>
          <description>Guarda, Estevan da Guarda's place of birth</description>
          <Style>
@@ -152,11 +74,11 @@
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-7.266249,40.538230,0 -9.1334,38.7167,100 -9.133333,38.716667,0</coordinates>
+            <coordinates>-7.266249,40.538230,0 -9.1334,38.7167,100
+               -9.133333,38.716667,0</coordinates>
          </LineString>
       </Placemark>
-
-                <Placemark>
+      <Placemark>
          <name>Johan, jograr morador en León</name>
          <description>León, Johan, jograr morador en León's place of birth</description>
          <Style>
@@ -177,9 +99,7 @@
             <coordinates>-5.54,42.57,0 -9.1334,38.7167,100 -7.816667,41.033333,0</coordinates>
          </LineString>
       </Placemark>
-
-
-                <Placemark>
+      <Placemark>
          <name>Afonso Sanchez</name>
          <description>Cerva, Afonso Sanchez's place of birth</description>
          <Style>
@@ -200,10 +120,7 @@
             <coordinates>-7.846667,41.4725,0 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
-
-
-
-                <Placemark>
+      <Placemark>
          <name>Estevan Coelho</name>
          <description>Riba Homem, Estevan Coelho's place of birth</description>
          <Style>
@@ -224,62 +141,7 @@
             <coordinates>-8.314163,41.719828,0 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
-
-
-                
-
-                
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-
-
-                
-
-                
-
-                
-
-
-
-                
-
-
-                
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-
-                
-
-                <Placemark>
+      <Placemark>
          <name>Alfonso XI</name>
          <description>Salamanca, Alfonso XI's place of birth</description>
          <Style>
@@ -300,33 +162,6 @@
             <coordinates>-5.663889,40.965,0 -4.8,41.7,100</coordinates>
          </LineString>
       </Placemark>
-
-                
-
-            
-        
-        
-            
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
       <Placemark>
          <name>D. Dinis</name>
          <description>Court of King Denis of Portugal</description>
@@ -383,11 +218,5 @@
             <coordinates>-4.8,41.7,100</coordinates>
          </Point>
       </Placemark>
-    
-    
-    
-
-
-        
-    </Document>
+   </Document>
 </kml>

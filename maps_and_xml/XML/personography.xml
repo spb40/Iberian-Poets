@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY placeList SYSTEM "placeList.xml">
+]>
 <?xml-model href="TEI-personography.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -16,64 +19,6 @@
                </licence>
                 </availability>
             </publicationStmt>
-            <!-- <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Ajuda</msName>
-                        <altIdentifier>
-                            <idno xml:id="A">A</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Biblioteca Nacional</msName>
-                        <altIdentifier>
-                            <idno xml:id="B">B</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Biblioteca Vaticana</msName>
-                        <altIdentifier>
-                            <idno xml:id="V">V</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Pergaminho Vindel</msName>
-                        <altIdentifier>
-                            <idno xml:id="N">N</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Pergaminho Sharrer</msName>
-                        <altIdentifier>
-                            <idno xml:id="T">T</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>A Folha de Madrid</msName>
-                        <altIdentifier>
-                            <idno xml:id="M">M</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>As Folhas do Porto</msName>
-                        <altIdentifier>
-                            <idno xml:id="P">P</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>-->
             <sourceDesc>
                 <p>Born digital.</p>
                 <p>Data regarding the biographies of the jengleurs and troubadours was mainly extracted from the
@@ -116,7 +61,6 @@
     <text>
         <body>
             <listPerson>
-
                 <person xml:id="VaFdezSen">
                     <persName>Vasco Fernandez Praga de Sandin</persName>
                     <nationality cert="high" key="gl">Galician</nationality>
@@ -433,8 +377,8 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1235" to="1260" period="3">
-                        <location corresp="#sobroso"/>
-                        <location corresp="#sanchoII" to="1245"/>
+                        <location corresp="#sobroso" from="1235" to="1240"/>
+                        <location corresp="#sanchoII" from="1241" to="1245"/>
                         <location corresp="#jaen" from="1246" to="1253"/>
                     </floruit>
                 </person>
@@ -794,7 +738,10 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
-                        <!--<location from="1324" to="1328"/>-->
+                        <location from="1324" to="1328" type="noble">
+                            <placeName>Alburquerque</placeName>
+                            <geo>39.216667,-7</geo>
+                        </location>
                     </floruit>
                 </person>
 
@@ -964,8 +911,8 @@
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
-                        <location cert="unknown">
-                            <placeName type="noble">Oseira</placeName>
+                        <location cert="low" type="noble">
+                            <placeName>Oseira</placeName>
                             <geo>42.538597,-7.950980</geo>
                         </location>
                     </floruit>
@@ -1211,185 +1158,7 @@
         </body>
         <back>
             <ab>
-            <listPlace>
-               <place xml:id="sobroso" type="noble">
-                  <location>
-                     <placeName type="short">The Soverosas</placeName>
-                     <placeName type="full">Family Soverosas' Court</placeName>
-                     <geo>42.206017,-8.463789</geo>
-                  </location>
-               </place>
-               <place xml:id="sanchoI" type="royal">
-                  <location>
-                     <placeName type="short">Sancho I</placeName>
-                     <placeName type="full">Court of Sancho I, King of Portugal</placeName>
-                     <geo>40.24,200,-8.47</geo>
-                  </location>
-               </place>
-               <place xml:id="traba" type="noble">
-                  <location>
-                     <placeName type="short">The Trabas</placeName>
-                     <placeName type="full">Family Traba Court</placeName>
-                     <geo>42.063,-7.71765</geo>
-                  </location>
-               </place>
-               <place xml:id="dmartim" type="noble">
-                  <location>
-                     <placeName type="short">Martim Sanches</placeName>
-                     <placeName type="full">Court of Martim Sanches, Count of Trastámara</placeName>
-                     <geo>42.062991,-7.717664</geo>
-                  </location>
-               </place>
-               <place xml:id="soesto" type="noble">
-                  <location>
-                     <placeName type="short">Rodrigo Gómez</placeName>
-                     <placeName type="full">Court of Rodrigo Gómez de Trastámara</placeName>
-                     <geo>43.65,-7.583333</geo>
-                  </location>
-               </place>
-               <place xml:id="jaen" type="royal">
-                  <location>
-                     <placeName type="short">Ferdinand III</placeName>
-                     <placeName type="full">Court of Ferdinand III of Castile</placeName>
-                     <geo>37.765406,-3.790256</geo>
-                  </location>
-               </place>
-               <place xml:id="haro" type="noble">
-                  <location>
-                     <placeName type="short">Lope Díaz de Haro</placeName>
-                     <placeName type="full">Court of Lope Díaz I de Haro</placeName>
-                     <geo>42.6,-2.8</geo>
-                  </location>
-               </place>
-               <place xml:id="meneses" type="noble">
-                  <location>
-                     <placeName type="short">Telo Afonso de Meneses</placeName>
-                     <placeName type="full">Court of Telo Afonso de Meneses</placeName>
-                     <geo>41.941667,-4.92</geo>
-                  </location>
-               </place>
-               <place xml:id="bragança" type="noble">
-                  <location>
-                     <placeName type="short">Bragança</placeName>
-                     <placeName type="full">Bragança</placeName>
-                     <geo>41.807517,-6.756857</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsX" type="royal">
-                  <location>
-                     <placeName type="short">Alfonso X</placeName>
-                     <placeName type="full">Court of Alfonso X, King of Castile, Leon and Galicia</placeName>
-                     <geo>41.652032,-4.728216</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsII" type="royal">
-                  <location>
-                     <placeName type="short">Alfonso II</placeName>
-                     <placeName type="full">Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona</placeName>
-                     <geo>41.650192,-0.883533</geo>
-                  </location>
-               </place>
-    
-               <place xml:id="rodeiro" type="noble">
-                  <location>
-                     <placeName type="short">Múnio de Rodeiro</placeName>
-                     <placeName type="full">Circle of D. Múnio de Rodeiro</placeName>
-                     <geo>42.65,-7.95</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsIII" type="royal">
-                  <location>
-                     <placeName type="short">Afonso III</placeName>
-                     <placeName type="full">Court of Afonso III, King of Portugal</placeName>
-                     <geo>40.26,-8.46</geo>
-                  </location>
-               </place>
-               <place xml:id="sanchoII" type="royal">
-                  <location>
-                     <placeName type="short">Sancho II</placeName>
-                     <placeName type="full">Court of Sancho II, King of Portugal</placeName>
-                     <geo>40.25,-8.45</geo>
-                  </location>
-               </place>
-               <place xml:id="serpa" type="noble">
-                  <location>
-                     <placeName type="short">Fernado de la Serpa</placeName>
-                     <placeName type="full">Court of D. Fernado de la Serpa</placeName>
-                     <geo>38.570833,-7.909444</geo>
-                  </location>
-               </place>
-               <place xml:id="sousa" type="noble">
-                  <location>
-                     <placeName type="short">The Sousas</placeName>
-                     <placeName type="full">Court of D. Gonçalo Garcia de Sousa</placeName>
-                     <geo>41.087778,-8.520278</geo>
-                  </location>
-               </place>
-               <place xml:id="sanchoIV" type="royal">
-                  <location>
-                     <placeName type="short">Sancho IV</placeName>
-                     <placeName type="full">Court of Sancho IV</placeName>
-                     <geo>39.856667,-4.024444</geo>
-                  </location>
-               </place>
-               <place xml:id="vigo" type="unknown">
-                  <location>
-                     <placeName type="short">Vigo</placeName>
-                     <placeName type="full">Vigo</placeName>
-                     <geo>42.223078,-8.731278</geo>
-                  </location>
-               </place>
-               <place xml:id="dinis" type="royal">
-                  <location>
-                     <placeName type="short">D. Dinis</placeName>
-                     <placeName type="full">Court of King Denis of Portugal</placeName>
-                     <geo>38.7167,-9.1334</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsIV" type="royal">
-                  <location>
-                     <placeName type="short">Afonso IV</placeName>
-                     <placeName type="full">Court of Afonso IV</placeName>
-                     <geo>38.716667,-9.133333</geo>
-                  </location>
-               </place>
-               <place xml:id="lalim" type="noble">
-                  <location>
-                     <placeName type="short">Count of Barcelos</placeName>
-            
-                     <placeName type="full">Court of Pedro Afonso, Count of Barcelos</placeName>
-                     <geo>41.033333,-7.816667</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsXI" type="royal">
-                  <location>
-                     <placeName type="short">Alfonso XI</placeName>
-                     <placeName type="full">Court of Alfonso XI</placeName>
-                     <geo>41.7,-4.8</geo>
-                  </location>
-               </place>
-               <place xml:id="afonsIX" type="royal">
-                  <location>
-                     <placeName type="short">Alfonso IX</placeName>
-                     <placeName type="full">Court of Alfonso IX of León</placeName>
-                     <geo>42.600636,-5.570956</geo>
-                  </location>
-               </place>
-               <place xml:id="infpedro" type="noble">
-                  <location>
-                     <placeName type="short">Infante Pedro</placeName>
-                     <placeName type="full">Court of Infante Pedro, Duke of Coimbra</placeName>
-                     <geo>38.716667,-9.133333</geo>
-                  </location>
-               </place>
-               <place xml:id="berenguer" type="noble">
-                  <location>
-                     <placeName type="short">Raimon Berenguer IV</placeName>
-                     <placeName type="full">Court of Raimon Berenguer IV, Count of Provence</placeName>
-                     <geo>43.526304,5.445429</geo>
-                  </location>
-               </place>
-            </listPlace>
+           &placeList;
          </ab>
         </back>
     </text>

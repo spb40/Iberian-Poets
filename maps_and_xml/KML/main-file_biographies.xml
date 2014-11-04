@@ -17,98 +17,44 @@
                         3.0)</ref></licence>
                 </availability>
             </publicationStmt>
-            <!-- <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Ajuda</msName>
-                        <altIdentifier>
-                            <idno xml:id="A">A</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Biblioteca Nacional</msName>
-                        <altIdentifier>
-                            <idno xml:id="B">B</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Cancioneiro da Biblioteca Vaticana</msName>
-                        <altIdentifier>
-                            <idno xml:id="V">V</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Pergaminho Vindel</msName>
-                        <altIdentifier>
-                            <idno xml:id="N">N</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>Pergaminho Sharrer</msName>
-                        <altIdentifier>
-                            <idno xml:id="T">T</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>A Folha de Madrid</msName>
-                        <altIdentifier>
-                            <idno xml:id="M">M</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <msName>As Folhas do Porto</msName>
-                        <altIdentifier>
-                            <idno xml:id="P">P</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                </msDesc>
-            </sourceDesc>-->
             <sourceDesc>
                 <p>Born digital.</p>
-                <p>Data regarding the biographies of the jengleurs and troubadours was mainly extracted from the
-                    databases <emph><ref corresp="#medDB">Base de datos da Lírica Profana Galego-Portuguesa (MedDB)</ref></emph>and
-                    <emph><ref corresp="#fsch">Cantigas Medievais Galego Portuguesas [base de dados online]</ref></emph>.</p>
-                <p>Coordinates were taken from <ref target="http://en.wikipedia.org/wiki/Wikipedia:GeoHack">GeoHack</ref> and 
-                    <ref target="https://www.google.com/maps">Google Maps</ref>.</p>
+                <p>Data regarding the biographies of the jengleurs and troubadours was mainly
+                    extracted from the databases <emph><ref corresp="#medDB">Base de datos da Lírica
+                            Profana Galego-Portuguesa (MedDB)</ref></emph>and <emph><ref
+                            corresp="#fsch">Cantigas Medievais Galego Portuguesas [base de dados
+                            online]</ref></emph>.</p>
+                <p>Coordinates were taken from <ref
+                        target="http://en.wikipedia.org/wiki/Wikipedia:GeoHack">GeoHack</ref> and
+                        <ref target="https://www.google.com/maps">Google Maps</ref>.</p>
             </sourceDesc>
             <sourceDesc>
-                <bibl xml:id="medDB"> Base de datos da Lírica Profana Galego-Portuguesa (MedDB), versión 2.3.3,
-                    Centro Ramón Piñeiro para a Investigación en Humanidades
-                    <ref target="http://www.cirp.es">http://www.cirp.es</ref>
+                <bibl xml:id="medDB"> Base de datos da Lírica Profana Galego-Portuguesa (MedDB),
+                    versión 2.3.3, Centro Ramón Piñeiro para a Investigación en Humanidades <ref
+                        target="http://www.cirp.es">http://www.cirp.es</ref>
                 </bibl>
-                <bibl xml:id="fsch"> Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-), Cantigas
-                    Medievais Galego Portuguesas [base de dados online]. Lisboa: Instituto de
-                    Estudos Medievais, FCSH/NOVA. <ref target="http://cantigas.fcsh.unl.pt">http://cantigas.fcsh.unl.pt</ref>. </bibl>
+                <bibl xml:id="fsch"> Lopes, Graça Videira; Ferreira, Manuel Pedro et al. (2011-),
+                    Cantigas Medievais Galego Portuguesas [base de dados online]. Lisboa: Instituto
+                    de Estudos Medievais, FCSH/NOVA. <ref target="http://cantigas.fcsh.unl.pt"
+                        >http://cantigas.fcsh.unl.pt</ref>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <p>TEI schema</p>
             <p>Metadata model similar to the one used by <ref corresp="#medDB">MedBB</ref></p>
             <projectDesc>
-                <p><ref target="http://iberian.obdurodon.org"><title>Mapping Medieval Galician-Portuguese Literature and its Networks</title></ref></p>
-                <p>Course project of: <ref target="http://dh.obdurodon.org">Computational Methods in the Humanities</ref> (Autumn 2014), course designed and instructed by
-                Prof. David J. Birnbaum.</p>                
+                <p><ref target="http://iberian.obdurodon.org"><title>Mapping Medieval
+                            Galician-Portuguese Literature and its Networks</title></ref></p>
+                <p>Course project of: <ref target="http://dh.obdurodon.org">Computational Methods in
+                        the Humanities</ref> (Autumn 2014), course designed and instructed by Prof.
+                    David J. Birnbaum.</p>
             </projectDesc>
-            <geoDecl>
-            </geoDecl>
+            <geoDecl> </geoDecl>
         </encodingDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-
                 <person xml:id="VaFdezSen">
                     <persName>Vasco Fernandez Praga de Sandin</persName>
                     <nationality cert="high" key="gl">Galician</nationality>
@@ -204,7 +150,7 @@
                     <occupation cert="unknown" key="unknown">Unknown</occupation>
                     <socecStatus key="unknown" cert="unknown"/>
                     <floruit from="1240" to="1260" period="3">
-                        <location cert="unknown">
+                        <location cert="unknown" type="unknown">
                             <placeName>Unknown location</placeName>
                             <geo>-8.2516,42.145,100</geo>
                         </location>
@@ -223,7 +169,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="nb">Noble</socecStatus>
                     <floruit from="1246" to="1280" period="3">
-                        <location from="1245" to="1250" corresp="#jaen"/>                          
+                        <location from="1245" to="1250" corresp="#jaen"/>
                         <location from="1251" to="1280" corresp="#sousa"/>
                     </floruit>
                 </person>
@@ -257,8 +203,6 @@
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
                     <floruit from="1250" to="1275" period="3" cert="medium"/>
-
-
                 </person>
 
                 <person sameAs="#FerPad">
@@ -272,9 +216,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
                     <floruit from="1190" to="1230" period="1" cert="low">
-                        <location>
-                            <note>Unknown</note>
-                        </location>
+                        <location type="unknown" cert="unknown"/>
                     </floruit>
                 </person>
 
@@ -344,7 +286,7 @@
                 </person>
                 <person xml:id="AyCarp">
                     <persName>Airas Fernandes "Carpancho"</persName>
-                    <nationality key="gl" cert="high">Galego</nationality>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
                             <placeName>Compostela</placeName>
@@ -421,12 +363,9 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1235" to="1260" period="3">
-                        <location corresp="#sobroso"/>
-                        <location corresp="#sanchoII" to="1245"/>
+                        <location corresp="#sobroso" from="1235" to="1240"/>
+                        <location corresp="#sanchoII" from="1241" to="1245"/>
                         <location corresp="#jaen" from="1246" to="1253"/>
-                        <location from="1254" to="1260">
-                            <geo>-8.245,41.35,0</geo>
-                        </location>
                     </floruit>
                 </person>
 
@@ -508,7 +447,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit>
+                    <floruit period="3" from="1248" to="1273">
                         <location corresp="#afonsX"/>
                     </floruit>
                 </person>
@@ -656,7 +595,7 @@
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1250" to="1275" period="3">
-                        <location>
+                        <location type="noble">
                             <placeName>Calvelo</placeName>
                             <geo>-8.543333,41.681944,0</geo>
                         </location>
@@ -666,7 +605,7 @@
 
                 <person xml:id="RoyFdz">
                     <persName>Roi Fernandiz de Santiago</persName>
-                    <nationality key="gl" cert="high"/>
+                    <nationality key="gl" cert="high">Galician</nationality>
                     <birth>
                         <location>
                             <placeName>Compostela</placeName>
@@ -784,7 +723,10 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
-                        <!--<location from="1324" to="1328"/>-->
+                        <location from="1324" to="1328" type="noble">
+                            <placeName>Alburquerque</placeName>
+                            <geo>-7,39.216667,0</geo>
+                        </location>
                     </floruit>
                 </person>
 
@@ -833,7 +775,7 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1450" to="1480" period="5">
-                        <location>
+                        <location type="noble">
                             <placeName>Évora</placeName>
                             <geo>-7.910463,38.558734,0</geo>
                         </location>
@@ -954,7 +896,7 @@
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
-                        <location cert="unknown">
+                        <location cert="low" type="noble">
                             <placeName>Oseira</placeName>
                             <geo>-7.950980,42.538597,0</geo>
                         </location>

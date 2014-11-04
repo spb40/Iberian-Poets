@@ -124,7 +124,9 @@
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit when="1223" to="1257" period="2" cert="low">
-                        <location cert="unknown"/>
+                        <location cert="unknown" type="unknown">
+                            <placeName type="short">Unknown location</placeName>
+                        </location>
                     </floruit>
                 </person>
 
@@ -159,7 +161,7 @@
                     <socecStatus key="unknown" cert="unknown"/>
                     <floruit from="1240" to="1260" period="3">
                         <location cert="unknown" type="unknown">
-                            <placeName>Unknown location</placeName>
+                            <placeName type="short">Unknown location</placeName>
                             <geo>42.145,-8.2516</geo>
                         </location>
                     </floruit>
@@ -205,7 +207,7 @@
                     <birth>
                         <location cert="unknown">
                             <placeName>Padrón</placeName>
-                            <geo>42.738587,-8.659817</geo>
+                            <geo>42.8,-8.7</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
@@ -221,6 +223,7 @@
                     <nationality cert="medium" key="gl">Galician</nationality>
                     <birth>
                         <location cert="unknown">
+                            <placeName>Padrón</placeName>
                             <geo>42.738587,-8.659817</geo>
                         </location>
                     </birth>
@@ -506,7 +509,7 @@
                     <nationality cert="medium" key="gl">Galician</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>42.807989,-7.943570</geo>
+                            <geo>43,-8</geo>
                         </location>
                     </birth>
                     <socecStatus key="sq">Squire</socecStatus>
@@ -784,7 +787,7 @@
                     <nationality key="pt" cert="medium">Portuguese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>39.713715,-8.073386</geo>
+                            <geo>39.713715,-8.1</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
@@ -802,15 +805,15 @@
                     <nationality key="pt" cert="medium">Portuguese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>39.71371,-8.07338</geo>
+                            <geo>39.8,-8</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1450" to="1480" period="5">
-                        <location cert="unknown">
+                        <location cert="unknown" type="unknown">
                             <placeName>Unknown location</placeName>
-                            <geo>39.7138,-8.0734</geo>
+                            <geo>39.9,-7.9</geo>
                         </location>
                     </floruit>
                 </person>
@@ -1028,7 +1031,7 @@
                     <nationality key="leo" cert="medium">Leonese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>42.7,50,-5.57</geo>
+                            <geo>42.7,-5.57</geo>
                         </location>
                     </birth>
                     <socecStatus key="kn">Knight</socecStatus>

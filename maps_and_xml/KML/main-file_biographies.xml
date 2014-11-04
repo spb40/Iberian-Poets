@@ -197,7 +197,7 @@
                     <birth>
                         <location cert="unknown">
                             <placeName>Padrón</placeName>
-                            <geo>-8.659817,42.738587,0</geo>
+                            <geo>-8.7,42.7,0</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
@@ -509,7 +509,7 @@
                     <nationality cert="medium" key="gl">Galician</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>-7.943570,42.807989,0</geo>
+                            <geo>-8,42.7,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown" cert="unknown">Unknown</socecStatus>
@@ -769,7 +769,7 @@
                     <nationality key="pt" cert="medium">Portuguese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>-8.073386,39.713715,0</geo>
+                            <geo>-8.1,39.8,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
@@ -787,7 +787,7 @@
                     <nationality key="pt" cert="medium">Portuguese</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>-8.07338,39.71371,0</geo>
+                            <geo>-8,39.6,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="unknown">Unknown</socecStatus>
@@ -795,7 +795,7 @@
                     <floruit from="1450" to="1480" period="5">
                         <location cert="unknown">
                             <placeName>Unknown location</placeName>
-                            <geo>-8.0734,39.7138,100</geo>
+                            <geo>-7.9,39.7,100</geo>
                         </location>
                     </floruit>
                 </person>
@@ -874,7 +874,7 @@
                     <nationality key="gl" cert="medium">Galician</nationality>
                     <birth>
                         <location cert="unknown">
-                            <geo>-8.66,42.74,0</geo>
+                            <geo>-8.66,42.7,0</geo>
                         </location>
                     </birth>
                     <socecStatus key="un">Unknown</socecStatus>

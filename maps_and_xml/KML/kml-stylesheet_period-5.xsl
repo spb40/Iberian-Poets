@@ -7,7 +7,7 @@
     <xsl:template match="TEI">
         <kml>
             <Document>
-                <name>Period 4</name>
+                <name>Period 5</name>
                 <Style id="WhiteLine">
                     <LineStyle>
                         <width>3</width>
@@ -23,8 +23,8 @@
             </Document>
         </kml>
     </xsl:template>
-    <xsl:template match="person[not(floruit[@period='4'])]"/>
-    <xsl:template match="person[floruit[@period='4']]">
+    <xsl:template match="person[not(floruit[@period='5'])]"/>
+    <xsl:template match="person[floruit[@period='5']]">
          <xsl:variable name="floruitGeo">
             <xsl:value-of
                 select="//back//place[@xml:id = current()/floruit/location/substring(@corresp, 2)]//geo"/>
@@ -102,10 +102,11 @@
                 </coordinates>
             </LineString>
         </Placemark>
+        <xsl:apply-templates select="floruit"/>
     </xsl:template>
 
-    <xsl:template match="place[not(@xml:id = //person/floruit[@period='4']/location/substring(@corresp, 2))]"/>
-    <xsl:template  match="place[@xml:id = //person/floruit[@period='4']/location/substring(@corresp, 2)]">
+    <xsl:template match="place[not(@xml:id = //person/floruit[@period='5']/location/substring(@corresp, 2))]"/>
+    <xsl:template  match="place[@xml:id = //person/floruit[@period='5']/location/substring(@corresp, 2)]">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName[@type='short']"/>
@@ -127,7 +128,7 @@
             </Point>
         </Placemark>
     </xsl:template>
-    <xsl:template match="floruit[@period='4']">
+    <xsl:template match="floruit[@period='5']">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName"/>

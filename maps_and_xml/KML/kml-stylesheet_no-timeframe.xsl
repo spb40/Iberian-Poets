@@ -7,8 +7,12 @@
     <xsl:template match="TEI">
         <kml>
             <Document>
-                <name>Trial</name>
+                <name>All</name>
                 <Style id="WhiteLine">
+                    <LineStyle>
+                        <color>50FFFFFF</color>
+                        <width>3</width>
+                    </LineStyle>
                 </Style>
                 <Style id="purpleLine">
                     <LineStyle>
@@ -71,6 +75,9 @@
             </Point>
         </Placemark>
         <Placemark>
+            <description>
+                <xsl:value-of select="persName"/><xsl:text>'s journey</xsl:text>
+            </description>
             <xsl:choose>
                 <xsl:when test="floruit/location[@cert='low']">
                     <styleUrl>#purpleLine</styleUrl>
@@ -95,15 +102,19 @@
                 </coordinates>
             </LineString>
         </Placemark>
+        <xsl:if test="floruit[not(location/@corresp)]">
+            <xsl:apply-templates select="floruit"/>
+        </xsl:if>
     </xsl:template>
 
-    <xsl:template match="place">
+    <xsl:template match="place[not(@xml:id = //person/floruit[@period='1']/location/substring(@corresp, 2))]"/>
+    <xsl:template  match="place[@xml:id = //person/floruit[@period='1']/location/substring(@corresp, 2)]">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName[@type='short']"/>
             </name>
             <description>
-                <xsl:value-of select="location/placeName[@type='full']"/>
+                <xsl:value-of select="location/placeName[@type='full']"/><xsl:text> (</xsl:text><xsl:value-of select="current()/@type"/><xsl:text> court)</xsl:text>
             </description>
             <Style>
                 <IconStyle>
@@ -118,9 +129,6 @@
                 </coordinates>
             </Point>
         </Placemark>
-        <xsl:if test="floruit[not(location/@corresp)]">
-            <xsl:apply-templates select="floruit"/>
-        </xsl:if>
     </xsl:template>
 
     <xsl:template match="floruit">

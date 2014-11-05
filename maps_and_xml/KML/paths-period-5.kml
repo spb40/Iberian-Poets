@@ -4,6 +4,7 @@
       <name>Period 5</name>
       <Style id="WhiteLine">
          <LineStyle>
+            <color>50FFFFFF</color>
             <width>3</width>
          </LineStyle>
       </Style>

@@ -4,6 +4,7 @@
       <name>Period 3</name>
       <Style id="WhiteLine">
          <LineStyle>
+            <color>50FFFFFF</color>
             <width>3</width>
          </LineStyle>
       </Style>
@@ -93,42 +94,6 @@
             <tessellate>0</tessellate>
             <coordinates>-5.6,42.5,100 -3.790256,37.765406,100 -4.728216,41.652032,100</coordinates>
          </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Padron</name>
-         <description>Padrón, Fernan Padron's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.7,42.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <description>Fernan Padron's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.7,42.7,100 </coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name/>
-         <description/>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates/>
-         </Point>
       </Placemark>
       <Placemark>
          <name>Martin Moxa</name>

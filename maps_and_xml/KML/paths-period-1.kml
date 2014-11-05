@@ -4,6 +4,7 @@
       <name>Period 1</name>
       <Style id="WhiteLine">
          <LineStyle>
+            <color>50FFFFFF</color>
             <width>3</width>
          </LineStyle>
       </Style>
@@ -13,42 +14,6 @@
             <width>3</width>
          </LineStyle>
       </Style>
-      <Placemark>
-         <name>Fernan Padron (alternative ID)</name>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.659817,42.738587,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <description>Fernan Padron (alternative ID)'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.659817,42.738587,100 </coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name/>
-         <description/>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates/>
-         </Point>
-      </Placemark>
       <Placemark>
          <name>Johan Soarez de Pavia </name>
          <description>Paiva, Johan Soarez de Pavia 's place of birth</description>

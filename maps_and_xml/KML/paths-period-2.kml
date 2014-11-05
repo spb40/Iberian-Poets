@@ -4,6 +4,7 @@
       <name>Period 2</name>
       <Style id="WhiteLine">
          <LineStyle>
+            <color>50FFFFFF</color>
             <width>3</width>
          </LineStyle>
       </Style>
@@ -13,6 +14,29 @@
             <width>3</width>
          </LineStyle>
       </Style>
+      <Placemark>
+         <name>Nuno Rodriguez de Candarei</name>
+         <description>Penafiel, Nuno Rodriguez de Candarei's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.290484,41.206058,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <description>Nuno Rodriguez de Candarei's journey</description>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.290484,41.206058,100 -7.583333,43.65,100 -3.790256,37.765406,100
+               -4.728216,41.652032,100 -4.024444,39.856667,100</coordinates>
+         </LineString>
+      </Placemark>
       <Placemark>
          <name>Vasco Fernandez Praga de Sandin</name>
          <description>Parga (Lugo), Vasco Fernandez Praga de Sandin's place of birth</description>
@@ -78,42 +102,6 @@
             <tessellate>0</tessellate>
             <coordinates>-7.333333,43.25,100 -8.47,40.24,200 -7.717664,42.062991,100</coordinates>
          </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Soarez Somesso (alternative ID)</name>
-         <description>Fornelos, Johan Soarez Somesso (alternative ID)'s place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.495883,42.136781,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <description>Johan Soarez Somesso (alternative ID)'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.495883,42.136781,100 </coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name/>
-         <description/>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates/>
-         </Point>
       </Placemark>
       <Placemark>
          <name>Pai Soarez de Taveirós</name>
@@ -415,6 +403,20 @@
          </Point>
       </Placemark>
       <Placemark>
+         <name>Alfonso X</name>
+         <description>Court of Alfonso X, King of Castile, Leon and Galicia (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.728216,41.652032,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Afonso III</name>
          <description>Court of Afonso III, King of Portugal (royal court)</description>
          <Style>
@@ -440,6 +442,20 @@
          </Style>
          <Point>
             <coordinates>-8.520278,41.087778,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Sancho IV</name>
+         <description>Court of Sancho IV (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.024444,39.856667,100</coordinates>
          </Point>
       </Placemark>
       <Placemark>

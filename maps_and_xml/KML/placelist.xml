@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listPlace>
+    <place xml:id="alburquerque" type="noble">
+        <location>
+            <placeName type="full">Afonso Sanchez's court in exile</placeName>
+            <placeName type="short">Afonso Sanchez</placeName>
+            <geo>-7,39.216667,100</geo>
+        </location>
+    </place>
     <place xml:id="sobroso" type="noble">
         <location>
             <placeName type="short">The Soverosas</placeName>

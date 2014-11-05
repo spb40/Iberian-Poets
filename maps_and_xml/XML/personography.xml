@@ -62,6 +62,25 @@
     <text>
         <body>
             <listPerson>
+                <person xml:id="NuRdzCan">
+                    <persName>Nuno Rodriguez de Candarei</persName>
+                    <nationality cert="high" key="gl">Galician</nationality>
+                    <birth cert="low">
+                        <location>
+                            <placeName>Penafiel</placeName>
+                            <geo>41.206058,-8.290484</geo>
+                        </location>
+                    </birth>
+                    <occupation key="tr">Troubadour</occupation>
+                    <socecStatus key="nb">Noble</socecStatus>
+                    <floruit from="1225" to="1250" period="2">
+                        <location corresp="#jaen"/>
+                        <location corresp="#afonsX"/>
+                        <location corresp="#sanchoIV"/>
+                        <location corresp="#soesto"/>
+                    </floruit>
+                </person>
+                
                 <person xml:id="VaFdezSen">
                     <persName>Vasco Fernandez Praga de Sandin</persName>
                     <nationality cert="high" key="gl">Galician</nationality>
@@ -158,7 +177,7 @@
                         </location>
                     </birth>
                     <occupation cert="unknown" key="unknown">Unknown</occupation>
-                    <socecStatus key="unknown" cert="unknown"/>
+                    <socecStatus key="unknown" cert="unknown">Unknown</socecStatus>
                     <floruit from="1240" to="1260" period="3">
                         <location cert="unknown" type="unknown">
                             <placeName type="short">Unknown location</placeName>
@@ -212,9 +231,11 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1250" to="1275" period="3" cert="medium"/>
-
-
+                    <floruit from="1250" to="1275" period="3" cert="medium">
+                        <location cert="unknown" type="unknown">
+                            <placeName type="short">Unknown location</placeName>
+                        </location>
+                    </floruit>
                 </person>
 
                 <person sameAs="#FerPad">
@@ -230,8 +251,8 @@
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
                     <floruit from="1190" to="1230" period="1" cert="low">
-                        <location>
-                            <note>Unknown</note>
+                        <location cert="unknown" type="unknown">
+                            <placeName type="short">Unknown location</placeName>
                         </location>
                     </floruit>
                 </person>
@@ -614,7 +635,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1250" to="1275" period="3">
                         <location type="noble">
-                            <placeName>Calvelo</placeName>
+                            <placeName type="short">Calvelo</placeName>
                             <geo>41.681944,-8.543333</geo>
                         </location>
                     </floruit>
@@ -682,8 +703,8 @@
                             <geo>38.7166,1,-9.1333</geo>
                         </location>
                     </birth>
-                    <socecStatus key="tr">Troubadour</socecStatus>
-                    <occupation key="nb">Noble</occupation>
+                    <occupation key="tr">Troubadour</occupation>
+                    <socecStatus key="nb">Noble</socecStatus>
                     <floruit from="1300" to="1350" period="4">
                         <location from="1300" to="1318" corresp="#dinis"/>
                         <location corresp="#afonsXI" from="1319" to="1322"/>
@@ -741,10 +762,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
-                        <location from="1324" to="1328" type="noble">
-                            <placeName>Alburquerque</placeName>
-                            <geo>39.216667,-7</geo>
-                        </location>
+                        <location from="1324" to="1328" corresp="#alburquerque"/>
                     </floruit>
                 </person>
 
@@ -794,7 +812,7 @@
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1450" to="1480" period="5">
                         <location type="noble">
-                            <placeName>Évora</placeName>
+                            <placeName type="short">Évora</placeName>
                             <geo>38.558734,-7.910463</geo>
                         </location>
                     </floruit>
@@ -812,7 +830,7 @@
                     <occupation key="late">Late Troubadour</occupation>
                     <floruit from="1450" to="1480" period="5">
                         <location cert="unknown" type="unknown">
-                            <placeName>Unknown location</placeName>
+                            <placeName type="short">Unknown location</placeName>
                             <geo>39.9,-7.9</geo>
                         </location>
                     </floruit>
@@ -915,7 +933,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
                         <location cert="low" type="noble">
-                            <placeName>Oseira</placeName>
+                            <placeName type="short">Oseira</placeName>
                             <geo>42.538597,-7.950980</geo>
                         </location>
                     </floruit>
@@ -948,7 +966,7 @@
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
-                    <occupation key="tr">Troubador</occupation>
+                    <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
                         <location corresp="#afonsIX" from="1225" to="1244"/>
                         <location corresp="#afonsIII" from="1245" to="1250"/>
@@ -1018,7 +1036,7 @@
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
-                    <occupation key="tr">Trobadour</occupation>
+                    <occupation key="tr">Troubadour</occupation>
                     <floruit from="1250 " to="1275" period="3">
                         <location corresp="#afonsX"/>
                         <location corresp="#sanchoIV"/>
@@ -1343,6 +1361,13 @@
                             <placeName type="full">Court of Raimon Berenguer IV, Count of
                                 Provence</placeName>
                             <geo>43.526304,5.445429</geo>
+                        </location>
+                    </place>
+                    <place xml:id="alburquerque" type="noble">
+                        <location>
+                            <placeName type="full">Afonso Sanchez's court in exile</placeName>
+                            <placeName type="short">Afonso Sanchez</placeName>
+                            <geo>39.216667,-7</geo>
                         </location>
                     </place>
                 </listPlace>

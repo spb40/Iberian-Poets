@@ -55,6 +55,25 @@
     <text>
         <body>
             <listPerson>
+                <person xml:id="NuRdzCan">
+                    <persName>Nuno Rodriguez de Candarei</persName>
+                    <nationality cert="high" key="gl">Galician</nationality>
+                    <birth cert="low">
+                        <location>
+                            <placeName>Penafiel</placeName>
+                            <geo>-8.290484,41.206058,100</geo>
+                        </location>
+                    </birth>
+                    <occupation key="tr">Troubadour</occupation>
+                    <socecStatus key="nb">Noble</socecStatus>
+                    <floruit from="1225" to="1250" period="2">
+                        <location corresp="#jaen"/>
+                        <location corresp="#afonsX"/>
+                        <location corresp="#sanchoIV"/>
+                        <location corresp="#soesto"/>
+                    </floruit>
+                </person>
+                
                 <person xml:id="VaFdezSen">
                     <persName>Vasco Fernandez Praga de Sandin</persName>
                     <nationality cert="high" key="gl">Galician</nationality>
@@ -148,7 +167,7 @@
                         </location>
                     </birth>
                     <occupation cert="unknown" key="unknown">Unknown</occupation>
-                    <socecStatus key="unknown" cert="unknown"/>
+                    <socecStatus key="unknown" cert="unknown">Unknown</socecStatus>
                     <floruit from="1240" to="1260" period="3">
                         <location cert="unknown" type="unknown">
                             <placeName>Unknown location</placeName>
@@ -202,7 +221,11 @@
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
-                    <floruit from="1250" to="1275" period="3" cert="medium"/>
+                    <floruit from="1250" to="1275" period="3" cert="medium">
+                        <location cert="unknown" type="unknown">
+                            <placeName type="short">Unknown location</placeName>
+                        </location>
+                    </floruit>
                 </person>
 
                 <person sameAs="#FerPad">
@@ -210,13 +233,16 @@
                     <nationality cert="medium" key="gl">Galician</nationality>
                     <birth>
                         <location cert="unknown">
+                            <placeName>Unknown location</placeName>
                             <geo>-8.659817,42.738587,100</geo>
                         </location>
                     </birth>
                     <occupation key="tr">Troubadour</occupation>
                     <socecStatus key="kn">Knight</socecStatus>
                     <floruit from="1190" to="1230" period="1" cert="low">
-                        <location type="unknown" cert="unknown"/>
+                        <location cert="unknown" type="unknown">
+                            <placeName type="short">Unknown location</placeName>
+                        </location>
                     </floruit>
                 </person>
 
@@ -664,8 +690,8 @@
                             <geo>-9.1333,38.7166,1</geo>
                         </location>
                     </birth>
-                    <socecStatus key="tr">Troubadour</socecStatus>
-                    <occupation key="nb">Noble</occupation>
+                    <socecStatus key="nb">Noble</socecStatus>
+                    <occupation key="tr">Troubadour</occupation>
                     <floruit from="1300" to="1350" period="4">
                         <location from="1300" to="1318" corresp="#dinis"/>
                         <location corresp="#afonsXI" from="1319" to="1322"/>
@@ -723,10 +749,7 @@
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1289" to="1328" period="4">
                         <location corresp="#dinis" from="1289" to="1323"/>
-                        <location from="1324" to="1328" type="noble">
-                            <placeName>Alburquerque</placeName>
-                            <geo>-7,39.216667,100</geo>
-                        </location>
+                        <location from="1324" to="1328" corresp="#alburquerque"/>
                     </floruit>
                 </person>
 
@@ -930,7 +953,7 @@
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
-                    <occupation key="tr">Troubador</occupation>
+                    <occupation key="tr">Troubadour</occupation>
                     <floruit from="1225" to="1250" period="2">
                         <location corresp="#afonsIX" from="1225" to="1244"/>
                         <location corresp="#afonsIII" from="1245" to="1250"/>
@@ -1000,7 +1023,7 @@
                         </location>
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
-                    <occupation key="tr">Trobadour</occupation>
+                    <occupation key="tr">Troubadour</occupation>
                     <floruit from="1250	" to="1275" period="3">
                         <location corresp="#afonsX"/>
                         <location corresp="#sanchoIV"/>

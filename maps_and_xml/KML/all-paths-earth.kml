@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
    <Document>
-      <name>Trial</name>
-      <Style id="WhiteLine"/>
+      <name>All</name>
+      <Style id="WhiteLine">
+         <LineStyle>
+            <color>50FFFFFF</color>
+            <width>3</width>
+         </LineStyle>
+      </Style>
       <Style id="purpleLine">
          <LineStyle>
             <color>50FF78B4</color>
             <width>3</width>
          </LineStyle>
       </Style>
+      <Placemark>
+         <name>Nuno Rodriguez de Candarei</name>
+         <description>Penafiel, Nuno Rodriguez de Candarei's place of birth</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.290484,41.206058,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <description>Nuno Rodriguez de Candarei's journey</description>
+         <styleUrl>#WhiteLine</styleUrl>
+         <LineString>
+            <tessellate>0</tessellate>
+            <coordinates>-8.290484,41.206058,100 -7.583333,43.65,100 -3.790256,37.765406,100
+               -4.728216,41.652032,100 -4.024444,39.856667,100</coordinates>
+         </LineString>
+      </Placemark>
       <Placemark>
          <name>Vasco Fernandez Praga de Sandin</name>
          <description>Parga (Lugo), Vasco Fernandez Praga de Sandin's place of birth</description>
@@ -24,6 +52,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Vasco Fernandez Praga de Sandin's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -45,6 +74,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Soarez Somesso(alternative ID)'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -66,6 +96,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Soarez Somesso's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -87,11 +118,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Soarez Somesso (alternative ID)'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8.495883,42.136781,100 </coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name/>
+         <description/>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Pai Soarez de Taveirós</name>
@@ -108,6 +154,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pai Soarez de Taveirós's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -130,11 +177,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Nunez Camanez's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8.251545,42.145014,100 -8.2516,42.145,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.2516,42.145,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Alfonso Lopez de Baian</name>
@@ -151,6 +213,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Alfonso Lopez de Baian's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -173,6 +236,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Estevan Faian's journey</description>
          <styleUrl>#purpleLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -194,6 +258,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Padron's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -201,8 +266,22 @@
          </LineString>
       </Placemark>
       <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Fernan Padron (alternative ID)</name>
-         <description>Place of birth unknown</description>
+         <description>Unknown location, Fernan Padron (alternative ID)'s place of birth</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -215,11 +294,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Padron (alternative ID)'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8.659817,42.738587,100 </coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates/>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Martin Moxa</name>
@@ -236,6 +330,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Martin Moxa's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -257,6 +352,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Martin Moxa (alternative ID)'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -278,6 +374,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Soarez de Pavia 's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -299,6 +396,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Martin Soarez's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -320,6 +418,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Airas Fernandes "Carpancho"'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -341,6 +440,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Nuno Fernandez Torneol's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -362,6 +462,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Garcia Esgaravunha's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -384,6 +485,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Roi Queimado's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -406,6 +508,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Vasco Gil's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -428,6 +531,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Soarez Coelho's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -450,6 +554,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Roi Paez de Ribela's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -471,6 +576,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Lopez de Ulhoa's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -492,6 +598,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Gonçalvez de Seabra's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -513,6 +620,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pero Gomez Barroso's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -534,6 +642,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Garcia de Guilhade's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -556,6 +665,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Vasquis de Talaveira's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -578,6 +688,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pero da Ponte's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -600,6 +711,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Martin Codax's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -621,6 +733,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Dom Dinis's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -642,6 +755,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pai Gomez Charinho's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -663,6 +777,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Velho's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -684,6 +799,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Bonifaci Calvo (Bonifaz de Genua)'s journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -705,11 +821,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Vasco Rodrigues de Calvelo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8.543333,41.681944,100 -8.543333,41.681944,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Calvelo</name>
+         <description>Calvelo</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.543333,41.681944,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Roi Fernandiz de Santiago</name>
@@ -726,6 +857,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Roi Fernandiz de Santiago's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -747,6 +879,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Vasco Martins de Resende's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -768,6 +901,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernand' Esquio's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -789,6 +923,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pedro de Portugal, Conde de Barcelos's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -811,6 +946,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Estevan da Guarda's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -833,6 +969,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan, jograr morador en León's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -854,10 +991,11 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Afonso Sanchez's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
-            <coordinates>-7.846667,41.4725,100 -7,39.216667,100</coordinates>
+            <coordinates>-7.846667,41.4725,100 -7,39.216667,100 -9.1334,38.7167,100</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -875,6 +1013,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Estevan Coelho's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -896,6 +1035,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Alvaro Afonso's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -917,11 +1057,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Diogo Gonçalvez de Montemor-o-Novo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8.1,39.8,100 -7.910463,38.558734,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Évora</name>
+         <description>Évora</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.910463,38.558734,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Fernand' Eanes</name>
@@ -938,11 +1093,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernand' Eanes's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-8,39.6,100 -7.9,39.7,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Unknown location</name>
+         <description>Unknown location</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.9,39.7,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Garcia Mendiz d' Eixo</name>
@@ -959,6 +1129,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Garcia Mendiz d' Eixo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -981,6 +1152,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Osoir' Anes's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1002,6 +1174,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Paez de Tamalancos's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1023,6 +1196,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Nuno (Monio) Fernandez de Mirapeixe's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1044,6 +1218,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Bernal de Bonaval's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1065,11 +1240,26 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Afonso Soarez Sarraça's journey</description>
          <styleUrl>#purpleLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
             <coordinates>-7.966667,42.466667,100 -7.950980,42.538597,100</coordinates>
          </LineString>
+      </Placemark>
+      <Placemark>
+         <name>Oseira</name>
+         <description>Oseira</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.950980,42.538597,100</coordinates>
+         </Point>
       </Placemark>
       <Placemark>
          <name>Pero Velho de Taveirós</name>
@@ -1086,6 +1276,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pero Velho de Taveirós's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1107,6 +1298,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Roi Gomez de Briteiros's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1128,6 +1320,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pero Garcia d' Ambroa's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1150,6 +1343,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Johan Airas's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1172,6 +1366,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Alfonso X's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1193,6 +1388,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Fernan Soarez de Quinhones's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1215,6 +1411,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Pero Goterrez's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1236,6 +1433,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Caldeiron's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1257,6 +1455,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Picandon's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1279,6 +1478,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Lourenzo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1300,6 +1500,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Arnaldo's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1322,6 +1523,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Afonso Fernandez Cebolhilha's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1343,6 +1545,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Alfonso XI's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1364,6 +1567,7 @@
          </Point>
       </Placemark>
       <Placemark>
+         <description>Gomez Garcia's journey</description>
          <styleUrl>#WhiteLine</styleUrl>
          <LineString>
             <tessellate>0</tessellate>
@@ -1371,22 +1575,8 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>The Soverosas</name>
-         <description>Family Soverosas' Court</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.463789,42.206017,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
          <name>Sancho I</name>
-         <description>Court of Sancho I, King of Portugal</description>
+         <description>Court of Sancho I, King of Portugal (royal court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1400,7 +1590,7 @@
       </Placemark>
       <Placemark>
          <name>The Trabas</name>
-         <description>Family Traba Court</description>
+         <description>Family Traba Court (noble court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1413,106 +1603,8 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>Martim Sanches</name>
-         <description>Court of Martim Sanches, Count of Trastámara</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.717664,42.062991,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Rodrigo Gómez</name>
-         <description>Court of Rodrigo Gómez de Trastámara</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.583333,43.65,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Ferdinand III</name>
-         <description>Court of Ferdinand III of Castile</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-3.790256,37.765406,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Lope Díaz de Haro</name>
-         <description>Court of Lope Díaz I de Haro</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-2.8,42.6,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Telo Afonso de Meneses</name>
-         <description>Court of Telo Afonso de Meneses</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.92,41.941667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Bragança</name>
-         <description>Bragança</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-6.756857,41.807517,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso X</name>
-         <description>Court of Alfonso X, King of Castile, Leon and Galicia</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.728216,41.652032,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
          <name>Alfonso II</name>
-         <description>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona</description>
+         <description>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona (royal court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1526,7 +1618,7 @@
       </Placemark>
       <Placemark>
          <name>Múnio de Rodeiro</name>
-         <description>Circle of D. Múnio de Rodeiro</description>
+         <description>Circle of D. Múnio de Rodeiro (noble court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1539,50 +1631,8 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>Afonso III</name>
-         <description>Court of Afonso III, King of Portugal</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.46,40.26,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Sancho II</name>
-         <description>Court of Sancho II, King of Portugal</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.45,40.25,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Fernado de la Serpa</name>
-         <description>Court of D. Fernado de la Serpa</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.909444,38.570833,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
          <name>The Sousas</name>
-         <description>Court of D. Gonçalo Garcia de Sousa</description>
+         <description>Court of D. Gonçalo Garcia de Sousa (noble court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1595,92 +1645,8 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>Sancho IV</name>
-         <description>Court of Sancho IV</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.024444,39.856667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Vigo</name>
-         <description>Vigo</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.731278,42.223078,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>D. Dinis</name>
-         <description>Court of King Denis of Portugal</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.1334,38.7167,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Afonso IV</name>
-         <description>Court of Afonso IV</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.133333,38.716667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Count of Barcelos</name>
-         <description>Court of Pedro Afonso, Count of Barcelos</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.816667,41.033333,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso XI</name>
-         <description>Court of Alfonso XI</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.8,41.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
          <name>Alfonso IX</name>
-         <description>Court of Alfonso IX of León</description>
+         <description>Court of Alfonso IX of León (royal court)</description>
          <Style>
             <IconStyle>
                <Icon>
@@ -1690,34 +1656,6 @@
          </Style>
          <Point>
             <coordinates>-5.570956,42.600636,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Infante Pedro</name>
-         <description>Court of Infante Pedro, Duke of Coimbra</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.133333,38.716667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Raimon Berenguer IV</name>
-         <description>Court of Raimon Berenguer IV, Count of Provence</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>5.445429,43.526304,100</coordinates>
          </Point>
       </Placemark>
    </Document>

@@ -28,4 +28,3 @@
     </xsl:template>
     <xsl:template match="place"/>
 </xsl:stylesheet>
-<!-- , ';', following::place[@xml:id = current()/substring(@corresp, 2)]/@type)-->

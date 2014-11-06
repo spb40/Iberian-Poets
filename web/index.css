@@ -3,7 +3,7 @@ body{
     background-color:#444444;
     color:white;
     font-family: georgia;
-    text-align:center;
+    text-align:justify;
     padding-top:25px;
     padding-bottom:30px;
     background-image: url('images/banner.png');
@@ -16,38 +16,56 @@ body{
      font-weight:bold;
      padding-right:250px;
      padding-left:250px;
+     text-align: center;
  }
  h2{
      color:#FFED67;
      padding-right:250px;
      padding-left:250px;
+     text-align: center;
  }
  h3{
-    color: #FFB581;
+    color:#FFB581;
     padding-right:250px;
     padding-left:250px;
+    text-align: center;
  }
   a{
      color:#FFB581;
  }
+ 
 p{
     padding-right:250px;
     padding-left:250px;
-    text-align:justify
+    text-align:justify;
 }
+
+
+ol{
+    padding-right:250px;
+    padding-left:280px
+}
+
+ul{
+    padding-right:250px;
+    padding-left:280px;
+    list-style-type: square
+}
+
+li{padding-left:10px}
 
 table.one {
 
-    table-layout: fixed;
-    border: 5px #FF8822;
+   table-layout: fixed;
+   border: 5px #FF8822;
    margin-left:320px;
    margin-right:250px
 } 
 
 table.two {
 
-    table-layout: fixed;
-    border: 5px #FF8822;
+   table-layout: fixed;
+   border: 5px #FF8822;
    margin-left:370px;
 } 
 
@@ -75,11 +93,15 @@ td {
     position:relative;
     padding-top:10px;
     margin-bottom: 5px;
+    padding-left:0;
+    padding-right:0
 }
 #navMenu ul li{
     display:block;
     text-align:center;
     float:left;
+    padding-left:0
+
 }
 #navMenu ul li a{
     text-decoration:none;

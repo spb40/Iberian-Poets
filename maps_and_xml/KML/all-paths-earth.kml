@@ -1575,6 +1575,34 @@
          </LineString>
       </Placemark>
       <Placemark>
+         <name>Afonso Sanchez</name>
+         <description>Afonso Sanchez's court in exile (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7,39.216667,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>The Soverosas</name>
+         <description>Family Soverosas' Court (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.463789,42.206017,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Sancho I</name>
          <description>Court of Sancho I, King of Portugal (royal court)</description>
          <Style>
@@ -1600,6 +1628,90 @@
          </Style>
          <Point>
             <coordinates>-7.71765,42.063,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Martim Sanches</name>
+         <description>Court of Martim Sanches, Count of Trastámara (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.717664,42.062991,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Rodrigo Gómez</name>
+         <description>Court of Rodrigo Gómez de Trastámara (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.583333,43.65,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Ferdinand III</name>
+         <description>Court of Ferdinand III of Castile (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-3.790256,37.765406,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Lope Díaz de Haro</name>
+         <description>Court of Lope Díaz I de Haro (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-2.8,42.6,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Telo Afonso de Meneses</name>
+         <description>Court of Telo Afonso de Meneses (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.92,41.941667,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Alfonso X</name>
+         <description>Court of Alfonso X, King of Castile, Leon and Galicia (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.728216,41.652032,100</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -1631,6 +1743,48 @@
          </Point>
       </Placemark>
       <Placemark>
+         <name>Afonso III</name>
+         <description>Court of Afonso III, King of Portugal (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.46,40.26,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Sancho II</name>
+         <description>Court of Sancho II, King of Portugal (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.45,40.25,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Fernado de la Serpa</name>
+         <description>Court of D. Fernado de la Serpa (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.909444,38.570833,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>The Sousas</name>
          <description>Court of D. Gonçalo Garcia de Sousa (noble court)</description>
          <Style>
@@ -1645,6 +1799,90 @@
          </Point>
       </Placemark>
       <Placemark>
+         <name>Sancho IV</name>
+         <description>Court of Sancho IV (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.024444,39.856667,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Vigo</name>
+         <description>Vigo (unknown court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-8.731278,42.223078,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>D. Dinis</name>
+         <description>Court of King Denis of Portugal (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-9.1334,38.7167,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Afonso IV</name>
+         <description>Court of Afonso IV (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-9.133333,38.716667,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Count of Barcelos</name>
+         <description>Court of Pedro Afonso, Count of Barcelos (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-7.816667,41.033333,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Alfonso XI</name>
+         <description>Court of Alfonso XI (royal court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-4.8,41.7,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
          <name>Alfonso IX</name>
          <description>Court of Alfonso IX of León (royal court)</description>
          <Style>
@@ -1656,6 +1894,34 @@
          </Style>
          <Point>
             <coordinates>-5.570956,42.600636,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Infante Pedro</name>
+         <description>Court of Infante Pedro, Duke of Coimbra (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>-9.133333,38.716667,100</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Raimon Berenguer IV</name>
+         <description>Court of Raimon Berenguer IV, Count of Provence (noble court)</description>
+         <Style>
+            <IconStyle>
+               <Icon>
+                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+               </Icon>
+            </IconStyle>
+         </Style>
+         <Point>
+            <coordinates>5.445429,43.526304,100</coordinates>
          </Point>
       </Placemark>
    </Document>

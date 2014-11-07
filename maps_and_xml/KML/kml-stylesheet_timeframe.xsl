@@ -7,7 +7,11 @@
     <xsl:template match="TEI">
         <kml>
             <Document>
-                <name>All</name>
+                <name>Mapping the Medieval Galician-Portuguese Poetry</name>
+                <TimeSpan>
+                    <begin>1165-01-01</begin>
+                    <end>1485-01-01</end>
+                </TimeSpan>
                 <Style id="WhiteLine">
                     <LineStyle>
                         <color>50FFFFFF</color>
@@ -25,14 +29,25 @@
         </kml>
     </xsl:template>
     <xsl:template match="person">
-         <xsl:variable name="floruitGeo">
+        <xsl:variable name="floruitGeo">
             <xsl:value-of
-                select="//back//place[@xml:id = current()/floruit/location/substring(@corresp, 2)]//geo"/>
+                select="//back//place[@xml:id = current()/floruit/location/substring(@corresp, 2)]//geo"
+            />
         </xsl:variable>
         <Placemark>
             <name>
                 <xsl:value-of select="persName"/>
             </name>
+            <TimeSpan>
+                <begin>
+                    <xsl:value-of select="floruit/@from"/>
+                    <xsl:text>-01-01</xsl:text>
+                </begin>
+                <end>
+                    <xsl:value-of select="floruit/@to"/>
+                    <xsl:text>-01-01</xsl:text>
+                </end>
+            </TimeSpan>
             <description>
                 <xsl:choose>
                     <xsl:when test="birth/location/not(placeName)">
@@ -75,8 +90,19 @@
             </Point>
         </Placemark>
         <Placemark>
+            <TimeSpan>
+                <begin>
+                    <xsl:value-of select="floruit/@from"/>
+                    <xsl:text>-01-01</xsl:text>
+                </begin>
+                <end>
+                    <xsl:value-of select="floruit/@to"/>
+                    <xsl:text>-01-01</xsl:text>
+                </end>
+            </TimeSpan>
             <description>
-                <xsl:value-of select="persName"/><xsl:text>'s journey</xsl:text>
+                <xsl:value-of select="persName"/>
+                <xsl:text>'s journey</xsl:text>
             </description>
             <xsl:choose>
                 <xsl:when test="floruit/location[@cert='low']">
@@ -101,20 +127,30 @@
                     </xsl:choose>
                 </coordinates>
             </LineString>
-        </Placemark>
-        <xsl:if test="floruit[not(location/@corresp)]">
-            <xsl:apply-templates select="floruit"/>
-        </xsl:if>
+            <xsl:if test="floruit[not(location/@corresp)]">
+                <xsl:apply-templates select="floruit[not(location/@corresp)]"/>
+            </xsl:if>
+        </Placemark>        
     </xsl:template>
-
-    <xsl:template match="place[not(@xml:id = //person/floruit/location/substring(@corresp, 2))]"/>
-    <xsl:template  match="place[@xml:id = //person/floruit/location/substring(@corresp, 2)]">
+    <xsl:template
+        match="place">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName[@type='short']"/>
             </name>
+            <TimeSpan>
+                <begin>
+                    <xsl:text>-01-01</xsl:text>
+                </begin>
+                <end>
+                    <xsl:text>-01-01</xsl:text>
+                </end>
+            </TimeSpan>
             <description>
-                <xsl:value-of select="location/placeName[@type='full']"/><xsl:text> (</xsl:text><xsl:value-of select="current()/@type"/><xsl:text> court)</xsl:text>
+                <xsl:value-of select="location/placeName[@type='full']"/>
+                <xsl:text> (</xsl:text>
+                <xsl:value-of select="current()/@type"/>
+                <xsl:text> court)</xsl:text>
             </description>
             <Style>
                 <IconStyle>
@@ -131,11 +167,19 @@
         </Placemark>
     </xsl:template>
 
-    <xsl:template match="floruit">
+    <xsl:template match="floruit[not(location/@corresp)]">
         <Placemark>
             <name>
                 <xsl:value-of select="location/placeName"/>
             </name>
+            <TimeSpan>
+                <begin>
+                   <xsl:text>-01-01</xsl:text>
+                </begin>
+                <end>
+                    <xsl:text>-01-01</xsl:text>
+                </end>
+            </TimeSpan>
             <description>
                 <xsl:value-of select="location/placeName"/>
             </description>

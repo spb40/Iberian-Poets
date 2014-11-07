@@ -115,7 +115,7 @@ td {
     color:#FFED67;
     text-align:center;
 }
-/*#navMenu li ul{
+#navMenu li ul{
     display:none;
     margin-left:0px;
     padding:0px;
@@ -137,6 +137,7 @@ td {
 #navMenu ul ul li a{
     padding:.005em 1.21em;
     border:none;
+}
 =======
 body{
     background-color:#444444;

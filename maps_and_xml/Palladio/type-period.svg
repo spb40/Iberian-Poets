@@ -1,0 +1,122 @@
+<svg pointer-events="all" width="1903" height="800" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    style="">
+    <rect class="overlay" width="1903" height="800" fill="none"/>
+    <g class="main">
+        <g class="layer nodes">
+            <circle class="node source" r="23.105559994057295"
+                transform="translate(951.4875672128726,499.51635510833626)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node target" r="22.02434394674556"
+                transform="translate(892.1147656453593,417.6116117504829)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node source" r="18.426680799961645"
+                transform="translate(971.2743714175306,366.6816751238624)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node target" r="14.417411368328006"
+                transform="translate(949.9812315599297,438.61824532042306)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node target" r="10.12745081701333"
+                transform="translate(1023.7913978710155,417.005362571909)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node target" r="6.8069324072988"
+                transform="translate(1014.4172646857728,465.29936368243443)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node target" r="5"
+                transform="translate(915.3606090257399,298.86240412316533)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
+            <circle class="node source" r="5"
+                transform="translate(843.7429201186349,342.9501611834078)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+            />
+        </g>
+        <g class="layer labels">
+            <g class="anchor-node" transform="translate(950.2556692224468,511.6620296040377)">
+                <text transform="translate(-17.06409214787594,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >Royal</text>
+            </g>
+            <g class="anchor-node" transform="translate(881.3830163529885,420.539837757452)">
+                <text transform="translate(-5.894196607732461,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >3</text>
+            </g>
+            <g class="anchor-node" transform="translate(975.882324734991,356.8679533874845)">
+                <text transform="translate(-9.487146010028482,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >Noble</text>
+            </g>
+            <g class="anchor-node" transform="translate(945.7902439080376,446.97057224492164)">
+                <text transform="translate(-5.069687796900762,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >2</text>
+            </g>
+            <g class="anchor-node" transform="translate(1035.263891667119,413.4093605376312)">
+                <text transform="translate(-0.16022036233873943,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >4</text>
+            </g>
+            <g class="anchor-node" transform="translate(1023.8682514447598,472.98355449466123)">
+                <text transform="translate(-0.5602438779684246,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >1</text>
+            </g>
+            <g class="anchor-node" transform="translate(913.3517372095278,287.62183222024385)">
+                <text transform="translate(-3.5277861162744677,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >5</text>
+            </g>
+            <g class="anchor-node" transform="translate(832.9506904531229,339.0097629266892)">
+                <text transform="translate(-50.42301480661288,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
+                    >Unknown</text>
+            </g>
+        </g>
+        <g class="layer links">
+            <path class="link"
+                d="M951.4875672128726,499.51635510833626L892.1147656453593,417.6116117504829"
+                href="#path0_1"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M971.2743714175306,366.6816751238624L949.9812315599297,438.61824532042306"
+                href="#path2_3"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M971.2743714175306,366.6816751238624L892.1147656453593,417.6116117504829"
+                href="#path2_1"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M951.4875672128726,499.51635510833626L949.9812315599297,438.61824532042306"
+                href="#path0_3"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M951.4875672128726,499.51635510833626L1023.7913978710155,417.005362571909"
+                href="#path0_4"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M971.2743714175306,366.6816751238624L1014.4172646857728,465.29936368243443"
+                href="#path2_5"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M971.2743714175306,366.6816751238624L1023.7913978710155,417.005362571909"
+                href="#path2_4"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M951.4875672128726,499.51635510833626L1014.4172646857728,465.29936368243443"
+                href="#path0_5"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M971.2743714175306,366.6816751238624L915.3606090257399,298.86240412316533"
+                href="#path2_6"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M843.7429201186349,342.9501611834078L892.1147656453593,417.6116117504829"
+                href="#path7_1"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
+            <path class="link"
+                d="M843.7429201186349,342.9501611834078L915.3606090257399,298.86240412316533"
+                href="#path7_6"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"
+            />
+        </g>
+    </g>
+</svg>

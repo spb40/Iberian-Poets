@@ -20,9 +20,11 @@ h1{
 h2{
     color:#FFED67;
 }
+
 h3{
     color:#FFB581;
 }
+
 a{
     color:#FFB581;
 }
@@ -36,7 +38,8 @@ p{
 
 ol{
     padding-right:20%;
-    padding-left:22%
+    padding-left:22%;
+    text-align:justify
 }
 
 ul{
@@ -79,49 +82,76 @@ td{
     text-align:center;
     position:relative;
     margin-bottom:40px;
+    display:inline-table
 }
+
+#navMenu ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+
 #navMenu ul li{
-    display:inline;
+    display:block;
     background-color:#FF8822;
+    list-style:none;
     text-align:center;
     padding:0.5em 0;
-    float:none;
-
+    position:relative;
+    float:left;
 }
+
 #navMenu ul li a{
     text-decoration:none;
     padding:.005em 1em;
     color:white;
+    position:relative;
     text-align:center;
     display:inline;
 }
+
 #navMenu ul li a:hover{
     color:#FFED67;
     text-align:center;
 }
 
-
-/*#navMenu li ul{
+#navMenu ul li > ul{
     display:none;
-    margin-left:0px;
     padding:0px;
     position:relative;
     width:105px;
-}
-#navMenu li:hover ul{
-    margin:0 auto;
-    display:block;
-    position:absolute;
-}
-#navMenu li:hover li{
+    top:100%;
     float:none;
+    margin:0;
+    background-color:#FFED67;
+    border-top:none
 }
-#navMenu ul ul li {
+
+#navMenu ul li li{
+
+    display:block;
+    padding:3px 0px 3px 5px;
+    color:#FF8822;
+    cursor:pointer;
     text-align:center;
-    background-color:#672F2A;
+    background-color:#FFED67;
 }
-#navMenu ul ul li a{
-    padding:.005em 1.21em;
-    border:none;
->>>>>>> b18ef46534f7b75829932efca1cb44878bea1ca7
-}*/
+#navMenu ul li:hover > ul,
+#navMenu ul li:active ul
+{
+    display:block;
+    text-align:center;
+    width:160px;
+    color:#FF8822;
+    position:absolute
+}
+
+#navMenu ul li ul li a:hover
+{
+    color:#444444
+}
+
+#navMenu ul li ul li a{
+    color:#FF8822
+    }

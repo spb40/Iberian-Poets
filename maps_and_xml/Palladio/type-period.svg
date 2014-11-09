@@ -1,122 +1,328 @@
-<svg pointer-events="all" width="1903" height="800" version="1.1" xmlns="http://www.w3.org/2000/svg"
-    style="">
-    <rect class="overlay" width="1903" height="800" fill="none"/>
-    <g class="main">
-        <g class="layer nodes">
-            <circle class="node source" r="23.105559994057295"
-                transform="translate(951.4875672128726,499.51635510833626)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node target" r="22.02434394674556"
-                transform="translate(892.1147656453593,417.6116117504829)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node source" r="18.426680799961645"
-                transform="translate(971.2743714175306,366.6816751238624)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node target" r="14.417411368328006"
-                transform="translate(949.9812315599297,438.61824532042306)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node target" r="10.12745081701333"
-                transform="translate(1023.7913978710155,417.005362571909)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node target" r="6.8069324072988"
-                transform="translate(1014.4172646857728,465.29936368243443)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node target" r="5"
-                transform="translate(915.3606090257399,298.86240412316533)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"/>
-            <circle class="node source" r="5"
-                transform="translate(843.7429201186349,342.9501611834078)"
-                style="fill: rgb(187, 187, 187); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
-            />
-        </g>
-        <g class="layer labels">
-            <g class="anchor-node" transform="translate(950.2556692224468,511.6620296040377)">
-                <text transform="translate(-17.06409214787594,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >Royal</text>
-            </g>
-            <g class="anchor-node" transform="translate(881.3830163529885,420.539837757452)">
-                <text transform="translate(-5.894196607732461,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >3</text>
-            </g>
-            <g class="anchor-node" transform="translate(975.882324734991,356.8679533874845)">
-                <text transform="translate(-9.487146010028482,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >Noble</text>
-            </g>
-            <g class="anchor-node" transform="translate(945.7902439080376,446.97057224492164)">
-                <text transform="translate(-5.069687796900762,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >2</text>
-            </g>
-            <g class="anchor-node" transform="translate(1035.263891667119,413.4093605376312)">
-                <text transform="translate(-0.16022036233873943,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >4</text>
-            </g>
-            <g class="anchor-node" transform="translate(1023.8682514447598,472.98355449466123)">
-                <text transform="translate(-0.5602438779684246,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >1</text>
-            </g>
-            <g class="anchor-node" transform="translate(913.3517372095278,287.62183222024385)">
-                <text transform="translate(-3.5277861162744677,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >5</text>
-            </g>
-            <g class="anchor-node" transform="translate(832.9506904531229,339.0097629266892)">
-                <text transform="translate(-50.42301480661288,5)"
-                    style="fill: rgb(85, 85, 85); font-family: merriweather, Arial, Helvetica; font-size: 11px;"
-                    >Unknown</text>
-            </g>
-        </g>
-        <g class="layer links">
-            <path class="link"
-                d="M951.4875672128726,499.51635510833626L892.1147656453593,417.6116117504829"
-                href="#path0_1"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M971.2743714175306,366.6816751238624L949.9812315599297,438.61824532042306"
-                href="#path2_3"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M971.2743714175306,366.6816751238624L892.1147656453593,417.6116117504829"
-                href="#path2_1"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M951.4875672128726,499.51635510833626L949.9812315599297,438.61824532042306"
-                href="#path0_3"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M951.4875672128726,499.51635510833626L1023.7913978710155,417.005362571909"
-                href="#path0_4"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M971.2743714175306,366.6816751238624L1014.4172646857728,465.29936368243443"
-                href="#path2_5"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M971.2743714175306,366.6816751238624L1023.7913978710155,417.005362571909"
-                href="#path2_4"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M951.4875672128726,499.51635510833626L1014.4172646857728,465.29936368243443"
-                href="#path0_5"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M971.2743714175306,366.6816751238624L915.3606090257399,298.86240412316533"
-                href="#path2_6"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M843.7429201186349,342.9501611834078L892.1147656453593,417.6116117504829"
-                href="#path7_1"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"/>
-            <path class="link"
-                d="M843.7429201186349,342.9501611834078L915.3606090257399,298.86240412316533"
-                href="#path7_6"
-                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1px;"
-            />
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   pointer-events="all"
+   width="600"
+   height="500"
+   version="1.1"
+   id="svg3431"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="type-period.svg">
+  <metadata
+     id="metadata3517">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3515" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview3513"
+     showgrid="false"
+     inkscape:zoom="76.204968"
+     inkscape:cx="1249.9006"
+     inkscape:cy="481.74843"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3431" />
+  <rect
+     class="overlay"
+     width="1903"
+     height="800"
+     id="rect3433"
+     x="0"
+     y="-300"
+     style="fill:white" />
+  <g
+     class="main"
+     id="g3435"
+     transform="matrix(2.0023532,0.0353625,0,1.8365732,-1531.8106,-512.66969)">
+    <g
+       class="layer nodes"
+       id="g3437">
+      <circle
+         class="node source"
+         r="23.10556"
+         transform="translate(951.48757,499.51636)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3439"
+         d="M 23.10556,0 C 23.10556,12.760849 12.760849,23.10556 0,23.10556 -12.760849,23.10556 -23.10556,12.760849 -23.10556,0 c 0,-12.760849 10.344711,-23.10556 23.10556,-23.10556 12.760849,0 23.10556,10.344711 23.10556,23.10556 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="23.10556"
+         sodipodi:ry="23.10556" />
+      <circle
+         class="node target"
+         r="22.024343"
+         transform="translate(892.11477,417.61161)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3441"
+         d="m 22.024343,0 c 0,12.163709 -9.860634,22.024343 -22.024343,22.024343 -12.163709,0 -22.024343,-9.860634 -22.024343,-22.024343 0,-12.163709 9.860634,-22.024343 22.024343,-22.024343 12.163709,0 22.024343,9.860634 22.024343,22.024343 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="22.024343"
+         sodipodi:ry="22.024343" />
+      <circle
+         class="node source"
+         r="18.426682"
+         transform="translate(971.27437,366.68168)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3443"
+         d="m 18.426682,0 c 0,10.176775 -8.249907,18.426682 -18.426682,18.426682 -10.176775,0 -18.426682,-8.249907 -18.426682,-18.426682 0,-10.176775 8.249907,-18.426682 18.426682,-18.426682 10.176775,0 18.426682,8.249907 18.426682,18.426682 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="18.426682"
+         sodipodi:ry="18.426682" />
+      <circle
+         class="node target"
+         r="14.417412"
+         transform="translate(949.98123,438.61825)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3445"
+         d="M 14.417412,0 C 14.417412,7.9625167 7.9625167,14.417412 0,14.417412 -7.9625167,14.417412 -14.417412,7.9625167 -14.417412,0 c 0,-7.9625167 6.4548953,-14.417412 14.417412,-14.417412 7.9625167,0 14.417412,6.4548953 14.417412,14.417412 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="14.417412"
+         sodipodi:ry="14.417412" />
+      <circle
+         class="node target"
+         r="10.127451"
+         transform="translate(1023.7914,417.00536)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3447"
+         d="M 10.127451,0 C 10.127451,5.5932367 5.5932367,10.127451 0,10.127451 -5.5932367,10.127451 -10.127451,5.5932367 -10.127451,0 c 0,-5.5932367 4.5342143,-10.127451 10.127451,-10.127451 5.5932367,0 10.127451,4.5342143 10.127451,10.127451 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="10.127451"
+         sodipodi:ry="10.127451" />
+      <circle
+         class="node target"
+         r="6.8069324"
+         transform="translate(1014.4173,465.29936)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3449"
+         d="M 6.8069324,0 C 6.8069324,3.759365 3.759365,6.8069324 0,6.8069324 -3.759365,6.8069324 -6.8069324,3.759365 -6.8069324,0 c 0,-3.759365 3.0475674,-6.8069324 6.8069324,-6.8069324 3.759365,0 6.8069324,3.0475674 6.8069324,6.8069324 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="6.8069324"
+         sodipodi:ry="6.8069324" />
+      <circle
+         class="node target"
+         r="5"
+         transform="translate(915.36061,298.8624)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3451"
+         d="M 5,0 C 5,2.7614237 2.7614237,5 0,5 -2.7614237,5 -5,2.7614237 -5,0 c 0,-2.7614237 2.2385763,-5 5,-5 2.7614237,0 5,2.2385763 5,5 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="5"
+         sodipodi:ry="5" />
+      <circle
+         class="node source"
+         r="5"
+         transform="translate(843.74292,342.95016)"
+         style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
+         id="circle3453"
+         d="M 5,0 C 5,2.7614237 2.7614237,5 0,5 -2.7614237,5 -5,2.7614237 -5,0 c 0,-2.7614237 2.2385763,-5 5,-5 2.7614237,0 5,2.2385763 5,5 z"
+         cx="0"
+         cy="0"
+         sodipodi:cx="0"
+         sodipodi:cy="0"
+         sodipodi:rx="5"
+         sodipodi:ry="5" />
     </g>
+    <g
+       class="layer labels"
+       id="g3455">
+      <g
+         class="anchor-node"
+         transform="translate(950.25567,511.66203)"
+         id="g3457">
+        <text
+           transform="translate(-17.064092,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3459">Royal</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(881.38302,420.53984)"
+         id="g3461">
+        <text
+           transform="translate(-5.8941966,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3463">3</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(975.88232,356.86795)"
+         id="g3465">
+        <text
+           transform="translate(-9.487146,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3467">Noble</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(945.79024,446.97057)"
+         id="g3469">
+        <text
+           transform="translate(-5.0696878,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3471">2</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(1035.2639,413.40936)"
+         id="g3473">
+        <text
+           transform="translate(-0.16022036,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3475">4</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(1023.8683,472.98355)"
+         id="g3477">
+        <text
+           transform="translate(-0.56024388,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3479">1</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(913.35174,287.62183)"
+         id="g3481">
+        <text
+           transform="translate(-3.5277861,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3483">5</text>
+      </g>
+      <g
+         class="anchor-node"
+         transform="translate(832.95069,339.00976)"
+         id="g3485">
+        <text
+           transform="translate(-50.423015,5)"
+           style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
+           id="text3487">Unknown</text>
+      </g>
+    </g>
+    <g
+       class="layer links"
+       id="g3489">
+      <path
+         class="link"
+         d="m 951.48757,499.51636 -59.3728,-81.90475"
+         href="#path0_1"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3491"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 971.27437,366.68168 -21.29314,71.93657"
+         href="#path2_3"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3493"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 971.27437,366.68168 -79.1596,50.92993"
+         href="#path2_1"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3495"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 951.48757,499.51636 -1.50634,-60.89811"
+         href="#path0_3"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3497"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 951.48757,499.51636 72.30383,-82.511"
+         href="#path0_4"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3499"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 971.27437,366.68168 43.14293,98.61768"
+         href="#path2_5"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3501"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 971.27437,366.68168 52.51703,50.32368"
+         href="#path2_4"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3503"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 951.48757,499.51636 62.92973,-34.217"
+         href="#path0_5"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3505"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="M 971.27437,366.68168 915.36061,298.8624"
+         href="#path2_6"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3507"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="m 843.74292,342.95016 48.37185,74.66145"
+         href="#path7_1"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3509"
+         inkscape:connector-curvature="0" />
+      <path
+         class="link"
+         d="M 843.74292,342.95016 915.36061,298.8624"
+         href="#path7_6"
+         style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
+         id="path3511"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
 </svg>

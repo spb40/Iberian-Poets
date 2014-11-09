@@ -53,6 +53,16 @@ li{
     padding-left:1%
 }
 
+li > ul {
+    padding-left:2%;
+    list-style-type: disc
+}
+
+li > ul > li > ul {
+    padding-left:3%;
+    list-style-type: circle
+}
+
 table{
 
     table-layout:fixed;
@@ -142,7 +152,7 @@ td{
 {
     display:block;
     text-align:center;
-    width:160px;
+    width:167px;
     color:#FF8822;
     position:absolute
 }

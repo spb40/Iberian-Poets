@@ -1,205 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-   <Document>
-      <name>Mapping the Medieval Galician-Portuguese Poetry</name>
-      <TimeSpan>
-         <begin>1165-01-01</begin>
-         <end>1485-01-01</end>
-      </TimeSpan>
-      <Style id="WhiteLine">
-         <LineStyle>
-            <color>50FFFFFF</color>
-            <width>3</width>
-         </LineStyle>
-      </Style>
-      <Style id="purpleLine">
-         <LineStyle>
-            <color>50FF78B4</color>
-            <width>3</width>
-         </LineStyle>
-      </Style>
-      <Placemark>
-         <name>Nuno Rodriguez de Candarei</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Penafiel, Nuno Rodriguez de Candarei's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.290484,41.206058,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Nuno Rodriguez de Candarei's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.290484,41.206058,100 -7.583333,43.65,100 -3.790256,37.765406,100
-               -4.728216,41.652032,100 -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Vasco Fernandez Praga de Sandin</name>
-         <TimeSpan>
-            <begin>1200-01-01</begin>
-            <end>1240-01-01</end>
-         </TimeSpan>
-         <description>Parga (Lugo), Vasco Fernandez Praga de Sandin's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.836350,43.162582,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1200-01-01</begin>
-            <end>1240-01-01</end>
-         </TimeSpan>
-         <description>Vasco Fernandez Praga de Sandin's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.836350,43.162582,100 -8.463789,42.206017,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Soarez Somesso(alternative ID)</name>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1230-01-01</end>
-         </TimeSpan>
-         <description>Valadares, Johan Soarez Somesso(alternative ID)'s place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.355278,42.079444,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1230-01-01</end>
-         </TimeSpan>
-         <description>Johan Soarez Somesso(alternative ID)'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.355278,42.079444,100 -8.463789,42.206017,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Soarez Somesso</name>
-         <TimeSpan>
-            <begin>1215-01-01</begin>
-            <end>1246-01-01</end>
-         </TimeSpan>
-         <description>Crecente, Johan Soarez Somesso's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.333333,43.25,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1215-01-01</begin>
-            <end>1246-01-01</end>
-         </TimeSpan>
-         <description>Johan Soarez Somesso's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.333333,43.25,100 -8.47,40.24,200 -7.717664,42.062991,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pai Soarez de Taveirós</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Tabeirós, Pai Soarez de Taveirós's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.492129,42.686679,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Pai Soarez de Taveirós's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.492129,42.686679,100 -8.47,40.24,200 -7.583333,43.65,100
-               -3.790256,37.765406,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Nunez Camanez</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Camán (Pontevedra), Johan Nunez Camanez's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.251545,42.145014,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Johan Nunez Camanez's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.251545,42.145014,100 -8.2516,42.145,100</coordinates>
-         </LineString>
-         <Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mapping the Medieval Galician-Portuguese Poetry</name>
+	<LookAt>
+		<gx:TimeSpan>
+			<begin>1451-09-27T00:26:00.888759612Z</begin>
+			<end>1451-09-27T03:21:00.010133742Z</end>
+		</gx:TimeSpan>
+		<longitude>-0.1003109654516543</longitude>
+		<latitude>41.11005715794245</latitude>
+		<altitude>0</altitude>
+		<heading>4.875809808823397e-08</heading>
+		<tilt>45.00094439214978</tilt>
+		<range>1811390.751629606</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<TimeSpan>
+		<begin>1165</begin>
+		<end>1485</end>
+	</TimeSpan>
+	<Style id="purpleLine">
+		<LineStyle>
+			<color>50ff78b4</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="WhiteLine">
+		<LineStyle>
+			<color>50ffffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Nuno Rodriguez de Candarei</name>
+		<description>Penafiel, Nuno Rodriguez de Candarei&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.290483999999999,41.206058,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Nuno Rodriguez de Candarei&apos;s journey</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.290483999999999,41.206058,100 -7.583333,43.65,100 -3.790256,37.765406,100 -4.728216,41.652032,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Vasco Fernandez Praga de Sandin</name>
+		<description>Parga (Lugo), Vasco Fernandez Praga de Sandin&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1200</begin>
+			<end>1240</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.836349999999999,43.162582,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Vasco Fernandez Praga de Sandin&apos;s journey</description>
+		<TimeSpan>
+			<begin>1200</begin>
+			<end>1240</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.836349999999999,43.162582,100 -8.463789,42.206017,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Soarez Somesso(alternative ID)</name>
+		<description>Valadares, Johan Soarez Somesso(alternative ID)&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1230</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.355278,42.079444,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Soarez Somesso(alternative ID)&apos;s journey</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1230</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.355278,42.079444,100 -8.463789,42.206017,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Soarez Somesso</name>
+		<description>Crecente, Johan Soarez Somesso&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1215</begin>
+			<end>1246</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.333333,43.25,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Soarez Somesso&apos;s journey</description>
+		<TimeSpan>
+			<begin>1215</begin>
+			<end>1246</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.333333,43.25,100 -8.470000000000001,40.24,200 -7.717663999999999,42.062991,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pai Soarez de Taveirós</name>
+		<description>Tabeirós, Pai Soarez de Taveirós&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.492129,42.686679,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pai Soarez de Taveirós&apos;s journey</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.492129,42.686679,100 -8.470000000000001,40.24,200 -7.583333,43.65,100 -3.790256,37.765406,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Nunez Camanez</name>
+		<description>Camán (Pontevedra), Johan Nunez Camanez&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.251545,42.145014,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Nunez Camanez&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.251545,42.145014,100 -8.2516,42.145,100 
+			</coordinates>
+		</LineString>
+		<Placemark>
             <name>Unknown location</name>
             <TimeSpan>
                <begin>1240-01-01</begin>
@@ -217,801 +234,818 @@
                <coordinates>-8.2516,42.145,100</coordinates>
             </Point>
          </Placemark>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso Lopez de Baian</name>
-         <TimeSpan>
-            <begin>1246-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Baião, Alfonso Lopez de Baian's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.050259,41.177488,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1246-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Alfonso Lopez de Baian's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.050259,41.177488,100 -3.790256,37.765406,100
-               -8.520278,41.087778,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Estevan Faian</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Leon, Estevan Faian's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.6,42.5,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Estevan Faian's journey</description>
-         <styleUrl>#purpleLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.6,42.5,100 -3.790256,37.765406,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Padron</name>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Padrón, Fernan Padron's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.7,42.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Padron (alternative ID)</name>
-         <TimeSpan>
-            <begin>1190-01-01</begin>
-            <end>1230-01-01</end>
-         </TimeSpan>
-         <description>Unknown location, Fernan Padron (alternative ID)'s place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.659817,42.738587,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Martin Moxa</name>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Compostela, Martin Moxa's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.55,42.866667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Martin Moxa's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.55,42.866667,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Martin Moxa (alternative ID)</name>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-0.893443,41.935556,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Martin Moxa (alternative ID)'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-0.893443,41.935556,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Soarez de Pavia </name>
-         <TimeSpan>
-            <begin>1170-01-01</begin>
-            <end>1200-01-01</end>
-         </TimeSpan>
-         <description>Paiva, Johan Soarez de Pavia 's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.269722,41.046389,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1170-01-01</begin>
-            <end>1200-01-01</end>
-         </TimeSpan>
-         <description>Johan Soarez de Pavia 's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.269722,41.046389,100 -0.883533,41.650192,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Martin Soarez</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Riba de Lima (Minho), Martin Soarez's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.833333,41.683333,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Martin Soarez's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.833333,41.683333,100 -3.790256,37.765406,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Airas Fernandes "Carpancho"</name>
-         <TimeSpan>
-            <begin>1190-01-01</begin>
-            <end>1230-01-01</end>
-         </TimeSpan>
-         <description>Compostela, Airas Fernandes "Carpancho"'s place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.55,42.866667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1190-01-01</begin>
-            <end>1230-01-01</end>
-         </TimeSpan>
-         <description>Airas Fernandes "Carpancho"'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.55,42.866667,100 -7.95,42.65,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Nuno Fernandez Torneol</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Compostela, Nuno Fernandez Torneol's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.56,42.9,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Nuno Fernandez Torneol's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.56,42.9,100 -3.790256,37.765406,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Garcia Esgaravunha</name>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Terras de Sousa, Fernan Garcia Esgaravunha's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.520278,41.087778,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Fernan Garcia Esgaravunha's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.520278,41.087778,100 -3.790256,37.765406,100 -8.46,40.26,100
-               -8.520278,41.087778,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Roi Queimado</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Sabadim, Roi Queimado's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.4425,41.906111,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Roi Queimado's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.4425,41.906111,100 -3.790256,37.765406,100
-               -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Vasco Gil</name>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Sousa, Vasco Gil's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.245,41.35,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Vasco Gil's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.245,41.35,100 -8.463789,42.206017,100 -3.790256,37.765406,100
-               -8.45,40.25,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Soarez Coelho</name>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Ribadouro, Johan Soarez Coelho's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.076944,41.098333,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Johan Soarez Coelho's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.076944,41.098333,100 -3.790256,37.765406,100 -8.46,40.26,100
-               -7.909444,38.570833,100 5.445429,43.526304,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Roi Paez de Ribela</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Monfero, Roi Paez de Ribela's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.008970,43.308654,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Roi Paez de Ribela's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.008970,43.308654,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Lopez de Ulhoa</name>
-         <TimeSpan>
-            <begin>1238-01-01</begin>
-            <end>1286-01-01</end>
-         </TimeSpan>
-         <description>Terras de Monterroso, Johan Lopez de Ulhoa's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.833271,42.794063,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1238-01-01</begin>
-            <end>1286-01-01</end>
-         </TimeSpan>
-         <description>Johan Lopez de Ulhoa's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.833271,42.794063,100 -7.583333,43.65,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Gonçalvez de Seabra</name>
-         <TimeSpan>
-            <begin>1258-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Vinahis, Trás-os-Montes, Fernan Gonçalvez de Seabra's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.006722,41.832233,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1258-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Fernan Gonçalvez de Seabra's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.006722,41.832233,100 -8.46,40.26,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pero Gomez Barroso</name>
-         <TimeSpan>
-            <begin>1248-01-01</begin>
-            <end>1273-01-01</end>
-         </TimeSpan>
-         <description>Terras de Barroso, Pero Gomez Barroso's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.79,41.823889,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1248-01-01</begin>
-            <end>1273-01-01</end>
-         </TimeSpan>
-         <description>Pero Gomez Barroso's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.79,41.823889,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Garcia de Guilhade</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1265-01-01</end>
-         </TimeSpan>
-         <description>Milhazes, Barcelos, Johan Garcia de Guilhade's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.660556,41.490833,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1265-01-01</end>
-         </TimeSpan>
-         <description>Johan Garcia de Guilhade's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.660556,41.490833,100 -3.790256,37.765406,100 -4.728216,41.652032,100
-               -8.46,40.26,100 -8.520278,41.087778,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Vasquis de Talaveira</name>
-         <TimeSpan>
-            <begin>1260-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Talavera de la Reina, Johan Vasquis de Talaveira's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.830143,39.961801,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1260-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Johan Vasquis de Talaveira's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-4.830143,39.961801,100 -4.728216,41.652032,100
-               -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pero da Ponte</name>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.943570,42.807989,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Pero da Ponte's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.943570,42.807989,100 -3.790256,37.765406,100 -2.8,42.6,100
-               -4.92,41.941667,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Martin Codax</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8,42.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Martin Codax's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8,42.7,100 -8.731278,42.223078,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Dom Dinis</name>
-         <TimeSpan>
-            <begin>1279-01-01</begin>
-            <end>1235-01-01</end>
-         </TimeSpan>
-         <description>Lisbon, Dom Dinis's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.133333,38.716667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1279-01-01</begin>
-            <end>1235-01-01</end>
-         </TimeSpan>
-         <description>Dom Dinis's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-9.133333,38.716667,100 -9.1334,38.7167,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pai Gomez Charinho</name>
-         <TimeSpan>
-            <begin>1248-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Ponte Vedra, Pai Gomez Charinho's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.65,42.433333,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1248-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Pai Gomez Charinho's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.65,42.433333,100 -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Velho</name>
-         <TimeSpan>
-            <begin>1280-01-01</begin>
-            <end>1320-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.8,42.9,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1280-01-01</begin>
-            <end>1320-01-01</end>
-         </TimeSpan>
-         <description>Fernan Velho's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.8,42.9,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Bonifaci Calvo (Bonifaz de Genua)</name>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1265-01-01</end>
-         </TimeSpan>
-         <description>Genoa, Bonifaci Calvo (Bonifaz de Genua)'s place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>8.932778,44.411111,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1265-01-01</end>
-         </TimeSpan>
-         <description>Bonifaci Calvo (Bonifaz de Genua)'s journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>8.932778,44.411111,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Vasco Rodrigues de Calvelo</name>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Calvelo, Vasco Rodrigues de Calvelo's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.543333,41.681944,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Vasco Rodrigues de Calvelo's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.543333,41.681944,100 -8.543333,41.681944,100</coordinates>
-         </LineString>
-         <Placemark>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso Lopez de Baian</name>
+		<description>Baião, Alfonso Lopez de Baian&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1246</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.050259,41.177488,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Alfonso Lopez de Baian&apos;s journey</description>
+		<TimeSpan>
+			<begin>1246</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.050259,41.177488,100 -3.790256,37.765406,100 -8.520277999999999,41.087778,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Estevan Faian</name>
+		<description>Leon, Estevan Faian&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.6,42.5,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Estevan Faian&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#purpleLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.6,42.5,100 -3.790256,37.765406,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Padron</name>
+		<description>Padrón, Fernan Padron&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.699999999999999,42.7,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Padron (alternative ID)</name>
+		<description>Unknown location, Fernan Padron (alternative ID)&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1190</begin>
+			<end>1230</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.659817,42.738587,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Martin Moxa</name>
+		<description>Compostela, Martin Moxa&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.550000000000001,42.866667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Martin Moxa&apos;s journey</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.550000000000001,42.866667,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Martin Moxa (alternative ID)</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-0.8934429999999999,41.935556,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Martin Moxa (alternative ID)&apos;s journey</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-0.8934429999999999,41.935556,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Soarez de Pavia</name>
+		<description>Paiva, Johan Soarez de Pavia &apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1170</begin>
+			<end>1200</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.269722,41.046389,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Soarez de Pavia &apos;s journey</description>
+		<TimeSpan>
+			<begin>1170</begin>
+			<end>1200</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.269722,41.046389,100 -0.8835330000000001,41.650192,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Martin Soarez</name>
+		<description>Riba de Lima (Minho), Martin Soarez&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.833333,41.683333,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Martin Soarez&apos;s journey</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.833333,41.683333,100 -3.790256,37.765406,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Airas Fernandes &quot;Carpancho&quot;</name>
+		<description>Compostela, Airas Fernandes &quot;Carpancho&quot;&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1190</begin>
+			<end>1230</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.550000000000001,42.866667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Airas Fernandes &quot;Carpancho&quot;&apos;s journey</description>
+		<TimeSpan>
+			<begin>1190</begin>
+			<end>1230</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.550000000000001,42.866667,100 -7.95,42.65,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Nuno Fernandez Torneol</name>
+		<description>Compostela, Nuno Fernandez Torneol&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.56,42.9,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Nuno Fernandez Torneol&apos;s journey</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.56,42.9,100 -3.790256,37.765406,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Garcia Esgaravunha</name>
+		<description>Terras de Sousa, Fernan Garcia Esgaravunha&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.520277999999999,41.087778,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernan Garcia Esgaravunha&apos;s journey</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.520277999999999,41.087778,100 -3.790256,37.765406,100 -8.460000000000001,40.26,100 -8.520277999999999,41.087778,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Roi Queimado</name>
+		<description>Sabadim, Roi Queimado&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.442500000000001,41.906111,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Roi Queimado&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.442500000000001,41.906111,100 -3.790256,37.765406,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Vasco Gil</name>
+		<description>Sousa, Vasco Gil&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.244999999999999,41.35,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Vasco Gil&apos;s journey</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.244999999999999,41.35,100 -8.463789,42.206017,100 -3.790256,37.765406,100 -8.449999999999999,40.25,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Soarez Coelho</name>
+		<description>Ribadouro, Johan Soarez Coelho&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.076943999999999,41.098333,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Soarez Coelho&apos;s journey</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.076943999999999,41.098333,100 -3.790256,37.765406,100 -8.460000000000001,40.26,100 -7.909444,38.570833,100 5.445429,43.526304,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Roi Paez de Ribela</name>
+		<description>Monfero, Roi Paez de Ribela&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.00897,43.308654,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Roi Paez de Ribela&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.00897,43.308654,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Lopez de Ulhoa</name>
+		<description>Terras de Monterroso, Johan Lopez de Ulhoa&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1238</begin>
+			<end>1286</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.833271,42.794063,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Lopez de Ulhoa&apos;s journey</description>
+		<TimeSpan>
+			<begin>1238</begin>
+			<end>1286</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.833271,42.794063,100 -7.583333,43.65,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Gonçalvez de Seabra</name>
+		<description>Vinahis, Trás-os-Montes, Fernan Gonçalvez de Seabra&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1258</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.006722,41.832233,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernan Gonçalvez de Seabra&apos;s journey</description>
+		<TimeSpan>
+			<begin>1258</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.006722,41.832233,100 -8.460000000000001,40.26,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pero Gomez Barroso</name>
+		<description>Terras de Barroso, Pero Gomez Barroso&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1248</begin>
+			<end>1273</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.79,41.823889,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pero Gomez Barroso&apos;s journey</description>
+		<TimeSpan>
+			<begin>1248</begin>
+			<end>1273</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.79,41.823889,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Garcia de Guilhade</name>
+		<description>Milhazes, Barcelos, Johan Garcia de Guilhade&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1265</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.660556,41.490833,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Garcia de Guilhade&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1265</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.660556,41.490833,100 -3.790256,37.765406,100 -4.728216,41.652032,100 -8.460000000000001,40.26,100 -8.520277999999999,41.087778,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Vasquis de Talaveira</name>
+		<description>Talavera de la Reina, Johan Vasquis de Talaveira&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1260</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.830143,39.961801,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Vasquis de Talaveira&apos;s journey</description>
+		<TimeSpan>
+			<begin>1260</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-4.830143,39.961801,100 -4.728216,41.652032,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pero da Ponte</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.94357,42.807989,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pero da Ponte&apos;s journey</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.94357,42.807989,100 -3.790256,37.765406,100 -2.8,42.6,100 -4.92,41.941667,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Martin Codax</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8,42.7,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Martin Codax&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8,42.7,100 -8.731278,42.223078,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Dom Dinis</name>
+		<description>Lisbon, Dom Dinis&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1279</begin>
+			<end>1235</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-9.133333,38.716667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Dom Dinis&apos;s journey</description>
+		<TimeSpan>
+			<begin>1279</begin>
+			<end>1235</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-9.133333,38.716667,100 -9.1334,38.7167,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pai Gomez Charinho</name>
+		<description>Ponte Vedra, Pai Gomez Charinho&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1248</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.65,42.433333,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pai Gomez Charinho&apos;s journey</description>
+		<TimeSpan>
+			<begin>1248</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.65,42.433333,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Velho</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1280</begin>
+			<end>1320</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.800000000000001,42.9,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernan Velho&apos;s journey</description>
+		<TimeSpan>
+			<begin>1280</begin>
+			<end>1320</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.800000000000001,42.9,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Bonifaci Calvo (Bonifaz de Genua)</name>
+		<description>Genoa, Bonifaci Calvo (Bonifaz de Genua)&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1265</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>8.932778000000001,44.411111,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Bonifaci Calvo (Bonifaz de Genua)&apos;s journey</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1265</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				8.932778000000001,44.411111,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Vasco Rodrigues de Calvelo</name>
+		<description>Calvelo, Vasco Rodrigues de Calvelo&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.543333000000001,41.681944,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Vasco Rodrigues de Calvelo&apos;s journey</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.543333000000001,41.681944,100 -8.543333000000001,41.681944,100 
+			</coordinates>
+		</LineString>
+		<Placemark>
             <name>Calvelo</name>
             <TimeSpan>
                <begin>1250-01-01</begin>
@@ -1029,309 +1063,317 @@
                <coordinates>-8.543333,41.681944,100</coordinates>
             </Point>
          </Placemark>
-      </Placemark>
-      <Placemark>
-         <name>Roi Fernandiz de Santiago</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Compostela, Roi Fernandiz de Santiago's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.55,42.866667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1270-01-01</end>
-         </TimeSpan>
-         <description>Roi Fernandiz de Santiago's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.55,42.866667,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Vasco Martins de Resende</name>
-         <TimeSpan>
-            <begin>1290-01-01</begin>
-            <end>1325-01-01</end>
-         </TimeSpan>
-         <description>Resende, Vasco Martins de Resende's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.95,41.1,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1290-01-01</begin>
-            <end>1325-01-01</end>
-         </TimeSpan>
-         <description>Vasco Martins de Resende's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.95,41.1,100 -9.1334,38.7167,100 -9.133333,38.716667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernand' Esquio</name>
-         <TimeSpan>
-            <begin>1290-01-01</begin>
-            <end>1315-01-01</end>
-         </TimeSpan>
-         <description>Terras do Neda, Fernand' Esquio's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.156906,43.499886,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1290-01-01</begin>
-            <end>1315-01-01</end>
-         </TimeSpan>
-         <description>Fernand' Esquio's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.156906,43.499886,100 -7.583333,43.65,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pedro de Portugal, Conde de Barcelos</name>
-         <TimeSpan>
-            <begin>1300-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Court of D. Denis, Pedro de Portugal, Conde de Barcelos's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.1333,38.7166,1</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1300-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Pedro de Portugal, Conde de Barcelos's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-9.1333,38.7166,1 -9.1334,38.7167,100 -7.816667,41.033333,100
-               -4.8,41.7,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Estevan da Guarda</name>
-         <TimeSpan>
-            <begin>1320-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Guarda, Estevan da Guarda's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.266249,40.538230,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1320-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Estevan da Guarda's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.266249,40.538230,100 -9.1334,38.7167,100
-               -9.133333,38.716667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan, jograr morador en León</name>
-         <TimeSpan>
-            <begin>1320-01-01</begin>
-            <end>1340-01-01</end>
-         </TimeSpan>
-         <description>León, Johan, jograr morador en León's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.54,42.57,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1320-01-01</begin>
-            <end>1340-01-01</end>
-         </TimeSpan>
-         <description>Johan, jograr morador en León's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.54,42.57,100 -9.1334,38.7167,100 -7.816667,41.033333,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Afonso Sanchez</name>
-         <TimeSpan>
-            <begin>1289-01-01</begin>
-            <end>1328-01-01</end>
-         </TimeSpan>
-         <description>Cerva, Afonso Sanchez's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.846667,41.4725,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1289-01-01</begin>
-            <end>1328-01-01</end>
-         </TimeSpan>
-         <description>Afonso Sanchez's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.846667,41.4725,100 -7,39.216667,100 -9.1334,38.7167,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Estevan Coelho</name>
-         <TimeSpan>
-            <begin>1300-01-01</begin>
-            <end>1325-01-01</end>
-         </TimeSpan>
-         <description>Riba Homem, Estevan Coelho's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.314163,41.719828,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1300-01-01</begin>
-            <end>1325-01-01</end>
-         </TimeSpan>
-         <description>Estevan Coelho's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.314163,41.719828,100 -9.1334,38.7167,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Alvaro Afonso</name>
-         <TimeSpan>
-            <begin>1440-01-01</begin>
-            <end>1450-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.0734,39.7138,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1440-01-01</begin>
-            <end>1450-01-01</end>
-         </TimeSpan>
-         <description>Alvaro Afonso's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.0734,39.7138,100 -9.133333,38.716667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Diogo Gonçalvez de Montemor-o-Novo</name>
-         <TimeSpan>
-            <begin>1450-01-01</begin>
-            <end>1480-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.1,39.8,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1450-01-01</begin>
-            <end>1480-01-01</end>
-         </TimeSpan>
-         <description>Diogo Gonçalvez de Montemor-o-Novo's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.1,39.8,100 -7.910463,38.558734,100</coordinates>
-         </LineString>
-         <Placemark>
+	</Placemark>
+	<Placemark>
+		<name>Roi Fernandiz de Santiago</name>
+		<description>Compostela, Roi Fernandiz de Santiago&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.550000000000001,42.866667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Roi Fernandiz de Santiago&apos;s journey</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1270</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.550000000000001,42.866667,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Vasco Martins de Resende</name>
+		<description>Resende, Vasco Martins de Resende&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1290</begin>
+			<end>1325</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.95,41.1,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Vasco Martins de Resende&apos;s journey</description>
+		<TimeSpan>
+			<begin>1290</begin>
+			<end>1325</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.95,41.1,100 -9.1334,38.7167,100 -9.133333,38.716667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernand&apos; Esquio</name>
+		<description>Terras do Neda, Fernand&apos; Esquio&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1290</begin>
+			<end>1315</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.156905999999999,43.499886,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernand&apos; Esquio&apos;s journey</description>
+		<TimeSpan>
+			<begin>1290</begin>
+			<end>1315</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.156905999999999,43.499886,100 -7.583333,43.65,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pedro de Portugal, Conde de Barcelos</name>
+		<description>Court of D. Denis, Pedro de Portugal, Conde de Barcelos&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1300</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-9.1333,38.7166,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pedro de Portugal, Conde de Barcelos&apos;s journey</description>
+		<TimeSpan>
+			<begin>1300</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-9.1333,38.7166,1 -9.1334,38.7167,100 -7.816667,41.033333,100 -4.8,41.7,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Estevan da Guarda</name>
+		<description>Guarda, Estevan da Guarda&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1320</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.266249,40.53823,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Estevan da Guarda&apos;s journey</description>
+		<TimeSpan>
+			<begin>1320</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.266249,40.53823,100 -9.1334,38.7167,100 -9.133333,38.716667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan, jograr morador en León</name>
+		<description>León, Johan, jograr morador en León&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1320</begin>
+			<end>1340</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.54,42.57,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan, jograr morador en León&apos;s journey</description>
+		<TimeSpan>
+			<begin>1320</begin>
+			<end>1340</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.54,42.57,100 -9.1334,38.7167,100 -7.816667,41.033333,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Afonso Sanchez</name>
+		<description>Cerva, Afonso Sanchez&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1289</begin>
+			<end>1328</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.846667,41.4725,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Afonso Sanchez&apos;s journey</description>
+		<TimeSpan>
+			<begin>1289</begin>
+			<end>1328</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.846667,41.4725,100 -7,39.216667,100 -9.1334,38.7167,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Estevan Coelho</name>
+		<description>Riba Homem, Estevan Coelho&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1300</begin>
+			<end>1325</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.314163000000001,41.719828,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Estevan Coelho&apos;s journey</description>
+		<TimeSpan>
+			<begin>1300</begin>
+			<end>1325</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.314163000000001,41.719828,100 -9.1334,38.7167,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Alvaro Afonso</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1440</begin>
+			<end>1450</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.073399999999999,39.7138,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Alvaro Afonso&apos;s journey</description>
+		<TimeSpan>
+			<begin>1440</begin>
+			<end>1450</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.073399999999999,39.7138,100 -9.133333,38.716667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Diogo Gonçalvez de Montemor-o-Novo</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1450</begin>
+			<end>1480</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.1,39.8,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Diogo Gonçalvez de Montemor-o-Novo&apos;s journey</description>
+		<TimeSpan>
+			<begin>1450</begin>
+			<end>1480</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.1,39.8,100 -7.910463,38.558734,100 
+			</coordinates>
+		</LineString>
+		<Placemark>
             <name>Évora</name>
             <TimeSpan>
                <begin>1450-01-01</begin>
@@ -1349,206 +1391,211 @@
                <coordinates>-7.910463,38.558734,100</coordinates>
             </Point>
          </Placemark>
-      </Placemark>
-      <Placemark>
-         <name>Fernand' Eanes</name>
-         <TimeSpan>
-            <begin>1450-01-01</begin>
-            <end>1480-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8,39.6,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Garcia Mendiz d' Eixo</name>
-         <TimeSpan>
-            <begin>1190-01-01</begin>
-            <end>1239-01-01</end>
-         </TimeSpan>
-         <description>Eixo, Garcia Mendiz d' Eixo's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.570415,40.631709,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1190-01-01</begin>
-            <end>1239-01-01</end>
-         </TimeSpan>
-         <description>Garcia Mendiz d' Eixo's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.570415,40.631709,100 -8.47,40.24,200 -0.883533,41.650192,100
-               -8.520278,41.087778,100 -5.570956,42.600636,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Osoir' Anes</name>
-         <TimeSpan>
-            <begin>1180-01-01</begin>
-            <end>1220-01-01</end>
-         </TimeSpan>
-         <description>Ribadavia, Osoir' Anes's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.143495,42.288255,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1180-01-01</begin>
-            <end>1220-01-01</end>
-         </TimeSpan>
-         <description>Osoir' Anes's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.143495,42.288255,100 -7.71765,42.063,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Paez de Tamalancos</name>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1240-01-01</end>
-         </TimeSpan>
-         <description>Tamallancos, Fernan Paez de Tamalancos's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.903228,42.425060,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1240-01-01</end>
-         </TimeSpan>
-         <description>Fernan Paez de Tamalancos's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.903228,42.425060,100 -7.71765,42.063,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Nuno (Monio) Fernandez de Mirapeixe</name>
-         <TimeSpan>
-            <begin>1211-01-01</begin>
-            <end>1243-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.659817,42.738587,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1211-01-01</begin>
-            <end>1243-01-01</end>
-         </TimeSpan>
-         <description>Nuno (Monio) Fernandez de Mirapeixe's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.659817,42.738587,100 -7.583333,43.65,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Bernal de Bonaval</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.66,42.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Bernal de Bonaval's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.66,42.7,100 -8.520278,41.087778,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Afonso Soarez Sarraça</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Cercedo de Montes, Afonso Soarez Sarraça's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.966667,42.466667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Afonso Soarez Sarraça's journey</description>
-         <styleUrl>#purpleLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-7.966667,42.466667,100 -7.950980,42.538597,100</coordinates>
-         </LineString>
-         <Placemark>
+	</Placemark>
+	<Placemark>
+		<name>Fernand&apos; Eanes</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1450</begin>
+			<end>1480</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8,39.6,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Garcia Mendiz d&apos; Eixo</name>
+		<description>Eixo, Garcia Mendiz d&apos; Eixo&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1190</begin>
+			<end>1239</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.570415000000001,40.631709,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Garcia Mendiz d&apos; Eixo&apos;s journey</description>
+		<TimeSpan>
+			<begin>1190</begin>
+			<end>1239</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.570415000000001,40.631709,100 -8.470000000000001,40.24,200 -0.8835330000000001,41.650192,100 -8.520277999999999,41.087778,100 -5.570956,42.600636,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Osoir&apos; Anes</name>
+		<description>Ribadavia, Osoir&apos; Anes&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1180</begin>
+			<end>1220</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.143495,42.288255,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Osoir&apos; Anes&apos;s journey</description>
+		<TimeSpan>
+			<begin>1180</begin>
+			<end>1220</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.143495,42.288255,100 -7.717650000000001,42.063,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Paez de Tamalancos</name>
+		<description>Tamallancos, Fernan Paez de Tamalancos&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1240</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.903228,42.42506,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernan Paez de Tamalancos&apos;s journey</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1240</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.903228,42.42506,100 -7.717650000000001,42.063,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Nuno (Monio) Fernandez de Mirapeixe</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1211</begin>
+			<end>1243</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.659817,42.738587,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Nuno (Monio) Fernandez de Mirapeixe&apos;s journey</description>
+		<TimeSpan>
+			<begin>1211</begin>
+			<end>1243</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.659817,42.738587,100 -7.583333,43.65,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Bernal de Bonaval</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.66,42.7,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Bernal de Bonaval&apos;s journey</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.66,42.7,100 -8.520277999999999,41.087778,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Afonso Soarez Sarraça</name>
+		<description>Cercedo de Montes, Afonso Soarez Sarraça&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.966667000000001,42.466667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Afonso Soarez Sarraça&apos;s journey</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#purpleLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-7.966667000000001,42.466667,100 -7.95098,42.538597,100 
+			</coordinates>
+		</LineString>
+		<Placemark>
             <name>Oseira</name>
             <TimeSpan>
                <begin>1225-01-01</begin>
@@ -1566,881 +1613,890 @@
                <coordinates>-7.950980,42.538597,100</coordinates>
             </Point>
          </Placemark>
-      </Placemark>
-      <Placemark>
-         <name>Pero Velho de Taveirós</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Tabeirós, Pero Velho de Taveirós's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.5,42.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Pero Velho de Taveirós's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.5,42.7,100 -8.47,40.24,200 -7.583333,43.65,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Roi Gomez de Briteiros</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Braga, Roi Gomez de Briteiros's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.42,41.5,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Roi Gomez de Briteiros's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.42,41.5,100 -8.46,40.26,100 -5.570956,42.600636,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pero Garcia d' Ambroa</name>
-         <TimeSpan>
-            <begin>1228-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>San Tirso de Ambroa, Pero Garcia d' Ambroa's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.604003,43.133772,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1228-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Pero Garcia d' Ambroa's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.604003,43.133772,100 -7.583333,43.65,100
-               -3.790256,37.765406,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Johan Airas</name>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Compostela, Johan Airas's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.56,42.9,120</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1295-01-01</end>
-         </TimeSpan>
-         <description>Johan Airas's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.56,42.9,120 -4.728216,41.652032,100
-               -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso X</name>
-         <TimeSpan>
-            <begin>1242-01-01</begin>
-            <end>1284-01-01</end>
-         </TimeSpan>
-         <description>Toledo, Alfonso X's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.1,39.9,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1242-01-01</begin>
-            <end>1284-01-01</end>
-         </TimeSpan>
-         <description>Alfonso X's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-4.1,39.9,100 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Fernan Soarez de Quinhones</name>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Quiñones del Río, Fernan Soarez de Quinhones's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.826969,42.552194,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Fernan Soarez de Quinhones's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.826969,42.552194,100 -4.728216,41.652032,100
-               -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Pero Goterrez</name>
-         <TimeSpan>
-            <begin>1245-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.57,42.7,50</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1245-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Pero Goterrez's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.57,42.7,50 -4.728216,41.652032,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Caldeiron</name>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1300-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-0.9,42,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1300-01-01</end>
-         </TimeSpan>
-         <description>Caldeiron's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-0.9,42,100 -4.024444,39.856667,100 -9.1334,38.7167,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Picandon</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-0.578333,44.838611,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Picandon's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-0.578333,44.838611,100 -3.790256,37.765406,100
-               5.445429,43.526304,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Lourenzo</name>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Place of birth unknown</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.1,39.8,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1250-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Lourenzo's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-8.1,39.8,100 -4.728216,41.652032,100 -8.46,40.26,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Arnaldo</name>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Toulouse, Arnaldo's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>1.444,43.6045,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1260-01-01</end>
-         </TimeSpan>
-         <description>Arnaldo's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>1.444,43.6045,100 -4.728216,41.652032,100
-               5.445429,43.526304,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Afonso Fernandez Cebolhilha</name>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1300-01-01</end>
-         </TimeSpan>
-         <description>Sevilla, Afonso Fernandez Cebolhilha's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.986944,37.377222,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1300-01-01</end>
-         </TimeSpan>
-         <description>Afonso Fernandez Cebolhilha's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.986944,37.377222,100 -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso XI</name>
-         <TimeSpan>
-            <begin>1325-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Salamanca, Alfonso XI's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.663889,40.965,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1325-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Alfonso XI's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-5.663889,40.965,100 -4.8,41.7,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Gomez Garcia</name>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1286-01-01</end>
-         </TimeSpan>
-         <description>Toledo, Gomez Garcia's place of birth</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.024815,39.860365,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <TimeSpan>
-            <begin>1275-01-01</begin>
-            <end>1286-01-01</end>
-         </TimeSpan>
-         <description>Gomez Garcia's journey</description>
-         <styleUrl>#WhiteLine</styleUrl>
-         <LineString>
-            <tessellate>0</tessellate>
-            <coordinates>-4.024815,39.860365,100 -4.024444,39.856667,100</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>Afonso Sanchez</name>
-         <TimeSpan>
-            <begin>1324-01-01</begin>
-            <end>1328-01-01</end>
-         </TimeSpan>
-         <description>Afonso Sanchez's court in exile (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7,39.216667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>The Soverosas</name>
-         <TimeSpan>
-            <begin>1195-01-01</begin>
-            <end>1265-01-01</end>
-         </TimeSpan>
-         <description>Family Soverosas' Court (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.463789,42.206017,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Sancho I</name>
-         <TimeSpan>
-            <begin>1185-01-01</begin>
-            <end>1255-01-01</end>
-         </TimeSpan>
-         <description>Court of Sancho I, King of Portugal (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.47,40.24,200</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>The Trabas</name>
-         <TimeSpan>
-            <begin>1175-01-01</begin>
-            <end>1245-01-01</end>
-         </TimeSpan>
-         <description>Family Traba Court (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.71765,42.063,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Martim Sanches</name>
-         <TimeSpan>
-            <begin>1210-01-01</begin>
-            <end>1250-01-01</end>
-         </TimeSpan>
-         <description>Court of Martim Sanches, Count of Trastámara (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.717664,42.062991,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Rodrigo Gómez</name>
-         <TimeSpan>
-            <begin>1210-01-01</begin>
-            <end>1315-01-01</end>
-         </TimeSpan>
-         <description>Court of Rodrigo Gómez de Trastámara (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.583333,43.65,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Ferdinand III</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1285-01-01</end>
-         </TimeSpan>
-         <description>Court of Ferdinand III of Castile (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-3.790256,37.765406,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Lope Díaz de Haro</name>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Court of Lope Díaz I de Haro (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-2.8,42.6,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Telo Afonso de Meneses</name>
-         <TimeSpan>
-            <begin>1235-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Court of Telo Afonso de Meneses (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.92,41.941667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso X</name>
-         <TimeSpan>
-            <begin>1220-01-01</begin>
-            <end>1325-01-01</end>
-         </TimeSpan>
-         <description>Court of Alfonso X, King of Castile, Leon and Galicia (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.728216,41.652032,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso II</name>
-         <TimeSpan>
-            <begin>1168-01-01</begin>
-            <end>1240-01-01</end>
-         </TimeSpan>
-         <description>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-0.883533,41.650192,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Múnio de Rodeiro</name>
-         <TimeSpan>
-            <begin>1185-01-01</begin>
-            <end>1235-01-01</end>
-         </TimeSpan>
-         <description>Circle of D. Múnio de Rodeiro (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.95,42.65,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Afonso III</name>
-         <TimeSpan>
-            <begin>1215-01-01</begin>
-            <end>1280-01-01</end>
-         </TimeSpan>
-         <description>Court of Afonso III, King of Portugal (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.46,40.26,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Sancho II</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1263-01-01</end>
-         </TimeSpan>
-         <description>Court of Sancho II, King of Portugal (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.45,40.25,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Fernado de la Serpa</name>
-         <TimeSpan>
-            <begin>1230-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Court of D. Fernado de la Serpa (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.909444,38.570833,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>The Sousas</name>
-         <TimeSpan>
-            <begin>1185-01-01</begin>
-            <end>1285-01-01</end>
-         </TimeSpan>
-         <description>Court of D. Gonçalo Garcia de Sousa (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.520278,41.087778,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Sancho IV</name>
-         <TimeSpan>
-            <begin>1225-01-01</begin>
-            <end>1305-01-01</end>
-         </TimeSpan>
-         <description>Court of Sancho IV (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.024444,39.856667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Vigo</name>
-         <TimeSpan>
-            <begin>1240-01-01</begin>
-            <end>1275-01-01</end>
-         </TimeSpan>
-         <description>Vigo (unknown court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-8.731278,42.223078,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>D. Dinis</name>
-         <TimeSpan>
-            <begin>1270-01-01</begin>
-            <end>1351-01-01</end>
-         </TimeSpan>
-         <description>Court of King Denis of Portugal (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.1334,38.7167,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Afonso IV</name>
-         <TimeSpan>
-            <begin>1285-01-01</begin>
-            <end>1352-01-01</end>
-         </TimeSpan>
-         <description>Court of Afonso IV (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.133333,38.716667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Count of Barcelos</name>
-         <TimeSpan>
-            <begin>1328-01-01</begin>
-            <end>1350-01-01</end>
-         </TimeSpan>
-         <description>Court of Pedro Afonso, Count of Barcelos (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-7.816667,41.033333,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso XI</name>
-         <TimeSpan>
-            <begin>1300-01-01</begin>
-            <end>1353-01-01</end>
-         </TimeSpan>
-         <description>Court of Alfonso XI (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-4.8,41.7,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Alfonso IX</name>
-         <TimeSpan>
-            <begin>1185-01-01</begin>
-            <end>1255-01-01</end>
-         </TimeSpan>
-         <description>Court of Alfonso IX of León (royal court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-5.570956,42.600636,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Infante Pedro</name>
-         <TimeSpan>
-            <begin>1440-01-01</begin>
-            <end>1450-01-01</end>
-         </TimeSpan>
-         <description>Court of Infante Pedro, Duke of Coimbra (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>-9.133333,38.716667,100</coordinates>
-         </Point>
-      </Placemark>
-      <Placemark>
-         <name>Raimon Berenguer IV</name>
-         <TimeSpan>
-            <begin>1219-01-01</begin>
-            <end>1272-01-01</end>
-         </TimeSpan>
-         <description>Court of Raimon Berenguer IV, Count of Provence (noble court)</description>
-         <Style>
-            <IconStyle>
-               <Icon>
-                  <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
-               </Icon>
-            </IconStyle>
-         </Style>
-         <Point>
-            <coordinates>5.445429,43.526304,100</coordinates>
-         </Point>
-      </Placemark>
-   </Document>
+	</Placemark>
+	<Placemark>
+		<name>Pero Velho de Taveirós</name>
+		<description>Tabeirós, Pero Velho de Taveirós&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.5,42.7,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pero Velho de Taveirós&apos;s journey</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.5,42.7,100 -8.470000000000001,40.24,200 -7.583333,43.65,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Roi Gomez de Briteiros</name>
+		<description>Braga, Roi Gomez de Briteiros&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.42,41.5,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Roi Gomez de Briteiros&apos;s journey</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.42,41.5,100 -8.460000000000001,40.26,100 -5.570956,42.600636,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pero Garcia d&apos; Ambroa</name>
+		<description>San Tirso de Ambroa, Pero Garcia d&apos; Ambroa&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1228</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.604003000000001,43.133772,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pero Garcia d&apos; Ambroa&apos;s journey</description>
+		<TimeSpan>
+			<begin>1228</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.604003000000001,43.133772,100 -7.583333,43.65,100 -3.790256,37.765406,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Johan Airas</name>
+		<description>Compostela, Johan Airas&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.56,42.9,120</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Johan Airas&apos;s journey</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1295</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.56,42.9,120 -4.728216,41.652032,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso X</name>
+		<description>Toledo, Alfonso X&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1242</begin>
+			<end>1284</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.1,39.9,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Alfonso X&apos;s journey</description>
+		<TimeSpan>
+			<begin>1242</begin>
+			<end>1284</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-4.1,39.9,100 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Fernan Soarez de Quinhones</name>
+		<description>Quiñones del Río, Fernan Soarez de Quinhones&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.826969,42.552194,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Fernan Soarez de Quinhones&apos;s journey</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.826969,42.552194,100 -4.728216,41.652032,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Pero Goterrez</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1245</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.57,42.7,50.00000000000001</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Pero Goterrez&apos;s journey</description>
+		<TimeSpan>
+			<begin>1245</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.57,42.7,50.00000000000001 -4.728216,41.652032,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Caldeiron</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1300</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-0.9,42,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Caldeiron&apos;s journey</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1300</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-0.9,42,100 -4.024444,39.856667,100 -9.1334,38.7167,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Picandon</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-0.578333,44.838611,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Picandon&apos;s journey</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-0.578333,44.838611,100 -3.790256,37.765406,100 5.445429,43.526304,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Lourenzo</name>
+		<description>Place of birth unknown</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.1,39.8,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Lourenzo&apos;s journey</description>
+		<TimeSpan>
+			<begin>1250</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-8.1,39.8,100 -4.728216,41.652032,100 -8.460000000000001,40.26,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Arnaldo</name>
+		<description>Toulouse, Arnaldo&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>1.444,43.6045,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Arnaldo&apos;s journey</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1260</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				1.444,43.6045,100 -4.728216,41.652032,100 5.445429,43.526304,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Afonso Fernandez Cebolhilha</name>
+		<description>Sevilla, Afonso Fernandez Cebolhilha&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1300</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.986944,37.377222,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Afonso Fernandez Cebolhilha&apos;s journey</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1300</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.986944,37.377222,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso XI</name>
+		<description>Salamanca, Alfonso XI&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1325</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.663889,40.965,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Alfonso XI&apos;s journey</description>
+		<TimeSpan>
+			<begin>1325</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-5.663889,40.965,100 -4.8,41.7,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Gomez Garcia</name>
+		<description>Toledo, Gomez Garcia&apos;s place of birth</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1286</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.024815,39.860365,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<description>Gomez Garcia&apos;s journey</description>
+		<TimeSpan>
+			<begin>1275</begin>
+			<end>1286</end>
+		</TimeSpan>
+		<styleUrl>#WhiteLine</styleUrl>
+		<LineString>
+			<coordinates>
+				-4.024815,39.860365,100 -4.024444,39.856667,100 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>Afonso Sanchez</name>
+		<description>Afonso Sanchez&apos;s court in exile (noble court)</description>
+		<TimeSpan>
+			<begin>1324</begin>
+			<end>1328</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7,39.216667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Soverosas</name>
+		<description>Family Soverosas&apos; Court (noble court)</description>
+		<TimeSpan>
+			<begin>1195</begin>
+			<end>1265</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.463789,42.206017,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sancho I</name>
+		<description>Court of Sancho I, King of Portugal (royal court)</description>
+		<TimeSpan>
+			<begin>1185</begin>
+			<end>1255</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.470000000000001,40.24,200</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Trabas</name>
+		<description>Family Traba Court (noble court)</description>
+		<TimeSpan>
+			<begin>1175</begin>
+			<end>1245</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.717650000000001,42.063,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Martim Sanches</name>
+		<description>Court of Martim Sanches, Count of Trastámara (noble court)</description>
+		<TimeSpan>
+			<begin>1210</begin>
+			<end>1250</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.717663999999999,42.062991,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rodrigo Gómez</name>
+		<description>Court of Rodrigo Gómez de Trastámara (noble court)</description>
+		<TimeSpan>
+			<begin>1210</begin>
+			<end>1315</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.583333,43.65,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ferdinand III</name>
+		<description>Court of Ferdinand III of Castile (royal court)</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1285</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-3.790256,37.765406,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lope Díaz de Haro</name>
+		<description>Court of Lope Díaz I de Haro (noble court)</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-2.8,42.6,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Telo Afonso de Meneses</name>
+		<description>Court of Telo Afonso de Meneses (noble court)</description>
+		<TimeSpan>
+			<begin>1235</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.92,41.941667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso X</name>
+		<description>Court of Alfonso X, King of Castile, Leon and Galicia (royal court)</description>
+		<TimeSpan>
+			<begin>1220</begin>
+			<end>1325</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.728216,41.652032,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso II</name>
+		<description>Court of Alfonso II of Aragon, King of Aragon and Count of Barcelona (royal court)</description>
+		<TimeSpan>
+			<begin>1168</begin>
+			<end>1240</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-0.8835330000000001,41.650192,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Múnio de Rodeiro</name>
+		<description>Circle of D. Múnio de Rodeiro (noble court)</description>
+		<TimeSpan>
+			<begin>1185</begin>
+			<end>1235</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.95,42.65,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Afonso III</name>
+		<description>Court of Afonso III, King of Portugal (royal court)</description>
+		<TimeSpan>
+			<begin>1215</begin>
+			<end>1280</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.460000000000001,40.26,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sancho II</name>
+		<description>Court of Sancho II, King of Portugal (royal court)</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1263</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.449999999999999,40.25,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Fernado de la Serpa</name>
+		<description>Court of D. Fernado de la Serpa (noble court)</description>
+		<TimeSpan>
+			<begin>1230</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.909444,38.570833,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>The Sousas</name>
+		<description>Court of D. Gonçalo Garcia de Sousa (noble court)</description>
+		<TimeSpan>
+			<begin>1185</begin>
+			<end>1285</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.520277999999999,41.087778,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sancho IV</name>
+		<description>Court of Sancho IV (royal court)</description>
+		<TimeSpan>
+			<begin>1225</begin>
+			<end>1305</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.024444,39.856667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Vigo</name>
+		<description>Vigo (unknown court)</description>
+		<TimeSpan>
+			<begin>1240</begin>
+			<end>1275</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-8.731278,42.223078,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>D. Dinis</name>
+		<description>Court of King Denis of Portugal (royal court)</description>
+		<TimeSpan>
+			<begin>1270</begin>
+			<end>1351</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-9.1334,38.7167,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Afonso IV</name>
+		<description>Court of Afonso IV (royal court)</description>
+		<TimeSpan>
+			<begin>1285</begin>
+			<end>1352</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-9.133333,38.716667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Count of Barcelos</name>
+		<description>Court of Pedro Afonso, Count of Barcelos (noble court)</description>
+		<TimeSpan>
+			<begin>1328</begin>
+			<end>1350</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-7.816667,41.033333,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso XI</name>
+		<description>Court of Alfonso XI (royal court)</description>
+		<TimeSpan>
+			<begin>1300</begin>
+			<end>1353</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-4.8,41.7,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alfonso IX</name>
+		<description>Court of Alfonso IX of León (royal court)</description>
+		<TimeSpan>
+			<begin>1185</begin>
+			<end>1255</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-5.570956,42.600636,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Infante Pedro</name>
+		<description>Court of Infante Pedro, Duke of Coimbra (noble court)</description>
+		<TimeSpan>
+			<begin>1440</begin>
+			<end>1450</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>-9.133333,38.716667,100</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Raimon Berenguer IV</name>
+		<description>Court of Raimon Berenguer IV, Count of Provence (noble court)</description>
+		<TimeSpan>
+			<begin>1219</begin>
+			<end>1272</end>
+		</TimeSpan>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Point>
+			<coordinates>5.445429,43.526304,100</coordinates>
+		</Point>
+	</Placemark>
+</Document>
 </kml>

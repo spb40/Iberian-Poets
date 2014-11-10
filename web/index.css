@@ -84,6 +84,12 @@ td{
     vertical-align:middle
 }
 
+/*#navMenu {
+    position:fixed;
+    margin-left:auto;
+    margin-right:auto;
+    width: 99.9999%;
+}*/
 
 #navMenu ul{
     font-family:georgia;

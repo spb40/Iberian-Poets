@@ -23,6 +23,7 @@ h2{
 
 h3{
     color:#FFB581;
+    clear:both;
 }
 
 a{
@@ -33,7 +34,6 @@ p{
     padding-right:20%;
     padding-left:20%;
     text-align:justify;
-
 }
 
 
@@ -54,36 +54,71 @@ li{
     padding-left:1%;
 }
 
-li > ul {
+li > ul{
     padding-left:2%;
-    list-style-type: disc;
+    list-style-type:disc;
     padding-right:0%;
 }
 
-li > ul > li > ul {
+li > ul > li > ul{
     padding-left:3%;
-    list-style-type: circle
+    list-style-type:circle
 }
 
 table{
-
     table-layout:fixed;
     border:5px #FF8822;
     margin-left:auto;
-    margin-right:auto
+    margin-right:auto;
 }
 
+table.sortable{
+    background-color:#ffff7d;
+    color:black;
+    table-layout:fixed;
+    border:5px #FF8822;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 tr.head{
     text-align:center;
-    text-transform:uppercase;
-    background-color:#D45710
+    background-color:#D45710;
+    height:40px;
+    font-size:large;
+
+}
+
+tr.head > th{
+    padding-left:7px
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
+    content:" \25B4\25BE"
 }
 
 
 td{
     padding:1%;
     vertical-align:middle
+}
+
+td.first{
+    padding:1%;
+    font-weight:bold;
+    color:black;
+    vertical-align:middle;
+    background-color:#FFED67;
+}
+
+td > p{
+    padding:0%;
+    text-align:center;
+}
+
+svg.poets{
+    padding-left:10%;
+    float:left;
 }
 
 /*#navMenu {
@@ -172,4 +207,4 @@ td{
 
 #navMenu ul li ul li a{
     color:#FF8822
-    }
+}

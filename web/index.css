@@ -23,18 +23,18 @@ body{
 {
     vertical-align:top;
     bottom:50px;
-    height:600px;
+    height:610px;
 }
 #left
 {
     float:left;
-    width:400px;
+    width:350px;
 }
 #right
 {
     float:right;
-    padding-right:2%;
-    width:630px;
+    padding-right:20px;
+    width:750px;
     overflow-y:scroll;
 }
 

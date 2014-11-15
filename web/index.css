@@ -11,6 +11,33 @@ body{
     background-position:top;
     margin-top:320px;
 }
+
+.container {
+    padding-right:4%;
+    padding-left:4%;
+    margin-bottom:50px;
+    min-height:100%;
+}
+
+.pane
+{
+    vertical-align:top;
+    bottom:50px;
+    height:600px;
+}
+#left
+{
+    float:left;
+    width:400px;
+}
+#right
+{
+    float:right;
+    padding-right:2%;
+    width:630px;
+    overflow-y:scroll;
+}
+
 h1{
     color:#D45710;
     padding-right:20%;

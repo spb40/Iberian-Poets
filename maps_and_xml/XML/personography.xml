@@ -142,7 +142,7 @@
                     </birth>
                     <socecStatus key="nb">Noble</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
-                    <floruit when="1223" to="1257" period="2" cert="low">
+                    <floruit from="1223" to="1257" period="2" cert="low">
                         <location cert="unknown" type="unknown">
                             <placeName type="short">Unknown location</placeName>
                         </location>
@@ -384,8 +384,8 @@
                     <socecStatus key="kn">Knight</socecStatus>
                     <occupation key="tr">Troubadour</occupation>
                     <floruit from="1240" to="1270" period="3">
-                        <location to="1252" corresp="#jaen"/>
-                        <location from="1253" corresp="#afonsX"/>
+                        <location from="1240" to="1252" corresp="#jaen"/>
+                        <location from="1253" to="1270" corresp="#afonsX"/>
                     </floruit>
                 </person>
 
@@ -422,7 +422,7 @@
                         <location from="1235" to="1237" corresp="#serpa"/>
                         <location from="1238" to="1241" corresp="#berenguer"/>
                         <location from="1242" to="1248" corresp="#jaen"/>
-                        <location from="1249" corresp="#afonsIII"/>
+                        <location from="1249" to="1270" corresp="#afonsIII"/>
                     </floruit>
                 </person>
 
@@ -709,7 +709,7 @@
                         <location from="1300" to="1318" corresp="#dinis"/>
                         <location corresp="#afonsXI" from="1319" to="1322"/>
                         <location from="1323" to="1325" corresp="#dinis"/>
-                        <location from="1326" corresp="#lalim"/>
+                        <location from="1326" to="1350" corresp="#lalim"/>
                     </floruit>
                 </person>
 

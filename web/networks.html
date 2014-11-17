@@ -7,78 +7,82 @@
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <div>
-        <h2>Caption</h2>
-            <table border="1" style="background-color:#ffff7d; color:black">
-                <tr class="head" style="color:#ffff7d">
-                <th colspan="2">Key</th>
-                <th>Legend</th>
-            </tr>
-            <tr>
-                <td rowspan="4">Edge color</td>
+        <div class="container" id="container">
+            <div class="pane" id="leftNetwork">
+                <h2>Caption</h2>
+                <table border="1" style="background-color:#ffff7d; color:black">
+                    <tr class="head" style="color:#ffff7d">
+                        <th colspan="2">Key</th>
+                        <th>Legend</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Edge color</td>
 
-                <td style="color:#1c3a5c; font-weight:bold">Dark blue</td>
-                <td>First and Second Periods</td>
-            </tr>
-            <tr>
-                <td style="color:#d45710; font-weight:bold">Orange</td>
-                <td>Third Period</td>
-            </tr>
-            <tr>
-                <td style="color:#b35249; font-weight:bold">Maroon</td>
-                <td>Fourth Period</td>
-            </tr>
-            <tr>
-                <td style="color:#0e4225; font-weight:bold">Dark green</td>
-                <td>Fifth Period</td>
-            </tr>
-            <tr>
-                <td colspan="2">Edge width</td>
-                <td>Edgebetweenness</td>
-            </tr>
-            <tr>
-                <td rowspan="4">Line stroke</td>
-                <td>Dots</td>
-                <td>Origin: Castilian</td>
-            </tr>
-            <tr>
-                <td>Dash</td>
-                <td>Origin: Aragonese, Italian or Occitan</td>
-            </tr>
-            <tr>
-                <td>Dot-dash</td>
-                <td>Origin: Galician</td>
-            </tr>
-            <tr>
-                <td>Solid line</td>
-                <td>Origin: Portuguese</td>
-            </tr>
-            <tr>
-                <td rowspan="4">Node color</td>
-                <td style="color:#f6ec00; font-weight:bold">Yellow</td>
-                <td>Royal court</td>
-            </tr>
-            <tr>
-                <td style="color:#ffb581; font-weight:bold">Pink</td>
-                <td>Lordship</td>
-            </tr>
-            <tr>
-                <td style="color:#ffffff; font-weight:bold">White</td>
-                <td>Troubadour</td>
-            </tr>
-            <tr>
-                <td style="color:#74523b; font-weight:bold">Brown</td>
-                <td>Geographical place</td>
-            </tr>
-            <tr>
-                <td colspan="2">Node and font sizes</td>
-                <td>Degree Centrality</td>
-            </tr>
-        </table>
-        </div>
-        <div>
-            <h4>Click on the image for better resolution</h4>
-            <a href="network-image.html"><img src="images/network-image.png" alt="network-small"/></a>
+                        <td style="color:#1c3a5c; font-weight:bold">Dark blue</td>
+                        <td>First and Second Periods</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#d45710; font-weight:bold">Orange</td>
+                        <td>Third Period</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#b35249; font-weight:bold">Maroon</td>
+                        <td>Fourth Period</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#0e4225; font-weight:bold">Dark green</td>
+                        <td>Fifth Period</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Edge width</td>
+                        <td>Edgebetweenness</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Line stroke</td>
+                        <td>Dots</td>
+                        <td>Origin: Castilian</td>
+                    </tr>
+                    <tr>
+                        <td>Dash</td>
+                        <td>Origin: Aragonese, Italian or Occitan</td>
+                    </tr>
+                    <tr>
+                        <td>Dot-dash</td>
+                        <td>Origin: Galician</td>
+                    </tr>
+                    <tr>
+                        <td>Solid line</td>
+                        <td>Origin: Portuguese</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Node color</td>
+                        <td style="color:#f6ec00; font-weight:bold">Yellow</td>
+                        <td>Royal court</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#ffb581; font-weight:bold">Pink</td>
+                        <td>Lordship</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#ffffff; font-weight:bold">White</td>
+                        <td>Troubadour</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#74523b; font-weight:bold">Brown</td>
+                        <td>Geographical place</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Node and font sizes</td>
+                        <td>Degree Centrality</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pane" id="rightNetwork">
+                <h2>Medieval troubadours' social network</h2>
+                <h4>Click on the image for better resolution</h4>
+                <a href="network-image.html"><img src="images/network-image.png" alt="network-small"
+                     /></a>
+            </div>
         </div>
     </body>
 </html>

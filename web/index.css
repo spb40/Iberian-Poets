@@ -13,8 +13,8 @@ body{
 }
 
 .container {
-    padding-right:4%;
-    padding-left:4%;
+    padding-right:2%;
+    padding-left:2%;
     margin-bottom:50px;
     min-height:100%;
 }
@@ -30,6 +30,13 @@ body{
     float:left;
     width:350px;
 }
+
+#leftNetwork
+{
+    float:left;
+    width:320px;
+}
+
 #right
 {
     float:right;
@@ -42,6 +49,11 @@ body{
 {
     float:right;
     width:750px;}
+
+#rightNetwork
+{
+    float:right;
+    width:850px;}
 
 h1{
     color:#D45710;

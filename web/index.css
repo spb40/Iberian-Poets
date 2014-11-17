@@ -23,7 +23,7 @@ body{
 {
     vertical-align:top;
     bottom:50px;
-    height:610px;
+    height:670px;
 }
 #left
 {
@@ -37,6 +37,11 @@ body{
     width:750px;
     overflow-y:scroll;
 }
+
+#rightEarth
+{
+    float:right;
+    width:750px;}
 
 h1{
     color:#D45710;

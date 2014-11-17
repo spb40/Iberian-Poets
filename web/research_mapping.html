@@ -22,8 +22,7 @@
             of how this poetic school had developed from a socio-historic point of view.</p>
         <h3>Methodology</h3>
         <ol>
-            <li>The personography
-                <ul>
+            <li>The personography <ul>
                     <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">Base
                                 de datos da Lírica Profana Galego-Portuguesa (MedDB)</a></em> as our
                         main source, we selected fifty-two troubadours attending to diachronic
@@ -40,9 +39,62 @@
                         XML schema (read more at the <a href="http://www.tei-c.org/index.xml">Text
                             Encoding Initiative</a> site).</li>
                     <li>For each poet, we marked-up his name, nationality, birthplace, social
-                        status, occupation, and affiliation.</li>
+                        status, occupation, and affiliation. We looked up this information into both
+                        in the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng"
+                                >MedDB</a></em> and the <em><a
+                                href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810"
+                                >Cantigas Medievais Galego Portuguesas</a></em> databases. We have
+                        also used <em><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                        </em> to get additional biographical information (especially of kings and
+                        counts).</li>
+                    <li>We added a <code>@certainty</code></li>
+                    <li> We used <a href="https://www.google.com/maps">Google Maps</a> and <a
+                            href="http://tools.wmflabs.org/geohack/">GeoHack</a> to find the
+                        coordinates of every geographical reference we had in the personography.
+                        introduced them inside a <code>&lt;geo&gt;</code>. Since we didn't use a
+                            <code>&lt;geoDecl&gt;</code> element in the TEI to define a coordinate
+                        system, we marked them up following the TEI default for such cases: the
+                        contents of our <code>&lt;geo&gt;</code> element are a pair of numbers
+                        separated by whitespace, to be interpreted as latitude followed by longitude
+                        according to the World Geodetic System.</li>
                     <li>We marked-up an ancillary file with every one of the affiliations,
-                        specifying wether it depended on a royal or a lordship patronage.</li>
+                        specifying whether it depended on a royal or a lordship patronage.</li>
+                </ul>
+            </li>
+            <li>The KML files <ul>
+                    <li>As a first step, we used XSLT for a XML to XML transformation in which we
+                        modified the coordinates to the KML standard, that is: three numbers
+                        separated by a comma, the first of them being the longitude, followed by the
+                        latitude and the altitude. Since the altitude reference was meaningless for
+                        our project, we added a 100 value as a default.</li>
+                    <li>Then we employed XSLT again to transform the recently created XML file to
+                        KML.</li>
+                    <li>This transformation included two different <code>&lt;Placemark&gt;</code>
+                        elements for each poet: one for their birthplace and one for their
+                        "journey." Inside the second one, the coordinates were inserted as children
+                        of a <code>&lt;LineString&gt;</code> element to draw the paths. There was
+                        also a <code>&lt;Placemark&gt;</code> element for every one of the
+                        affiliations. Since we had added <code>@certainty</code> attributes to
+                        mark-up the information that was dubious according to our sources, we
+                        referred to those values in our XSLT to create different
+                            <code>&lt;IconStyle&gt;</code> elements.</li>
+                    <li>We used the <code>@period</code> attribute of our personography to create
+                        five different KML files so we would have, as a result, one map for each
+                        period.</li>
+                    <li>For one of the transformations, instead of using the <code>@period</code>
+                        attribute as a filter, we introduced the range of years we had inside a
+                            <code>&lt;TimeSpan&gt;</code> element.</li>
+                </ul>
+            </li>
+            <li>Embeding the maps in our website <ul>
+                    <li>We uploaded the KML files into <a href="https://www.google.com/maps">Google
+                            Maps</a>.</li>
+                    <li>Then we opened in the <a href="https://developers.google.com/maps-engine/"
+                            >Google Maps Engine API</a>.</li>
+                    <li>After adding an additional description to our maps, we published them, we
+                        changed the sharing settings to "Public" and got the "shared link" that we
+                        introduced in our HTML file inside an <code>&lt;iframe&gt;</code>
+                        element.</li>
                 </ul>
             </li>
         </ol>
@@ -54,245 +106,5 @@
         </ul>
         <h3>Results</h3>
         <p>Some results</p>
-        <h4>Relationship between the poets' nationality and their period</h4>
-        <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
-            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" pointer-events="all"
-            width="600" height="600" version="1.1" id="svg3132" inkscape:version="0.48.3.1 r9886"
-            sodipodi:docname="nationality-period.svg">
-            <metadata id="metadata3258">
-                <rdf:RDF>
-                    <cc:Work rdf:about="">
-                        <dc:format>image/svg+xml</dc:format>
-                        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
-                        <dc:title></dc:title>
-                    </cc:Work>
-                </rdf:RDF>
-            </metadata>
-            <defs id="defs3256"></defs>
-            <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1"
-                objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0"
-                inkscape:pageshadow="2" inkscape:window-width="1301" inkscape:window-height="744"
-                id="namedview3254" showgrid="false" inkscape:zoom="0.59695218" inkscape:cx="951.5"
-                inkscape:cy="400" inkscape:window-x="65" inkscape:window-y="24"
-                inkscape:window-maximized="1" inkscape:current-layer="svg3132"></sodipodi:namedview>
-            <rect class="overlay" width="1903" height="800" id="rect3134" x="0" y="-200"
-                style="fill:white"></rect>
-            <g class="main" id="g3136"
-                transform="matrix(1.7374039,0,0,1.71626,-1359.9997,-285.70409)">
-                <g class="layer nodes" id="g3138">
-                    <circle class="node source" r="15.003587"
-                        transform="translate(1053.1211,371.22378)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3140"
-                        d="M 15.003587,0 C 15.003587,8.2862522 8.2862522,15.003587 0,15.003587 -8.2862522,15.003587 -15.003587,8.2862522 -15.003587,0 c 0,-8.2862522 6.7173348,-15.003587 15.003587,-15.003587 8.2862522,0 15.003587,6.7173348 15.003587,15.003587 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="15.003587"
-                        sodipodi:ry="15.003587"></circle>
-                    <circle class="node target" r="18.216368"
-                        transform="translate(956.77867,380.79822)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3142"
-                        d="m 18.216368,0 c 0,10.060622 -8.155746,18.216368 -18.216368,18.216368 -10.060622,0 -18.216368,-8.155746 -18.216368,-18.216368 0,-10.060622 8.155746,-18.216368 18.216368,-18.216368 10.060622,0 18.216368,8.155746 18.216368,18.216368 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="18.216368"
-                        sodipodi:ry="18.216368"></circle>
-                    <circle class="node source" r="15.003587"
-                        transform="translate(986.34247,287.73868)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3144"
-                        d="M 15.003587,0 C 15.003587,8.2862522 8.2862522,15.003587 0,15.003587 -8.2862522,15.003587 -15.003587,8.2862522 -15.003587,0 c 0,-8.2862522 6.7173348,-15.003587 15.003587,-15.003587 8.2862522,0 15.003587,6.7173348 15.003587,15.003587 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="15.003587"
-                        sodipodi:ry="15.003587"></circle>
-                    <circle class="node target" r="10.91795"
-                        transform="translate(1092.2144,319.58501)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3146"
-                        d="M 10.91795,0 C 10.91795,6.0298171 6.0298171,10.91795 0,10.91795 -6.0298171,10.91795 -10.91795,6.0298171 -10.91795,0 c 0,-6.0298171 4.8881329,-10.91795 10.91795,-10.91795 6.0298171,0 10.91795,4.8881329 10.91795,10.91795 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="10.91795"
-                        sodipodi:ry="10.91795"></circle>
-                    <circle class="node target" r="7.8861661"
-                        transform="translate(890.40704,249.17687)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3148"
-                        d="M 7.8861661,0 C 7.8861661,4.3554093 4.3554093,7.8861661 0,7.8861661 -4.3554093,7.8861661 -7.8861661,4.3554093 -7.8861661,0 c 0,-4.3554093 3.5307568,-7.8861661 7.8861661,-7.8861661 4.3554093,0 7.8861661,3.5307568 7.8861661,7.8861661 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="7.8861661"
-                        sodipodi:ry="7.8861661"></circle>
-                    <circle class="node source" r="6.5920725"
-                        transform="translate(854.99826,330.65072)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3150"
-                        d="M 6.5920725,0 C 6.5920725,3.6407011 3.6407011,6.5920725 0,6.5920725 -3.6407011,6.5920725 -6.5920725,3.6407011 -6.5920725,0 c 0,-3.6407011 2.9513714,-6.5920725 6.5920725,-6.5920725 3.6407011,0 6.5920725,2.9513714 6.5920725,6.5920725 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="6.5920725"
-                        sodipodi:ry="6.5920725"></circle>
-                    <circle class="node target" r="5" transform="translate(999.79131,195.45582)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3152"
-                        d="M 5,0 C 5,2.7614237 2.7614237,5 0,5 -2.7614237,5 -5,2.7614237 -5,0 c 0,-2.7614237 2.2385763,-5 5,-5 2.7614237,0 5,2.2385763 5,5 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="5"
-                        sodipodi:ry="5"></circle>
-                    <circle class="node source" r="3.9960265"
-                        transform="translate(864.36671,426.64771)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3154"
-                        d="m 3.9960265,0 c 0,2.2069445 -1.789082,3.9960265 -3.9960265,3.9960265 -2.2069445,0 -3.9960265,-1.789082 -3.9960265,-3.9960265 0,-2.2069445 1.789082,-3.9960265 3.9960265,-3.9960265 2.2069445,0 3.9960265,1.789082 3.9960265,3.9960265 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="3.9960265"
-                        sodipodi:ry="3.9960265"></circle>
-                    <circle class="node target" r="5.8463888"
-                        transform="translate(1062.7745,279.65798)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3156"
-                        d="M 5.8463888,0 C 5.8463888,3.2288714 3.2288714,5.8463888 0,5.8463888 -3.2288714,5.8463888 -5.8463888,3.2288714 -5.8463888,0 c 0,-3.2288714 2.6175174,-5.8463888 5.8463888,-5.8463888 3.2288714,0 5.8463888,2.6175174 5.8463888,5.8463888 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="5.8463888"
-                        sodipodi:ry="5.8463888"></circle>
-                    <circle class="node source" r="3.9960265"
-                        transform="translate(907.62109,472.40196)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3158"
-                        d="m 3.9960265,0 c 0,2.2069445 -1.789082,3.9960265 -3.9960265,3.9960265 -2.2069445,0 -3.9960265,-1.789082 -3.9960265,-3.9960265 0,-2.2069445 1.789082,-3.9960265 3.9960265,-3.9960265 2.2069445,0 3.9960265,1.789082 3.9960265,3.9960265 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="3.9960265"
-                        sodipodi:ry="3.9960265"></circle>
-                    <circle class="node source" r="5" transform="translate(903.92241,316.6132)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3160"
-                        d="M 5,0 C 5,2.7614237 2.7614237,5 0,5 -2.7614237,5 -5,2.7614237 -5,0 c 0,-2.7614237 2.2385763,-5 5,-5 2.7614237,0 5,2.2385763 5,5 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="5"
-                        sodipodi:ry="5"></circle>
-                    <circle class="node source" r="2.6876228"
-                        transform="translate(968.08784,485.35066)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3162"
-                        d="M 2.6876228,0 C 2.6876228,1.4843331 1.4843331,2.6876228 0,2.6876228 -1.4843331,2.6876228 -2.6876228,1.4843331 -2.6876228,0 c 0,-1.4843331 1.2032897,-2.6876228 2.6876228,-2.6876228 1.4843331,0 2.6876228,1.2032897 2.6876228,2.6876228 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="2.6876228"
-                        sodipodi:ry="2.6876228"></circle>
-                    <circle class="node source" r="2.6876228"
-                        transform="translate(1025.4874,457.41967)"
-                        style="fill:#bbbbbb;fill-opacity:0.95;stroke:#eeeeee;stroke-width:2px"
-                        id="circle3164"
-                        d="M 2.6876228,0 C 2.6876228,1.4843331 1.4843331,2.6876228 0,2.6876228 -1.4843331,2.6876228 -2.6876228,1.4843331 -2.6876228,0 c 0,-1.4843331 1.2032897,-2.6876228 2.6876228,-2.6876228 1.4843331,0 2.6876228,1.2032897 2.6876228,2.6876228 z"
-                        cx="0" cy="0" sodipodi:cx="0" sodipodi:cy="0" sodipodi:rx="2.6876228"
-                        sodipodi:ry="2.6876228"></circle>
-                </g>
-                <g class="layer labels" id="g3166">
-                    <g class="anchor-node" transform="translate(1063.3114,376.30159)" id="g3168">
-                        <text transform="translate(-2.3616706,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3170">Galician</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(958.00691,389.53381)" id="g3172">
-                        <text transform="translate(-2.5823035,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3174">3</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(987.83835,277.71968)" id="g3176">
-                        <text transform="translate(-26.422324,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3178">Portuguese</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(1105.023,318.24806)" id="g3180">
-                        <text transform="translate(-0.01891204,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3182">2</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(883.4596,238.43988)" id="g3184">
-                        <text transform="translate(-5.401373,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3186">4</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(841.83417,329.36338)" id="g3188">
-                        <text transform="translate(-49.881311,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3190">Castilian</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(1002.0445,183.17226)" id="g3192">
-                        <text transform="translate(-2.4587467,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3194">5</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(852.93691,432.03458)" id="g3196">
-                        <text transform="translate(-39.995976,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3198">Occitan</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(1071.2527,270.71493)" id="g3200">
-                        <text transform="translate(-0.78000897,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3202">1</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(901.87661,483.57168)" id="g3204">
-                        <text transform="translate(-41.534518,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3206">Aragonese</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(896.18689,310.33616)" id="g3208">
-                        <text transform="translate(-39.971474,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3210">Leonese</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(969.49729,498.08095)" id="g3212">
-                        <text transform="translate(-23.13885,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3214">Genovese</text>
-                    </g>
-                    <g class="anchor-node" transform="translate(1034.3642,466.47927)" id="g3216">
-                        <text transform="translate(-6.6029991,5)"
-                            style="font-size:11px;fill:#555555;font-family:'merriweather, Arial, Helvetica'"
-                            id="text3218">Sevillan</text>
-                    </g>
-                </g>
-                <g class="layer links" id="g3220">
-                    <path class="link" d="m 1053.1211,371.22378 -96.34243,9.57444" href="#path0_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3222" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 986.34247,287.73868 -29.5638,93.05954" href="#path2_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3224" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 1053.1211,371.22378 39.0933,-51.63877" href="#path0_3"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3226" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="M 986.34247,287.73868 890.40704,249.17687" href="#path2_4"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3228" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 854.99826,330.65072 101.78041,50.1475" href="#path5_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3230" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 986.34247,287.73868 13.44884,-92.28286" href="#path2_6"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3232" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 986.34247,287.73868 105.87193,31.84633" href="#path2_3"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3234" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 864.36671,426.64771 92.41196,-45.84949" href="#path7_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3236" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 1053.1211,371.22378 9.6534,-91.5658" href="#path0_8"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3238" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 986.34247,287.73868 76.43203,-8.0807" href="#path2_8"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3240" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 907.62109,472.40196 49.15758,-91.60374" href="#path9_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3242" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 903.92241,316.6132 52.85626,64.18502" href="#path10_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3244" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="M 968.08784,485.35066 956.77867,380.79822"
-                        href="#path11_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3246" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="m 854.99826,330.65072 35.40878,-81.47385" href="#path5_4"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3248" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="M 903.92241,316.6132 890.40704,249.17687" href="#path10_4"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3250" inkscape:connector-curvature="0"></path>
-                    <path class="link" d="M 1025.4874,457.41967 956.77867,380.79822"
-                        href="#path12_1"
-                        style="fill:none;stroke:#666666;stroke-width:1px;stroke-opacity:0.5"
-                        id="path3252" inkscape:connector-curvature="0"></path>
-                </g>
-            </g>
-        </svg>
     </body>
 </html>

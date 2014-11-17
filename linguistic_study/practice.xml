@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_diachronic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt></publicationStmt>
+            <sourceDesc></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>
+                    <name>
+                        <persName corresp="#sdfs"></persName>
+                        <affiliation>Period 1</affiliation>
+                    </name>
+                    <title>First linesdflsd</title>
+                </head>
+                <lg>
+                    <lg type="stanza">
+                    <l></l>
+                </lg>
+                </lg>
+            </div>
+            <div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

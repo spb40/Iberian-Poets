@@ -26,39 +26,68 @@
                     <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">Base
                                 de datos da Lírica Profana Galego-Portuguesa (MedDB)</a></em> as our
                         main source, we selected fifty-two troubadours attending to diachronic
-                        criteria. We chose very poet from the first, fourth and five periods: their
-                        lower number forced us to do so, because otherwise we would not be working
-                        with a significant corpus. From the second period, we left out the seven
-                        poets with the lowest certainty about their biographies. For the selection
-                        of the poets from the third period, which represents 75% of the corpus,
-                        besides certainty, we added other criteria such as the origin (selecting
-                        every poet who wasn't Galician or Portuguese, so other nationalities were
-                        represented) or the number of songs preserved (as a way to discern the most
-                        important authors).</li>
+                        criteria. We chose every poet from the first, fourth and five periods: the
+                        lower number of poets from these periods forced us to select them all so as
+                        to work with a significant corpus. From the second period, we left out the
+                        seven poets with the lowest certainty about their biographies. For the
+                        selection of the poets from the third period, which represents 75% of the
+                        corpus, besides certainty, we added other criteria such as the origin
+                        (selecting every poet who wasn't Galician or Portuguese, so other
+                        nationalities were represented) or the number of songs preserved (as a way
+                        to discern the most important authors).</li>
                     <li>We used <a href="http://www.tei-c.org/Roma">TEI Roma</a> to customize our
                         XML schema (read more at the <a href="http://www.tei-c.org/index.xml">Text
                             Encoding Initiative</a> site).</li>
                     <li>For each poet, we marked-up his name, nationality, birthplace, social
-                        status, occupation, and affiliation. We looked up this information into both
-                        in the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng"
-                                >MedDB</a></em> and the <em><a
+                        status, occupation, and affiliation. We looked up this information into two
+                        databases: in the <em><a
+                                href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">MedDB</a></em>
+                        and the <em><a
                                 href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810"
-                                >Cantigas Medievais Galego Portuguesas</a></em> databases. We have
-                        also used <em><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                                >Cantigas Medievais Galego Portuguesas</a></em>. We have also used
+                                <em><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
                         </em> to get additional biographical information (especially of kings and
                         counts).</li>
-                    <li>We added a <code>@certainty</code></li>
+                    <li>We added a <code>@certainty</code> attribute inside every
+                            <code>&lt;nationality&gt;</code> element whose values go from "low" and
+                        "medium" to "high". When there were was other pieces of information whose
+                        certainty was questioned by our sources, we coded them using again this
+                        attribute with values that went from "unknown" to "low and "medium."</li>
                     <li> We used <a href="https://www.google.com/maps">Google Maps</a> and <a
-                            href="http://tools.wmflabs.org/geohack/">GeoHack</a> to find the
+                            href="http://tools.wmflabs.org/geohack/">GeoHack</a> to find out the
                         coordinates of every geographical reference we had in the personography.
-                        introduced them inside a <code>&lt;geo&gt;</code>. Since we didn't use a
-                            <code>&lt;geoDecl&gt;</code> element in the TEI to define a coordinate
-                        system, we marked them up following the TEI default for such cases: the
-                        contents of our <code>&lt;geo&gt;</code> element are a pair of numbers
-                        separated by whitespace, to be interpreted as latitude followed by longitude
-                        according to the World Geodetic System.</li>
-                    <li>We marked-up an ancillary file with every one of the affiliations,
-                        specifying whether it depended on a royal or a lordship patronage.</li>
+                        Then we tagged them inside a <code>&lt;geo&gt;</code>. Since we did not add
+                        a <code>&lt;geoDecl&gt;</code> element in the TEI header to define a
+                        coordinate system, we marked them up following the TEI default for such
+                        cases: the contents of our <code>&lt;geo&gt;</code> element are a pair of
+                        numbers separated by whitespace, to be interpreted as latitude followed by
+                        longitude according to the World Geodetic System. <br/>
+                        <code> &lt;person xml:id="NuRdzCan"&gt; <br />&#x2003;&#x2003; &lt;persName&gt;Nuno
+                            Rodriguez de Candarei&lt;/persName&gt; <br />&#x2003;&#x2003; &lt;nationality
+                            cert="high" key="gl"&gt;Galician&lt;/nationality&gt; <br />&#x2003;&#x2003; &lt;birth
+                            cert="low"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location&gt;
+                            <br />&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;placeName&gt;Penafiel&lt;/placeName&gt; <br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;geo&gt;41.206058,-8.290484&lt;/geo&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;&lt;/location&gt;
+                            <br />&#x2003;&#x2003; &lt;/birth&gt; <br />&#x2003;&#x2003; &lt;occupation
+                            key="tr"&gt;Troubadour&lt;/occupation&gt; <br />&#x2003;&#x2003; &lt;socecStatus
+                            key="nb"&gt;Noble&lt;/socecStatus&gt; <br />&#x2003;&#x2003; &lt;floruit from="1225"
+                            to="1250" period="2"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location corresp="#jaen"/&gt; <br />&#x2003;&#x2003;
+                            &lt;location corresp="#afonsX"/&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location
+                            corresp="#sanchoIV"/&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location corresp="#soesto"/&gt;
+                            <br />&#x2003;&#x2003; &lt;/floruit&gt; <br />&lt;/person&gt; </code>
+                    </li>
+                    <li>We marked-up an ancillary file with every one of the affiliations, which
+                        explains the <code>@corresp</code> values inside
+                            <code>floruit/location</code>. We specified whether every one of them
+                        depended on a royal or a lordship patronage. <br/>
+                        <code> &lt;place xml:id="soesto" type="noble"&gt; <br />&#x2003;&#x2003; &lt;location&gt;
+                            <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName type="short"&gt;Rodrigo Gómez&lt;/placeName&gt;
+                            <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName type="full"&gt;Court of Rodrigo Gómez de
+                            Trastámara&lt;/placeName&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
+                            &lt;geo&gt;43.65,-7.583333&lt;/geo&gt; <br />&#x2003;&#x2003; &lt;/location&gt; <br />
+                            &lt;/place&gt; </code>
+                    </li>
+
                 </ul>
             </li>
             <li>The KML files <ul>
@@ -82,7 +111,8 @@
                         five different KML files so we would have, as a result, one map for each
                         period.</li>
                     <li>For one of the transformations, instead of using the <code>@period</code>
-                        attribute as a filter, we introduced the range of years we had inside a
+                        attribute as a filter, we introduced the range of years we had coded inside
+                            <code>@from</code> and <code>@to</code> attributes within a
                             <code>&lt;TimeSpan&gt;</code> element.</li>
                 </ul>
             </li>
@@ -105,6 +135,120 @@
             <li>Nationality values for locating poets</li>
         </ul>
         <h3>Results</h3>
-        <p>Some results</p>
+        <h4>Relationship between the origin of the poets and their period of activity</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1250" height="125">
+            <g>
+                <rect fill="none" height="20" width="900" x="137" y="20" stroke="black"
+                    stroke-width="2"></rect>
+                <text fill="white" font-size="12" x="1047" y="34"> (55.38%)</text>
+                <text fill="white" x="50" y="38">3rd period</text>
+                <g>
+                    <rect fill=" #ffed67" height="20" width="325" x="137" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="310" text-anchor="middle"
+                        >36.1%</text>
+                </g>
+                <g>
+                    <rect fill=" #d45710" height="20" width="275" x="462" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="598" text-anchor="middle"
+                        >30.6%</text>
+                </g>
+                <g>
+                    <rect fill=" #008F8D" height="20" width="175" x="737" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="830" text-anchor="middle"
+                        >19.5%</text>
+                </g>
+                <g>
+                    <rect fill=" #75CC50" height="20" width="50" x="912" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="937" text-anchor="middle">5.6%</text>
+                </g>
+
+                <g>
+                    <rect fill=" #E89301" height="20" width="50" x="962" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="982" text-anchor="middle">5.6%</text>
+                </g>
+                <g>
+                    <rect fill=" #ffff7d" height="20" width="25" x="1012" y="20"></rect>
+                    <text font-size="9" fill="black" y="33" x="1025" text-anchor="middle"
+                        >2.8%</text>
+                </g>
+            </g>
+            <g>
+                <rect fill="none" height="20" width="350" x="137" y="40" stroke="black"
+                    stroke-width="2"></rect>
+                <text fill="white" font-size="12" x="497" y="54"> (21.54%)</text>
+                <text fill="white" x="50" y="58">2nd period</text>
+                <g>
+                    <rect fill=" #ffed67" height="20" width="275" x="137" y="40"></rect>
+                    <text font-size="9" fill="black" y="53" x="257" text-anchor="middle"
+                        >78.6%</text>
+                </g>
+                <g>
+                    <rect fill=" #d45710" height="20" width="75" x="412" y="40"></rect>
+                    <text font-size="9" fill="black" y="53" x="445" text-anchor="middle"
+                        >21.4%</text>
+                </g>
+            </g>
+            <g>
+                <rect fill="none" height="20" width="175" x="137" y="60" stroke="black"
+                    stroke-width="2"></rect>
+                <text fill="white" font-size="12" x="322" y="74"> (10.77%)</text>
+                <text fill="white" x="50" y="78">4th period</text>
+                <g>
+                    <rect fill=" #d45710" height="20" width="125" x="137" y="60"></rect>
+                    <text font-size="9" fill="black" y="73" x="200" text-anchor="middle"
+                        >71.4%</text>
+                </g>
+                <g>
+                    <rect fill=" #008F8D" height="20" width="50" x="262" y="60"></rect>
+                    <text font-size="9" fill="black" y="73" x="288" text-anchor="middle"
+                        >28.6%</text>
+                </g>
+            </g>
+            <g>
+                <rect fill="none" height="20" width="125" x="137" y="80" stroke="black"
+                    stroke-width="2"></rect>
+                <text fill="white" font-size="12" x="272" y="94"> (7.69%)</text>
+                <text fill="white" x="50" y="98">1st period</text>
+                <g>
+                    <rect fill=" #ffed67" height="20" width="75" x="137" y="80"></rect>
+                    <text font-size="9" fill="black" y="93" x="170" text-anchor="middle">60%</text>
+                </g>
+                <g>
+                    <rect fill=" #d45710" height="20" width="50" x="212" y="80"></rect>
+                    <text font-size="9" fill="black" y="93" x="242" text-anchor="middle">40%</text>
+                </g>
+            </g>
+            <g>
+                <rect fill="none" height="20" width="75" x="137" y="100" stroke="black"
+                    stroke-width="2"></rect>
+                <text fill="white" font-size="12" x="222" y="114"> (4.62%)</text>
+                <text fill="white" x="50" y="118">5th period</text>
+                <g>
+                    <rect fill=" #d45710" height="20" width="75" x="137" y="100"></rect>
+                    <text font-size="9" fill="black" y="113" x="170" text-anchor="middle"
+                        >100%</text>
+                </g>
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+            <rect x="137" y="20" rx="2" ry="2" width="20" height="20" fill="#ffed67" stroke="black"
+                stroke-width="1"></rect>
+            <text x="167" y="35" fill="white">Galician</text>
+            <rect x="287" y="20" rx="2" ry="2" width="20" height="20" fill="#d45710" stroke="black"
+                stroke-width="1"></rect>
+            <text x="317" y="35" fill="white">Portuguese</text>
+            <rect x="437" y="20" rx="2" ry="2" width="20" height="20" fill="#008F8D" stroke="black"
+                stroke-width="1"></rect>
+            <text x="477" y="35" fill="white">Castilian</text>
+            <rect x="597" y="20" rx="2" ry="2" width="20" height="20" fill="#75CC50" stroke="black"
+                stroke-width="1"></rect>
+            <text x="627" y="35" fill="white">Aragonese</text>
+            <rect x="747" y="20" rx="2" ry="2" width="20" height="20" fill="#E89301" stroke="black"
+                stroke-width="1"></rect>
+            <text x="777" y="35" fill="white">Occitan</text>
+            <rect x="897" y="20" rx="2" ry="2" width="20" height="20" fill="#ffff7d" stroke="black"
+                stroke-width="1"></rect>
+            <text x="927" y="35" fill="white">Italian</text>
+        </svg>
     </body>
 </html>

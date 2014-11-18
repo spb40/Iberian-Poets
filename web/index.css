@@ -5,14 +5,20 @@ body{
     font-family:georgia;
     text-align:center;
     padding-top:20px;
-    padding-bottom:30px;
+    padding-bottom:25px;
     background-image:url('images/banner.png');
     background-repeat:no-repeat;
     background-position:top;
     margin-top:320px;
+    margin-bottom:25px;
 }
 
-.container {
+code{
+font-size:larger;
+    color:#FFff7d;
+}
+
+.container{
     padding-right:2%;
     padding-left:2%;
     margin-bottom:50px;
@@ -48,21 +54,25 @@ body{
 #rightEarth
 {
     float:right;
-    width:750px;}
+    width:750px;
+}
 
 #rightNetwork
 {
     float:right;
-    width:850px;}
+    width:850px;
+}
 
 h1{
     color:#D45710;
     padding-right:20%;
     padding-left:20%;
     font-weight:bold;
+    clear:both;
 }
 h2{
     color:#FFED67;
+    clear:both;
 }
 
 h3{
@@ -116,11 +126,19 @@ table{
     margin-right:auto;
 }
 
+
+td{
+    vertical-align:middle;
+    padding:0.8%;
+}
+ 
+
 table.sortable{
     background-color:#ffff7d;
     color:black;
     table-layout:fixed;
-    border:5px #FF8822;
+    width:850px;
+    border:2px #FF8822;
     margin-left:auto;
     margin-right:auto;
 }
@@ -130,25 +148,26 @@ tr.head{
     background-color:#D45710;
     height:40px;
     font-size:large;
-
 }
 
-tr.head > th{
-    padding-left:7px
+
+th.period,
+td.period{
+    width:80px;
 }
+
+table.sortable tr.head {padding:1.2%}
+
+table.sortable tr:nth-child(3), th:nth-child(3) {width:110px}
+table.sortable tr:nth-child(2), th:nth-child(2) {width:120px}
+table.sortable tr:nth-child(4), th:nth-child(4) {width:125px}
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:" \25B4\25BE"
+    content:"\000B\25B4\25BE"
 }
 
-
-td{
-    padding:1%;
-    vertical-align:middle
-}
 
 td.first{
-    padding:1%;
     font-weight:bold;
     color:black;
     vertical-align:middle;
@@ -157,6 +176,8 @@ td.first{
 
 td > p{
     padding:0%;
+    margin-top:0%;
+    margin-bottom:0%;
     text-align:center;
 }
 

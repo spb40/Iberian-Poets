@@ -56,36 +56,51 @@
                     <li> We used <a href="https://www.google.com/maps">Google Maps</a> and <a
                             href="http://tools.wmflabs.org/geohack/">GeoHack</a> to find out the
                         coordinates of every geographical reference we had in the personography.
-                        Then we tagged them inside a <code>&lt;geo&gt;</code>. Since we did not add
-                        a <code>&lt;geoDecl&gt;</code> element in the TEI header to define a
+                        Then we tagged them inside a <code>&lt;geo&gt;</code> element. Since we did
+                        not add a <code>&lt;geoDecl&gt;</code> element in the TEI header to define a
                         coordinate system, we marked them up following the TEI default for such
                         cases: the contents of our <code>&lt;geo&gt;</code> element are a pair of
                         numbers separated by whitespace, to be interpreted as latitude followed by
-                        longitude according to the World Geodetic System. <br/>
-                        <code> &lt;person xml:id="NuRdzCan"&gt; <br />&#x2003;&#x2003; &lt;persName&gt;Nuno
-                            Rodriguez de Candarei&lt;/persName&gt; <br />&#x2003;&#x2003; &lt;nationality
-                            cert="high" key="gl"&gt;Galician&lt;/nationality&gt; <br />&#x2003;&#x2003; &lt;birth
-                            cert="low"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location&gt;
-                            <br />&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;placeName&gt;Penafiel&lt;/placeName&gt; <br />
-                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;geo&gt;41.206058,-8.290484&lt;/geo&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;&lt;/location&gt;
-                            <br />&#x2003;&#x2003; &lt;/birth&gt; <br />&#x2003;&#x2003; &lt;occupation
-                            key="tr"&gt;Troubadour&lt;/occupation&gt; <br />&#x2003;&#x2003; &lt;socecStatus
-                            key="nb"&gt;Noble&lt;/socecStatus&gt; <br />&#x2003;&#x2003; &lt;floruit from="1225"
-                            to="1250" period="2"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location corresp="#jaen"/&gt; <br />&#x2003;&#x2003;
-                            &lt;location corresp="#afonsX"/&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location
-                            corresp="#sanchoIV"/&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location corresp="#soesto"/&gt;
-                            <br />&#x2003;&#x2003; &lt;/floruit&gt; <br />&lt;/person&gt; </code>
+                        longitude according to the World Geodetic System.
+                        <div class="code">
+                            <code class="block">
+                                &lt;person xml:id="NuRdzCan"&gt; <br />&#x2003;&#x2003;
+                                &lt;persName&gt;Nuno Rodriguez de Candarei&lt;/persName&gt;
+                                <br />&#x2003;&#x2003; &lt;nationality cert="high"
+                                key="gl"&gt;Galician&lt;/nationality&gt; <br />&#x2003;&#x2003;
+                                &lt;birth cert="low"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
+                                &lt;location&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;placeName&gt;Penafiel&lt;/placeName&gt;
+                                <br />
+                                &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;geo&gt;41.206058,-8.290484&lt;/geo&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003;&lt;/location&gt;
+                                <br />&#x2003;&#x2003; &lt;/birth&gt; <br />&#x2003;&#x2003;
+                                &lt;occupation key="tr"&gt;Troubadour&lt;/occupation&gt;
+                                <br />&#x2003;&#x2003; &lt;socecStatus
+                                key="nb"&gt;Noble&lt;/socecStatus&gt; <br />&#x2003;&#x2003;
+                                &lt;floruit from="1225" to="1250" period="2"&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location
+                                corresp="#jaen"/&gt; <br />&#x2003;&#x2003; &lt;location
+                                corresp="#afonsX"/&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
+                                &lt;location corresp="#sanchoIV"/&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location
+                                corresp="#soesto"/&gt; <br />&#x2003;&#x2003; &lt;/floruit&gt;
+                                <br />&lt;/person&gt; </code>
+                        </div>
                     </li>
                     <li>We marked-up an ancillary file with every one of the affiliations, which
                         explains the <code>@corresp</code> values inside
                             <code>floruit/location</code>. We specified whether every one of them
-                        depended on a royal or a lordship patronage. <br/>
-                        <code> &lt;place xml:id="soesto" type="noble"&gt; <br />&#x2003;&#x2003; &lt;location&gt;
-                            <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName type="short"&gt;Rodrigo Gómez&lt;/placeName&gt;
-                            <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName type="full"&gt;Court of Rodrigo Gómez de
-                            Trastámara&lt;/placeName&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
-                            &lt;geo&gt;43.65,-7.583333&lt;/geo&gt; <br />&#x2003;&#x2003; &lt;/location&gt; <br />
-                            &lt;/place&gt; </code>
+                        depended on a royal or a lordship patronage. <div class="code">
+                            <code class="block"> &lt;place xml:id="soesto" type="noble"&gt; <br />&#x2003;&#x2003;
+                                &lt;location&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
+                                &lt;placeName type="short"&gt;Rodrigo Gómez&lt;/placeName&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName
+                                type="full"&gt;Court of Rodrigo Gómez de
+                                Trastámara&lt;/placeName&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
+                                &lt;geo&gt;43.65,-7.583333&lt;/geo&gt; <br />&#x2003;&#x2003;
+                                &lt;/location&gt; <br /> &lt;/place&gt; </code>
+                        </div>
                     </li>
 
                 </ul>

@@ -14,8 +14,21 @@ body{
 }
 
 code{
-font-size:larger;
+    font-size:larger;
     color:#FFff7d;
+}
+code.block{
+    color:#444444;
+}
+
+div.code{
+    width:95%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-left:30px;
+    padding-bottom:10px;
+    background-color:#FFff7d;
 }
 
 .container{
@@ -131,7 +144,7 @@ td{
     vertical-align:middle;
     padding:0.8%;
 }
- 
+
 
 table.sortable{
     background-color:#ffff7d;
@@ -156,11 +169,22 @@ td.period{
     width:80px;
 }
 
-table.sortable tr.head {padding:1.2%}
+table.sortable tr.head{
+    padding:1.2%
+}
 
-table.sortable tr:nth-child(3), th:nth-child(3) {width:110px}
-table.sortable tr:nth-child(2), th:nth-child(2) {width:120px}
-table.sortable tr:nth-child(4), th:nth-child(4) {width:125px}
+table.sortable tr:nth-child(3),
+th:nth-child(3){
+    width:110px
+}
+table.sortable tr:nth-child(2),
+th:nth-child(2){
+    width:120px
+}
+table.sortable tr:nth-child(4),
+th:nth-child(4){
+    width:125px
+}
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
     content:"\000B\25B4\25BE"

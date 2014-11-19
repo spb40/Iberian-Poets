@@ -16,6 +16,7 @@ body{
 code{
     font-size:larger;
     color:#FFff7d;
+    font-weight:bold;
 }
 code.block{
     color:#444444;
@@ -23,10 +24,12 @@ code.block{
 
 div.code{
     width:95%;
+    text-align:left;
     margin-top:20px;
     margin-bottom:20px;
     padding-top:10px;
     padding-left:30px;
+    padding-right:10px;
     padding-bottom:10px;
     background-color:#FFff7d;
 }
@@ -36,44 +39,44 @@ div.code{
     padding-left:2%;
     margin-bottom:50px;
     min-height:100%;
+    width:99%;
 }
 
 .pane
 {
     vertical-align:top;
     bottom:50px;
-    height:670px;
+    height:750px;
 }
 #left
 {
     float:left;
-    width:350px;
+    width:27%;
 }
 
 #leftNetwork
 {
     float:left;
-    width:320px;
+    width:25%;
 }
 
 #right
 {
     float:right;
-    padding-right:20px;
-    width:750px;
+    width:70%;
     overflow-y:scroll;
 }
 
 #rightEarth
 {
     float:right;
-    width:750px;
+    width:75%;
 }
 
 #rightNetwork
 {
     float:right;
-    width:850px;
+    width:75%;
 }
 
 h1{
@@ -143,7 +146,7 @@ table{
 
 td{
     vertical-align:middle;
-    padding:0.8%;
+    padding:1%;
 }
 
 
@@ -155,6 +158,10 @@ table.sortable{
     border:2px #FF8822;
     margin-left:auto;
     margin-right:auto;
+}
+
+table.sortable td{
+    padding:0.8%;
 }
 
 tr.head{
@@ -188,7 +195,7 @@ th:nth-child(4){
 }
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:"\000B\25B4\25BE"
+    content:"\25B2\25BC"
 }
 
 

@@ -61,15 +61,13 @@
                         coordinate system, we marked them up following the TEI default for such
                         cases: the contents of our <code>&lt;geo&gt;</code> element are a pair of
                         numbers separated by whitespace, to be interpreted as latitude followed by
-                        longitude according to the World Geodetic System.
-                        <div class="code">
-                            <code class="block">
-                                &lt;person xml:id="NuRdzCan"&gt; <br />&#x2003;&#x2003;
-                                &lt;persName&gt;Nuno Rodriguez de Candarei&lt;/persName&gt;
-                                <br />&#x2003;&#x2003; &lt;nationality cert="high"
-                                key="gl"&gt;Galician&lt;/nationality&gt; <br />&#x2003;&#x2003;
-                                &lt;birth cert="low"&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
-                                &lt;location&gt;
+                        longitude according to the World Geodetic System. <div class="code">
+                            <code class="block"> &lt;person xml:id="NuRdzCan"&gt;
+                                <br />&#x2003;&#x2003; &lt;persName&gt;Nuno Rodriguez de
+                                Candarei&lt;/persName&gt; <br />&#x2003;&#x2003; &lt;nationality
+                                cert="high" key="gl"&gt;Galician&lt;/nationality&gt;
+                                <br />&#x2003;&#x2003; &lt;birth cert="low"&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;location&gt;
                                 <br />&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;placeName&gt;Penafiel&lt;/placeName&gt;
                                 <br />
                                 &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;geo&gt;41.206058,-8.290484&lt;/geo&gt;
@@ -92,9 +90,10 @@
                         explains the <code>@corresp</code> values inside
                             <code>floruit/location</code>. We specified whether every one of them
                         depended on a royal or a lordship patronage. <div class="code">
-                            <code class="block"> &lt;place xml:id="soesto" type="noble"&gt; <br />&#x2003;&#x2003;
-                                &lt;location&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
-                                &lt;placeName type="short"&gt;Rodrigo Gómez&lt;/placeName&gt;
+                            <code class="block"> &lt;place xml:id="soesto" type="noble"&gt;
+                                <br />&#x2003;&#x2003; &lt;location&gt;
+                                <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName
+                                type="short"&gt;Rodrigo Gómez&lt;/placeName&gt;
                                 <br />&#x2003;&#x2003;&#x2003;&#x2003; &lt;placeName
                                 type="full"&gt;Court of Rodrigo Gómez de
                                 Trastámara&lt;/placeName&gt; <br />&#x2003;&#x2003;&#x2003;&#x2003;
@@ -116,12 +115,77 @@
                     <li>This transformation included two different <code>&lt;Placemark&gt;</code>
                         elements for each poet: one for their birthplace and one for their
                         "journey." Inside the second one, the coordinates were inserted as children
-                        of a <code>&lt;LineString&gt;</code> element to draw the paths. There was
-                        also a <code>&lt;Placemark&gt;</code> element for every one of the
-                        affiliations. Since we had added <code>@certainty</code> attributes to
-                        mark-up the information that was dubious according to our sources, we
-                        referred to those values in our XSLT to create different
-                            <code>&lt;IconStyle&gt;</code> elements.</li>
+                        of a <code>&lt;LineString&gt;</code> element to draw the paths.<br />
+                        <div class="code"><code class="block"> &lt;Placemark&gt;<br /> &#x2003;
+                            &#x2003;&lt;name&gt;Garcia Mendiz d' Eixo&lt;/name&gt;<br /> &#x2003;
+                            &#x2003;&lt;description&gt;Eixo, Garcia Mendiz d' Eixo's place of
+                            birth&lt;/description&gt;<br /> &#x2003; &#x2003;&lt;Style&gt;<br />
+                            &#x2003; &#x2003; &#x2003; &#x2003;&lt;IconStyle&gt;<br /> &#x2003;
+                            &#x2003; &#x2003; &#x2003; &#x2003; &#x2003;&lt;Icon&gt;<br /> &#x2003;
+                            &#x2003; &#x2003; &#x2003; &#x2003; &#x2003; &#x2003;
+                            &#x2003;&lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;<br />
+                            &#x2003; &#x2003; &#x2003; &#x2003; &#x2003; &#x2003;&lt;/Icon&gt;<br />
+                            &#x2003; &#x2003; &#x2003; &#x2003;&lt;/IconStyle&gt;<br /> &#x2003;
+                            &#x2003;&lt;/Style&gt;<br /> &#x2003; &#x2003;&lt;Point&gt;<br />
+                            &#x2003; &#x2003; &#x2003;
+                            &#x2003;&lt;coordinates&gt;-8.570415,40.631709,100&lt;/coordinates&gt;<br />
+                            &#x2003; &#x2003;&lt;/Point&gt;<br /> &lt;/Placemark&gt;<br />
+                            &lt;Placemark&gt;<br /> &#x2003; &#x2003;&lt;description&gt;Garcia
+                            Mendiz d' Eixo's journey&lt;/description&gt;<br /> &#x2003;
+                            &#x2003;&lt;styleUrl&gt;#WhiteLine&lt;/styleUrl&gt;<br /> &#x2003;
+                            &#x2003;&lt;LineString&gt;<br /> &#x2003; &#x2003; &#x2003;
+                            &#x2003;&lt;tessellate&gt;0&lt;/tessellate&gt;<br /> &#x2003; &#x2003;
+                            &#x2003; &#x2003;&lt;coordinates&gt;-8.570415,40.631709,100
+                            -8.47,40.24,200 -0.883533,41.650192,100 -8.520278,41.087778,100
+                            -5.570956,42.600636,100&lt;/coordinates&gt;<br /> &#x2003;
+                            &#x2003;&lt;/LineString&gt;<br /> &lt;/Placemark&gt; </code></div>
+                    </li>
+                    <li>We stablished also a <code>&lt;Placemark&gt;</code> element for every one of
+                        the affiliations.<br />
+                        <div class="code"><code class="block"> &lt;Placemark&gt;<br /> &#x2003;&#x2003;&lt;name&gt;The
+                            Sousas&lt;/name&gt;<br /> &#x2003;&#x2003;&lt;description&gt;Court of D.
+                            Gonçalo Garcia de Sousa (noble court)&lt;/description&gt;<br />
+                            &#x2003;&#x2003;&lt;Style&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&lt;IconStyle&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/red-circle.png&lt;/href&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&lt;/IconStyle&gt;<br />
+                            &#x2003;&#x2003;&lt;/Style&gt;<br /> &#x2003;&#x2003;&lt;Point&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&lt;coordinates&gt;-8.520278,41.087778,100&lt;/coordinates&gt;<br />
+                            &#x2003;&#x2003;&lt;/Point&gt;<br /> &lt;/Placemark&gt;<br />
+                        </code></div>
+                    </li>
+                    <li>>Since we had added <code>@certainty</code> attributes to mark-up the
+                        information that was dubious according to our sources, we referred to those
+                        values in our XSLT to create different <code>&lt;IconStyle&gt;</code> elements.<br />
+                        <div class="code"><code class="block"> &lt;xsl:template
+                            match="person[floruit[@period='1']]"&gt;<br /> &#x2003;&#x2003;&lt;!--
+                            Other stuff --&gt;<br /> &#x2003;&#x2003;&lt;IconStyle&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&lt;xsl:choose&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;xsl:when
+                            test="birth[@cert='low']"&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/xsl:when&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;xsl:when test=<br/>
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;"birth/location[@cert='unknown']<br/>
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;| birth/location[@cert='low']"&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/xsl:when&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;xsl:otherwise&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/Icon&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&#x2003;&lt;/xsl:otherwise&gt;<br />
+                            &#x2003;&#x2003;&#x2003;&#x2003;&lt;/xsl:choose&gt;<br />
+                            &#x2003;&#x2003;&lt;/IconStyle&gt; <br /> &#x2003;&#x2003;&lt;!-- More
+                            stuff --&gt;<br /> &lt;/xsl:template&gt;<br />
+                        </code></div>
+                    </li>
                     <li>We used the <code>@period</code> attribute of our personography to create
                         five different KML files so we would have, as a result, one map for each
                         period.</li>

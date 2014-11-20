@@ -73,7 +73,7 @@
                 <fs xml:id="vosco" feats="#accented #p5 #comitative #archaic"/>
                 <fs xml:id="li" feats="#archaic #assimilation #dative #p3 #unaccented"/>
                 <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern #unaccented"/>
-                <fs xml:id="lh" feats="#p3 #dative #assimilation #not_vowel"></fs>
+                <fs xml:id="lh_" feats="#p3 #dative #assimilation #not_vowel"></fs>
                 <fs xml:id="lhi" feats="#archaic #assimilation #dative #p3 #unaccented #analogy"/>
                 <fs xml:id="lis" feats="#archaic #assimilation #dative #p6 #unaccented"/>
                 <fs xml:id="lhis" feats="#archaic #assimilation #dative #p6 #unaccented #analogy"></fs>

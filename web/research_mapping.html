@@ -7,7 +7,7 @@
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <h2>Mapping Medieval Galician-Portuguese Poets</h2>
+        <h1>Mapping Medieval Galician-Portuguese Poets</h1>
         <p>NEEDS TO BE PROOFREAD. KEEP READING AT YOUR OWN RISK</p>
         <p>Between the twelfth and fourteenth centuries, there was a poetic movement in the
             Galician-Portuguese language throughout the kingdoms of the Iberian Peninsula (with the
@@ -20,9 +20,10 @@
                 >Cancioneiros</a></em> (sonbooks). In these project, we analize some of these
             troubadours through time and space with the intention of gaining a better understanding
             of how this poetic school had developed from a socio-historic point of view.</p>
-        <h3>Methodology</h3>
-        <ol>
-            <li>The personography <ul>
+        <h2>Methodology</h2>
+        
+            <h3>The personography</h3>
+        <ul>
                     <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">Base
                                 de datos da Lírica Profana Galego-Portuguesa (MedDB)</a></em> as our
                         main source, we selected fifty-two troubadours attending to diachronic
@@ -102,8 +103,9 @@
                     </li>
 
                 </ul>
-            </li>
-            <li>The KML files <ul>
+            
+            <h3>The KML files</h3>
+                <ul>
                     <li>As a first step, we used XSLT for a XML to XML transformation in which we
                         modified the coordinates to the KML standard, that is: three numbers
                         separated by a comma, the first of them being the longitude, followed by the
@@ -226,8 +228,9 @@
                             <code>@from</code> and <code>@to</code> attributes within a
                             <code>&lt;TimeSpan&gt;</code> element.</li>
                 </ul>
-            </li>
-            <li>Embeding the maps in our website <ul>
+
+            <h3>Embeding the maps in our website</h3>
+        <ul>
                     <li>We uploaded the KML files into <a href="https://www.google.com/maps">Google
                             Maps</a>.</li>
                     <li>Then we opened in the <a href="https://developers.google.com/maps-engine/"
@@ -237,9 +240,8 @@
                         introduced in our HTML file inside an <code>&lt;iframe&gt;</code>
                         element.</li>
                 </ul>
-            </li>
-        </ol>
-        <p>Some problems and how we solved them:</p>
+
+        <h3>Other criteria</h3>
         <ul>
             <li>We specify the level of credibility of each one of our personography entries using
                     <code>@certainty</code> attributes. This makes it possible for us to represent
@@ -256,7 +258,7 @@
                 ones. This means that, for every affiliation, we chose the coordinates of what we
                 could define as the main court and used those sistematically.</li>
         </ul>
-        <h3>Results</h3>
+        <h2>Results</h2>
         <h4>Relationship between the origin of the poets and their period of activity</h4>
         <svg xmlns="http://www.w3.org/2000/svg" width="1250" height="125" class="poets">
             <g>

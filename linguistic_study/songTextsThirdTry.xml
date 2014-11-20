@@ -30,13 +30,13 @@
                 </head>
                     <lg>
                         <l>Ora faz host'o senhor de Navarra,</l>
-                        <l>pois em Proenç'est <w ana="#el">el</w>-rei d'Aragom;</l>
+                        <l>pois em Proenç'est el-rei d'Aragom;</l>
                         <l>nom lh'ham medo de pico nem de marra</l>
                         <l>Tarraçona, pero vezinhos som,</l>
-                        <l>nem ham medo de lhis poer boçom</l>
+                        <l>nem ham medo de <w ana="#lhis">lhis</w> poer boçom</l>
                         <l>e riir-s'-am muit'em dura edarra;</l>
                         <l>mais se Deus traj'o senhor de Monçon,</l>
-                        <l>bem <w ana="#mi">mi</w> cuid'eu que a cunca lhis varra.</l>
+                        <l>bem <w ana="#mi_acusative">mi</w> cuid'eu que a cunca <w ana="#lhis">lhis</w> varra.</l>
                         <l>Se lh'o bom rei varrê'la escudela</l>
                         <l>que de Pamplona oístes nomear,</l>
                         <l>mal ficará aquest'outr'em Todela,</l>
@@ -45,11 +45,11 @@
                         <l>e destruir atá burgo d'Estela,</l>
                         <l>e veredes Navarros lazerar</l>
                         <l>e o senhor que os todos caudela.</l>
-                        <l>Quand'<w ana="#el">el</w>-rei sal de Todela, estrẽa</l>
+                        <l>Quand'el-rei sal de Todela, estrẽa</l>
                         <l><w ana="#ele">ele</w> sa host'e tod'o seu poder;</l>
                         <l>bem sofrem i de trabalh'e de pẽa,</l>
                         <l>ca vam a furt'e tornam-s'em correr;</l>
-                        <l>guarda-s'<w ana="#el">el</w>-rei, com'é de bom saber,</l>
+                        <l>guarda-s'el-rei, com'é de bom saber,</l>
                         <l>que o nom filhe luz em terra alhẽa,</l>
                         <l>e onde sal, i s'ar torn'a jazer</l>
                         <l>ao jantar ou se nom aa cẽa.</l>
@@ -80,18 +80,18 @@
                         <l>"Mesela! Por que o perdi? </l>
                         <l>E que farei quando s'<w ana="#el">el</w> for </l>
                         <l>alhur servir outra senhor? </l>
-                        <l>Estranha mêngua <w ana="#mi">mi</w> fará, </l>
+                        <l>Estranha mêngua <w ana="#mi_acusative">mi</w> fará, </l>
                         <l>tal que per rem nom poss'osmar </l>
                         <l>como sem <w ana="#el">el</w> possa estar! </l>
                         <l>De <w ana="#mim">mim</w> rancurado s'irá; </l>
-                        <l>e terram-<w ana="#mi">mi</w>-o por pouco sem </l>
+                        <l>e terram-<w ana="#mi_acusative">mi</w>-o por pouco sem </l>
                         <l>que a tal homem nom fiz bem! </l>
                         <l>A dona que <w ana="#mi">mi</w> o receber </l>
                         <l>conmigo se pode perder. </l>
                         <l>Cada que me lh'eu assanhar, </l>
-                        <l>a meu osm', ou lhi mal disser, </l>
-                        <l>se <w ana="#mi">mi</w> o logo acolh[er] hoer </l>
-                        <l>mia vezĩa, ou <w ana="#mi">mi</w> o sussacar, </l>
+                        <l>a meu osm', ou <w ana="#lhi">lhi</w> mal disser, </l>
+                        <l>se <w ana="#mi_acusative">mi</w> o logo acolh[er] hoer </l>
+                        <l>mia vezĩa, ou <w ana="#mi_acusative">mi</w> o sussacar, </l>
                         <l>mao vezĩo per será! </l>
                         <l>Mais nom xi vo-l'assentirá, </l>
                         <l>ca nom quer'eu filhar o seu, </l>
@@ -137,7 +137,7 @@
                         <l>Ali me vem gram cuidado, </l>
                         <l>depois que me vou deitar; </l>
                         <l>pero sõo mais folgado, </l>
-                        <l>que lhi[s] nom hei de falar; </l>
+                        <l>que <w ana="#lhi">lhi</w>[s] nom hei de falar; </l>
                         <l>jasco deles alongado, </l>
                         <l>que me nom ouçam queixar. </l>
                         <l>Tal amar </l>
@@ -405,7 +405,7 @@
                         <l>do mar e Acre jaz aquém,</l>
                         <l>e Somportes log'i a par.</l>
                         <l>E as jornadas sei eu bem,</l>
-                        <l>como lhi eiri oí falar:</l>
+                        <l>como <w ana="#lhi">lhi</w> eiri oí falar:</l>
                         <l>diz que pod'ir, quem bem andar,</l>
                         <l>de Belfurad'a Santarém,</l>
                         <l>se noutro dia madurgar,</l>
@@ -429,7 +429,7 @@
                         <l>dali diz <w ana="#el">el</w> que foi romeu;</l>
                         <l>e depois que lh'o Soldam deu</l>
                         <l>o perdom, houve gram sabor</l>
-                        <l>de se tornar; e foi-lhi greu</l>
+                        <l>de se tornar; e foi-<w ana="#lhi">lhi</w> greu</l>
                         <l>d'andar Coira e Galisteu</l>
                         <l>com torquis do Emperador.</l>
                         <l>Vaiamos, irmana, vaiamos folgar</l>
@@ -472,26 +472,26 @@
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
                         <affiliation>Period 4</affiliation>
                     </name>
-                    <title>Diss'hoj'<w ana="#el">el</w>-rei: - Pois Dom Foão mais val</title>
+                    <title>Diss'hoj'el-rei: - Pois Dom Foão mais val</title>
                 </head>
                     <lg>
-                        <l>Diss'hoj'<w ana="#el">el</w>-rei: - Pois Dom Foão mais val</l>
+                        <l>Diss'hoj'el-rei: - Pois Dom Foão mais val</l>
                         <l>seendo pobre - o gram bem fazer</l>
                         <l>que lh'eu fiz sempre o faz ensandecer -,</l>
                         <l>se m'<w ana="#el">el</w> bem quer, meus amigos, em tal</l>
-                        <l>que me queira já mal, mal lhi farei</l>
+                        <l>que me queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
                         <l>Pois em pobreza nom sal de seu sem</l>
                         <l>e o bem fazer o torna sandeu,</l>
                         <l>por padecer o que nom padeceu,</l>
                         <l>pero, meus amigos, diz que me quer bem,</l>
-                        <l>que me queira já mal, mal lhi farei</l>
+                        <l>que me queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
-                        <l>Pois lhi Deus atal ventura deu</l>
+                        <l>Pois <w ana="#lhi">lhi</w> Deus atal ventura deu</l>
                         <l>que em pobreza tod'o seu sem há</l>
-                        <l>e com bem fazer sandice lhi dá,</l>
+                        <l>e com bem fazer sandice <w ana="#lhi">lhi</w> dá,</l>
                         <l>pero m'<w ana="#el">el</w> quer bem e se tem por meu,</l>
-                        <l>que me queira já mal, mal lhi farei</l>
+                        <l>que me queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
                     </lg>
             </div>
@@ -513,7 +513,7 @@
                         <l>de tal guisa que me nom pod'oir.</l>
                         <l>Por tal juiz nunca jamais será</l>
                         <l>desembargad'este preito que hei,</l>
-                        <l>nem a reínha nem seu filh'<w ana="#el">el</w>-rei,</l>
+                        <l>nem a reínha nem seu filh'el-rei,</l>
                         <l>pero lhe mandem, nunca m'oirá;</l>
                         <l>ca já me disse que me nom compria</l>
                         <l>d'ir per d'ant'<w ana="#el">el</w>, pois m'oir nom podia,</l>

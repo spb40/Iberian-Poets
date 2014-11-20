@@ -14,10 +14,10 @@
     <xsl:template match="geo">
         <geo>
         <xsl:value-of select="
-            string-join(
+            concat(string-join(
             (substring-after(current(), ','),
             substring-before(current(), ','))
-            , ',')"/>
+            , ','), ',100')"/>
         </geo>
     </xsl:template>
 </xsl:stylesheet>

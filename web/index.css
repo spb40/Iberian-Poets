@@ -34,6 +34,13 @@ div.code{
     background-color:#FFff7d;
 }
 
+pre{
+    color:#444444;
+    font-weight:bold;
+    font-family:monospace;
+    font-size:larger;
+}
+
 .container{
     padding-right:2%;
     padding-left:2%;
@@ -195,7 +202,7 @@ th:nth-child(4){
 }
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:"\25B2\25BC"
+    content:"\25BE\25B4"
 }
 
 
@@ -217,6 +224,7 @@ svg.poets{
     padding-left:10%;
     float:left;
 }
+
 
 /*#navMenu {
     position:fixed;

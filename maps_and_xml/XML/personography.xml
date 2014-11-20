@@ -505,7 +505,7 @@
                         <location corresp="#sousa" from="1240" to="1243"/>
                         <location corresp="#jaen" from="1244" to="1248"/>
                         <location corresp="#afonsX" from="1249" to="1253"/>
-                        <location from="1253" to="1265" corresp="#afonsIII"/>
+                        <location corresp="#afonsIII"  from="1253" to="1265"/>
                     </floruit>
                 </person>
 

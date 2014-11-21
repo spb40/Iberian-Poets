@@ -24,7 +24,7 @@
                 <head>
                     <name>
                         <persName corresp="#JSrzPav">Johan Soarez de Pávia</persName>
-                        <affiliation>Period 1</affiliation>
+                        <affiliation corresp="1">Period 1</affiliation>
                     </name>
                     <title>Ora faz host'o senhor de Navarra,</title>
                 </head>
@@ -59,7 +59,7 @@
                 <head>
                     <name>
                         <persName corresp="#OsEa">Osoir' Anes</persName>
-                        <affiliation>Period 1</affiliation>
+                        <affiliation corresp="1">Period 1</affiliation>
                     </name>
                     <title>Sazom é já de <w ana="#me">me</w> partir</title>
                 </head>
@@ -102,7 +102,7 @@
                 <head>
                     <name>
                         <persName corresp="#OsEa">Osoir' Anes</persName>
-                        <affiliation>Period 1</affiliation>      
+                        <affiliation corresp="1">Period 1</affiliation>      
                     </name>
                     <title>E por que <w ana="#me">me</w> desamades,</title>
                 </head>
@@ -167,7 +167,7 @@
                 <head>
                     <name>
                         <persName corresp="#JSrzSom">Johan Soarez Somesso</persName>
-                        <affiliation>Period 2</affiliation>
+                        <affiliation corresp="2">Period 2</affiliation>
                     </name>
                     <title>Muitas vezes em meu cuidar</title>
                 </head>
@@ -206,7 +206,7 @@
                 <head>
                     <name>
                         <persName corresp="#JSrzSom">Johan Soarez Somesso</persName>
-                        <affiliation>Period 2</affiliation>             
+                        <affiliation corresp="2">Period 2</affiliation>             
                     </name>
                     <title>Muitos dizem que perderám</title>
                 </head>
@@ -245,7 +245,7 @@
                 <head>
                     <name>
                         <persName corresp="#PaySrzTav">Pai Soarez de Taveirós</persName>
-                        <affiliation>Period 2</affiliation>
+                        <affiliation corresp="2">Period 2</affiliation>
                     </name>
                     <title>Como morreu quem nunca bem</title>
                 </head>
@@ -276,7 +276,7 @@
                 <head>
                     <name>
                         <persName corresp="#PaySrzTav">Pai Soarez de Taveirós</persName>
-                        <affiliation>Period 2</affiliation>  
+                        <affiliation corresp="2">Period 2</affiliation>  
                     </name>
                     <title>Cuidava-<w ana="#m_">m'</w>eu, quando nom entendia</title>
                 </head>
@@ -316,7 +316,7 @@
                 <head>
                     <name>
                         <persName corresp="#MartCod">Martin Codax</persName>
-                        <affiliation>Period 3</affiliation>
+                        <affiliation corresp="3">Period 3</affiliation>
                     </name>
                     <title>Mia irmana fremosa, treides <w ana="#comigo">comigo</w></title>
                 </head>
@@ -340,7 +340,7 @@
                 <head>
                     <name>
                         <persName corresp="#MartCod">Martin Codax</persName>
-                        <affiliation>Period 3</affiliation> 
+                        <affiliation corresp="3">Period 3</affiliation> 
                     </name>
                     <title>Ai Deus, se sab'ora meu amigo</title>
                 </head>
@@ -369,7 +369,7 @@
                 <head>
                     <name>
                         <persName corresp="#MartSrz">Martin Soarez</persName>
-                        <affiliation>Period 3</affiliation>
+                        <affiliation corresp="3">Period 3</affiliation>
                     </name>
                     <title>Foi um dia Lopo jograr</title>
                 </head>
@@ -392,7 +392,7 @@
                 <head>
                     <name>
                         <persName corresp="#MartSrz">Martin Soarez</persName>
-                        <affiliation>Period 3</affiliation>
+                        <affiliation corresp="3">Period 3</affiliation>
                     </name>
                     <title>Pero nom fui a Ultramar,</title>
                 </head>
@@ -444,7 +444,7 @@
                 <head>
                     <name>
                         <persName corresp="#FerEsq">Fernand' Esquio</persName>
-                        <affiliation>Period 3</affiliation>
+                        <affiliation corresp="3">Period 3</affiliation>
                     </name>
                     <title>Que adubastes, amigo, alá em Lug'u andastes,</title>
                 </head>
@@ -470,7 +470,7 @@
                 <head>
                     <name>
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
-                        <affiliation>Period 4</affiliation>
+                        <affiliation corresp="4">Period 4</affiliation>
                     </name>
                     <title>Diss'hoj'el-rei: - Pois Dom Foão mais val</title>
                 </head>
@@ -499,7 +499,7 @@
                 <head>
                     <name>
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
-                        <affiliation>Period 4</affiliation> 
+                        <affiliation corresp="4">Period 4</affiliation> 
                     </name>
                     <title>Meu dano fiz por tal juiz pedir</title>
                 </head>
@@ -532,7 +532,7 @@
                 <head>
                     <name>
                         <persName corresp="#AfSchz">Afonso Sanchez</persName>
-                        <affiliation>Period 4</affiliation>
+                        <affiliation corresp="4">Period 4</affiliation>
                         
                     </name>
                     <title>Pois que vós per i mais valer cuidades,</title>
@@ -568,7 +568,7 @@
                 <head>
                     <name>
                         <persName corresp="#AfSchz">Afonso Sanchez</persName>
-                        <affiliation>Period 4</affiliation>
+                        <affiliation corresp="4">Period 4</affiliation>
                     </name>
                     <title>Sempre vos eu doutra rem mais amei,</title>
                 </head>
@@ -599,7 +599,7 @@
                 <head>
                     <name>
                         <persName corresp="#DieGvz">Diogo Gonçalves de Montemor-o-Novo</persName>
-                        <affiliation>Period 5</affiliation> 
+                        <affiliation corresp="5">Period 5</affiliation> 
                     </name>
                     <title>Co[<w ana="#m_">m'</w>] homem ferido com ferro e com pau,</title>
                 </head>
@@ -628,7 +628,7 @@
                 <head>
                     <name>
                         <persName corresp="#FerEa">Fernand' Eanes</persName>
-                        <affiliation>Period 5</affiliation>
+                        <affiliation corresp="5">Period 5</affiliation>
                     </name>
                     <title>Do Port'and'e vou mudar,</title>
                 </head>
@@ -662,7 +662,7 @@
                 <head>
                     <name>
                         <persName corresp="#AlvAf">Alvaro Afonso</persName>
-                        <affiliation>Period 5</affiliation>
+                        <affiliation corresp="5">Period 5</affiliation>
                     </name>
                     <title>Luis Vaasques, depois que parti</title>
                 </head>

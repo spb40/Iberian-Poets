@@ -4,7 +4,7 @@
     version="2.0">
     <xsl:output indent="yes" method="xhtml"
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
-    <xsl:template match="/">
+    <xsl:template match="*:head">
         <html>
             <head>
                 <title>Medieval Galician-Portuguese Poetry</title>

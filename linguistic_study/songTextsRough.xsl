@@ -12,21 +12,41 @@
             <body>
                 <h1>Medieval Galician-Portuguese Poetry</h1>
                 <h2>Song List</h2>
+                
                 <h3>Period 1</h3>
                 <ul>
-                    <xsl:apply-templates select="//*:head/*:name[@corresp='per1']" mode="toc"/>
+                    <xsl:apply-templates select="//*:name[@corresp='per1']" mode="toc"/>
                 </ul>
-
                 <xsl:apply-templates/>
+                
                 <h3>Period 2</h3>
                 <ul>
-                    <xsl:apply-templates select="//*:head/*:name[@corresp='per2']" mode="toc"/>
+                    <xsl:apply-templates select="//*:name[@corresp='per2']" mode="toc"/>
                 </ul>
-                <hr/>
+                <xsl:apply-templates/>
+                
+                <h3>Period 3</h3>
+                <ul>
+                    <xsl:apply-templates select="//*:name[@corresp='per3']" mode="toc"/>
+                </ul>
+                <xsl:apply-templates/>
+                
+                <h3>Period 4</h3>
+                <ul>
+                    <xsl:apply-templates select="//*:name[@corresp='per4']" mode="toc"/>
+                </ul>
+                <xsl:apply-templates/>
+                
+                <h3>Period 5</h3>
+                <ul>
+                    <xsl:apply-templates select="//*:name[@corresp='per5']" mode="toc"/>
+                </ul>
                 <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
+    <!--Here be the list items -->
+    
     <xsl:template match="*:name[@corresp='per1']" mode="toc">
         <li>
             <xsl:apply-templates select="following-sibling::*:title"/>
@@ -34,6 +54,7 @@
             <xsl:apply-templates select="*:persName" mode="toc"/>
         </li>
     </xsl:template>
+    
     <xsl:template match="*:name[@corresp='per2']" mode="toc">
         <li>
             <xsl:apply-templates select="following-sibling::*:title"/>
@@ -42,17 +63,28 @@
         </li>
     </xsl:template>
     
-<!--    <xsl:template match="*:head">
-        <h2><xsl:apply-templates select="*:title"/></h2>
-        <p><xsl:apply-templates/></p>
+    <xsl:template match="*:name[@corresp='per3']" mode="toc">
+        <li>
+            <xsl:apply-templates select="following-sibling::*:title"/>
+            <xsl:text> by </xsl:text>
+            <xsl:apply-templates select="*:persName" mode="toc"/>
+        </li>
     </xsl:template>
-    <xsl:template match="*:l" mode="toc">
-        <xsl:apply-templates/>
+    
+    <xsl:template match="*:name[@corresp='per4']" mode="toc">
+        <li>
+            <xsl:apply-templates select="following-sibling::*:title"/>
+            <xsl:text> by </xsl:text>
+            <xsl:apply-templates select="*:persName" mode="toc"/>
+        </li>
     </xsl:template>
-    <xsl:template match="*:l">
-        <xsl:apply-templates/>
-        <xsl:if test="following-sibling::*:l">
-            <br/>
-        </xsl:if>
-    </xsl:template>-->
+    
+    <xsl:template match="*:name[@corresp='per5']" mode="toc">
+        <li>
+            <xsl:apply-templates select="following-sibling::*:title"/>
+            <xsl:text> by </xsl:text>
+            <xsl:apply-templates select="*:persName" mode="toc"/>
+        </li>
+    </xsl:template>
+    
 </xsl:stylesheet>

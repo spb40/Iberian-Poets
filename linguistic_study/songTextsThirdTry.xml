@@ -22,7 +22,7 @@
         <body>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per1">
                         <persName corresp="#JSrzPav">Johan Soarez de Pávia</persName>
                         <affiliation corresp="1">Period 1</affiliation>
                     </name>
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per1">
                         <persName corresp="#OsEa">Osoir' Anes</persName>
                         <affiliation corresp="1">Period 1</affiliation>
                     </name>
@@ -100,7 +100,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per1">
                         <persName corresp="#OsEa">Osoir' Anes</persName>
                         <affiliation corresp="1">Period 1</affiliation>      
                     </name>
@@ -165,7 +165,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per2">
                         <persName corresp="#JSrzSom">Johan Soarez Somesso</persName>
                         <affiliation corresp="2">Period 2</affiliation>
                     </name>
@@ -204,7 +204,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per2">
                         <persName corresp="#JSrzSom">Johan Soarez Somesso</persName>
                         <affiliation corresp="2">Period 2</affiliation>             
                     </name>
@@ -243,7 +243,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per2">
                         <persName corresp="#PaySrzTav">Pai Soarez de Taveirós</persName>
                         <affiliation corresp="2">Period 2</affiliation>
                     </name>
@@ -274,7 +274,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per2">
                         <persName corresp="#PaySrzTav">Pai Soarez de Taveirós</persName>
                         <affiliation corresp="2">Period 2</affiliation>  
                     </name>
@@ -314,7 +314,7 @@
 
             <div>
                 <head>
-                    <name>
+                    <name corresp="per3">
                         <persName corresp="#MartCod">Martin Codax</persName>
                         <affiliation corresp="3">Period 3</affiliation>
                     </name>
@@ -338,7 +338,7 @@
 
             <div>
                 <head>
-                    <name>
+                    <name corresp="per3">
                         <persName corresp="#MartCod">Martin Codax</persName>
                         <affiliation corresp="3">Period 3</affiliation> 
                     </name>
@@ -367,7 +367,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per3">
                         <persName corresp="#MartSrz">Martin Soarez</persName>
                         <affiliation corresp="3">Period 3</affiliation>
                     </name>
@@ -390,7 +390,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per3">
                         <persName corresp="#MartSrz">Martin Soarez</persName>
                         <affiliation corresp="3">Period 3</affiliation>
                     </name>
@@ -442,7 +442,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per3">
                         <persName corresp="#FerEsq">Fernand' Esquio</persName>
                         <affiliation corresp="3">Period 3</affiliation>
                     </name>
@@ -468,7 +468,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per4">
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
                         <affiliation corresp="4">Period 4</affiliation>
                     </name>
@@ -497,7 +497,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per4">
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
                         <affiliation corresp="4">Period 4</affiliation> 
                     </name>
@@ -530,7 +530,7 @@
 
             <div>
                 <head>
-                    <name>
+                    <name corresp="per4">
                         <persName corresp="#AfSchz">Afonso Sanchez</persName>
                         <affiliation corresp="4">Period 4</affiliation>
                         
@@ -566,7 +566,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per4">
                         <persName corresp="#AfSchz">Afonso Sanchez</persName>
                         <affiliation corresp="4">Period 4</affiliation>
                     </name>
@@ -583,7 +583,7 @@
                         <l>Deus en vós pôs, vos am'eu mais que al,</l>
                         <l>des i ar hei <w ana="#m_">m'</w>eu grand'afã e mal</l>
                         <l>de vós; e por en nom sei bem partir</l>
-                        <l>se</w> <w ana="#me">me</w> praza porque vos quero bem,</l>
+                        <l>se <w ana="#me">me</w> praza porque vos quero bem,</l>
                         <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w> vem.</l>
                         <l>Por quanto bem Deus em vós foi põer</l>
                         <l>vos am'eu mais de quantas cousas som</l>
@@ -597,7 +597,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per5">
                         <persName corresp="#DieGvz">Diogo Gonçalves de Montemor-o-Novo</persName>
                         <affiliation corresp="5">Period 5</affiliation> 
                     </name>
@@ -626,7 +626,7 @@
             </div>
             <div>
                 <head>
-                    <name>
+                    <name corresp="per5">
                         <persName corresp="#FerEa">Fernand' Eanes</persName>
                         <affiliation corresp="5">Period 5</affiliation>
                     </name>
@@ -660,7 +660,7 @@
 
             <div>
                 <head>
-                    <name>
+                    <name corresp="per5">
                         <persName corresp="#AlvAf">Alvaro Afonso</persName>
                         <affiliation corresp="5">Period 5</affiliation>
                     </name>

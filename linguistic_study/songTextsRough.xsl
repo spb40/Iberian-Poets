@@ -11,25 +11,38 @@
             </head>
             <body>
                 <h1>Medieval Galician-Portuguese Poetry</h1>
-                <h2>Period 1</h2>
+                <h2>Song List</h2>
+                <h3>Period 1</h3>
                 <ul>
-                    <xsl:apply-templates select="//*:head" mode="toc"/>
+                    <xsl:apply-templates select="//*:head/*:name[@corresp='per1']" mode="toc"/>
+                </ul>
+
+                <xsl:apply-templates/>
+                <h3>Period 2</h3>
+                <ul>
+                    <xsl:apply-templates select="//*:head/*:name[@corresp='per2']" mode="toc"/>
                 </ul>
                 <hr/>
                 <xsl:apply-templates/>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="*:affiliation[@corresp='1']" mode="toc">
+    <xsl:template match="*:name[@corresp='per1']" mode="toc">
         <li>
-            <xsl:apply-templates select="*:affiliation[@corresp='1']/ancestor::*:title"/>
+            <xsl:apply-templates select="following-sibling::*:title"/>
             <xsl:text> by </xsl:text>
-            <xsl:apply-templates select="*:affiliation[@corresp='1']/preceding-sibling::*:persName" mode="toc"/>
-            <xsl:text>: </xsl:text>
-            <xsl:apply-templates select="*:affiliation"/>
+            <xsl:apply-templates select="*:persName" mode="toc"/>
         </li>
     </xsl:template>
-    <xsl:template match="*:head">
+    <xsl:template match="*:name[@corresp='per2']" mode="toc">
+        <li>
+            <xsl:apply-templates select="following-sibling::*:title"/>
+            <xsl:text> by </xsl:text>
+            <xsl:apply-templates select="*:persName" mode="toc"/>
+        </li>
+    </xsl:template>
+    
+<!--    <xsl:template match="*:head">
         <h2><xsl:apply-templates select="*:title"/></h2>
         <p><xsl:apply-templates/></p>
     </xsl:template>
@@ -41,5 +54,5 @@
         <xsl:if test="following-sibling::*:l">
             <br/>
         </xsl:if>
-    </xsl:template>
+    </xsl:template>-->
 </xsl:stylesheet>

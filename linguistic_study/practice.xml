@@ -16,7 +16,7 @@
                 <head>
                     <name>
                         <persName corresp="#sdfs"></persName>
-                        <affiliation>Period 1</affiliation>
+                        <affiliation corresp="1">Period 1</affiliation>
                     </name>
                     <title>First linesdflsd</title>
                 </head>

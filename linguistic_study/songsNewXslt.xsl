@@ -47,6 +47,7 @@
                     </xsl:apply-templates>
                     
                 </ul>
+<hr/>
                 <xsl:apply-templates select="//div[head/name/affiliation[@corresp='1']]"/>
                 <xsl:apply-templates select="//div[head/name/affiliation[@corresp='2']]"/>
                 <xsl:apply-templates select="//div[head/name/affiliation[@corresp='3']]"/>

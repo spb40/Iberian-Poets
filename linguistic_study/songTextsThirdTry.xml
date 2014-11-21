@@ -7,14 +7,10 @@
                 <title/>
             </titleStmt>
             <publicationStmt>
-                <p>
-                    Publication Information
-                </p>
+                <p> Publication Information </p>
             </publicationStmt>
             <sourceDesc>
-                <p>
-                    Information about the Source
-                </p>
+                <p> Information about the Source </p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -28,7 +24,8 @@
                     </name>
                     <title>Ora faz host'o senhor de Navarra,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Ora faz host'o senhor de Navarra,</l>
                         <l>pois em Proenç'est el-rei d'Aragom;</l>
                         <l>nom <w ana="#lh">lh</w>'ham medo de pico nem de marra</l>
@@ -36,7 +33,10 @@
                         <l>nem ham medo de <w ana="#lhis">lhis</w> poer boçom</l>
                         <l>e riir-s'-am muit'em dura edarra;</l>
                         <l>mais se Deus traj'o senhor de Monçon,</l>
-                        <l>bem <w ana="#mi_acusative">mi</w> cuid'eu que a cunca <w ana="#lhis">lhis</w> varra.</l>
+                        <l>bem <w ana="#mi_acusative">mi</w> cuid'eu que a cunca <w ana="#lhis"
+                                >lhis</w> varra.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Se <w ana="#lh">lh</w>'o bom rei varrê'la escudela</l>
                         <l>que de Pamplona oístes nomear,</l>
                         <l>mal ficará aquest'outr'em Todela,</l>
@@ -45,6 +45,8 @@
                         <l>e destruir atá burgo d'Estela,</l>
                         <l>e veredes Navarros lazerar</l>
                         <l>e o senhor que os todos caudela.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Quand'el-rei sal de Todela, estrẽa</l>
                         <l><w ana="#ele">ele</w> sa host'e tod'o seu poder;</l>
                         <l>bem sofrem i de trabalh'e de pẽa,</l>
@@ -53,7 +55,8 @@
                         <l>que o nom filhe luz em terra alhẽa,</l>
                         <l>e onde sal, i s'ar torn'a jazer</l>
                         <l>ao jantar ou se nom aa cẽa.</l>
-                    </lg>     
+                    </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -61,9 +64,10 @@
                         <persName corresp="#OsEa">Osoir' Anes</persName>
                         <affiliation corresp="1">Period 1</affiliation>
                     </name>
-                    <title>Sazom é já de <w ana="#me">me</w> partir</title>
+                    <title>Sazom é já de me partir</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Sazom é já de <w ana="#me">me</w> partir </l>
                         <l>de mia senhor, ca já temp'hei </l>
                         <l>que a servi; ca perdud'hei </l>
@@ -72,6 +76,8 @@
                         <l>"Senhor, e que vos mereci? </l>
                         <l>Ca nom foi eu depois peor, </l>
                         <l>des quando guaanhei voss'amor?" </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E [ha]veredes a sentir </l>
                         <l>camanha míngua vos farei; </l>
                         <l>e ve[e]redes, eu o sei, </l>
@@ -80,6 +86,8 @@
                         <l>"Mesela! Por que o perdi? </l>
                         <l>E que farei quando s'<w ana="#el">el</w> for </l>
                         <l>alhur servir outra senhor? </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Estranha mêngua <w ana="#mi_acusative">mi</w> fará, </l>
                         <l>tal que per rem nom poss'osmar </l>
                         <l>como sem <w ana="#el">el</w> possa estar! </l>
@@ -88,7 +96,10 @@
                         <l>que a tal homem nom fiz bem! </l>
                         <l>A dona que <w ana="#mi">mi</w> o receber </l>
                         <l>conmigo <w ana="#se">se</w> pode perder. </l>
-                        <l>Cada que <w ana="#me">me</w> <w ana="#lh">lh</w>'eu assanhar, </l>
+                    </lg>
+                    <lg type="stanza">
+                        <l>Cada que <w ana="#me">me</w>
+                            <w ana="#lh">lh</w>'eu assanhar, </l>
                         <l>a meu osm', ou <w ana="#lhi">lhi</w> mal disser, </l>
                         <l>se <w ana="#mi_acusative">mi</w> o logo acolh[er] hoer </l>
                         <l>mia vezĩa, ou <w ana="#mi_acusative">mi</w> o sussacar, </l>
@@ -96,17 +107,19 @@
                         <l>Mais nom xi vo-l'assentirá, </l>
                         <l>ca nom quer'eu filhar o seu, </l>
                         <l>nem <w ana="#lh">lh</w>'ar querrei leixar o meu'". </l>
-                    </lg>     
+                    </lg>
+                </lg>
             </div>
             <div>
                 <head>
                     <name corresp="per1">
                         <persName corresp="#OsEa">Osoir' Anes</persName>
-                        <affiliation corresp="1">Period 1</affiliation>      
+                        <affiliation corresp="1">Period 1</affiliation>
                     </name>
-                    <title>E por que <w ana="#me">me</w> desamades,</title>
+                    <title>E por que me desamades,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>E por que <w ana="#me">me</w> desamades, </l>
                         <l>a[i]! melhor das que eu sei? </l>
                         <l>Cuid'eu, rem i nom gãades </l>
@@ -116,6 +129,8 @@
                         <l>dereit'hei, </l>
                         <l>que da rem que mais amei, </l>
                         <l>daquela <w ana="#me">me</w> segurades: </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>de vós! E, certas, sabiades </l>
                         <l>outr'amor nom desejei; </l>
                         <l>e se vós end'al cuidades, </l>
@@ -125,6 +140,8 @@
                         <l>Conort'hei, </l>
                         <l>em que pouco durarei, </l>
                         <l>se mais de <w ana="#mim">mim</w> nom pensades! </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>De muitos som perguntado </l>
                         <l>de que hei este pensar; </l>
                         <l>e a <w ana="#mim">mim</w> pes'aficado </l>
@@ -134,6 +151,8 @@
                         <l>e a guardar- </l>
                         <l><w ana="#m_">m'</w>hei d'<w ana="#eles">eles</w>, e a ra[n]curar, </l>
                         <l>e andar i come nembrado. </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ali <w ana="#me">me</w> vem gram cuidado, </l>
                         <l>depois que <w ana="#me">me</w> vou deitar; </l>
                         <l>pero sõo mais folgado, </l>
@@ -143,6 +162,8 @@
                         <l>Tal amar </l>
                         <l>podedes mui bem jurar </l>
                         <l>que nunca foi d'homem nado. </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ũa rem vos juraria, </l>
                         <l>e devêde-lo creer: </l>
                         <l>que jamais nom amaria, </l>
@@ -152,6 +173,8 @@
                         <l>que prazer </l>
                         <l>havedes de <w ana="#me">me</w> tolher </l>
                         <l>meu corpo, que vos servia? </l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ca <w ana="#me">me</w> nom receberia </l>
                         <l>Aquel que <w ana="#me">me</w> fez nacer; </l>
                         <l>nem eu nom vos poderia </l>
@@ -162,6 +185,7 @@
                         <l>no vosso bom parecer </l>
                         <l>– a valer <w ana="#me">me</w> dormiria! </l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -171,7 +195,8 @@
                     </name>
                     <title>Muitas vezes em meu cuidar</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Muitas vezes em meu cuidar</l>
                         <l>hei eu gram bem de mia senhor;</l>
                         <l>e quant'ali hei de sabor,</l>
@@ -179,6 +204,8 @@
                         <l>des que <w ana="#m_">m'</w>eu part'; e nulha rem</l>
                         <l><w ana="#me">me</w> nom fica daquel gram bem,</l>
                         <l>e nom <w ana="#me">me</w> sei conselh'achar.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Nem acharei, erg'em cuidar,</l>
                         <l>conselh', enquant'eu vivo for,</l>
                         <l>ca 'ssi <w ana="#me">me</w> tem forçad'Amor</l>
@@ -186,6 +213,8 @@
                         <l>que <w ana="#me">me</w> quer mui gram mal por en;</l>
                         <l>e porque nom sab'amar, tem</l>
                         <l>que nom pod'hom'Amor forçar.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Mais Amor há tam gram poder</l>
                         <l>que forçar pode quem quiser;</l>
                         <l>e pois que mia senhor nom quer</l>
@@ -193,6 +222,8 @@
                         <l>jamais seu bem nom haverei,</l>
                         <l>senom assi como <w ana="#mi">mi</w> o hei:</l>
                         <l>sempr'em cuidá'lo poss'haver!</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ca Deus <w ana="#me">me</w> deu tam gram poder</l>
                         <l>que, mentre <w ana="#m_">m'</w>eu guardar poder</l>
                         <l>de fala d'hom'ou de molher,</l>
@@ -201,16 +232,18 @@
                         <l>e sempr'em ela já terrei</l>
                         <l>o coraçom, mentr'eu viver.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
                     <name corresp="per2">
                         <persName corresp="#JSrzSom">Johan Soarez Somesso</persName>
-                        <affiliation corresp="2">Period 2</affiliation>             
+                        <affiliation corresp="2">Period 2</affiliation>
                     </name>
                     <title>Muitos dizem que perderám</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Muitos dizem que perderám</l>
                         <l>coita d'amor sol per morrer</l>
                         <l>– e se verdad'é, bem estam.</l>
@@ -218,6 +251,8 @@
                         <l>que home perderá per rem</l>
                         <l>coita d'amor, sem haver bem</l>
                         <l>da dona que lha faz haver!</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E os que esto creúd'ham,</l>
                         <l>Deus! e que querem mais viver?</l>
                         <l>Pois que dali bem nom estam</l>
@@ -225,6 +260,8 @@
                         <l>em sobejo fazem mal sem;</l>
                         <l>ou, de pram, amor non'os tem</l>
                         <l>em qual coita <w ana="#mi">mi</w> faz sofrer.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ca se <w ana="#eles">eles</w> houvessem tal</l>
                         <l>coita qual hoj'eu hei d'amor,</l>
                         <l>ou sofressem tam muito mal</l>
@@ -232,6 +269,8 @@
                         <l>hoj'haveriam a querer</l>
                         <l>mui mais sa morte ca 'tender</l>
                         <l>de viverem tam sem sabor</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>com'hoj'eu viv', e nom por al.</l>
                         <l>E por esto sofr'a maior</l>
                         <l>coita do mundo e maior mal,</l>
@@ -240,6 +279,7 @@
                         <l>E esto <w ana="#me">me</w> faz defender</l>
                         <l>de mort'e nom doutro pavor.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -249,38 +289,47 @@
                     </name>
                     <title>Como morreu quem nunca bem</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Como morreu quem nunca bem</l>
                         <l>houve da rem que mais amou,</l>
                         <l>e que[m] viu quanto receou</l>
                         <l>dela, e foi morto por en:</l>
                         <l>ai, mia senhor, assi moir'eu!</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Como morreu quem foi amar</l>
                         <l>quem lhe nunca quis bem fazer,</l>
                         <l>e de que lhe fez Deus veer</l>
                         <l>de que foi morto com pesar:</l>
                         <l>ai, mia senhor, assi moir'eu!</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Com'home que ensandeceu,</l>
                         <l>senhor, com gram pesar que viu</l>
                         <l>e nom foi ledo nem dormiu</l>
                         <l>depois, mia senhor, e morreu:</l>
                         <l>ai, mia senhor, assi moir'eu!</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Como morreu quem amou tal</l>
                         <l>dona que lhe nunca fez bem,</l>
                         <l>e quen'a viu levar a quem</l>
                         <l>a nom valia, nen'a val:</l>
                         <l>ai, mia senhor, assi moir'eu!</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
                     <name corresp="per2">
                         <persName corresp="#PaySrzTav">Pai Soarez de Taveirós</persName>
-                        <affiliation corresp="2">Period 2</affiliation>  
+                        <affiliation corresp="2">Period 2</affiliation>
                     </name>
-                    <title>Cuidava-<w ana="#m_">m'</w>eu, quando nom entendia</title>
+                    <title>Cuidava-m'eu, quando nom entendia</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Cuidava-<w ana="#m_">m'</w>eu, quando nom entendia</l>
                         <l>que mal sem era de vos bem querer,</l>
                         <l>senhor fremosa, que <w ana="#m_">m'</w>en partiria</l>
@@ -288,6 +337,8 @@
                         <l>mais entend'ora que faç'i mal sem</l>
                         <l>de vos amar, pero nom <w ana="#me">me</w> part'en,</l>
                         <l>ante vos quero melhor todavia.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Eu <w ana="#mi">mi</w> cuidava que nom poderia</l>
                         <l>de vós viir, mia senhor, senom bem</l>
                         <l>- ca nom cuidei que <w ana="#me">me</w> de vós verria</l>
@@ -295,6 +346,8 @@
                         <l>e fazia dereito, ca nom al,</l>
                         <l>e[m] nom cuidar que <w ana="#me">me</w> veesse mal,</l>
                         <l>senhor fremosa, d'u non'[o] havia.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E por mui gram maravilha terria,</l>
                         <l>senhor, quem ora soubesse de qual</l>
                         <l>guisa <w ana="#mi">mi</w> vem – e dereito faria,</l>
@@ -302,6 +355,8 @@
                         <l>ca <w ana="#me">me</w> vem mal d'u Deus non'o quis dar,</l>
                         <l>senhor, e coita mui grand'e pesar</l>
                         <l>de vós, de que <w ana="#mi">mi</w> v[i]ir nom devia.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Por en, senhor, cousimento seria</l>
                         <l>e mesura grand', assi Deus <w ana="#m_">m'</w>ampar!,</l>
                         <l>de <w ana="#mi">mi</w> fazerdes vós bem algum dia,</l>
@@ -310,6 +365,7 @@
                         <l>sabed', a vós x'estaria melhor;</l>
                         <l>e demais Deus vo-lo gradeceria.</l>
                     </lg>
+                </lg>
             </div>
 
             <div>
@@ -318,52 +374,72 @@
                         <persName corresp="#MartCod">Martin Codax</persName>
                         <affiliation corresp="3">Period 3</affiliation>
                     </name>
-                    <title>Mia irmana fremosa, treides <w ana="#comigo">comigo</w></title>
+                    <title>Mia irmana fremosa, treides comigo</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Mia irmana fremosa, treides <w ana="#comigo">comigo</w></l>
                         <l>a la igreja de Vigo u é o mar salido</l>
                         <l>e miraremos las ondas.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Mia irmana fremosa, treides de grado</l>
                         <l>a la igreja de Vigo u é o mar levado</l>
                         <l>e miraremos las ondas.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>A la igreja de Vigo u é o mar levado</l>
                         <l>e verrá i, mia madre, o meu amado</l>
                         <l>e miraremos las ondas.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>A la igreja de Vigo u é o mar salido</l>
                         <l>e verrá i, mia madre, o meu amigo</l>
                         <l>e miraremos las ondas.</l>
                     </lg>
+                </lg>
             </div>
 
             <div>
                 <head>
                     <name corresp="per3">
                         <persName corresp="#MartCod">Martin Codax</persName>
-                        <affiliation corresp="3">Period 3</affiliation> 
+                        <affiliation corresp="3">Period 3</affiliation>
                     </name>
                     <title>Ai Deus, se sab'ora meu amigo</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Ai Deus, se sab'ora meu amigo</l>
                         <l>com'eu senheira estou em Vigo!</l>
                         <l>E vou namorada...</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ai Deus, se sab'ora meu amado</l>
                         <l>com'eu em Vigo senheira manho!</l>
                         <l>E vou namorada...</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>com'eu senheira estou em Vigo</l>
                         <l>e nulhas gardas nom hei <w ana="#comigo">comigo</w>!</l>
                         <l>E vou namorada...</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Com'eu senheira em Vigo manho</l>
                         <l>e nulhas gardas <w ana="#migo">migo</w> nom trago!</l>
                         <l>E vou namorada...</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E nulhas gardas nom hei <w ana="#comigo">comigo</w>,</l>
                         <l>ergas meus olhos que choram <w ana="#migo">migo</w>!</l>
                         <l>E vou namorada...</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E nulhas gardas <w ana="#migo">migo</w> nom trago,</l>
                         <l>ergas meus olhos que choram ambos!</l>
                         <l>E vou namorada...</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -373,13 +449,16 @@
                     </name>
                     <title>Foi um dia Lopo jograr</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Foi um dia Lopo jograr</l>
                         <l>a cas d'um infançom cantar;</l>
                         <l>e mandou-<w ana="#lh">lh</w>'<w ana="#ele">ele</w> por dom dar</l>
                         <l>três couces na garganta;</l>
                         <l>e fui-<w ana="#lh">lh</w>'escass', a meu cuidar,</l>
                         <l>segundo com'<w ana="#el">el</w> canta.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Escasso foi o infançom</l>
                         <l>em seus couces partir em dom,</l>
                         <l>ca nom deu a Lop[o], entom,</l>
@@ -387,6 +466,7 @@
                         <l>e mais merece o jograrom,</l>
                         <l>segundo com'<w ana="#el">el</w> canta.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -396,7 +476,8 @@
                     </name>
                     <title>Pero nom fui a Ultramar,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Pero nom fui a Ultramar,</l>
                         <l>muito sei eu a terra bem,</l>
                         <l>per Sueir'Eanes, que en vem,</l>
@@ -404,6 +485,8 @@
                         <l>diz que Marselha jaz além</l>
                         <l>do mar e Acre jaz aquém,</l>
                         <l>e Somportes log'i a par.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E as jornadas sei eu bem,</l>
                         <l>como <w ana="#lhi">lhi</w> eiri oí falar:</l>
                         <l>diz que pod'ir, quem bem andar,</l>
@@ -411,6 +494,8 @@
                         <l>se noutro dia madurgar,</l>
                         <l>e ir a Nogueirol jantar</l>
                         <l>e maer a Jerusalém.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E diz que viu ũũ judeu</l>
                         <l>que viu prender Nostro Senhor;</l>
                         <l>e haveredes i gram sabor</l>
@@ -418,6 +503,8 @@
                         <l>diz que é [um] judeu pastor,</l>
                         <l>natural de Rocamador,</l>
                         <l>e que há nom[e] Dom Andreu.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Do Sepulcro vos [er] direi,</l>
                         <l>per u andou, ca lho oí</l>
                         <l>a Dom Sueiro; bem assi</l>
@@ -425,6 +512,8 @@
                         <l>de Santarém três legoas é,</l>
                         <l>e quatr'ou cinco de Loulé,</l>
                         <l>e Belfurado jaz log'i.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Per u andou Nostro Senhor,</l>
                         <l>dali diz <w ana="#el">el</w> que foi romeu;</l>
                         <l>e depois que <w ana="#lh">lh</w>'o Soldam deu</l>
@@ -432,6 +521,8 @@
                         <l>de <w ana="#se">se</w> tornar; e foi-<w ana="#lhi">lhi</w> greu</l>
                         <l>d'andar Coira e Galisteu</l>
                         <l>com torquis do Emperador.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Vaiamos, irmana, vaiamos folgar</l>
                         <l>nas ribas do lago u eu vi andar</l>
                         <l>a las aves meu amigo.</l>
@@ -439,6 +530,7 @@
                         <l>seu arco na mãao as aves ferir,</l>
                         <l>a las aves meu amigo.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -448,23 +540,31 @@
                     </name>
                     <title>Que adubastes, amigo, alá em Lug'u andastes,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Que adubastes, amigo, alá em Lug'u andastes,</l>
                         <l>ou qual é essa fremosa de que vos vós namorastes?</l>
-                        <l>- Direi-vo-lo eu, senhora, pois <w ana="#m_">m'</w>en tam bem preguntastes:</l>
+                        <l>- Direi-vo-lo eu, senhora, pois <w ana="#m_">m'</w>en tam bem
+                            preguntastes:</l>
                         <l>o amor que eu levei de Santiago a Lugo,</l>
                         <l>esse <w ana="#me">me</w> aduga e esse <w ana="#mi">mi</w> adugo.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>- Que adubastes, amigo, u tardastes noutro dia,</l>
                         <l>ou qual é essa fremosa que vos tam bem parecia?</l>
                         <l>- Direi-vo-lo [eu], senhora, pois i tomastes perfia:</l>
                         <l>o amor que eu levei de Santiago a Lugo,</l>
                         <l>esse <w ana="#me">me</w> aduga e esse <w ana="#mi">mi</w> adugo.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>- Que adubastes, amigo, lá u havedes tardado,</l>
                         <l>ou qual é essa fremosa de que sodes namorado?</l>
-                        <l>- Direi-vo-lo eu, senhora, pois <w ana="#me">me</w> havedes preguntado:</l>
+                        <l>- Direi-vo-lo eu, senhora, pois <w ana="#me">me</w> havedes
+                            preguntado:</l>
                         <l>o amor que eu levei de Santiago a Lugo,</l>
                         <l>esse m aduga e esse <w ana="#mi">mi</w> adugo.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -474,36 +574,48 @@
                     </name>
                     <title>Diss'hoj'el-rei: - Pois Dom Foão mais val</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Diss'hoj'el-rei: - Pois Dom Foão mais val</l>
                         <l>seendo pobre - o gram bem fazer</l>
                         <l>que <w ana="#lh">lh</w>'eu fiz sempre o faz ensandecer -,</l>
-                        <l>se <w ana="#m_">m'</w><w ana="#el">el</w> bem quer, meus amigos, em tal</l>
-                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
+                        <l>se <w ana="#m_">m'</w><w ana="#el">el</w> bem quer, meus amigos, em
+                            tal</l>
+                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w>
+                            farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Pois em pobreza nom sal de seu sem</l>
                         <l>e o bem fazer o torna sandeu,</l>
                         <l>por padecer o que nom padeceu,</l>
                         <l>pero, meus amigos, diz que <w ana="#me">me</w> quer bem,</l>
-                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
+                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w>
+                            farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Pois <w ana="#lhi">lhi</w> Deus atal ventura deu</l>
                         <l>que em pobreza tod'o seu sem há</l>
                         <l>e com bem fazer sandice <w ana="#lhi">lhi</w> dá,</l>
-                        <l>pero <w ana="#m_">m'</w><w ana="#el">el</w> quer bem e <w ana="#se">se</w> tem por meu,</l>
-                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w> farei</l>
+                        <l>pero <w ana="#m_">m'</w><w ana="#el">el</w> quer bem e <w ana="#se"
+                                >se</w> tem por meu,</l>
+                        <l>que <w ana="#me">me</w> queira já mal, mal <w ana="#lhi">lhi</w>
+                            farei</l>
                         <l>padecer, e desensandecê-l'-ei.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
                     <name corresp="per4">
                         <persName corresp="#EstGuar">Estevan da Guarda</persName>
-                        <affiliation corresp="4">Period 4</affiliation> 
+                        <affiliation corresp="4">Period 4</affiliation>
                     </name>
                     <title>Meu dano fiz por tal juiz pedir</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Meu dano fiz por tal juiz pedir</l>
                         <l>qual <w ana="#mi">mi</w> a reínha, madre del-rei, deu</l>
                         <l>- um cavaleiro oficial seu -</l>
@@ -511,13 +623,18 @@
                         <l>ca se vou i e lev'o meu vogado,</l>
                         <l>sempre <w ana="#me">me</w> diz que está embargado,</l>
                         <l>de tal guisa que <w ana="#me">me</w> nom pod'oir.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Por tal juiz nunca jamais será</l>
                         <l>desembargad'este preito que hei,</l>
                         <l>nem a reínha nem seu filh'el-rei,</l>
                         <l>pero lhe mandem, nunca <w ana="#m_">m'</w>oirá;</l>
                         <l>ca já <w ana="#me">me</w> disse que <w ana="#me">me</w> nom compria</l>
-                        <l>d'ir per d'ant'<w ana="#el">el</w>, pois <w ana="#m_">m'</w>oir nom podia,</l>
+                        <l>d'ir per d'ant'<w ana="#el">el</w>, pois <w ana="#m_">m'</w>oir nom
+                            podia,</l>
                         <l>mentr'embargad'estever com'está.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Mais a reínha, pois que certa for</l>
                         <l>de qual juiz ena sa casa tem,</l>
                         <l>terrá por razom - esto sei eu bem -</l>
@@ -526,6 +643,7 @@
                         <l>pois que d'i for este juiz tolheito</l>
                         <l>e <w ana="#me">me</w> derem qualquer outr'oídor.</l>
                     </lg>
+                </lg>
             </div>
 
             <div>
@@ -533,11 +651,11 @@
                     <name corresp="per4">
                         <persName corresp="#AfSchz">Afonso Sanchez</persName>
                         <affiliation corresp="4">Period 4</affiliation>
-                        
                     </name>
                     <title>Pois que vós per i mais valer cuidades,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Pois que vós per i mais valer cuidades,</l>
                         <l>mal vos quer'eu conselhar, mia senhor;</l>
                         <l>pera sempre fazerde'lo peior</l>
@@ -545,6 +663,8 @@
                         <l>amad'aquel que vos tem em desdém</l>
                         <l>e leixad'a <w ana="#mim">mim</w>, que vos quero bem,</l>
                         <l>[e] nunca vós melhor [en]fus'enchades.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Al vos er quero dizer que faredes,</l>
                         <l>pois que vos já mal hei de conselhar;</l>
                         <l>pois per i mais cuidades acabar,</l>
@@ -552,6 +672,8 @@
                         <l>fazede bem sempr'a quem vos mal faz,</l>
                         <l>e matade-<w ana="#mi">mi</w>, senhor, pois vos praz,</l>
                         <l>e nunca vós melhor mouro matedes.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Ca nom sei homem que <w ana="#se">se</w> mal nom queixe</l>
                         <l>do que <w ana="#m_">m'</w>eu queixo - d'haver sempre mal;</l>
                         <l>por en dig'eu, com gram coita mortal:</l>
@@ -559,10 +681,13 @@
                         <l>e moira eu por vós, com'é razom,</l>
                         <l>e pois ficardes com <w ana="#el">el</w>, des entom</l>
                         <l>coçar-vos-edes com a mão do peixe.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Do que dirám pois, se Deus vos perdom,</l>
                         <l>por vós, senhor, quantos no mundo som,</l>
                         <l>atade todo e fazed'end'um feixe.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -572,38 +697,50 @@
                     </name>
                     <title>Sempre vos eu doutra rem mais amei,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Sempre vos eu doutra rem mais amei,</l>
                         <l>por quanto bem Deus em vós pôs, senhor,</l>
                         <l>des i ar hei gram mal e desamor</l>
                         <l>de vós; e por en, mia senhor, nom sei</l>
                         <l>se <w ana="#me">me</w> praza porque vos quero bem,</l>
-                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w> vem.</l>
+                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w>
+                            vem.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Por quanto bem, por vos eu nom mentir,</l>
                         <l>Deus en vós pôs, vos am'eu mais que al,</l>
                         <l>des i ar hei <w ana="#m_">m'</w>eu grand'afã e mal</l>
                         <l>de vós; e por en nom sei bem partir</l>
                         <l>se <w ana="#me">me</w> praza porque vos quero bem,</l>
-                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w> vem.</l>
+                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w>
+                            vem.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Por quanto bem Deus em vós foi põer</l>
                         <l>vos am'eu mais de quantas cousas som</l>
                         <l>hoje no mund'e nom hei se mal nom</l>
                         <l>de vós; e por en nom sei escolher</l>
                         <l>se <w ana="#me">me</w> praza por que vos quero bem,</l>
-                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w> vem.</l>
+                        <l>se <w ana="#mi">mi</w> ar pês en por quanto mal <w ana="#me">me</w>
+                            vem.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Pero, senhor, pois <w ana="#m_">m'</w>escolher convém,</l>
                         <l>escolh'eu d'ambas que <w ana="#mi">mi</w> praza en.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
                     <name corresp="per5">
                         <persName corresp="#DieGvz">Diogo Gonçalves de Montemor-o-Novo</persName>
-                        <affiliation corresp="5">Period 5</affiliation> 
+                        <affiliation corresp="5">Period 5</affiliation>
                     </name>
-                    <title>Co[<w ana="#m_">m'</w>] homem ferido com ferro e com pau,</title>
+                    <title>Co[m'] homem ferido com ferro e com pau,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Co[<w ana="#m_">m'</w>] homem ferido com ferro e com pau,</l>
                         <l>mais te valia de seeres já morto,</l>
                         <l>pois tua dama há com outro conforto;</l>
@@ -613,6 +750,8 @@
                         <l>que desta guisa matará muitas gentes</l>
                         <l>ainda que <w ana="#se">se</w> apeguem ao d'avam da nau</l>
                         <l>e vee se faram depois daí vau.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>- Perdom vos [eu] peço se en'esto pequei,</l>
                         <l>em quanto vos houve aqui devulgado,</l>
                         <l>pero grande tresteza e muito cuidado</l>
@@ -623,6 +762,7 @@
                         <l>buscando juiz que veja se errei;</l>
                         <l>porém em mia vida já lhe nom falarei.</l>
                     </lg>
+                </lg>
             </div>
             <div>
                 <head>
@@ -632,11 +772,14 @@
                     </name>
                     <title>Do Port'and'e vou mudar,</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Do Port'and'e vou mudar,</l>
                         <l>por partida maldirei,</l>
                         <l>a que amo nom falei,</l>
                         <l>do que tomo grão pesar.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Desejoso mui sobejo,</l>
                         <l>e nom deixo de cuidar,</l>
                         <l>desejando eu não vejo</l>
@@ -645,6 +788,8 @@
                         <l>nom <w ana="#me">me</w> esquece a razão</l>
                         <l>donde houve afrição:</l>
                         <l>[e]sta morte sofrerei.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>E, fim desto, nom direi</l>
                         <l>por quem passo afrição,</l>
                         <l>senom sempre mudarei</l>
@@ -653,9 +798,12 @@
                         <l>que <w ana="#me">me</w> há lá de valer;</l>
                         <l>pois <w ana="#me">me</w> tem a seu poder,</l>
                         <l>a Deus tenho de louvar.</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Nunca foi partida […]</l>
                         <l>[…] tão triste de lugar</l>
                     </lg>
+                </lg>
             </div>
 
             <div>
@@ -666,7 +814,8 @@
                     </name>
                     <title>Luis Vaasques, depois que parti</title>
                 </head>
-                    <lg>
+                <lg>
+                    <lg type="stanza">
                         <l>Luis Vaasques, depois que parti</l>
                         <l>dessa cidade tão boa, Lisboa,</l>
                         <l>achei tal encontro que digo per <w ana="#mim">mim</w></l>
@@ -675,9 +824,12 @@
                         <l>vi ũa serrana que bradava guerra:</l>
                         <l>"- Vós treedes <w ana="#comigo">comigo</w>, decê-vos a terra,</l>
                         <l>pois [ora] lá tangem e cá ora soa".</l>
+                    </lg>
+                    <lg type="stanza">
                         <l>Pero de sa vista eu fosse espantado,</l>
                         <l>qual <w ana="#me">me</w> ela par'ceu, tão ressanhuda (...)</l>
                     </lg>
+                </lg>
             </div>
         </body>
     </text>

@@ -71,8 +71,15 @@
         <h3><a id="{$title}_toc" href="#{$title}"><xsl:value-of select="head/title"/></a></h3>
         <p><xsl:apply-templates select="lg"/></p>
     </xsl:template>
+    <xsl:template match="lg[@type='stanza']">
+        <xsl:apply-templates/>
+        <br/>
+    </xsl:template>
+
     <xsl:template match="l">
         <xsl:apply-templates/>
         <br/>
     </xsl:template>
+    
+
 </xsl:stylesheet>

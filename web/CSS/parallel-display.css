@@ -1,4 +1,4 @@
-.container{
+div.container{
     padding-right:1%;
     padding-left:1%;
     margin-bottom:50px;
@@ -6,25 +6,31 @@
     width:99%;
 }
 
-.pane
+div.pane
 {
     vertical-align:top;
     bottom:50px;
     height:750px;
 }
-#leftMaps
+div.pane #leftMaps
 {
     float:left;
     width:27%;
 }
 
-#leftNetwork
+div.pane #leftEarth
+{
+    float:left;
+    width:28%;
+}
+
+div.pane #leftNetwork
 {
     float:left;
     width:25%;
 }
 
-#rightMaps
+div.pane #rightMaps
 {
     float:right;
     width:68%;
@@ -32,13 +38,13 @@
 }
 
 
-#rightEarth
+div.pane #rightEarth
 {
     float:right;
     width:70%;
 }
 
-#rightNetwork
+div.pane #rightNetwork
 {
     float:right;
     width:75%;

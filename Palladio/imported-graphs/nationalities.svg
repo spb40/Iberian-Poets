@@ -1,0 +1,216 @@
+<svg style="" xmlns="http://www.w3.org/2000/svg" version="1.1" height="800" width="1438"
+    pointer-events="all">
+    <rect fill="none" height="600" width="600" class="overlay"/>
+    <g class="main">
+        <g class="layer nodes">
+            <circle transform="translate(459.774316963385,285.4860772909558)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="16.071247279470292" class="node source highlighted"/>
+            <circle transform="translate(555.7018767528552,314.8315054751081)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(34, 34, 34); stroke-width: 2px; fill-opacity: 0.95;"
+                r="20" class="node target fixed"/>
+            <circle transform="translate(486.16674889323735,247.2935323326127)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="15.74772708486752" class="node source highlighted"/>
+            <circle transform="translate(410.38709054726246,227.77846205232083)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(34, 34, 34); stroke-width: 2px; fill-opacity: 0.95;"
+                r="13.224972160321824" class="node target fixed"/>
+            <circle transform="translate(549.7572849665846,158.52395232587037)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(34, 34, 34); stroke-width: 2px; fill-opacity: 0.95;"
+                r="9.937253933193773" class="node target fixed"/>
+            <circle transform="translate(620.3093167060738,216.25986133908077)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="8.70820393249937" class="node source highlighted"/>
+            <circle transform="translate(435.23734936495316,323.44989187973863)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="8.70820393249937" class="node source highlighted"/>
+            <circle transform="translate(383.4098606167763,283.7838642953751)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(34, 34, 34); stroke-width: 2px; fill-opacity: 0.95;"
+                r="8.70820393249937" class="node target fixed"/>
+            <circle transform="translate(628.2768070731177,393.5957099768052)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="6.242640687119286" class="node source highlighted"/>
+            <circle transform="translate(583.8911891202092,427.0511882274126)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="6.242640687119286" class="node source highlighted"/>
+            <circle transform="translate(572.5969022891115,223.5907629029408)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="7.196152422706632" class="node source highlighted"/>
+            <circle transform="translate(516.9959546579221,416.28881543890043)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="7.196152422706632" class="node source highlighted"/>
+            <circle transform="translate(455.1256234073403,379.3794504009346)"
+                style="fill: rgb(187, 187, 187); stroke: rgb(34, 34, 34); stroke-width: 2px; fill-opacity: 0.95;"
+                r="7.196152422706632" class="node target fixed"/>
+            <circle transform="translate(666.1636228020757,353.3592038513833)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="5" class="node source highlighted"/>
+            <circle transform="translate(658.0094669634334,295.4332899776971)"
+                style="fill: rgb(102, 102, 102); stroke: rgb(238, 238, 238); stroke-width: 2px; fill-opacity: 0.95;"
+                r="5" class="node source highlighted"/>
+        </g>
+        <g class="layer labels">
+            <g transform="translate(450.28914396600544,282.147533190711)" class="anchor-node">
+                <text transform="translate(-53.16479320406512,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Galician</text>
+            </g>
+            <g transform="translate(564.2001891114928,318.5269458301608)" class="anchor-node">
+                <text transform="translate(-0.2778843001299052,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >3rd</text>
+            </g>
+            <g transform="translate(483.64122089130683,236.02877250880317)" class="anchor-node">
+                <text transform="translate(-44.23107113244678,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Portuguese</text>
+            </g>
+            <g transform="translate(400.46322798574556,217.80809741504595)" class="anchor-node">
+                <text transform="translate(-6.665474908566675,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >2nd</text>
+            </g>
+            <g transform="translate(550.0234457037805,144.97010064193978)" class="anchor-node">
+                <text transform="translate(-3.8315990724850106,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >4th</text>
+            </g>
+            <g transform="translate(630.6976014159197,207.58165840727713)" class="anchor-node">
+                <text transform="translate(-6.881634791449335,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Castilian</text>
+            </g>
+            <g transform="translate(424.0367607783601,329.3872322498155)" class="anchor-node">
+                <text transform="translate(-11.56807114026728,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Galician</text>
+            </g>
+            <g transform="translate(369.10310886627167,283.5037000261582)" class="anchor-node">
+                <text transform="translate(-5.599463186147294,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >1st</text>
+            </g>
+            <g transform="translate(637.0409996941592,402.943072972103)" class="anchor-node">
+                <text transform="translate(-7.9398940153791795,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Occitan</text>
+            </g>
+            <g transform="translate(586.8958463281822,440.0550205765028)" class="anchor-node">
+                <text transform="translate(-26.823488208192067,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Aragonese</text>
+            </g>
+            <g transform="translate(575.4704562951556,213.03622159932297)" class="anchor-node">
+                <text transform="translate(-20.171420536790713,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Leonese</text>
+            </g>
+            <g transform="translate(514.2049706793994,428.86872938635713)" class="anchor-node">
+                <text transform="translate(-8.840581724901098,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Portuguese</text>
+            </g>
+            <g transform="translate(447.10296522088925,389.97178738885543)" class="anchor-node">
+                <text transform="translate(-5.372628428843808,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >5th</text>
+            </g>
+            <g transform="translate(679.1328161350968,357.2818118722414)" class="anchor-node">
+                <text transform="translate(-1.3867551840102867,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Genovese</text>
+            </g>
+            <g transform="translate(670.3538157031237,292.07549063684564)" class="anchor-node">
+                <text transform="translate(-0.9396336699322697,5)"
+                    style="fill: rgb(85, 85, 85); font-family: merriweather,Arial,Helvetica;"
+                    >Sevillan</text>
+            </g>
+        </g>
+        <g class="layer links">
+            <path
+                d="M459.774316963385,285.4860772909558L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M486.16674889323735,247.2935323326127L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M459.774316963385,285.4860772909558L410.38709054726246,227.77846205232083"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M486.16674889323735,247.2935323326127L549.7572849665846,158.52395232587037"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M620.3093167060738,216.25986133908077L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M486.16674889323735,247.2935323326127L410.38709054726246,227.77846205232083"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M435.23734936495316,323.44989187973863L410.38709054726246,227.77846205232083"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M459.774316963385,285.4860772909558L383.4098606167763,283.7838642953751"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M486.16674889323735,247.2935323326127L383.4098606167763,283.7838642953751"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M628.2768070731177,393.5957099768052L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M583.8911891202092,427.0511882274126L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M572.5969022891115,223.5907629029408L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M516.9959546579221,416.28881543890043L455.1256234073403,379.3794504009346"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M435.23734936495316,323.44989187973863L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M486.16674889323735,247.2935323326127L455.1256234073403,379.3794504009346"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M666.1636228020757,353.3592038513833L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M620.3093167060738,216.25986133908077L549.7572849665846,158.52395232587037"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M516.9959546579221,416.28881543890043L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M572.5969022891115,223.5907629029408L549.7572849665846,158.52395232587037"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M435.23734936495316,323.44989187973863L383.4098606167763,283.7838642953751"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+            <path
+                d="M658.0094669634334,295.4332899776971L555.7018767528552,314.8315054751081"
+                style="fill: none; stroke-opacity: 0.5; stroke: rgb(102, 102, 102); stroke-width: 1;"
+                class="link"/>
+        </g>
+    </g>
+</svg>

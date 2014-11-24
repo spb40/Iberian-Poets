@@ -1,0 +1,45 @@
+.container{
+    padding-right:1%;
+    padding-left:1%;
+    margin-bottom:50px;
+    min-height:100%;
+    width:99%;
+}
+
+.pane
+{
+    vertical-align:top;
+    bottom:50px;
+    height:750px;
+}
+#leftMaps
+{
+    float:left;
+    width:27%;
+}
+
+#leftNetwork
+{
+    float:left;
+    width:25%;
+}
+
+#rightMaps
+{
+    float:right;
+    width:68%;
+    overflow-y:scroll;
+}
+
+
+#rightEarth
+{
+    float:right;
+    width:70%;
+}
+
+#rightNetwork
+{
+    float:right;
+    width:75%;
+}

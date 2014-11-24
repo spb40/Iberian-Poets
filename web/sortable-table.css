@@ -1,0 +1,48 @@
+
+table.sortable{
+    background-color:#ffff7d;
+    color:black;
+    table-layout:fixed;
+    width:850px;
+    border:2px #FF8822;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table.sortable td{
+    padding:0.8%;
+}
+
+
+th.period,
+td.period{
+    width:80px;
+}
+
+table.sortable tr.head{
+    padding:1.2%
+}
+
+td.first{
+    font-weight:bold;
+    color:black;
+    vertical-align:middle;
+    background-color:#FFED67;
+}
+
+table.sortable tr:nth-child(3),
+th:nth-child(3){
+    width:110px
+}
+table.sortable tr:nth-child(2),
+th:nth-child(2){
+    width:120px
+}
+table.sortable tr:nth-child(4),
+th:nth-child(4){
+    width:125px
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
+    content:"\25BE\25B4"
+}

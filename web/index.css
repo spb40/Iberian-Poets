@@ -18,9 +18,6 @@ code{
     color:#FFff7d;
     font-weight:bold;
 }
-code.block{
-    color:#444444;
-}
 
 div.code{
     width:95%;
@@ -41,51 +38,6 @@ pre{
     font-size:larger;
 }
 
-.container{
-    padding-right:2%;
-    padding-left:2%;
-    margin-bottom:50px;
-    min-height:100%;
-    width:99%;
-}
-
-.pane
-{
-    vertical-align:top;
-    bottom:50px;
-    height:750px;
-}
-#left
-{
-    float:left;
-    width:27%;
-}
-
-#leftNetwork
-{
-    float:left;
-    width:25%;
-}
-
-#right
-{
-    float:right;
-    width:70%;
-    overflow-y:scroll;
-}
-
-#rightEarth
-{
-    float:right;
-    width:70%;
-}
-
-#rightNetwork
-{
-    float:right;
-    width:75%;
-}
-
 h1{
     color:#D45710;
     padding-right:20%;
@@ -93,6 +45,7 @@ h1{
     font-weight:bold;
     clear:both;
 }
+
 h2{
     color:#FFED67;
     clear:both;
@@ -100,6 +53,10 @@ h2{
 
 h3{
     color:#FFB581;
+    clear:both;
+}
+
+h4{
     clear:both;
 }
 
@@ -157,19 +114,6 @@ td{
 }
 
 
-table.sortable{
-    background-color:#ffff7d;
-    color:black;
-    table-layout:fixed;
-    width:850px;
-    border:2px #FF8822;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-table.sortable td{
-    padding:0.8%;
-}
 
 tr.head{
     text-align:center;
@@ -178,40 +122,6 @@ tr.head{
     font-size:large;
 }
 
-
-th.period,
-td.period{
-    width:80px;
-}
-
-table.sortable tr.head{
-    padding:1.2%
-}
-
-table.sortable tr:nth-child(3),
-th:nth-child(3){
-    width:110px
-}
-table.sortable tr:nth-child(2),
-th:nth-child(2){
-    width:120px
-}
-table.sortable tr:nth-child(4),
-th:nth-child(4){
-    width:125px
-}
-
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:"\25BE\25B4"
-}
-
-
-td.first{
-    font-weight:bold;
-    color:black;
-    vertical-align:middle;
-    background-color:#FFED67;
-}
 
 td > p{
     padding:0%;
@@ -225,6 +135,10 @@ svg.poets{
     float:left;
 }
 
+svg.poets2{
+    padding-left:1%;
+    float:left;
+}
 
 /*#navMenu {
     position:fixed;
@@ -250,7 +164,7 @@ svg.poets{
 }
 
 
-#navMenu ul li{
+#navMenu ul > li{
     display:block;
     background-color:#FF8822;
     list-style:none;
@@ -260,7 +174,7 @@ svg.poets{
     float:left;
 }
 
-#navMenu ul li a{
+#navMenu ul > li > a{
     text-decoration:none;
     padding:.005em 1em;
     color:white;
@@ -269,47 +183,47 @@ svg.poets{
     display:inline;
 }
 
-#navMenu ul li a:hover{
+#navMenu ul > li > a:hover{
     color:#FFED67;
     text-align:center;
 }
 
-#navMenu ul li > ul{
+#navMenu ul.dropdown{
     display:none;
     padding:0px;
     position:relative;
-    width:105px;
     top:100%;
     float:none;
     margin:0;
     background-color:#FFED67;
-    border-top:none
+    border-top:none;
 }
 
-#navMenu ul li li{
-
+#navMenu ul.dropdown > li{
     display:block;
-    padding:3px 0px 3px 5px;
+    padding:0px 0px 4px 0px;
     color:#FF8822;
     cursor:pointer;
+    width:148px;
     text-align:center;
     background-color:#FFED67;
 }
-#navMenu ul li:hover > ul,
-#navMenu ul li:active ul
-{
+
+#navMenu ul.dropdown > li.small{width:110px}
+#navMenu ul.dropdown > li.large{width:162px}
+
+#navMenu ul > li:hover > ul,
+#navMenu ul > li:active > ul{
     display:block;
     text-align:center;
-    width:167px;
     color:#FF8822;
-    position:absolute
+    position:absolute;
 }
 
-#navMenu ul li ul li a:hover
-{
+#navMenu ul.dropdown > li > a:hover{
     color:#444444
 }
 
-#navMenu ul li ul li a{
+#navMenu ul.dropdown > li > a{
     color:#FF8822
 }

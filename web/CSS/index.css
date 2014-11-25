@@ -140,6 +140,26 @@ svg.poets2{
     float:left;
 }
 
+hr{
+    border:0;
+    height:1px;
+    margin-top:60px;
+    margin-bottom:25px;
+    margin-left:15%;
+    margin-right:15%;
+    background-image:-webkit-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
+    background-image:-moz-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
+    background-image:-ms-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
+    background-image:-o-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
+}
+
+#fn1 {
+    margin-right:18%; 
+    margin-left:18%;
+    display:inline-block;
+    text-align:justify;
+}
+
 /*#navMenu {
     position:fixed;
     margin-left:auto;
@@ -209,8 +229,12 @@ svg.poets2{
     background-color:#FFED67;
 }
 
-#navMenu ul.dropdown > li.small{width:110px}
-#navMenu ul.dropdown > li.large{width:162px}
+#navMenu ul.dropdown > li.small{
+    width:110px
+}
+#navMenu ul.dropdown > li.large{
+    width:162px
+}
 
 #navMenu ul > li:hover > ul,
 #navMenu ul > li:active > ul{

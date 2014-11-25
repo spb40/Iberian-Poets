@@ -12,39 +12,40 @@ div.pane
     bottom:50px;
     height:750px;
 }
-div.pane #leftMaps
-{
-    float:left;
-    width:27%;
-}
-
-div.pane #leftEarth
-{
-    float:left;
-    width:28%;
-}
-
-div.pane #leftNetwork
+div#leftMaps
 {
     float:left;
     width:25%;
 }
 
-div.pane #rightMaps
+div#leftEarth
+{
+    float:left;
+    width:29%;
+    margin-left:1%;
+}
+
+div#leftNetwork
+{
+    float:left;
+    width:25%;
+}
+
+div#rightMaps
 {
     float:right;
-    width:68%;
-    overflow-y:scroll;
+    margin-top:2%;
+    width:75%;
 }
 
 
-div.pane #rightEarth
+div#rightEarth
 {
     float:right;
     width:70%;
 }
 
-div.pane #rightNetwork
+div#rightNetwork
 {
     float:right;
     width:75%;

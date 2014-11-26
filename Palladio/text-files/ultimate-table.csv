@@ -51,7 +51,7 @@ Pero da Ponte;Galician;3;43,-8;Alfonso X;royal;41.652032,-4.728216;1235;1275
 Pero da Ponte;Galician;3;43,-8;Lope Díaz de Haro;noble;42.6,-2.8;1235;1275
 Pero da Ponte;Galician;3;43,-8;Telo Afonso de Meneses;noble;41.941667,-4.92;1235;1275
 Martin Codax;Galician;3;42.807989,-7.943570;Vigo;unknown;42.223078,-8.731278;1240;1275
-Dom Dinis;Portuguese;3;38.716667,-9.133333;D. Dinis;royal;38.7167,-9.1334;1279;1235
+D. Dinis;Portuguese;3;38.716667,-9.133333;D. Dinis;royal;38.7167,-9.1334;1279;1235
 Pai Gomez Charinho;Galician;3;42.433333,-8.65;Sancho IV;royal;39.856667,-4.024444;1248;1295
 Fernan Velho;Galician;3;42.9,-7.8;Alfonso X;royal;41.652032,-4.728216;1280;1320
 Bonifaci Calvo (Bonifaz de Genua);Genovese;3;44.411111,8.932778;Alfonso X;royal;41.652032,-4.728216;1250;1265
@@ -60,14 +60,14 @@ Roi Fernandiz de Santiago;Galician;3;42.866667,-8.55;Alfonso X;royal;41.652032,-
 Vasco Martins de Resende;Portuguese;4;41.1,-7.95;D. Dinis;royal;38.7167,-9.1334;1290;1325
 Vasco Martins de Resende;Portuguese;4;41.1,-7.95;Afonso IV;royal;38.716667,-9.133333;1290;1325
 Fernand' Esquio;Galician;3;43.499886,-8.156906;Rodrigo Gómez;noble;43.65,-7.583333;1290;1315
-Pedro de Portugal, Conde de Barcelos;Portuguese;4;38.7166,1,-9.1333;D. Dinis;royal;38.7167,-9.1334;1300;1350
-Pedro de Portugal, Conde de Barcelos;Portuguese;4;38.7166,1,-9.1333;Alfonso XI;royal;41.7,-4.8;1300;1350
-Pedro de Portugal, Conde de Barcelos;Portuguese;4;38.7166,1,-9.1333;D. Dinis;royal;38.7167,-9.1334;1300;1350
-Pedro de Portugal, Conde de Barcelos;Portuguese;4;38.7166,1,-9.1333;Count of Barcelos;noble;41.033333,-7.816667;1300;1350
+Conde de Barcelos;Portuguese;4;38.7166-9.1333;D. Dinis;royal;38.7167,-9.1334;1300;1350
+Conde de Barcelos;Portuguese;4;38.7166-9.1333;Alfonso XI;royal;41.7,-4.8;1300;1350
+Conde de Barcelos;Portuguese;4;38.7166-9.1333;D. Dinis;royal;38.7167,-9.1334;1300;1350
+Conde de Barcelos;Portuguese;4;38.7166-9.1333;Conde de Barcelos;noble;41.033333,-7.816667;1300;1350
 Estevan da Guarda;Portuguese;4;40.538230,-7.266249;D. Dinis;royal;38.7167,-9.1334;1320;1350
 Estevan da Guarda;Portuguese;4;40.538230,-7.266249;Afonso IV;royal;38.716667,-9.133333;1320;1350
 Johan, jograr morador en León;Leonese;4;42.57,-5.54;D. Dinis;royal;38.7167,-9.1334;1320;1340
-Johan, jograr morador en León;Leonese;4;42.57,-5.54;Count of Barcelos;noble;41.033333,-7.816667;1320;1340
+Johan, jograr morador en León;Leonese;4;42.57,-5.54;Conde de Barcelos;noble;41.033333,-7.816667;1320;1340
 Afonso Sanchez;Portuguese;4;41.4725,-7.846667;D. Dinis;royal;38.7167,-9.1334;1289;1328
 Afonso Sanchez;Portuguese;4;41.4725,-7.846667;Afonso Sanchez;noble;39.216667,-7;1289;1328
 Estevan Coelho;Portuguese;4;41.719828,-8.314163;D. Dinis;royal;38.7167,-9.1334;1300;1325
@@ -89,8 +89,8 @@ Roi Gomez de Briteiros;Portuguese;2;41.5,-8.42;Alfonso IX;royal;42.600636,-5.570
 Roi Gomez de Briteiros;Portuguese;2;41.5,-8.42;Afonso III;royal;40.26,-8.46;1225;1250
 Pero Garcia d' Ambroa;Galician;2;43.133772,-8.604003;Rodrigo Gómez;noble;43.65,-7.583333;1228;1260
 Pero Garcia d' Ambroa;Galician;2;43.133772,-8.604003;Ferdinand III;royal;37.765406,-3.790256;1228;1260
-Johan Airas;Galician;3;42.9,120,-8.56;Alfonso X;royal;41.652032,-4.728216;1270;1295
-Johan Airas;Galician;3;42.9,120,-8.56;Sancho IV;royal;39.856667,-4.024444;1270;1295
+Johan Airas;Galician;3;42.9-8.56;Alfonso X;royal;41.652032,-4.728216;1270;1295
+Johan Airas;Galician;3;42.9-8.56;Sancho IV;royal;39.856667,-4.024444;1270;1295
 Alfonso X;Castilian;3;39.9,-4.1;Alfonso X;royal;41.652032,-4.728216;1242;1284
 Fernan Soarez de Quinhones;Leonese;3;42.552194,-5.826969;Alfonso X;royal;41.652032,-4.728216;1250 ;1275
 Fernan Soarez de Quinhones;Leonese;3;42.552194,-5.826969;Sancho IV;royal;39.856667,-4.024444;1250 ;1275

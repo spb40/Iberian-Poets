@@ -30,7 +30,7 @@
                 The query you'll have to create to do so should look something like this:
                 (let's call our variable to find the modern words... "modern". I use the capital letters to 
                 indicate that the name of the file in eXide should go there [or a variable that is equal to the file])
-                let $modern := SONGSFILE//tei:w[substring(@ana,2) = FEATURESFILE[tokenize( @feats/string(),'\s+') = '#modern']/@xml:id]
+                let $modern := SONGSFILE//tei:w[substring(@ana,2) = FEATURESFILE[tokenize(@feats/string(),'\s+') = '#modern']/@xml:id]
                 -->
                 <f name="accented_forms" xml:id="accented"/>
                 <f name="archaic" xml:id="archaic"/>
@@ -106,6 +106,8 @@
                 <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern #unaccented"/>
                 <!-- vs -->
                 <fs xml:id="lhi" feats="#archaic #assimilation #dative #p3 #unaccented #analogy"/>
+                <!--The form "lhi" was not documented by Williams, so that's something interesting to mention
+                in your analysis-->                
                 <fs xml:id="li" feats="#archaic #assimilation #dative #p3 #unaccented"/>
                 <!-- And to your counting you'll have to add the following case saying that, due to the apocope, you can't
                whether it is the arcaic form "lhi" or the modern form "lhe"-->
@@ -115,7 +117,8 @@
                 <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern #unaccented"/>
                 <!-- vs -->
                 <fs xml:id="lis" feats="#archaic #assimilation #dative #p6 #unaccented"/>
-                <fs xml:id="lhis" feats="#archaic #assimilation #dative #p6 #unaccented #analogy"/>
+                <fs xml:id="lhis" feats="#archaic #assimilation #dative #p6 #unaccented #analogy"/> 
+                <!--The form "lhis" was not documented by Williams either-->
                 
                 <!-- Pair -->
                 <fs xml:id="che" feats="#p2 #dative #archaic #assimilation #unaccented"/>
@@ -125,7 +128,8 @@
                 <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/>
                 <!-- vs -->
                 <fs xml:id="xe" feats="#archaic #p3p6 #assimilation #unaccented"/>
-                <fs xml:id="xi" feats="#archaic #p3p6 #assimilation #unaccented #analogy"/> 
+                <fs xml:id="xi" feats="#archaic #p3p6 #assimilation #unaccented #analogy"/>
+                <!-- And "xi" is another form not documented by Williams -->
                 
                 <!-- Pair (kind of) -->
                 <fs xml:id="me" feats="#modern #p1 #acusative #unaccented #not_assim"/>
@@ -134,6 +138,8 @@
                 <!-- But, you have to add this one to the counting and the problem is the same as before, that you can't tell
                 which one is the final vowel-->
                 <fs xml:id="m_" feats="#p1 #acusative #unaccented #not_assim #not_vowel"/>
+                <!-- And also "mi" as an acusative was not present in William's chart (however, I think that later on in his work he
+                does mention that "mi" acts sometimes as an acusative during the Middle Ages...-->
             </fvLib>
         </body>
     </text>

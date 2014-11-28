@@ -55,82 +55,82 @@
                 <f name="analogy" xml:id="analogy"/>
                 <f name="apocope" xml:id="not_vowel"/>
             </fLib>
-            
-            
+
+
             <fvLib>
                 <!--Pair -->
                 <fs xml:id="mi" feats="#accented #p1 #dative #modern"/>
                 <fs xml:id="mim" feats="#dative #p1 #accented #archaic"/>
-                
+
                 <!--Pair -->
                 <fs xml:id="ele" feats="#accented #p3 #archaic #m"/>
                 <fs xml:id="el" feats="#accented #p3 #modern #m"/>
-                
+
                 <!-- Unique form -->
                 <fs xml:id="ello" feats="#accented #p3 #n #archaic"/>
-                
+
                 <!--Pair -->
                 <fs xml:id="eles" feats="#p6 #accented #modern"/>
                 <fs xml:id="eis" feats="#accented #p6 #archaic"/>
-                
+
                 <!-- Foursome -->
                 <fs xml:id="comigo" feats="#accented #p1 #comitative #modern"/>
                 <!-- vs -->
                 <fs xml:id="mego" feats="#accented #p1 #comitative #archaic"/>
                 <fs xml:id="comego" feats="#accented #p1 #comitative #archaic #repetition"/>
-                <fs xml:id="migo" feats="#accented #p1 #comitative #archaic #metaphony"/>                
-                
-                <!-- Foursome -->                
+                <fs xml:id="migo" feats="#accented #p1 #comitative #archaic #metaphony"/>
+
+                <!-- Foursome -->
                 <fs xml:id="contigo" feats="#accented #p2 #comitative #modern"/>
                 <!-- vs -->
                 <fs xml:id="tego" feats="#accented #p2 #comitative #archaic"/>
                 <fs xml:id="contego" feats="#accented #p2 #comitative #archaic #repetition"/>
-                <fs xml:id="tigo" feats="#accented #p2 #comitative #archaic #metaphony"/>                
-                
-                <!-- Foursome -->                
+                <fs xml:id="tigo" feats="#accented #p2 #comitative #archaic #metaphony"/>
+
+                <!-- Foursome -->
                 <fs xml:id="consigo" feats="#accented #p3p6 #comitative #modern"/>
-                <!-- vs -->                
+                <!-- vs -->
                 <fs xml:id="sego" feats="#accented #p3p6 #comitative #archaic"/>
                 <fs xml:id="consego" feats="#accented #p3p6 #comitative #archaic #repetition"/>
-                <fs xml:id="sigo" feats="#accented #p3p6 #comitative #archaic #metaphony"/>                
-                
+                <fs xml:id="sigo" feats="#accented #p3p6 #comitative #archaic #metaphony"/>
+
                 <!-- Pair -->
                 <fs xml:id="connosco" feats="#accented #p4 #comitative #modern"/>
                 <fs xml:id="nosco" feats="#accented #p4 #comitative #archaic"/>
-                                
-                <!-- Pair -->                
+
+                <!-- Pair -->
                 <fs xml:id="convosco" feats="#accented #p5 #comitative #modern"/>
                 <fs xml:id="vosco" feats="#accented #p5 #comitative #archaic"/>
-                
+
                 <!-- Trio (kind of) -->
                 <fs xml:id="lhe" feats="#p3 #dative #assimilation #modern #unaccented"/>
                 <!-- vs -->
                 <fs xml:id="lhi" feats="#archaic #assimilation #dative #p3 #unaccented #analogy"/>
                 <!--The form "lhi" was not documented by Williams, so that's something interesting to mention
-                in your analysis-->                
+                in your analysis-->
                 <fs xml:id="li" feats="#archaic #assimilation #dative #p3 #unaccented"/>
                 <!-- And to your counting you'll have to add the following case saying that, due to the apocope, you can't
                whether it is the arcaic form "lhi" or the modern form "lhe"-->
                 <fs xml:id="lh_" feats="#p3 #dative #assimilation #not_vowel"/>
-                
+
                 <!-- Trio -->
                 <fs xml:id="lhes" feats="#p6 #dative #assimilation #modern #unaccented"/>
                 <!-- vs -->
                 <fs xml:id="lis" feats="#archaic #assimilation #dative #p6 #unaccented"/>
-                <fs xml:id="lhis" feats="#archaic #assimilation #dative #p6 #unaccented #analogy"/> 
+                <fs xml:id="lhis" feats="#archaic #assimilation #dative #p6 #unaccented #analogy"/>
                 <!--The form "lhis" was not documented by Williams either-->
-                
+
                 <!-- Pair -->
                 <fs xml:id="che" feats="#p2 #dative #archaic #assimilation #unaccented"/>
                 <fs xml:id="te_dative" feats="#p2 #dative #modern #unaccented"/>
-                
+
                 <!-- Trio -->
                 <fs xml:id="se" feats="#modern #p3p6 #unaccented #not_assim"/>
                 <!-- vs -->
                 <fs xml:id="xe" feats="#archaic #p3p6 #assimilation #unaccented"/>
                 <fs xml:id="xi" feats="#archaic #p3p6 #assimilation #unaccented #analogy"/>
                 <!-- And "xi" is another form not documented by Williams -->
-                
+
                 <!-- Pair (kind of) -->
                 <fs xml:id="me" feats="#modern #p1 #acusative #unaccented #not_assim"/>
                 <!-- vs -->

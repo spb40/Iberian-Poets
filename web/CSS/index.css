@@ -89,6 +89,12 @@ li{
     padding-bottom:1%;
 }
 
+li.non {
+    padding:0%;
+    margin:0%;
+    clear:both;
+}
+
 li > ul{
     padding-left:2%;
     list-style-type:disc;

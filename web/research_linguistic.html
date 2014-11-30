@@ -4,12 +4,13 @@
         <title>Linguistic Analysis - Medieval Galician-Portuguese Poetry</title>
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
-            p.questions { text-align: center}
-        </style>
+            p.questions{
+                text-align:center
+            }</style>
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <h2>The language</h2>
+        <h2>The Language</h2>
         <p> Galician-Portuguese was the spoken language in the western area of the Iberian Peninsula
             until mid-fourteenth century. Derived from Latin, it emerged progressively as a
             different language before the ninth century, in the territories of the old Kingdom of
@@ -18,8 +19,9 @@
             also a phase in its development, which later would lead to the differentiation between
             present Galician and Portuguese languages due to political and sociolinguistic
             circumstances.</p>
-        <h2>Linguistic analysis</h2>
-        <p class="questions">How did the Portuguese pronoun system change throughout the Late Middle Ages?</p>
+        <h2>Linguistic Analysis</h2>
+        <p class="questions">How did the Portuguese pronoun system change throughout the Late Middle
+            Ages?</p>
         <h3>Some History</h3>
         <p>Portuguese, like most other Romance languages, came from Latin, or more specifically, an
             altered form of Lating called "vulgar Latin". The transition from vulgar Latin to the
@@ -56,12 +58,26 @@
             seen as representative of the language being used at the time. If anything, it is one of
             the most consistent collections of texts because it spans roughly three centuries during
             the evolution of the language into modern Portuguese. By tracking the use of archaic and
-            modern pronouns in the poems, we can begin to understand the timeline of how Portuguese
-            changed over time.</p>
+            modern pronouns in the poems, we can begin to understand the timeline of how the
+            Portuguese language changed over time.</p>
         <p>This, obviously, is just a scratch at the surface of language change. In this project, we
             only look at personal pronouns because they had quantifiable changes that could be
             easily recognized and marked. A more in-depth study might include other linguistic
             features, such as phonological features of orthography. We hope that this project might
             open the door for more research into this realm of study. </p>
+        <h3>The Markup </h3>
+        <p>After formatting the poems in an XML document, the next step was to mark all the personal
+            pronouns that Williams mentioned in his study. Below are charts taken from William's
+            research. </p>
+        <img src="graph1.png"/>
+        <br/>
+        <img src="graph2.png"/>
+        
+        <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with the following tag:</p>
+            <div class="code">
+                <pre>
+&lt;w ana="#pronoun"&gt; pronoun &lt;/w&gt;
+</pre>
+            </div>
     </body>
 </html>

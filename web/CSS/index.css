@@ -89,13 +89,6 @@ li{
     padding-bottom:1%;
 }
 
-li.non {
-    padding:0%;
-    margin:0%;
-    list-style-type:none;
-    clear:both;
-}
-
 li > ul{
     padding-left:2%;
     list-style-type:disc;
@@ -228,19 +221,19 @@ hr{
 
 #navMenu ul.dropdown > li{
     display:block;
-    padding:0px 0px 4px 0px;
+    padding:0.2em 0 0.2em 0;
     color:#FF8822;
     cursor:pointer;
-    width:148px;
+    width:153%;
     text-align:center;
     background-color:#FFED67;
 }
 
 #navMenu ul.dropdown > li.small{
-    width:110px
+    width:100%;
 }
 #navMenu ul.dropdown > li.large{
-    width:162px
+    width:180%;
 }
 
 #navMenu ul > li:hover > ul,

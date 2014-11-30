@@ -21,13 +21,15 @@ function popup(e) {
         var random = "n" + Math.random();
         
         this.id = random;
-        overlay.innerHTML = this.firstElementChild.textContent;
+        var desc = this.firstElementChild.textContent;
+        var desc2 = this.children[1].textContent;
+        overlay.innerHTML = desc + desc2;
         overlay.style.backgroundColor = "black";
         overlay.style.position = "absolute";
         overlay.style.left = Xpos + "px";
         overlay.style.top = Ypos + "px";
-        overlay.style.border = "1px #D45710";
-        overlay.style.width = "120px";
+        overlay.style.border = "1px solid #D45710";
+        overlay.style.border-width = "2px";
         overlay.style.color = "white";
         overlay.style.margin = "0";
         overlay.style.padding = ".5em";

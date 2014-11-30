@@ -4,6 +4,9 @@
         <title>Linguistic Analysis - Medieval Galician-Portuguese Poetry</title>
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
+            img{
+                width:60%;
+            }
             p.questions{
                 text-align:center
             }</style>
@@ -69,15 +72,35 @@
         <p>After formatting the poems in an XML document, the next step was to mark all the personal
             pronouns that Williams mentioned in his study. Below are charts taken from William's
             research. </p>
-        <img src="images/graph1.png"/>
-        <br/>
-        <img src="images/graph2.png"/>
-        
-        <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with the following tag:</p>
-            <div class="code">
-                <pre>
+        <img src="images/graph1.png" />
+        <br />
+        <img src="images/graph2.png" />
+        <br />
+        <img src="images/graph3.png" />
+        <br />
+        <img src="images/graph4.png" />
+        <br />
+        <img src="images/graph6.png" />
+        <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with the
+            following tag:</p>
+        <div class="code">
+            <pre>
 &lt;w ana="#pronoun"&gt; pronoun &lt;/w&gt;
 </pre>
-            </div>
+        </div>
+        <p>Importantly, we did not want to miss any pronouns that were hyphenated or had been
+            assimilated into surrounding words. Therefore, we used the expression:</p>
+        <div class="code">
+            <pre>
+                Find:
+                ([^a-z])(mi[m]?)([^a-z]) 
+                
+                Replace With:
+                \1&lt;w ana="#pronounCode"&gt;\2&lt;/w&gt;\3
+            </pre>
+        </div>
+        <p>The pronoun code refers to the features library document which is available to view on
+            our GitHub. This allows us to find and calculate the pronouns based on their age
+            classification, which is marked in the feature library.</p>
     </body>
 </html>

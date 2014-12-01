@@ -145,10 +145,8 @@
         <code>&lt;w ana="#pronoun"&gt; pronoun &lt;/w&gt;</code>
         <p>Importantly, we did not want to miss any pronouns that were hyphenated or had been
             assimilated into surrounding words. Therefore, we used the expression:</p>
-        <p>Find:</p>
-        <code>([^a-z])(mi[m]?)([^a-z]) </code>
-        <p>Replace With:</p>
-        <code>\1&lt;w ana="#pronounCode"&gt;\2&lt;/w&gt;\3</code>
+        <code><span class="code">Find:</span>  ([^a-z])(mi[m]?)([^a-z])</code><br/>
+        <code><span class="code">Replace with:</span>  \1&lt;w ana="#pronounCode"&gt;\2&lt;/w&gt;\3</code>
         <p>The pronoun code refers to the features library document which is available to view on
             our GitHub. This allows us to find and calculate the pronouns based on their age
             classification, which is marked in the feature library. Using these labels, we will be

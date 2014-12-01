@@ -14,7 +14,7 @@ body{
 }
 
 code{
-    font-size:larger;
+    font-size:medium;
     color:#FFff7d;
     font-weight:bold;
 }
@@ -119,7 +119,7 @@ tr.head{
     text-align:center;
     background-color:#D45710;
     height:40px;
-    font-size:large;
+    font-size:medium;
 }
 
 

@@ -13,6 +13,10 @@ body{
     margin-bottom:25px;
 }
 
+p.questions{
+    text-align:center
+}
+
 code{
     font-size:medium;
     color:#FFff7d;
@@ -27,6 +31,18 @@ div.code{
     padding-top:10px;
     padding-left:30px;
     padding-right:10px;
+    padding-bottom:10px;
+    background-color:#FFff7d;
+}
+
+div.code2{
+    width:95%;
+    text-align:left;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-right:20%;
+    padding-left:20%;
     padding-bottom:10px;
     background-color:#FFff7d;
 }
@@ -105,6 +121,7 @@ table{
     border:5px #FF8822;
     margin-left:auto;
     margin-right:auto;
+    empty-cells:hide;
 }
 
 
@@ -147,14 +164,14 @@ hr{
     margin-bottom:25px;
     margin-left:15%;
     margin-right:15%;
-    background-image:-webkit-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
-    background-image:-moz-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
-    background-image:-ms-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
-    background-image:-o-linear-gradient(left, rgba(255,255,255, 0.9), rgba(252,252,167,1), rgba(255,255,255, 0.9));
+    background-image:-webkit-linear-gradient(left, rgba(255, 255, 255, 0.9), rgba(252, 252, 167, 1), rgba(255, 255, 255, 0.9));
+    background-image:-moz-linear-gradient(left, rgba(255, 255, 255, 0.9), rgba(252, 252, 167, 1), rgba(255, 255, 255, 0.9));
+    background-image:-ms-linear-gradient(left, rgba(255, 255, 255, 0.9), rgba(252, 252, 167, 1), rgba(255, 255, 255, 0.9));
+    background-image:-o-linear-gradient(left, rgba(255, 255, 255, 0.9), rgba(252, 252, 167, 1), rgba(255, 255, 255, 0.9));
 }
 
-#fn1 {
-    margin-right:18%; 
+#fn1{
+    margin-right:18%;
     margin-left:18%;
     display:inline-block;
     text-align:justify;

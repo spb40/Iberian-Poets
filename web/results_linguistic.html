@@ -13,29 +13,23 @@
         <h2>What We Found</h2>
         <h3>Using eXide</h3>
         <p>First, we counted how many pronouns of all the pronouns we marked were archaic and how
-            many were modern. We used this Xquery:</p>
-        <div class="code">
+            many were modern. We used XQuery to do so:</p>
+        <div class="code2">
             <pre>
-                xquery version "3.0";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $docTexts := doc('/course/iberian/data/songTextsThirdTry.xml')/tei:TEI
 let $docFeat := doc('/course/iberian/aux/features.xml')/tei:TEI
-let $modern := $docTexts//tei:w[substring(@ana,2) = $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
- return $modern/string()
-            </pre>
+let $modern := $docTexts//tei:w[substring(@ana,2) = 
+    $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
+return $modern/string()</pre>
         </div>
         <p>Then we used another query to filter the results by period:</p>
-        <div class="code">
+        <div class="code2">
             <pre>
-                xquery version "3.0";
-declare namespace tei="http://www.tei-c.org/ns/1.0";
-let $docTexts := doc('/course/iberian/data/songTextsThirdTry.xml')/tei:TEI
-let $docFeat := doc('/course/iberian/aux/features.xml')/tei:TEI
 let $period := $docTexts//tei:div[descendant::tei:affiliation/@corresp='1']
-let $modern := $period//tei:w[substring(@ana,2) = $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
- return $modern
-
-            </pre>
+let $modern := $period//tei:w[substring(@ana,2) = 
+    $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
+return $modern</pre>
         </div>
         <h3>The Numbers</h3>
         <p>In the texts, we found 137 total pronouns, both archaic and modern. The breakdown looked
@@ -72,7 +66,7 @@ let $modern := $period//tei:w[substring(@ana,2) = $docFeat//tei:fs[tokenize(@fea
                 <td>77%</td>
             </tr>
             <tr>
-                <td>Period %</td>
+                <td>Period 5</td>
                 <td>21%</td>
                 <td>79%</td>
             </tr>

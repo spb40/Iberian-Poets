@@ -3,11 +3,6 @@
     <head>
         <title>Linguistic Analysis - Medieval Galician-Portuguese Poetry</title>
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
-        <style type="text/css">
-
-            p.questions{
-                text-align:center
-            }</style>
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
@@ -76,93 +71,83 @@
                 <th>Modern</th>
             </tr>
             <tr>
-                <td class="first">mego, comego, migo</td>   
+                <td>mego, comego, migo</td>
                 <td>comigo</td>
             </tr>
             <tr>
-                <td class="first"> tego, contego, tigo</td>
+                <td> tego, contego, tigo</td>
                 <td>contigo</td>
             </tr>
             <tr>
-                <td class="first">sego, consego, sigo, consigo</td>
+                <td>sego, consego, sigo, consigo</td>
                 <td>consigo</td>
             </tr>
             <tr>
-                <td class="first">mim</td>
+                <td>mim</td>
                 <td>mi</td>
             </tr>
             <tr>
-                <td class="first">ele</td>
+                <td>ele</td>
                 <td>el</td>
             </tr>
             <tr>
-                <td class="first">eis</td>
+                <td>eis</td>
                 <td>eles</td>
             </tr>
             <tr>
-                <td class="first">nosco</td>
+                <td>nosco</td>
                 <td>connosco</td>
             </tr>
             <tr>
-                <td class="first">vosco</td>
+                <td>vosco</td>
                 <td>convosco</td>
             </tr>
             <tr>
-                <td class="first">li</td>
+                <td>li</td>
                 <td>lhe</td>
             </tr>
             <tr>
-                <td class="first">lis, lhis</td>
+                <td>lis, lhis</td>
                 <td>lhes</td>
             </tr>
             <tr>
-                <td class="first">che</td>
-                <td></td>
+                <td>che</td>
+                <td>te</td>
             </tr>
             <tr>
-                <td class="first">xe</td>
-                <td></td>
+                <td>xe</td>
+                <td>se</td>
             </tr>
         </table>
-        <br/>
-        <table border='1'>
+        <!--    <table border='1'>
             <tr class="head">
                 <th>Personal Pronouns</th>
             </tr>
             <tr>
-                <td class="first">me</td>
+                <td>me</td>
             </tr>
             <tr>
-                <td class="first">te</td>
+                <td>te</td>
             </tr>
             <tr>
-                <td class="first">se</td>
+                <td>se</td>
             </tr>
             <tr>
-                <td class="first">nos</td>
+                <td>nos</td>
             </tr>
             <tr>
-                <td class="first">vos</td>
+                <td>vos</td>
             </tr>
-        </table>
+        </table>-->
         <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with the
             following tag:</p>
-        <div class="code">
-            <pre>
-&lt;w ana="#pronoun"&gt; pronoun &lt;/w&gt;
-</pre>
-        </div>
+        <code>&lt;w ana="#pronoun"&gt; pronoun &lt;/w&gt;</code>
         <p>Importantly, we did not want to miss any pronouns that were hyphenated or had been
             assimilated into surrounding words. Therefore, we used the expression:</p>
-        <div class="code">
-            <pre>
-                Find:
-                ([^a-z])(mi[m]?)([^a-z]) 
-                
-                Replace With:
-                \1&lt;w ana="#pronounCode"&gt;\2&lt;/w&gt;\3
-            </pre>
-        </div>
+        <p>Find:</p>
+        <code>([^a-z])(mi[m]?)([^a-z]) </code>
+        <p>Replace With:</p>
+        <code>\1&lt;w ana="#pronounCode"&gt;\2&lt;/w&gt;\3</code>
         <p>The pronoun code refers to the features library document which is available to view on
             our GitHub. This allows us to find and calculate the pronouns based on their age
             classification, which is marked in the feature library. Using these labels, we will be

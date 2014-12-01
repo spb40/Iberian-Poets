@@ -72,15 +72,28 @@
         <p>After formatting the poems in an XML document, the next step was to mark all the personal
             pronouns that Williams mentioned in his study. Below are charts taken from William's
             research. </p>
-        <img src="images/graph1.png" />
-        <br />
-        <img src="images/graph2.png" />
-        <br />
-        <img src="images/graph3.png" />
-        <br />
-        <img src="images/graph4.png" />
-        <br />
-        <img src="images/graph6.png" />
+        <table border="1">
+            <tr class="head">
+                <th>Archaic</th>
+                <th>Modern</th>
+            </tr>
+            <tr>
+                <td class="first"><p>mego</p>
+                    <p>comego</p>
+                    <p>migo</p>
+                    <p>comigo</p></td>
+                <td>comigo</td>
+            </tr>
+            <tr>
+                <td class="first">
+                    <p>tego</p>
+                    <p>contego</p>
+                    <p>tigo</p>
+                    <p>contigo</p>
+                </td>
+                <td>contigo</td>
+            </tr>
+        </table>
         <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with the
             following tag:</p>
         <div class="code">

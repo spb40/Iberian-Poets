@@ -51,7 +51,7 @@ div.code2{
     margin-left:20%;
     padding-bottom:10px;
     background-color:#FFff7d;
-    
+
 }
 
 pre{
@@ -184,18 +184,19 @@ hr{
     text-align:justify;
 }
 
-/*#navMenu {
+/*#navMenu{
     position:fixed;
     margin-left:auto;
     margin-right:auto;
-    width: 99.9999%;
 }*/
 
 #navMenu ul{
     font-family:georgia;
-    margin:auto;
+    margin:0 auto;
     list-style-type:none;
     text-align:center;
+    min-width:586px;
+    padding:0;
     position:relative;
     margin-bottom:40px;
     display:inline-table
@@ -238,6 +239,8 @@ hr{
     position:relative;
     top:100%;
     float:none;
+    min-width:initial;
+    width:auto;
     margin:0;
     background-color:#FFED67;
     border-top:none;

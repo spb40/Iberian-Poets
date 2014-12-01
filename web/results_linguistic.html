@@ -10,8 +10,8 @@
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <h2>What We Found</h2>
-        <h3>Using eXide</h3>
+        <h1>Linguistic Results</h1>
+        <h2>Using eXide</h2>
         <p>First, we counted how many pronouns of all the pronouns we marked were archaic and how
             many were modern. We used XQuery to do so:</p>
         <div class="code2">
@@ -31,7 +31,7 @@ let $modern := $period//tei:w[substring(@ana,2) =
     $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
 return $modern</pre>
         </div>
-        <h3>The Numbers</h3>
+        <h2>The Numbers</h2>
         <p>In the texts, we found 137 total pronouns, both archaic and modern. The breakdown looked
             like this: </p><br />
         <img src="images/pronounChart.png" />
@@ -83,7 +83,7 @@ return $modern</pre>
             present in our texts. He also did not document <em>"xi"</em> which appeared in our texts
             as the archaic form of "se". These pronouns could be absent from William's documentation
             for various reasons, such as dialectal variation and a different sample of texts. </p>
-        <h3>So What?</h3>
+        <h2>So What?</h2>
         <p>The chonological breakdown of the periods is as such:</p>
         <ul>
             <li>Period 1: 1109-1225</li>

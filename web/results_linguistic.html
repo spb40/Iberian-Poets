@@ -6,22 +6,18 @@
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <h2>The language</h2>
-        <p> Galician-Portuguese was the spoken language in the western area of the Iberian Peninsula
-            until mid-fourteenth century. Derived from Latin, it emerged progressively as a different
-            language before the ninth century, in the territories of the old Kingdom of Galicia,
-            which covered the regions of modern day Galicia and northern Portugal. In
-            this sense, we can say that the word Galician-Portuguese designates not only a language,
-            but also a phase in its development, which later would lead to the differentiation
-            between present Galician and Portuguese languages due to political and sociolinguistic circumstances.</p>
-        <h2>Linguistic analysis</h2>
-        <p>How did the Portuguese pronoun system change throughout the Late Middle Ages?</p>
-        <h3>Methodology</h3>
-        <p>For the diachronic variation study, we will choose a sample of authors from five time
-            periods used to divide our timeline. Using the work of Williams (1962), we will mark up
-            pronouns and categorized them, using Williams's standards, as "old" or "new". Then, we
-            will determine how accurate the claims made by Williams are by looking at the
-            distribution of the "old" and "new" pronouns across the five time periods.</p>
-        <p>Here is where I will specify how the two are related.</p>
+        <h2>What We Found</h2>
+        <p>Using Xquery in Exide, we first counted how many pronouns of all the pronouns we marked were archaic and how many were modern. We used this Xquery:</p>
+        <div class="code">
+            <pre>
+                xquery version "3.0";
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+let $docTexts := doc('/course/iberian/data/songTextsThirdTry.xml')/tei:TEI
+let $docFeat := doc('/course/iberian/aux/features.xml')/tei:TEI
+let $modern := $docTexts//tei:w[substring(@ana,2) = $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
+ return $modern/string()
+            </pre>
+        </div>
+        
     </body>
 </html>

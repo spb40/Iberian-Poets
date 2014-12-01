@@ -3,11 +3,17 @@
     <head>
         <title>Linguistic Analysis - Medieval Galician-Portuguese Poetry</title>
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+        <style>
+            img{
+                width:40%;
+            }</style>
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
         <h2>What We Found</h2>
-        <p>Using Xquery in eXide, we first counted how many pronouns of all the pronouns we marked were archaic and how many were modern. We used this Xquery:</p>
+        <h3>Using eXide</h3>
+        <p>First, we counted how many pronouns of all the pronouns we marked were archaic and how
+            many were modern. We used this Xquery:</p>
         <div class="code">
             <pre>
                 xquery version "3.0";
@@ -31,6 +37,79 @@ let $modern := $period//tei:w[substring(@ana,2) = $docFeat//tei:fs[tokenize(@fea
 
             </pre>
         </div>
-        
+        <h3>The Numbers</h3>
+        <p>In the texts, we found 137 total pronouns, both archaic and modern. The breakdown looked
+            like this: </p><br />
+        <img src="images/pronounChart.png" />
+        <p>As you can see, in every period, across time, the majority of pronouns used were
+            considered modern by Williams' standards. The breakdown of pronouns in percentages can
+            be seen here:</p>
+        <br />
+        <table border="1">
+            <tr class="head">
+                <th></th>
+                <th>Archaic</th>
+                <th>Modern</th>
+            </tr>
+            <tr>
+                <td>Period 1</td>
+                <td>33%</td>
+                <td>66%</td>
+            </tr>
+            <tr>
+                <td>Period 2</td>
+                <td>16%</td>
+                <td>84%</td>
+            </tr>
+            <tr>
+                <td>Period 3</td>
+                <td>43%</td>
+                <td>57%</td>
+            </tr>
+            <tr>
+                <td>Period 4</td>
+                <td>23%</td>
+                <td>77%</td>
+            </tr>
+            <tr>
+                <td>Period %</td>
+                <td>21%</td>
+                <td>79%</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>27%</td>
+                <td>73%</td>
+            </tr>
+        </table>
+        <p>There are several forms that appeared in the texts that Williams did not account for in
+            his studies. One of these was the pronoun <em>"lhi"</em>, an archaic form of the modern
+            "lhe". Another archaic form that was not documented by Williams was present in the text.
+            While Williams did account for "lis", he did not inlcude <em>"lhis"</em> which was
+            present in our texts. He also did not document <em>"xi"</em> which appeared in our texts
+            as the archaic form of "se". These pronouns could be absent from William's documentation
+            for various reasons, such as dialectal variation and a different sample of texts. </p>
+        <h3>So What?</h3>
+        <p>The chonological breakdown of the periods is as such:</p>
+        <ul>
+            <li>Period 1: 1109-1225</li>
+            <li>Period 2: 1225-1250</li>
+            <li>Period 3: 1250-1300</li>
+            <li>Period 4: 1300-1354</li>
+            <li>Period 5: 1440-1460</li>
+        </ul>
+        <p>Williams offers that the earliest documentation of archaic Portuguese appeared at the end
+            of the 12th century, which holds true with our findings here. However, a gradual change
+            from archaic to modern pronouns is not readily apparent in our data. Instead, there is
+            general trend of modern pronoun dominance throughout the texts. This could be due to a
+            lack of variance in the sample texts we used. We used a small sample of texts that don't
+            offer as clear a picture of diachronic variation as a larger sampling would; indeed it
+            would be foolish to think that an entire language change could be represented in a
+            series of 19 poems. Still, our research shows that our poets, and perhaps by extension
+            the Galician-Portuguese troubadors of the Middle Ages as a whole, tended towards the
+            more modern forms of Portuguese pronouns. An extension of this study could look at
+            larger sample size and could include more linguistic features, such as syntax and other
+            morphological features, but for now, we must regard this project as a starting point for
+            future projects. </p>
     </body>
 </html>

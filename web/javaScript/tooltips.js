@@ -21,7 +21,7 @@ function popup(e) {
         var random = "n" + Math.random();
         
         this.id = random;
-        var contents = this.firstElementChild.textContent + '<br/>'+ this.children[1].textContent;
+        var contents = this.firstElementChild.textContent + '<br/>'+ this.childNodes[3].textContent;
         overlay.innerHTML = contents
         overlay.style.backgroundColor = "black";
         overlay.style.position = "absolute";

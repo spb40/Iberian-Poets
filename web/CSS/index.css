@@ -239,7 +239,7 @@ hr{
     position:relative;
     top:100%;
     float:none;
-    min-width:initial;
+    min-width:0px;
     width:auto;
     margin:0;
     background-color:#FFED67;

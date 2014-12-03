@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Mapping analysis - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8"/>
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -15,7 +16,7 @@
             Middle Ages heritage.</p>
         <p>One thousand six hundred seventy nine songs written by 187 troubadours and minstrels
             arrived to us in the form of the <em><a
-                    href="http://cantigas.fcsh.unl.pt/manuscritos.asp?ling=eng"
+                href="http://cantigas.fcsh.unl.pt/manuscritos.asp?ling=eng" target="_blank"
                 >Cancioneiros</a></em> (sonbooks). In these project, we analize some of these
             troubadours through time and space with the intention of gaining a better understanding
             of how this poetic school had developed from a socio-historic point of view.</p>
@@ -23,7 +24,7 @@
         
             <h3>The personography</h3>
         <ul>
-                    <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">Base
+                    <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng" target="_blank">Base
                                 de datos da Lírica Profana Galego-Portuguesa (MedDB)</a></em> as our
                         main source, we selected fifty-two troubadours attending to diachronic
                         criteria. We chose every poet from the first, fourth and five periods: the
@@ -35,17 +36,17 @@
                         (selecting every poet who wasn't Galician or Portuguese, so other
                         nationalities were represented) or the number of songs preserved (as a way
                         to discern the most important authors).</li>
-                    <li>We used <a href="http://www.tei-c.org/Roma">TEI Roma</a> to customize our
-                        XML schema (read more at the <a href="http://www.tei-c.org/index.xml">Text
+            <li>We used <a href="http://www.tei-c.org/Roma/" target="_blank">TEI Roma</a> to customize our
+                XML schema (read more at the <a href="http://www.tei-c.org/index.xml" target="_blank">Text
                             Encoding Initiative</a> site).</li>
                     <li>For each poet, we marked-up his name, nationality, birthplace, social
                         status, occupation, and affiliation. We looked up this information into two
                         databases: in the <em><a
-                                href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng">MedDB</a></em>
+                                href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng" target="_blank">MedDB</a></em>
                         and the <em><a
-                                href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810"
+                            href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810" target="_blank"
                                 >Cantigas Medievais Galego Portuguesas</a></em>. We have also used
-                                <em><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                        <em><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>
                         </em> to get additional biographical information (especially of kings and
                         counts).</li>
                     <li>We added a <code>@certainty</code> attribute inside every
@@ -53,8 +54,8 @@
                         "medium" to "high". When there were was other pieces of information whose
                         certainty was questioned by our sources, we coded them using again this
                         attribute with values that went from "unknown" to "low and "medium."</li>
-                    <li> We used <a href="https://www.google.com/maps">Google Maps</a> and <a
-                            href="http://tools.wmflabs.org/geohack/">GeoHack</a> to find out the
+            <li> We used <a href="https://www.google.com/maps" target="_blank">Google Maps</a> and <a
+                href="http://tools.wmflabs.org/geohack/" target="_blank">GeoHack</a> to find out the
                         coordinates of every geographical reference we had in the personography.
                         Then we tagged them inside a <code>&lt;geo&gt;</code> element. Since we did
                         not add a <code>&lt;geoDecl&gt;</code> element in the TEI header to define a
@@ -230,9 +231,9 @@
 
             <h3>Embedding the maps in our website</h3>
         <ul>
-                    <li>We uploaded the KML files into <a href="https://www.google.com/maps">Google
+            <li>We uploaded the KML files into <a href="https://www.google.com/maps" target="_blank">Google
                             Maps</a>.</li>
-                    <li>Then we opened in the <a href="https://developers.google.com/maps-engine/"
+            <li>Then we opened in the <a href="https://developers.google.com/maps-engine/" target="_blank"
                             >Google Maps Engine API</a>.</li>
                     <li>After adding an additional description to our maps, we published them, we
                         changed the sharing settings to "Public" and got the "shared link" that we

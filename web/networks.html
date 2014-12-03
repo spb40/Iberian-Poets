@@ -2,16 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Social network - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8" />
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
         <link href="CSS/parallel-display.css" rel="stylesheet" type="text/css" />
+        <style>
+            table{
+                background-color:#ffff7d;
+                color:black
+            }
+            tr.head{
+                color:#ffff7d
+            }</style>
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
         <div class="container" id="container">
             <div class="pane" id="leftNetwork">
                 <h2>Caption</h2>
-                <table border="1" style="background-color:#ffff7d; color:black">
-                    <tr class="head" style="color:#ffff7d">
+                <table border="1">
+                    <tr class="head">
                         <th colspan="2">Key</th>
                         <th>Legend</th>
                     </tr>
@@ -36,7 +45,7 @@
                     <tr>
                         <td colspan="2">Edge width</td>
                         <td style="font-weight:bold"><a
-                                href="research_social-network.html#edgebetweenness"
+                                href="research_social-network.html#edgebetweenness" target="_blank"
                                 >Edgebetweenness</a></td>
                     </tr>
                     <tr>
@@ -76,7 +85,7 @@
                     <tr>
                         <td colspan="2">Node and font sizes</td>
                         <td style="font-weight:bold"><a
-                                href="research_social-network.html#degreecentrality">Degree
+                                href="research_social-network.html#degreecentrality" target="_blank">Degree
                                 Centrality</a></td>
                     </tr>
                 </table>
@@ -85,8 +94,8 @@
                 <h2>Medieval troubadours' social network</h2>
                 <h4>Click on the image for better resolution</h4>
                 <h4>Click on the nodes and edges to get their key</h4>
-                <a href="network-image.html" target="_blank"><img src="images/network-image.png" alt="network-small"
-                    width="850"/></a>
+                <a href="network-image.html" target="_blank"><img src="images/network-image.png"
+                        alt="network-small" width="850" /></a>
             </div>
         </div>
     </body>

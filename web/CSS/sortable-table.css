@@ -4,7 +4,6 @@ table.sortable{
     color:black;
     table-layout:fixed;
     width:850px;
-    border:2px #FF8822;
     margin-left:auto;
     margin-right:auto;
 }

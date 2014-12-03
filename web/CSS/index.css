@@ -125,12 +125,13 @@ li > ul > li > ul{
 
 table{
     table-layout:fixed;
-    border: 5px #FF8822;
     margin-left:auto;
     margin-right:auto;
     empty-cells:hide;
 }
 
+table, th, td, tr {
+    border:1px #FF8822 solid;}
 
 td{
     vertical-align:middle;

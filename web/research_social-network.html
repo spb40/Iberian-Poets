@@ -43,23 +43,16 @@
     &lt;xsl:choose&gt;
         &lt;xsl:when test="./@corresp"&gt;
             &lt;xsl:value-of
-                    select="concat(ancestor::person/persName, ';', 
-                        ancestor::person/nationality/@key, ';',
-                        parent::floruit/@period, ';', 
-                        following::place[@xml:id = 
-                        current()/substring(@corresp, 2)]/
-                        location/placeName[@type='short'],
-                        ';', following::place[@xml:id = 
-                        current()/substring(@corresp, 2)]/@type ,
-                        '&amp;#x0a;')"
-                        /&gt;
+                    select="concat(ancestor::person/persName, ';', ancestor::person/nationality/@key, ';', 
+                    parent::floruit/@period, ';', following::place[@xml:id = 
+                    current()/substring(@corresp, 2)]/location/placeName[@type='short'],';', following::place[@xml:id = 
+                    current()/substring(@corresp, 2)]/@type, '&amp;#x0a;')"
+                    /&gt;
         &lt;/xsl:when&gt;
         &lt;xsl:otherwise&gt;
             &lt;xsl:value-of
-                    select="concat(ancestor::person/persName,';', 
-                    ancestor::person/nationality/@key, ';', 
-                    parent::floruit/@period, ';', placeName, ';', 
-                    @type,'&amp;#x0a;')"
+                    select="concat(ancestor::person/persName,';', ancestor::person/nationality/@key, ';', 
+                    parent::floruit/@period, ';', placeName, ';', @type,'&amp;#x0a;')"
                     /&gt;
         &lt;/xsl:otherwise&gt;
     &lt;/xsl:choose&gt;        

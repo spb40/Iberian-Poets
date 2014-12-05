@@ -40,12 +40,14 @@ div.code{
 }
 
 div.code2{
-    width:95%;
+    width:93%;
     text-align:left;
     margin-top:20px;
     margin-bottom:20px;
+    margin-left:2%;
     padding-top:10px;
-    padding-left:1%;
+    padding-left:30px;
+    padding-right:10px;
     padding-bottom:10px;
     background-color:#FFff7d;
 
@@ -88,6 +90,7 @@ p{
     padding-right:1%;
     padding-left:1%;
     text-align:justify;
+    clear:both;
 }
 
 
@@ -132,10 +135,10 @@ table{
     margin-left:auto;
     margin-right:auto;
     empty-cells:hide;
-    border-collapse:collapse;
+    border-collapse:separate;
 }
 
-table,
+
 th,
 td,
 tr{
@@ -144,7 +147,7 @@ tr{
 
 td{
     vertical-align:middle;
-    padding:2%;
+    padding:5px;
 }
 
 
@@ -156,16 +159,8 @@ tr.head{
     font-size:medium;
 }
 
-
-td > p{
-    padding:0%;
-    margin-top:0%;
-    margin-bottom:0%;
-    text-align:center;
-}
-
 svg.poets{
-    padding-left:10%;
+    padding-left:3%;
     float:left;
 }
 

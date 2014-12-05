@@ -90,8 +90,7 @@
 &lt;place xml:id="sousa" type="noble"&gt;
     &lt;location&gt;
         &lt;placeName type="short"&gt;The Sousas&lt;/placeName&gt;
-        &lt;placeName type="full"&gt;Court of D. Gonçalo Garcia 
-                de Sousa&lt;/placeName&gt;
+        &lt;placeName type="full"&gt;Court of D. Gonçalo Garcia de Sousa&lt;/placeName&gt;
         &lt;geo&gt;41.087778,-8.520278&lt;/geo&gt;
     &lt;/location&gt;
 &lt;/place&gt;</pre>
@@ -114,11 +113,7 @@
 &lt;/xsl:template&gt;
 &lt;xsl:template match="geo"&gt;
     &lt;geo&gt;
-        &lt;xsl:value-of select="
-                    concat(string-join(
-                    (substring-after(current(), ','),
-                    substring-before(current(), ','))
-                    , ','), ',100')"/&gt;
+        &lt;xsl:value-of select="concat(string-join((substring-after(current(), ','),substring-before(current(), ',')), ','), ',100')"/&gt;
     &lt;/geo&gt;
 &lt;/xsl:template&gt;</pre>
                 </div>
@@ -137,8 +132,7 @@
     &lt;Style&gt;
         &lt;IconStyle&gt;
             &lt;Icon&gt;
-                &lt;href&gt;http://maps.google.com/mapfiles
-                            /kml/paddle/purple-stars.png&lt;/href&gt;
+                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;
             &lt;/Icon&gt;
         &lt;/IconStyle&gt;
     &lt;/Style&gt;
@@ -151,9 +145,9 @@
     &lt;styleUrl&gt;#WhiteLine&lt;/styleUrl&gt;
     &lt;LineString&gt;
         &lt;tessellate&gt;0&lt;/tessellate&gt;
-        &lt;coordinates&gt;-8.570415,40.631709,100 -8.47,40.24,100
-                -0.883533,41.650192,100 -8.520278,41.087778,100 
-                -5.570956,42.600636,100&lt;/coordinates&gt;
+        &lt;coordinates&gt;
+            -8.570415,40.631709,100 -8.47,40.24,100 -0.883533,41.650192,100 -8.520278,41.087778,100 -5.570956,42.600636,100
+        &lt;/coordinates&gt;
     &lt;/LineString&gt;
 &lt;/Placemark&gt;</pre>
                 </div>
@@ -167,8 +161,7 @@
     &lt;Style&gt;
         &lt;IconStyle&gt;
             &lt;Icon&gt;
-                &lt;href&gt;http://maps.google.com/mapfiles/
-                            kml/paddle/red-circle.png&lt;/href&gt;
+                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/red-circle.png&lt;/href&gt;
             &lt;/Icon&gt;
         &lt;/IconStyle&gt;
     &lt;/Style&gt;
@@ -189,22 +182,17 @@
         &lt;xsl:choose&gt;
             &lt;xsl:when test="birth[@cert='low']"&gt;
                 &lt;Icon&gt;
-                    &lt;href&gt;http://maps.google.com/mapfiles/
-                                kml/paddle/ltblu-blank.png&lt;/href&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;
                 &lt;/Icon&gt;
             &lt;/xsl:when&gt;
-            &lt;xsl:when
-                    test="birth/location[@cert='unknown'] 
-                            | birth/location[@cert='low']"&gt;
+            &lt;xsl:when test="birth/location[@cert='unknown'] | birth/location[@cert='low']"&gt;
                 &lt;Icon&gt;
-                    &lt;href&gt;http://maps.google.com/mapfiles/kml/
-                                paddle/ltblu-blank.png&lt;/href&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;
                 &lt;/Icon&gt;
             &lt;/xsl:when&gt;
             &lt;xsl:otherwise&gt;
                 &lt;Icon&gt;
-                    &lt;href&gt;http://maps.google.com/mapfiles/kml/
-                                paddle/purple-stars.png&lt;/href&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;
                 &lt;/Icon&gt;
             &lt;/xsl:otherwise&gt;
         &lt;/xsl:choose&gt;

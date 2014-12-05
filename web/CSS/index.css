@@ -4,12 +4,11 @@ body{
     color:white;
     font-family:georgia;
     text-align:center;
-    padding-top:20px;
-    padding-bottom:25px;
+    padding-bottom:20px;
     background-image:url('../images/banner.png');
     background-repeat:no-repeat;
     background-position:top;
-    margin-top:320px;
+    margin-top:315px;
     margin-bottom:15px;
 }
 
@@ -18,7 +17,7 @@ p.questions{
 }
 
 code{
-    font-size:medium;
+    font-size:larger;
     color:#FFff7d;
     font-weight:bold;
 }
@@ -130,22 +129,22 @@ li > ul > li > ul{
 }
 
 table{
-    table-layout:fixed;
     margin-left:auto;
     margin-right:auto;
     empty-cells:hide;
+    border-collapse:collapse;
 }
 
 table,
 th,
 td,
 tr{
-    border:1px #FF8822 solid;
+    border:2px #FF8822 solid;
 }
 
 td{
     vertical-align:middle;
-    padding:1%;
+    padding:1.5%;
 }
 
 
@@ -209,7 +208,7 @@ hr{
     min-width:586px;
     padding:0;
     position:relative;
-    margin-bottom:20px;
+    margin-bottom:15px;
     display:inline-table
 }
 

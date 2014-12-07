@@ -50,5 +50,5 @@ th:nth-child(4){
 }
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:"\25BE\25B4"
+    content:"\25BC\25B2"
 }

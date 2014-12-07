@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Maps - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8" />
+        <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/parallel-display.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://www.google.com/jsapi">*//*</script>
+        <script src="javaScript/googleearth" type="text/javascript">*//*</script>
+    </head>
+    <body>
+        <!--#include virtual="NavMenu.html" -->
+        <div class="container" id="container">
+            <div class="pane" id="leftEarth">
+                <h2>Caption</h2>
+                <table>
+                    <tr class="head">
+                        <th>Key</th>
+                        <th>Legend</th>
+                    </tr>
+                    <tr>
+                        <td><img src="http://maps.google.com/mapfiles/kml/paddle/purple-stars.png"
+                                alt="birth" height="40" width="40" /></td>
+                        <td>Birthplace<br />
+                            <em style="font-size:small">(Click to get the poet's and the place
+                                names)</em></td>
+                    </tr>
+                    <tr>
+                        <td><img src="http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png"
+                                alt="birth-low" height="40" width="40" /></td>
+                        <td>Birthplace unknown or uncertain <br />
+                            <em style="font-size:small">(nationality value used as
+                            reference)</em></td>
+                    </tr>
+                    <tr>
+                        <td><img src="http://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+                                alt="floruit" height="40" width="40" /></td>
+                        <td>Patron and/or venue of literary performance <br />
+                            <em style="font-size:small">(Click to get more information about the
+                                type of patronage involved)</em></td>
+                    </tr>
+                    <tr>
+                        <td>White path</td>
+                        <td>Joins the poet's place of origin with his following settlements <br />
+                            <em style="font-size:small">(Click to identify the poet)</em></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#A74AC7">Purple path</td>
+                        <td>Uncertain journey</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pane" id="rightEarth">
+                <h2>Five periods timeline (1170-1480)</h2>
+                <div id="map3d" style="height: 400px; width: 500px;"></div>
+            </div>
+        </div>
+    </body>
+</html>

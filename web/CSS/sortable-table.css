@@ -3,13 +3,13 @@ table.sortable{
     background-color:#ffff7d;
     color:black;
     table-layout:fixed;
-    width:850px;
+    width:900px;
     margin-left:auto;
     margin-right:auto;
 }
 
 table.sortable td{
-    padding:0.8%;
+    padding:5px;
 }
 
 
@@ -19,7 +19,7 @@ td.period{
 }
 
 table.sortable tr.head{
-    padding:1.2%
+    padding:5px;
 }
 
 td > p{
@@ -38,7 +38,7 @@ td.first{
 
 table.sortable tr:nth-child(3),
 th:nth-child(3){
-    width:110px
+    width:120px
 }
 table.sortable tr:nth-child(2),
 th:nth-child(2){
@@ -49,6 +49,6 @@ th:nth-child(4){
     width:125px
 }
 
-table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:"\25BC\25B2"
-}
+/*table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
+    content:'<svg height="10" width="10"><polygon points="5,0 10,5 0,5" style="fill:black;stroke-width:1"/></svg><svg xmlns="http://www.w3.org/2000/svg" height="10" width="10"> <polygon points="0,0 5,5 10,0" style="fill:black;stroke-width:1"/></svg>'
+}*/

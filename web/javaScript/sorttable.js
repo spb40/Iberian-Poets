@@ -83,7 +83,7 @@ sorttable = {
             this.removeChild(document.getElementById('sorttable_sortfwdind'));
             sortrevind = document.createElement('span');
             sortrevind.id = "sorttable_sortrevind";
-            sortrevind.innerHTML = stIsIE ? '&nbsp<font face="webdings">5</font>' : '&nbsp;&#x25B2;';
+            sortrevind.innerHTML = stIsIE ? '<font face="webdings">5</font>' : '<svg height="10" width="10"><polygon points="5,0 10,5 0,5" style="fill:black;stroke-width:1"/></svg>';
             this.appendChild(sortrevind);
             return;
           }
@@ -96,7 +96,7 @@ sorttable = {
             this.removeChild(document.getElementById('sorttable_sortrevind'));
             sortfwdind = document.createElement('span');
             sortfwdind.id = "sorttable_sortfwdind";
-            sortfwdind.innerHTML = stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BC;';
+            sortfwdind.innerHTML = stIsIE ? '<font face="webdings">5</font>' : '<svg xmlns="http://www.w3.org/2000/svg" height="10" width="10"> <polygon points="0,0 5,5 10,0" style="fill:black;stroke-width:1"/></svg>';
             this.appendChild(sortfwdind);
             return;
           }
@@ -117,7 +117,7 @@ sorttable = {
           this.className += ' sorttable_sorted';
           sortfwdind = document.createElement('span');
           sortfwdind.id = "sorttable_sortfwdind";
-          sortfwdind.innerHTML = stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BC;';
+          sortfwdind.innerHTML = stIsIE ? '<font face="webdings">5</font>' : '<svg xmlns="http://www.w3.org/2000/svg" height="10" width="12"> <polygon points="0,0 5,5 10,0" style="fill:black;stroke-width:1"/></svg>';
           this.appendChild(sortfwdind);
 
 	        // build an array to sort. This is a Schwartzian transform thing,

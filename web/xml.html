@@ -4,117 +4,130 @@
         <title>XML Tecnhologies - Medieval Galician-Portuguese Poetry</title>
         <meta charset="utf-8" />
         <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/parallel-display.css" rel="stylesheet" type="text/css" />
         <style>
             span{
-                font-weight:bold;
+                font-weight:bold;}
             li.top{
                 padding-top:5px;
-            }</style>
+            }
+            li.topExtra{
+                padding-top:13px;
+            }
+            div.align{
+            float:left;}
+        </style>
     </head>
     <body>
         <!--#include virtual="NavMenu.html" -->
-        <ul class="large">
-            <li><span>Songs (TEI)</span>
-                <ul>
-
-                    <li class="top"><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.xml"
-                            target="_blank">Linguistic Features</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/feature-library.rng"
-                            target="_blank">Schema</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.sch"
-                            target="_blank">Schematron</a></li>
-                    <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
-                            target="_blank">XQuery</a></li>
-                    <li><a
-                        href="https://github.com/spb40/Iberian-Poets/tree/master/linguistic_study/XSLT"
-                        target="_blank">XSLT</a> (from XML to HTML)</li>
-                    <li class="top"><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.xml"
-                            target="_blank">Linguistic Features</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/feature-library.rng"
-                            target="_blank">Schema</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.sch"
-                            target="_blank">Schematron</a></li>
-                    <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
-                            target="_blank">XQuery</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XSLT-%20transformations"
-                            target="_blank">XSLT (from XML to HTML)</a></li>
-
-                </ul>
-            </li>
-            <li class="top"><span>Personography (TEI)</span>
-                <ul>
-                    <li class="top"><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/personography/XML"
-                            target="_blank">XML</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/personography/schema"
-                            target="_blank">Schema</a></li>
-                </ul>
-            </li>
-            <li class="top"><span>Social Network</span>
-                <ul>
-                    <li class="top">Cytoscape <ul>
-                            <li class="top"><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/sessions"
-                                    target="_blank">Cytoscape Sessions</a></li>
+        <div class="container" id="container">
+            <div class="paneSmall" id="leftUL">
+                <ul class="large">
+                    <li class="top"><span>Songs (TEI)</span>
+                        <ul>
+                            <li class="top">
+                                <a
+                                    href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/lyrics.xml"
+                                    target="_blank">Lyrics and pronouns</a>
+                            </li>
                             <li><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/CSV"
-                                    target="_blank">CSV</a></li>
+                                    href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.xml"
+                                    target="_blank">Linguistic Features</a></li>
                             <li><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/XSLT"
-                                    target="_blank">XSLT</a> (from XML to CSV files)</li>
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/linguistic_study/Schemas"
+                                    target="_blank">Schemas</a></li>
+                            <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/Schemas/features.sch"
+                                    target="_blank">Schematron</a></li>
+                            <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
+                                    target="_blank">XQuery</a></li>
+                            <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/linguistic_study/XSLT"
+                                    target="_blank">XSLT</a> (from XML to HTML)</li>
                         </ul>
                     </li>
-                    <li class="top">Palladio <sup><a href="#fn1" id="ref1">*</a></sup>
+                    <li class="top"><span>Personography (TEI)</span>
                         <ul>
                             <li class="top"><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/text-files"
-                                    target="_blank">CSV</a></li>
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/personography/XML"
+                                    target="_blank">XML</a></li>
                             <li><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/JSON-files"
-                                    target="_blank">JSON</a></li>
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/personography/schema"
+                                    target="_blank">Schema</a></li>
+                        </ul>
+                    </li>
+                    <li class="top"><span>Maps</span>
+                        <ul>
+                            <li class="top"><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XML"
+                                    target="_blank">XML</a></li>
                             <li><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/XSLT"
-                                    target="_blank">XSLT</a> (from XML to CSV files)</li>
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/KML-files"
+                                    target="_blank">KML</a></li>
                             <li><a
-                                    href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/imported-graphs"
-                                    target="_blank">Graphic visualizations (SVG)</a></li>
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XSLT-transformations"
+                                    target="_blank">XSLT</a> (from XML to XML and from XML to
+                                KML)</li>
                         </ul>
                     </li>
                 </ul>
-            </li>
-            <li class="top"><span>Maps</span>
-                <ul>
-                    <li class="top"><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XML"
-                            target="_blank">XML</a></li>
-                    <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/KML/KML-files"
-                            target="_blank">KML</a></li>
-                    <li><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XSLT-transformations"
-                            target="_blank">XSLT</a> (from XML to XML and from XML to KML)</li>
-                </ul>
-            </li>
-            <li class="top"><span>Web</span>
-                <ul>
-                    <li class="top"><a
-                            href="https://github.com/spb40/Iberian-Poets/tree/master/web/CSS"
-                            target="_blank">CSS</a></li>
-                    <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
-                            target="_blank">XQuery</a> (for HTML tables and SVG graphs)</li>
-                    <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/web/javaScript"
-                            target="_blank">JavaScript</a></li>
-                </ul>
-            </li>
-        </ul>
-        <a href="#top">Go to top</a>
+            </div>
+            <div class="paneSmall" id="rightUL">
+                <div class="align">
+                    <ul class="large">
+                        <li class="top"><span>Social Network</span>
+                            <ul>
+                                <li class="topExtra">Cytoscape <ul>
+                                        <li class="top"><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/sessions"
+                                                target="_blank">Cytoscape Sessions</a></li>
+                                        <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/CSV"
+                                                target="_blank">CSV</a></li>
+                                        <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/XSLT"
+                                                target="_blank">XSLT</a> (from XML to CSV
+                                            files)</li>
+                                    </ul>
+                                </li>
+                                <li class="topExtra">Palladio <sup><a href="#fn1" id="ref1">*</a></sup>
+                                    <ul>
+                                        <li class="top"><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/text-files"
+                                                target="_blank">CSV</a></li>
+                                        <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/JSON-files"
+                                                target="_blank">JSON</a></li>
+                                        <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/XSLT"
+                                                target="_blank">XSLT</a> (from XML to CSV
+                                            files)</li>
+                                        <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/imported-graphs"
+                                                target="_blank">Graphic visualizations
+                                            (SVG)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="topExtra"><span>Web</span>
+                            <ul>
+                                <li class="topExtra"><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/web/CSS"
+                                        target="_blank">CSS</a></li>
+                                <li><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
+                                        target="_blank">XQuery</a> (for HTML tables and SVG
+                                    graphs)</li>
+                                <li><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/web/javaScript"
+                                        target="_blank">JavaScript</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <hr />
         <sup id="fn1">[*] <a href="http://palladio.designhumanities.org" target="_blank"
                 >Palladio</a> is a web-based platform for the visualization of complex,

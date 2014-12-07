@@ -50,3 +50,19 @@ div#rightNetwork
     float:right;
     width:75%;
 }
+
+div#rigthUL {
+    float:right;
+    width:35%;
+}
+div#leftUL {
+    width:58%;
+    float:left;
+    margin-left:5%;
+}
+div.paneSmall
+{
+    vertical-align:top;
+    bottom:50px;
+    height:400px;
+}

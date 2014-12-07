@@ -3,7 +3,7 @@ table.sortable{
     background-color:#ffff7d;
     color:black;
     table-layout:fixed;
-    width:900px;
+    width:68%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -12,14 +12,17 @@ table.sortable td{
     padding:5px;
 }
 
-
-th.period,
-td.period{
-    width:80px;
+table.sortable th{
+    padding-left:10px;
 }
 
 table.sortable tr.head{
     padding:5px;
+    text-align:left;
+}
+
+th#poet{
+    padding-left:9%;
 }
 
 td > p{
@@ -36,19 +39,32 @@ td.first{
     background-color:#FFED67;
 }
 
-table.sortable tr:nth-child(3),
-th:nth-child(3){
-    width:120px
-}
-table.sortable tr:nth-child(2),
-th:nth-child(2){
-    width:120px
-}
-table.sortable tr:nth-child(4),
-th:nth-child(4){
-    width:125px
+table.sortable tr:nth-child(1),
+th:nth-child(1){
+    width:23.5%;
 }
 
-/*table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after{
-    content:'<svg height="10" width="10"><polygon points="5,0 10,5 0,5" style="fill:black;stroke-width:1"/></svg><svg xmlns="http://www.w3.org/2000/svg" height="10" width="10"> <polygon points="0,0 5,5 10,0" style="fill:black;stroke-width:1"/></svg>'
-}*/
+table.sortable tr:nth-child(2),
+th:nth-child(2){
+    width:13.5%;
+}
+
+table.sortable tr:nth-child(3),
+th:nth-child(3){
+    width:15%;
+}
+
+table.sortable tr:nth-child(4),
+th:nth-child(4){
+    width:14%;
+}
+
+table.sortable tr:nth-child(5),
+th:nth-child(5){
+    width:25%;
+}
+
+th.period,
+td.period{
+    width:9%;
+}

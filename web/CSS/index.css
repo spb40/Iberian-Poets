@@ -140,12 +140,18 @@ table{
 
 
 th,
-td,
-tr{
+td{
     border:2px #FF8822 solid;
 }
 
-td{
+th.empty{
+    background-color:#444444;
+    border-top:#444444;
+    border-left:#444444;
+}
+
+
+th, td{
     vertical-align:middle;
     padding:5px;
 }
@@ -171,6 +177,7 @@ svg.poets2{
 
 hr{
     border:0;
+    clear:both;
     height:1px;
     margin-top:60px;
     margin-bottom:25px;

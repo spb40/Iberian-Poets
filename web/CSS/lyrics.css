@@ -14,17 +14,13 @@
     color:#FFED67;
 }
 
-ul.toc{
-    padding-left:30%;
-    font-size:large;
-}
 
 h3 {
     color:#ffff7d;
 }
 
 h3:nth-of-type(odd){ 
-    margin-top:8%;
+    margin-top:7%;
 }
 
 h3 > a {

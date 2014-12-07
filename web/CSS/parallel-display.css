@@ -3,7 +3,7 @@ div.container{
     padding-left:1%;
     margin-bottom:50px;
     min-height:100%;
-    width:99%;
+    width:98%;
 }
 
 div.pane
@@ -12,6 +12,14 @@ div.pane
     bottom:50px;
     height:750px;
 }
+
+div.paneSmall
+{
+    vertical-align:top;
+    bottom:50px;
+    height:400px;
+}
+
 div#leftMaps
 {
     float:left;
@@ -51,18 +59,24 @@ div#rightNetwork
     width:75%;
 }
 
-div#rigthUL {
+div#rigthUL{
     float:right;
     width:35%;
 }
-div#leftUL {
+div#leftUL{
     width:58%;
     float:left;
     margin-left:5%;
 }
-div.paneSmall
-{
-    vertical-align:top;
-    bottom:50px;
-    height:400px;
+
+div#leftLyrics{
+    float:left;
+    width:48%;
+    padding-left:2%;
+    overflow-y:scroll;
+}
+div#rightLyrics{
+    width:50%;
+    float:right;
+   overflow-y: scroll;
 }

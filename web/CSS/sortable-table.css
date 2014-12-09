@@ -3,7 +3,7 @@ table.sortable{
     background-color:#ffff7d;
     color:black;
     table-layout:fixed;
-    width:68%;
+    width:70%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -12,18 +12,12 @@ table.sortable td{
     padding:5px;
 }
 
-table.sortable th{
-    padding-left:10px;
-}
 
 table.sortable tr.head{
     padding:5px;
-    text-align:left;
+    text-align:center;
 }
 
-th#poet{
-    padding-left:9%;
-}
 
 td > p{
     padding:0%;
@@ -67,4 +61,8 @@ th:nth-child(5){
 th.period,
 td.period{
     width:9%;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: url(../images/arrow.svg)
 }

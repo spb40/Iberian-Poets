@@ -2,19 +2,19 @@
 table.sortable{
     background-color:#ffff7d;
     color:black;
-    table-layout:fixed;
-    width:70%;
+    /*table-layout:fixed;
+    width:70%;*/
     margin-left:auto;
     margin-right:auto;
 }
 
 table.sortable td{
-    padding:5px;
+    padding:4px;
 }
 
 
 table.sortable tr.head{
-    padding:5px;
+    padding:4px;
     text-align:center;
 }
 
@@ -33,7 +33,7 @@ td.first{
     background-color:#FFED67;
 }
 
-table.sortable tr:nth-child(1),
+/*table.sortable tr:nth-child(1),
 th:nth-child(1){
     width:23.5%;
 }
@@ -61,7 +61,7 @@ th:nth-child(5){
 th.period,
 td.period{
     width:9%;
-}
+}*/
 
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     content: url(../images/arrow.svg)

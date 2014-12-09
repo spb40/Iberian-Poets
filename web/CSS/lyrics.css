@@ -15,15 +15,15 @@
 }
 
 
-h3 {
+h3{
     color:#ffff7d;
 }
 
-h3:nth-of-type(odd){ 
+h3:nth-of-type(odd){
     margin-top:7%;
 }
 
-h3 > a {
+h3 > a{
     color:#ffff7d;
 }
 
@@ -31,4 +31,8 @@ h3 > a {
 
 .notH{
     font-weight:lighter;
+}
+
+ul.toc{
+    margin-left:5%;
 }

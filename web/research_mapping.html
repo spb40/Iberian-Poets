@@ -113,7 +113,8 @@
 &lt;/xsl:template&gt;
 &lt;xsl:template match="geo"&gt;
     &lt;geo&gt;
-        &lt;xsl:value-of select="concat(string-join((substring-after(current(), ','),substring-before(current(), ',')), ','), ',100')"/&gt;
+        &lt;xsl:value-of select="concat(string-join((substring-after(current(), ','),
+            substring-before(current(), ',')), ','), ',100')"/&gt;
     &lt;/geo&gt;
 &lt;/xsl:template&gt;</pre>
                 </div>
@@ -132,7 +133,8 @@
     &lt;Style&gt;
         &lt;IconStyle&gt;
             &lt;Icon&gt;
-                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;
+                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/
+                    purple-stars.png&lt;/href&gt;
             &lt;/Icon&gt;
         &lt;/IconStyle&gt;
     &lt;/Style&gt;
@@ -146,7 +148,8 @@
     &lt;LineString&gt;
         &lt;tessellate&gt;0&lt;/tessellate&gt;
         &lt;coordinates&gt;
-            -8.570415,40.631709,100 -8.47,40.24,100 -0.883533,41.650192,100 -8.520278,41.087778,100 -5.570956,42.600636,100
+            -8.570415,40.631709,100 -8.47,40.24,100 -0.883533,41.650192,100 
+            -8.520278,41.087778,100 -5.570956,42.600636,100
         &lt;/coordinates&gt;
     &lt;/LineString&gt;
 &lt;/Placemark&gt;</pre>

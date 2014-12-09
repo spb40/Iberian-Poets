@@ -29,8 +29,7 @@ div#leftMaps
 div#leftEarth
 {
     float:left;
-    width:29%;
-    margin-left:1%;
+    width:30%;
 }
 
 div#leftNetwork
@@ -43,20 +42,23 @@ div#rightMaps
 {
     float:right;
     margin-top:2%;
-    width:75%;
+    width:73%;
+    margin-left:2%;
 }
 
 
 div#rightEarth
 {
     float:right;
-    width:70%;
+    width:68%;
+    margin-left:2%;
 }
 
 div#rightNetwork
 {
     float:right;
-    width:75%;
+    margin-left:1%;
+    width:74%;
 }
 
 div#rigthUL{
@@ -71,12 +73,17 @@ div#leftUL{
 
 div#leftLyrics{
     float:left;
-    width:48%;
-    padding-left:2%;
+    width:49%;
+    padding-right:1%;
     overflow-y:scroll;
 }
 div#rightLyrics{
     width:50%;
     float:right;
-   overflow-y: scroll;
+    overflow-y:scroll;
+}
+
+table{
+    width:100%;
+    table-layout:fixed;
 }

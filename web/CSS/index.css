@@ -4,12 +4,23 @@ body{
     color:white;
     font-family:georgia;
     text-align:center;
-    padding-bottom:20px;
-    background-image:url('../images/banner.png');
-    background-repeat:no-repeat;
-    background-position:top;
-    margin-top:315px;
-    margin-bottom:15px;
+    margin-left:0%;
+    margin-right:0%;
+    padding-bottom:4%;
+}
+
+div#banner{
+    width:100%;
+    height:auto;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:2%;
+    margin-top:0%;
+}
+
+img.banner{
+width:100%;
+min-width: 586px;
 }
 
 p.questions{
@@ -151,7 +162,8 @@ th.empty{
 }
 
 
-th, td{
+th,
+td{
     vertical-align:middle;
     padding:5px;
 }
@@ -173,6 +185,11 @@ svg.poets{
 svg.poets2{
     padding-left:0%;
     float:left;
+}
+
+svg.linguistic{
+    float:left;
+    padding-left:15%;
 }
 
 hr{

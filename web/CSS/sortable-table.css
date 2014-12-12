@@ -66,3 +66,7 @@ td.period{
 table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
     content: url(../images/arrow.svg)
 }
+
+table.sortable th > svg {
+    display:inline;
+}

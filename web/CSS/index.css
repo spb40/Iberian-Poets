@@ -19,8 +19,8 @@ div#banner{
 }
 
 img.banner{
-width:100%;
-min-width: 586px;
+    width:100%;
+    min-width:586px;
 }
 
 p.questions{
@@ -63,6 +63,9 @@ div.code2{
     background-color:#FFff7d;
 
 }
+
+div.large{
+    font-size:large}
 
 pre{
     color:#444444;

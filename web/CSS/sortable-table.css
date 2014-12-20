@@ -18,6 +18,10 @@ table.sortable tr.head{
     text-align:center;
 }
 
+table.sortable th {
+    white-space:nowrap;
+}
+
 
 td > p{
     padding:0%;

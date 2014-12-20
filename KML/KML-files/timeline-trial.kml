@@ -219,8 +219,8 @@
 		<Placemark>
             <name>Unknown location</name>
             <TimeSpan>
-               <begin>1240-01-01</begin>
-               <end>1260-01-01</end>
+               <begin>1240</begin>
+               <end>1260</end>
             </TimeSpan>
             <description>Unknown location</description>
             <Style>
@@ -1048,8 +1048,8 @@
 		<Placemark>
             <name>Calvelo</name>
             <TimeSpan>
-               <begin>1250-01-01</begin>
-               <end>1275-01-01</end>
+               <begin>1250</begin>
+               <end>1275</end>
             </TimeSpan>
             <description>Calvelo</description>
             <Style>
@@ -1376,8 +1376,8 @@
 		<Placemark>
             <name>Évora</name>
             <TimeSpan>
-               <begin>1450-01-01</begin>
-               <end>1480-01-01</end>
+               <begin>1450</begin>
+               <end>1480</end>
             </TimeSpan>
             <description>Évora</description>
             <Style>
@@ -1598,8 +1598,8 @@
 		<Placemark>
             <name>Oseira</name>
             <TimeSpan>
-               <begin>1225-01-01</begin>
-               <end>1250-01-01</end>
+               <begin>1225</begin>
+               <end>1250</end>
             </TimeSpan>
             <description>Oseira</description>
             <Style>

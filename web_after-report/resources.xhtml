@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Resources - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8" />
+        <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/parallel-display.css" rel="stylesheet" type="text/css" />
+        <style>
+            span{
+                font-weight:bold;}
+            li.top{
+                padding-top:5px;
+            }
+            li.topExtra{
+                padding-top:13px;
+            }
+            div.align{
+            float:left;}
+        </style>
+    </head>
+    <body>
+        <!--#include virtual="NavMenu.html" -->
+        <div>
+            <h1 id="top">Resources</h1>
+            <p>In this section you can find the <a href="#source">sources</a> we
+                have looked up to create our personography.</p>
+            <p>We have also arranged all the links to our <a href="#xml">GitHub
+                    repository</a> to facilate the inspection of our code.</p>
+            <p>If you are interested in learning more about the Galician-Portuguese language and
+                medieval literature, you can browse <a href="#links">here</a> a
+                small selection of other websites.</p>
+        </div>
+        <div>
+            <h2 id="source">Source references</h2>
+            <p>The biographical data of the mistrels and troubadours was
+                extracted from the databases:</p>
+            <ul>
+                <li> <em>
+                    <a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng" target="_blank">Base de datos da Lírica Profana Galego-Portuguesa
+                        (MedDB)</a></em>.</li>
+                <li><em>
+                    <a href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810" target="_blank">Cantigas Medievais Galego Portuguesas [base de dados
+                        online].</a>
+                </em>.</li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="xml">Our code</h2>
+            <div class="container" id="container">
+                <div class="paneSmall" id="leftUL">
+                    <ul>
+                        <li class="top"><span>Songs (TEI)</span>
+                            <ul>
+                                <li class="top">
+                                    <a
+                                        href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/lyrics.xml"
+                                        target="_blank">Lyrics and pronouns</a>
+                                </li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/features.xml"
+                                    target="_blank">Linguistic Features</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/linguistic_study/Schemas"
+                                    target="_blank">Schemas</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/blob/master/linguistic_study/Schemas/features.sch"
+                                    target="_blank">Schematron</a></li>
+                                <li><a href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
+                                    target="_blank">XQuery</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/linguistic_study/XSLT"
+                                    target="_blank">XSLT</a> (from XML to HTML)</li>
+                            </ul>
+                        </li>
+                        <li class="top"><span>Personography (TEI)</span>
+                            <ul>
+                                <li class="top"><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/personography/XML"
+                                    target="_blank">XML</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/personography/schema"
+                                    target="_blank">Schema</a></li>
+                            </ul>
+                        </li>
+                        <li class="top"><span>Maps</span>
+                            <ul>
+                                <li class="top"><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XML"
+                                    target="_blank">XML</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/KML-files"
+                                    target="_blank">KML</a></li>
+                                <li><a
+                                    href="https://github.com/spb40/Iberian-Poets/tree/master/KML/XSLT-transformations"
+                                    target="_blank">XSLT</a> (from XML to XML and from XML to
+                                    KML)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paneSmall" id="rightUL">
+                    <div class="align">
+                        <ul>
+                            <li class="top"><span>Social Network</span>
+                                <ul>
+                                    <li class="topExtra">Cytoscape <ul>
+                                        <li class="top"><a
+                                            href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/sessions"
+                                            target="_blank">Cytoscape Sessions</a></li>
+                                        <li><a
+                                            href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/CSV"
+                                            target="_blank">CSV</a></li>
+                                        <li><a
+                                            href="https://github.com/spb40/Iberian-Poets/tree/master/Cytoscape/XSLT"
+                                            target="_blank">XSLT</a> (from XML to CSV
+                                            files)</li>
+                                    </ul>
+                                    </li>
+                                    <li class="topExtra">Palladio <sup><a href="#fn1" id="ref1">*</a></sup>
+                                        <ul>
+                                            <li class="top"><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/text-files"
+                                                target="_blank">CSV</a></li>
+                                            <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/JSON-files"
+                                                target="_blank">JSON</a></li>
+                                            <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/XSLT"
+                                                target="_blank">XSLT</a> (from XML to CSV
+                                                files)</li>
+                                            <li><a
+                                                href="https://github.com/spb40/Iberian-Poets/tree/master/Palladio/imported-graphs"
+                                                target="_blank">Graphic visualizations
+                                                (SVG)</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="topExtra"><span>Web</span>
+                                <ul>
+                                    <li class="topExtra"><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/web/CSS"
+                                        target="_blank">CSS</a></li>
+                                    <li><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/XQuery"
+                                        target="_blank">XQuery</a> (for HTML tables and SVG
+                                        graphs)</li>
+                                    <li><a
+                                        href="https://github.com/spb40/Iberian-Poets/tree/master/web/javaScript"
+                                        target="_blank">JavaScript</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div><a href="#top">Go to top</a></div>
+        </div>
+        <div>
+            <h2 id="links">Further reading</h2>
+            <h3>About Galician-Portuguese Lyric</h3>
+            <ul>
+                <li>European Heritage Project's section <q><a
+                    href="http://european-heritage.org/spain/lugo/medieval-galician-lyrics"
+                    target="_blank">Medieval Galician Lyrics</a></q>.</li>
+                <li>"<a
+                    href="http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1907&amp;context=clcweb"
+                    target="_blank">Galician-Portuguese Medieval Poetry and the Iberian
+                    Interliterary System</a>" (article by Santiago Gutiérrez García (2011) in <em><a
+                        href="http://docs.lib.purdue.edu/clcweb/" target="_blank">CLCWeb:
+                        Comparative Literature and Culture</a></em>, Volume 13: 2011, Issue
+                    5.</li>
+                <li><em>Wikipedia</em>'s article <q><a
+                    href="http://en.wikipedia.org/wiki/Galician-Portuguese_lyric"
+                    target="_blank">Galician-Portuguese Lyric</a></q>.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>About the language</h3>
+            <ul>
+                <li>Williams, E. B. (1962). <a
+                    href="http://babel.hathitrust.org/cgi/pt?id=mdp.39015034652472;view=1up;seq=1"
+                    ><em>From Latin to Portuguese</em></a>. Philadelphia: University of
+                    Philadelphia.</li>
+                <li>Linguistic map of <a
+                    href="http://upload.wikimedia.org/wikipedia/gl/4/4d/Linguistic_map_Southwestern_Europe.gif"
+                    target="_blank">Southwestern Europe</a> (by Alexandre Vigo for Galician <a
+                        href="//gl.wikipedia.org/wiki/" target="_blank">Wikipedia</a>).</li>
+                <li><em>Wikipedia</em>'s article <q><a
+                    href="http://en.wikipedia.org/wiki/Galician-Portuguese" target="_blank"
+                    >Galician-Portuguese</a></q>.</li>
+                <li><a
+                    href="http://cvc.instituto-camoes.pt/conhecer/bases-tematicas/historia-da-lingua-portuguesa.html"
+                    target="_blank">History of Portuguese</a> (in Portuguese).</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Other resources</h3>
+            <ul>
+                <li>Musical versions (<a
+                    href="http://cantigas.fcsh.unl.pt/cantigasmusicadastipo.asp?ling=eng&amp;t=or"
+                    target="_blank">original melodies</a>).</li>
+                <li>Manuscripts (<a href="http://cantigas.fcsh.unl.pt/manuscritos.asp?ling=eng"
+                    target="_blank">digital facsimiles</a>).</li>
+                <li><a href="http://cantigas.fcsh.unl.pt/iluminuras.asp?ling=eng" target="_blank"
+                    >Miniatures</a> from the <em>Cancioneiro da Ajuda</em>.</li>
+                <li>Medieval genealogies: Cawley, Charles (2006). <a href="http://fmg.ac/Projects/MedLands/CONTENTS.htm"
+                    target="_blank"><em>Medieval Lands. Foundation for
+                        Medieval Genealogy</em></a>.</li>
+            </ul>
+        </div>
+        <a href="#top">Go to top</a>
+        <hr />
+        <sup id="fn1">[*] <a href="http://palladio.designhumanities.org" target="_blank"
+            >Palladio</a> is a web-based platform for the visualization of complex,
+            multi-dimensional data. In our GitHub repository you can find different graphic
+            visualizations that we have created with this tool. However, the Iberian Project
+            encourages you to upload our CSV files to the platform and<q> play</q> with the data. <a
+                href="#ref1">↩</a></sup>
+    </body>
+</html>

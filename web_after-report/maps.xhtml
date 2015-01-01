@@ -1,0 +1,312 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Mapping - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8" />
+        <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+        <link href="CSS/parallel-display.css" rel="stylesheet" type="text/css" />
+        <style>
+            td > em{
+                font-size:small
+            }
+            
+            td > a{
+            font-weight:bold;
+            color:#b35249;            
+            }
+            
+            li.top{
+                padding-top:5px;
+            }
+            
+            table{
+                background-color:#ffff7d;
+                color:black
+            }
+            tr.head{
+                color:#ffff7d
+            }
+            #iconNetwork{
+                width:100%}</style>
+    </head>
+    <body>
+        <!--#include virtual="NavMenu.html" -->
+        <h1 id="top">Mapping Medieval Galician-Portuguese Literature and its Networks</h1>
+        <div>
+            <p>For the mapping part of our project, we used both Google Earth and Google Maps, and
+                also social network graphing.</p>
+            <p>In the <a href="#googlemaps">Google Maps</a> section you can find a mao that depict
+                our poets' journeys. It is divided into five different periods that you can toggle
+                accordingly.</p>
+            <p>If you prefer to highlight the relationships themselves, disregarding the
+                geographical references, you may find our <a href="#networks">Social
+                    Network</a> graph more appealing.</p>
+        </div>
+        <div><h2 id="googlemaps">Google Maps</h2>
+            <div class="container" id="container">
+                <div class="pane" id="leftMaps">
+                    <h3>Caption</h3>
+                    <table>
+                        <tr class="head">
+                            <th style="width:25%" colspan="2">Key</th>
+                            <th>Legend</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img
+                                    src="http://maps.google.com/mapfiles/kml/paddle/purple-stars.png"
+                                    alt="birth" height="40" width="40" /></td>
+                            <td>Birthplace<br />
+                                <em>(Click to get the poet's and the place names)</em></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img
+                                    src="http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png"
+                                    alt="birth-low" height="40" width="40" /></td>
+                            <td>Birthplace unknown or uncertain <br />
+                                <em>(nationality value used as reference)</em></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img src="http://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+                                    alt="floruit" height="40" width="40" /></td>
+                            <td>Patron and/or venue of literary performance <br />
+                                <em>(Click to get more information about the type of patronage
+                                    involved)</em></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Path color</td>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                    fill="#ffffff" stroke-width="1" stroke="black"></rect>
+                            </svg></td>
+                            <td>Joins the poet's place of origin with his following settlements <br />
+                                <em>(Click to identify the poet)</em></td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                    fill="#A74AC7" stroke-width="1" stroke="black"></rect>
+                            </svg></td>
+                            <td>Uncertain journey</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Base map</td>
+                            <td>Default: Satellite<br />
+                                <em>(Add labels or change the style at the right-upper corner to get
+                                    additional geographic info)</em></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pane" id="rightMaps">
+                    <iframe
+                        src="https://mapsengine.google.com/01970453336832355976-08551536342581976716-4/widget/in_iframe"
+                        height="600" style="width:100%"></iframe>
+                </div>
+            </div>
+        </div>
+        <div><h2 id="googleearth">Google Earth</h2>
+            <p>After the <a
+                    href="http://googlegeodevelopers.blogspot.com/2014/12/announcing-deprecation-of-google-earth.html"
+                    target="_blank">deprecation of the Google Earth API</a>, we do not know about
+                other alternatives to build timelines with 3D mapping applications in the browser.
+                We have decided to include the Google Earth plug-in, anyway. Besides the Google
+                Earth application for Android, these are the browsers that will allow you to
+                visualize the globe until December 2015:</p>
+            <ul>
+                <li>Microsoft Windows (XP, Vista, 7, and 8) <ul>
+                        <li class="top">Google Chrome 5.0-39.0 (32-bit)</li>
+                        <li>Internet Explorer 7-9, and 10-11 with Compatibility View (32-bit) (Note
+                            that the Windows 8 browsing mode with Internet Explorer does not support
+                            plugins.)</li>
+                        <li> Firefox 11.0-34.0</li>
+                    </ul></li>
+                <li>Apple Mac OS X 10.6 or later (any Intel Mac) <ul>
+                        <li class="top"> Google Chrome 5.0-39.0 (32-bit)</li>
+                        <li>Safari 3.1+</li>
+                        <li>Firefox 11.0-34</li>
+                    </ul></li>
+            </ul>
+            <div class="container">
+                <div class="pane" id="leftEarth">
+                    <h3>Caption</h3>
+                    <table>
+                        <tr class="head">
+                            <th style="width:25%;" colspan="2">Key</th>
+                            <th>Legend</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img
+                                    src="http://maps.google.com/mapfiles/kml/paddle/purple-stars.png"
+                                    alt="birth" height="40" width="40" /></td>
+                            <td>Birthplace<br />
+                                <em>(Click to get the poet's and the place names)</em></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img
+                                    src="http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png"
+                                    alt="birth-low" height="40" width="40" /></td>
+                            <td>Birthplace unknown or uncertain <br />
+                                <em>(nationality value used as reference)</em></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><img src="http://maps.google.com/mapfiles/kml/paddle/red-circle.png"
+                                    alt="floruit" height="40" width="40" /></td>
+                            <td>Patron and/or venue of literary performance <br />
+                                <em>(Click to get more information about the type of patronage
+                                    involved)</em></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Path color</td>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                    fill="#ffffff" stroke-width="1" stroke="black"></rect>
+                            </svg></td>
+                            <td>Joins the poet's place of origin with his following settlements <br />
+                                <em>(Click to identify the poet)</em></td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                    fill="#A74AC7" stroke-width="1" stroke="black"></rect>
+                            </svg></td>
+                            <td>Uncertain journey</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pane" id="rightEarth">
+                    <h3>Five periods timeline (1170-1480)</h3>
+                    <iframe
+                        src="http://dh.obdurodon.org/fake-kmlgadget.html?up_kml_url=https%3A%2F%2Fsites.google.com%2Fsite%2Fkmlfilesmapsdrafts%2Fhome%2Ffiles%2Ftimeline-trial.kml%3Fattredirects%3D0%26d%3D1&amp;up_view_mode=earth&amp;up_lat=&amp;up_lng=&amp;up_zoom=&amp;up_earth_fly_from_space=1&amp;up_earth_show_nav_controls=1&amp;up_earth_show_buildings=0&amp;up_earth_show_terrain=0&amp;up_earth_show_roads=0&amp;up_earth_show_borders=0&amp;up_earth_sphere=earth&amp;up_maps_default_type=map"
+                        height="600" style="width:100%"></iframe>
+                </div>
+            </div>
+            <div><a href="#top">Go to top</a></div>
+        </div>
+        <div>
+            <h2 id="networks">Social Network</h2>
+            <div class="container">
+                <div class="pane" id="leftNetwork">
+                    <h3>Caption</h3>
+                    <table>
+                        <tr class="head">
+                            <th colspan="2" style="width:40%">Key</th>
+                            <th>Legend</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" style="width:20%">Edge color</td>
+
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                        fill="#1c3a5c" stroke-width="1" stroke="black"></rect>
+                                </svg></td>
+                            <td>First and Second Periods</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                        fill="#d45710" stroke-width="1" stroke="black"></rect>
+                                </svg></td>
+                            <td>Third Period</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                        fill="#b35249" stroke-width="1" stroke="black"></rect>
+                                </svg></td>
+                            <td>Fourth Period</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                                    <rect width="20" height="20" x="1" y="1" rx="4" ry="4"
+                                        fill="#0e4225" stroke-width="1" stroke="black"></rect>
+                                </svg></td>
+                            <td>Fifth Period</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Edge width</td>
+                            <td><a
+                                    href="research.xhtml#edgebetweenness"
+                                    target="_blank">Edgebetweenness</a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" style="width:20%">Line stroke</td>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="95%" height="20">
+                                    <line x1="0" y1="12" x2="60" y2="12" stroke-dasharray="2,4"
+                                        stroke-width="3" stroke-linecap="round" fill="black"
+                                        stroke="black"></line>
+                                </svg></td>
+                            <td>Origin: Castilian</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="95%" height="20">
+                                    <line x1="0" y1="12" x2="60" y2="12" stroke-dasharray="6,6"
+                                        stroke-width="3" stroke-linecap="butt" fill="black"
+                                        stroke="black"></line>
+                                </svg></td>
+                            <td>Origin: Aragonese, Italian or Occitan</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="95%" height="20">
+                                    <line x1="0" y1="12" x2="60" y2="12" stroke-dasharray="12,6,3,6"
+                                        stroke-width="3" stroke-linecap="round" fill="black"
+                                        stroke="black"></line>
+                                </svg></td>
+                            <td>Origin: Galician</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="95%" height="20">
+                                    <line x1="0" y1="12" x2="60" y2="12" stroke-linejoin="round"
+                                        stroke-width="3" stroke-linecap="round" fill="black"
+                                        stroke="black"></line>
+                                </svg></td>
+                            <td>Origin: Portuguese</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4" style="width:20%">Node color</td>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                    <circle cx="10" cy="10" r="9" fill="#f6ec00" stroke-width="1"
+                                        stroke="black"></circle>
+                                </svg></td>
+                            <td>Royal court</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                    <circle cx="10" cy="10" r="9" fill="#ffb581" stroke-width="1"
+                                        stroke="black"></circle>
+                                </svg></td>
+                            <td>Lordship</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                    <circle cx="10" cy="10" r="9" fill="#ffffff" stroke-width="1"
+                                        stroke="black"></circle>
+                                </svg></td>
+                            <td>Troubadour</td>
+                        </tr>
+                        <tr>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                                    <circle cx="10" cy="10" r="9" fill="#74523b" stroke-width="1"
+                                        stroke="black"></circle>
+                                </svg></td>
+                            <td>Geographical place</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Node and font sizes</td>
+                            <td><a
+                                    href="research.xhtml#degreecentrality"
+                                    target="_blank">Degree Centrality</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pane" id="rightNetwork">
+                    <h3>Medieval troubadours' social network</h3>
+                    <h4>Click on the image for better resolution</h4>
+                    <h4>Click on the nodes and edges to get their key</h4>
+                    <div style="width:100%; height:auto;">
+                        <a href="network-image.html" target="_blank"><img id="iconNetwork"
+                                src="images/network-image.png" alt="network-small" /></a>
+                    </div>
+                </div>
+            </div>
+            <div><a href="#top">Go to top</a></div>
+        </div>
+    </body>
+</html>

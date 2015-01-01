@@ -1,0 +1,35 @@
+
+.stanza{
+    text-align:center;
+    padding-bottom:2%;
+    display:block;
+}
+.refrain{
+    font-style:italic;
+}
+.modern{
+    color:#D45710;
+}
+.archaic{
+    color:#FFED67;
+}
+
+
+
+h3:nth-of-type(odd){
+    margin-top:7%;
+}
+
+h3 > a{
+    color:#FFED67;;
+}
+
+
+
+.notH{
+    font-weight:lighter;
+}
+
+ul.toc{
+    margin-left:5%;
+}

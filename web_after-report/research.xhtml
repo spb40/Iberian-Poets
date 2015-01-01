@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Research - Medieval Galician-Portuguese Poetry</title>
+        <meta charset="utf-8" />
+        <link href="CSS/index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!--#include virtual="NavMenu.html" -->
+        <h1 id="top">Research</h1>
+        <div>
+            <p> Our <a href="about_main.xhtml">project</a> involves two different research
+                questions, and as such, the methodologies used to answer them are quite diverse.</p>
+            <p>If you are interested in knowing how we have coded the poets' biographies, check out
+                our <a href="#research_mapping">mapping</a> section. You can also find there the
+                technical details that explain how we displayed our data using Google Maps and
+                Google Earth.</p>
+            <p>For more information about the use of social network analysis methods to study the
+                relationships between the poets, visit the <a href="#research_social-network"
+                    target="_blank">social networking</a> section.</p>
+            <p>Finally, you can find <a href="#research_linguistic">here</a> all the information
+                regarding the linguistic analysis.</p>
+        </div>
+        <div>
+            <h2 id="research_mapping">Mapping Medieval Galician-Portuguese Poets</h2>
+            <p>Between the twelfth and fourteenth centuries, there was a poetic movement in the
+                Galician-Portuguese language throughout the kingdoms of the Iberian Peninsula (with
+                the exception of Catalonia where they used Provençal). Medieval Galician-Portuguese
+                    <em>Cantigas</em> (songs) remain as one of the richest parts of Iberian
+                Peninsula's Middle Ages heritage.</p>
+            <p>One thousand six hundred seventy nine songs written by 187 troubadours and minstrels
+                arrived to us in the form of the <em><a
+                        href="http://cantigas.fcsh.unl.pt/manuscritos.asp?ling=eng" target="_blank"
+                        >Cancioneiros</a></em> (songbooks). In these project, we analize some of
+                these troubadours through time and space with the intention of gaining a better
+                understanding of how this poetic school had developed from a socio-historic point of
+                view.</p>
+            <h3>The personography</h3>
+            <ul>
+                <li>Using the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng"
+                            target="_blank">Base de datos da Lírica Profana Galego-Portuguesa
+                            (MedDB)</a></em> as our main source, we selected fifty-two troubadours
+                    attending to diachronic criteria. We chose every poet from the first, fourth and
+                    five periods: the lower number of poets from these periods forced us to select
+                    them all so as to work with a significant corpus. From the second period, we
+                    left out the seven poets with the lowest certainty about their biographies. For
+                    the selection of the poets from the third period, which represents 75% of the
+                    corpus, besides certainty, we added other criteria such as the origin (selecting
+                    every poet who wasn't Galician or Portuguese, so other nationalities were
+                    represented) or the number of songs preserved (as a way to discern the most
+                    important authors).</li>
+                <li>We used <a href="http://www.tei-c.org/Roma/" target="_blank">TEI Roma</a> to
+                    customize our XML schema (read more at the <a
+                        href="http://www.tei-c.org/index.xml" target="_blank">Text Encoding
+                        Initiative</a> site).</li>
+                <li>For each poet, we marked-up his name, nationality, birthplace, social status,
+                    occupation, and affiliation. We looked up this information into two databases:
+                    in the <em><a href="http://cantigas.fcsh.unl.pt/index.asp?ling=eng"
+                            target="_blank">MedDB</a></em> and the <em><a
+                            href="http://www.cirp.es/pls/bdo2/f?p=103:2:4773368442203375810"
+                            target="_blank">Cantigas Medievais Galego Portuguesas</a></em>. We have
+                    also used <em><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank"
+                            >Wikipedia</a>
+                    </em> to get additional biographical information (especially of kings and
+                    counts).</li>
+                <li>We added a <code>@certainty</code> attribute inside every
+                        <code>&lt;nationality&gt;</code> element whose values go from <q>low</q> and
+                        <q>medium</q> to <q>high</q>. When there were was other pieces of
+                    information whose certainty was questioned by our sources, we coded them using
+                    again this attribute with values that went from <q>unknown</q> to <q>low</q> and
+                        <q>medium.</q></li>
+                <li> We used <a href="https://www.google.com/maps" target="_blank">Google Maps</a>
+                    and <a href="http://tools.wmflabs.org/geohack/" target="_blank">GeoHack</a> to
+                    find out the coordinates of every geographical reference we had in the
+                    personography. Then we tagged them inside a <code>&lt;geo&gt;</code> element.
+                    Since we did not add a <code>&lt;geoDecl&gt;</code> element in the TEI header to
+                    define a coordinate system, we marked them up following the TEI default for such
+                    cases: the contents of our <code>&lt;geo&gt;</code> element are a pair of
+                    numbers separated by whitespace, to be interpreted as latitude followed by
+                    longitude according to the World Geodetic System.</li>
+                <li>To sum up, this is a sample of the coding of one of the poets: <div class="code">
+<pre>&lt;person xml:id="JGarGlh"&gt;
+    &lt;persName&gt;Johan Garcia de Guilhade&lt;/persName&gt;
+    &lt;nationality key="pt" cert="high"&gt;Portuguese&lt;/nationality&gt;
+    &lt;birth&gt;
+        &lt;location&gt;
+            &lt;placeName&gt;Milhazes, Barcelos&lt;/placeName&gt;
+            &lt;geo&gt;41.490833,-8.660556&lt;/geo&gt;
+        &lt;/location&gt;
+    &lt;/birth&gt;
+    &lt;socecStatus key="kn"&gt;Knight&lt;/socecStatus&gt;
+    &lt;occupation key="tr"&gt;Troubadour&lt;/occupation&gt;
+    &lt;floruit from="1240" to="1265" period="3"&gt;
+        &lt;location corresp="#sousa" from="1240" to="1243"/&gt;
+        &lt;location corresp="#jaen" from="1244" to="1248"/&gt;
+        &lt;location corresp="#afonsX" from="1249" to="1253"/&gt;
+        &lt;location corresp="#afonsIII"  from="1253" to="1265"/&gt;
+    &lt;/floruit&gt;
+&lt;/person&gt;</pre>
+                    </div>
+                </li>
+                <li>We marked-up an ancillary file with every one of the affiliations, which
+                    explains the <code>@corresp</code> values inside <code>floruit/location</code>.
+                    We specified whether every one of them depended on a royal or a lordship
+                    patronage. <div class="code">
+<pre>&lt;place xml:id="sousa" type="noble"&gt;
+    &lt;location&gt;
+        &lt;placeName type="short"&gt;The Sousas&lt;/placeName&gt;
+        &lt;placeName type="full"&gt;Court of D. Gonçalo Garcia de Sousa&lt;/placeName&gt;
+        &lt;geo&gt;41.087778,-8.520278&lt;/geo&gt;
+    &lt;/location&gt;
+&lt;/place&gt;</pre>
+                    </div>
+                </li>
+            </ul>
+            <h3>The KML files</h3>
+            <ul>
+                <li>As a first step, we used XSLT for a XML to XML transformation in which we
+                    modified the coordinates to the KML standard, that is: three numbers separated
+                    by a comma, the first of them being the longitude, followed by the latitude and
+                    the altitude. Since the altitude reference was meaningless for our project, we
+                    added a 100 value as a default. <div class="code">
+<pre>&lt;xsl:template match="@*|node()"&gt;
+    &lt;xsl:copy&gt;
+        &lt;xsl:apply-templates select="@*|node()"/&gt;
+    &lt;/xsl:copy&gt;
+&lt;/xsl:template&gt;
+&lt;xsl:template match="geo"&gt;
+    &lt;geo&gt;
+        &lt;xsl:value-of select="concat(string-join((substring-after(current(), ','),
+            substring-before(current(), ',')), ','), ',100')"/&gt;
+    &lt;/geo&gt;
+&lt;/xsl:template&gt;</pre>
+                    </div>
+                </li>
+                <li>Then we employed XSLT again to transform the recently created XML file to
+                    KML.</li>
+                <li>This transformation included two different <code>&lt;Placemark&gt;</code>
+                    elements for each poet: one for their birthplace and one for their
+                        <q>journey.</q> Inside the second one, the coordinates of every
+                        <code>&lt;location&gt;</code> in the personography were inserted as descendants
+                    of a <code>&lt;LineString&gt;</code> element so as to draw the paths. Thus, the
+                    mark-up for one poet looks like this:<br />
+                    <div class="code">
+<pre>&lt;Placemark&gt;
+    &lt;name&gt;Garcia Mendiz d' Eixo&lt;/name&gt;
+    &lt;description&gt;Eixo, Garcia Mendiz d' Eixo's place of birth&lt;/description&gt;
+    &lt;Style&gt;
+        &lt;IconStyle&gt;
+            &lt;Icon&gt;
+                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/
+                    purple-stars.png&lt;/href&gt;
+            &lt;/Icon&gt;
+        &lt;/IconStyle&gt;
+    &lt;/Style&gt;
+    &lt;Point&gt;
+        &lt;coordinates&gt;-8.570415,40.631709,100&lt;/coordinates&gt;
+    &lt;/Point&gt;
+&lt;/Placemark&gt;
+&lt;Placemark&gt;
+    &lt;description&gt;Garcia Mendiz d' Eixo's journey&lt;/description&gt;
+    &lt;styleUrl&gt;#WhiteLine&lt;/styleUrl&gt;
+    &lt;LineString&gt;
+        &lt;tessellate&gt;0&lt;/tessellate&gt;
+        &lt;coordinates&gt;
+            -8.570415,40.631709,100
+            -8.47,40.24,100
+            -0.883533,41.650192,100 
+            -8.520278,41.087778,100 
+            -5.570956,42.600636,100
+        &lt;/coordinates&gt;
+    &lt;/LineString&gt;
+&lt;/Placemark&gt;</pre>
+                    </div>
+                </li>
+                <li>We stablished also a <code>&lt;Placemark&gt;</code> element for every one of the affiliations:<br />
+                    <div class="code">
+<pre>&lt;Placemark&gt;
+    &lt;name&gt;The Trabas&lt;/name&gt;
+    &lt;description&gt;House of Traba Court (noble court)&lt;/description&gt;
+    &lt;Style&gt;
+        &lt;IconStyle&gt;
+            &lt;Icon&gt;
+                &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/red-circle.png&lt;/href&gt;
+            &lt;/Icon&gt;
+        &lt;/IconStyle&gt;
+    &lt;/Style&gt;
+    &lt;Point&gt;
+        &lt;coordinates&gt;-7.71765,42.063,100&lt;/coordinates&gt;
+    &lt;/Point&gt;
+&lt;/Placemark&gt;</pre>
+                    </div>
+                </li>
+                <li>Since we had used <code>@certainty</code> attributes to encode the information
+                    that was dubious according to our sources, we referred to those values in our
+                    XSLT to create different <code>&lt;IconStyle&gt;</code> elements.<br />
+                    <div class="code">
+<pre>&lt;xsl:template match="person"&gt;
+    &lt;!--Other template rules--&gt;
+    &lt;IconStyle&gt;
+        &lt;xsl:choose&gt;
+            &lt;xsl:when test="birth[@cert='low']"&gt;
+                &lt;Icon&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;
+                &lt;/Icon&gt;
+            &lt;/xsl:when&gt;
+            &lt;xsl:when test="birth/location[@cert='unknown'] | birth/location[@cert='low']"&gt;
+                &lt;Icon&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png&lt;/href&gt;
+                &lt;/Icon&gt;
+            &lt;/xsl:when&gt;
+            &lt;xsl:otherwise&gt;
+                &lt;Icon&gt;
+                    &lt;href&gt;http://maps.google.com/mapfiles/kml/paddle/purple-stars.png&lt;/href&gt;
+                &lt;/Icon&gt;
+            &lt;/xsl:otherwise&gt;
+        &lt;/xsl:choose&gt;
+    &lt;/IconStyle&gt;
+    &lt;!--Other template rules--&gt;
+&lt;/xsl:template&gt;</pre>
+                    </div>
+                </li>
+                <li>We used the <code>@period</code> attribute of our personography to create five
+                    different KML files so we would have, as a result, one map for each period.</li>
+                <li>For one of the transformations, instead of using the <code>@period</code>
+                    attribute as a filter, we introduced the range of years we had coded inside
+                        <code>@from</code> and <code>@to</code> attributes within a
+                        <code>&lt;TimeSpan&gt;</code> element.</li>
+            </ul>
+            <h3>Embedding the maps in our website</h3>
+            <ul>
+                <li>We uploaded the KML files into <a href="https://www.google.com/maps"
+                        target="_blank">Google Maps</a>.</li>
+                <li>Then we opened in the <a href="https://developers.google.com/maps-engine/"
+                        target="_blank">Google Maps Engine API</a>.</li>
+                <li>After adding an additional description to our maps, we published them, we
+                    changed the sharing settings to <q>Public</q> and got the <q>shared link</q>
+                    that we introduced in our HTML file inside an <code>&lt;iframe&gt;</code>
+                    element.</li>
+                <li>For embeding the Google Earth globe we used the <a
+                        href="http://dh.obdurodon.org/kml-gadget.xhtml">KML embed gadget</a>.</li>
+            </ul>
+            <h3>Other criteria</h3>
+            <ul>
+                <li>We specify the level of credibility of each one of our personography entries
+                    using <code>@certainty</code> attributes. This makes it possible for us to
+                    visually represent that credibility with the intention of making these maps more
+                    legitimate from a historiographic point of view.</li>
+                <li>When we couldn't stablish a birthplace from one of the poets, we used the
+                    nationality information as a reference. Then we randomly selected a geographical
+                    point for each nationality and employed those as the coordinates for the
+                    birthplaces, adding a <code>@certainty="unknown"</code> attribute. For example,
+                    the birthplace of every Galician poet we couldn't place is represented in the
+                    map as a light blue pinpoint over what we could say it is the geographical
+                    center of the Galician territory.</li>
+                <li>We were more rigorous when dealing with the poets' shifts than with the courts'
+                    ones. This means that, for every affiliation, we chose the coordinates of what
+                    we could define as the main court and used those sistematically.</li>
+            </ul>
+            <a href="#top">Go to top</a>
+        </div>
+        <div>
+            <h2 id="research_social-network">Social Network Analysis</h2>
+            <p>To find out which were the most relevant cultural centers in the Iberian kingdoms
+                during the Middle Ages we graphed relational patterns through a <a
+                    href="http://en.wikipedia.org/wiki/Social_network_analysis" target="_blank"
+                    >social network</a> that you can find <a href="networks.xhtml" target="_blank"
+                    >here</a>.</p>
+            <p>As we explained in the <a href="#research_mapping" target="_blank">mapping
+                    section</a>, one of the problems of building historical personographies is data
+                accuracy. In our sources, the information we care about is very often introduced
+                with some degree of uncertainty. Moreover, we studying a period of upheaval, defined
+                by conflicts, changes and reorganizations. An easy location reference, such as a
+                particular king's court, becomes a very difficult one when trying to transform it to
+                some coordinates. Kings and noblemen move, and their courts and political influences
+                with them. The references are often unclear, and even if we have tried to be as
+                rigorous as possible, we have had to make some concessions to inaccuracy in favor of
+                functionality.</p>
+            <p>However, with social network methods you can be much more accurate in some ways when
+                you disregard geographical data and definite time references and keep only the
+                social relationships.</p>
+            <h3>Methodology</h3>
+            <ol>
+                <li>To build the social network we used <a href="http://www.cytoscape.org"
+                        target="_blank">Cytoscape</a>, an open source software platform for
+                    visualizing interaction networks. Cytoscape was originally designed for
+                    biological research, but now it is a general platform that can be used to
+                    visualize and analyze network graphs of any kind involving nodes and edges (i.e.
+                    social networks).</li>
+                <li>We transformed our personography into .csv files using XSLT. </li>
+                <li> Once we had our data into tables, we uploaded those into Cytoscape and created
+                    the initial network.</li>
+                <li>We defined the columns containing the troubadours and their patrons as nodes.
+                    The period was chosen as the interaction value, and then we selected the
+                    nationality as an edge attribute. Afterwards, we uploaded the table containing
+                    the type of patron (either royal, noble or unknown) as a node attribute.</li>
+                <li>Cytoscape automatically analyses the data and gives you back an exhaustive
+                    report. This means that you can customize your graph according to centrality
+                    measures, that is, the relative importance of nodes and edges in the network
+                    (the elements that keep it together, in other words).</li>
+                <li> We customized the graphic elements of the network using Cytoscape buid-in
+                    tools. We mapped our data to node color, label, edge thickness, edge color, etc.
+                    according to the following configurations: <ul>
+                        <li>Node size and label size depends on <span id="degreecentrality">degree
+                                centrality</span>. The bigger the node is, the highest number of
+                            ties to other nodes has.</li>
+                        <li>The width of the edges is related to <q><span id="edgebetweenness">edge
+                                    betweenness</span></q>, that is the number of shortest paths
+                            between pairs of nodes that run along it. The thicker the stroke is, the
+                            larger is its influence on the transfer of relations through the
+                            network.</li>
+                        <li>The color of the nodes defines its type. We discern poets from the
+                            “venues” where they develop their cultural activity. In this last
+                            category, we express when this venue is a royal court, a lord patronage,
+                            or an actual geographic place.</li>
+                        <li>The type of stroke makes it possible to visualize the origin of the
+                            poets so, in a way, we still preserve part of our geographical
+                            data.</li>
+                    </ul>
+                </li>
+            </ol>
+            <a href="#top">Go to top</a>
+        </div>
+        <div>
+            <h2 id="research_linguistic">Linguistic Analysis</h2>
+            <p class="questions">How did the Portuguese pronoun system change throughout the Late
+                Middle Ages?</p>
+            <h3>The Language</h3>
+            <p> Galician-Portuguese was the spoken language in the western area of the Iberian
+                Peninsula until mid-fourteenth century. Derived from Latin, it emerged progressively
+                as a different language before the ninth century, in the territories of the old
+                Kingdom of Galicia, which covered the regions of modern day Galicia and northern
+                Portugal. In this sense, we can say that the word Galician-Portuguese designates not
+                only a language, but also a phase in its development, which later would lead to the
+                differentiation between present Galician and Portuguese languages due to political
+                and sociolinguistic circumstances.</p>
+            <h3>Some History</h3>
+            <p>Portuguese, like most other Romance languages, came from Latin, or more specifically,
+                an altered form of Lating called <q>vulgar Latin</q>. The transition from vulgar
+                Latin to the Romance languages was due to maany factors, notably relative geographic
+                isolation of the different groups of language users and subsequent linguistic
+                superimposures by linguistic subtrate languages. An example of the linguistic
+                superimposure is the intensified stress accent superimposed upon vulgar Latin of the
+                Iberian Peninsula by invading German races. Vulgar Latin, along the western coast of
+                the Iberian Peninsula, which had less of the Germanic stress accent than anywhere
+                else, grew into Portuguese. The exact date of this trasformation is unclear but the
+                earliest documents in Portuguese appeared at the end of the twelfth century and mark
+                the historical beginning of Old Portuguese.</p>
+            <p>For four centuries, the language underwent amny changes, one of the most important
+                being a marked intensification of the stress accent, which was represented by an
+                increase in syncope found in verse and by the tendency toward greater word
+                individuation. Toward the end of the sixteenth century, nearly all distinct
+                characteristics of Old Portuguese disappeared, leaving the rough equivalent of the
+                modern Portuguese spoken today. </p>
+            <h3>Methodology</h3>
+            <p>For the diachronic variation study, we chose a sample of authors from five time
+                periods used to divide our timeline. Using the work of <a
+                    href="http://babel.hathitrust.org/cgi/pt?id=mdp.39015034652472;view=1up;seq=1"
+                    target="_blank">Williams (1962)</a>, we marked up pronouns and categorized them,
+                using Williams's standards, as <q>old</q> or <q>new</q>. Then, we determined how
+                accurate the claims made by Williams are by looking at the distribution of the
+                    <q>old</q> and <q>new</q> pronouns across the five time periods.</p>
+            <p>Williams's claim is that Old Portuguese appeared at the end of the 12th century and
+                had completed its transformation into modern Portuguese by approximately the end of
+                the 16th century. Our goal in looking at pronouns used in poetry of medeival
+                Galician troubadours is to see if Williams's claims are represented in the
+                distribution of pronouns across the poems. </p>
+            <p>The Galician-Portuguese poetic movement remains a rich cultural event in the history
+                of the Iberian Peninsula. The troubadours and minstrels who authored the songs were
+                greatly revered, as were their works. Therefore, the Portuguese used in their poems
+                could be seen as representative of the language being used at the time. If anything,
+                it is one of the most consistent collections of texts because it spans roughly three
+                centuries during the evolution of the language into modern Portuguese. By tracking
+                the use of archaic and modern pronouns in the poems, we can begin to understand the
+                timeline of how the Portuguese language changed over time.</p>
+            <p>This, obviously, is just a scratch at the surface of language change. In this
+                project, we only look at personal pronouns because they had quantifiable changes
+                that could be easily recognized and marked. A more in-depth study might include
+                other linguistic features, such as phonological features of orthography. We hope
+                that this project might open the door for more research into this realm of study. </p>
+            <h3>The Markup</h3>
+            <p>After formatting the poems in an XML document, the next step was to mark all the
+                personal pronouns that Williams mentioned in his study. Below are charts taken from
+                Williams's research.</p>
+            <table>
+                <tr class="head">
+                    <th>Archaic</th>
+                    <th>Modern</th>
+                </tr>
+                <tr>
+                    <td>mego, comego, migo</td>
+                    <td>comigo</td>
+                </tr>
+                <tr>
+                    <td>tego, contego, tigo</td>
+                    <td>contigo</td>
+                </tr>
+                <tr>
+                    <td>sego, consego, sigo, consigo</td>
+                    <td>consigo</td>
+                </tr>
+                <tr>
+                    <td>mim</td>
+                    <td>mi</td>
+                </tr>
+                <tr>
+                    <td>ele</td>
+                    <td>el</td>
+                </tr>
+                <tr>
+                    <td>eis</td>
+                    <td>eles</td>
+                </tr>
+                <tr>
+                    <td>nosco</td>
+                    <td>connosco</td>
+                </tr>
+                <tr>
+                    <td>vosco</td>
+                    <td>convosco</td>
+                </tr>
+                <tr>
+                    <td>li</td>
+                    <td>lhe</td>
+                </tr>
+                <tr>
+                    <td>lis, lhis</td>
+                    <td>lhes</td>
+                </tr>
+                <tr>
+                    <td>che</td>
+                    <td>te</td>
+                </tr>
+                <tr>
+                    <td>xe</td>
+                    <td>se</td>
+                </tr>
+            </table>
+            <p>In the texts, we used regex to mark all personal pronouns, modern and archaic, with
+                the following tag:</p>
+            <code>&lt;w ana="#pronoun"&gt;pronoun&lt;/w&gt;</code>
+            <p>Importantly, we did not want to miss any pronouns that were hyphenated or had been
+                assimilated into surrounding words. Therefore, we used the expression:</p>
+            <code><span class="code">Find:</span> ([^a-z])(mi[m]?)([^a-z])</code><br />
+            <code><span class="code">Replace with:</span> \1&lt;w
+                ana="#pronounCode"&gt;\2&lt;/w&gt;\3</code>
+            <p>The pronoun code refers to the features library document which is available to view
+                on our GitHub. This allows us to find and calculate the pronouns based on their age
+                classification, which is marked in the feature library. Using these labels, we will
+                be able to calculate the percentage of modern and archaic forms and identify their
+                distribution across the time spectrum of the poets.</p>
+            <h3>Using eXide</h3>
+            <p>First, we counted how many pronouns of all the pronouns we marked were archaic and
+                how many were modern. We used XQuery to do so:</p>
+            <div class="code2">
+<pre>declare namespace tei="http://www.tei-c.org/ns/1.0";
+let $docTexts := doc('/course/iberian/data/songTextsThirdTry.xml')/tei:TEI
+let $docFeat := doc('/course/iberian/aux/features.xml')/tei:TEI
+let $modern := $docTexts//tei:w[substring(@ana,2) = 
+    $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
+return $modern/string()</pre>
+            </div>
+            <p>Then we used another query to filter the results by period:</p>
+            <div class="code2">
+<pre>let $period := $docTexts//tei:div[descendant::tei:affiliation/@corresp='1']
+let $modern := $period//tei:w[substring(@ana,2) = 
+    $docFeat//tei:fs[tokenize(@feats/string(),'\s+') = '#archaic']/@xml:id]
+return $modern</pre>
+            </div>
+            <a href="#top">Go to top</a>
+        </div>
+    </body>
+</html>

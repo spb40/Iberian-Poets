@@ -1,0 +1,89 @@
+div.container{
+    padding-right:1%;
+    padding-left:1%;
+    margin-bottom:50px;
+    min-height:100%;
+    width:98%;
+}
+
+div.pane
+{
+    vertical-align:top;
+    bottom:50px;
+    height:750px;
+}
+
+div.paneSmall
+{
+    vertical-align:top;
+    bottom:50px;
+    height:400px;
+}
+
+div#leftMaps
+{
+    float:left;
+    width:25%;
+}
+
+div#leftEarth
+{
+    float:left;
+    width:30%;
+}
+
+div#leftNetwork
+{
+    float:left;
+    width:25%;
+}
+
+div#rightMaps
+{
+    float:right;
+    margin-top:2%;
+    width:73%;
+    margin-left:2%;
+}
+
+
+div#rightEarth
+{
+    float:right;
+    width:68%;
+    margin-left:2%;
+}
+
+div#rightNetwork
+{
+    float:right;
+    margin-left:1%;
+    width:74%;
+}
+
+div#rigthUL{
+    float:right;
+    width:35%;
+}
+div#leftUL{
+    width:58%;
+    float:left;
+    margin-left:5%;
+}
+
+div#leftLyrics{
+    float:left;
+    width:49%;
+    padding-right:1%;
+    overflow-y:scroll;
+}
+div#rightLyrics{
+    width:50%;
+    float:right;
+    overflow-y:scroll;
+}
+
+table{
+    width:100%;
+    table-layout:fixed;
+}

@@ -9,6 +9,10 @@ body{
     padding-bottom:4%;
 }
 
+q{
+    quotes:"“" "”" "‘" "’";
+}
+
 div#banner{
     width:100%;
     height:auto;
@@ -72,7 +76,7 @@ pre{
 }
 
 h1{
-   /* color:#D45710;*/
+    /* color:#D45710;*/
     color:#FFED67;
     clear:both;
 }
@@ -104,7 +108,7 @@ p{
 
 
 ol{
-margin-left:1%;
+    margin-left:1%;
     padding-left:2%;
     text-align:justify;
     padding-right:1%;
@@ -147,6 +151,8 @@ table{
     margin-right:auto;
     empty-cells:hide;
     border-collapse:collapse;
+    background-color:#ffff7d;
+    color:black
 }
 
 
@@ -174,11 +180,16 @@ tr.head{
     text-align:center;
     background-color:#D45710;
     height:40px;
-    font-size:medium;
+    color:#ffff7d
 }
 
 svg.poets{
     padding-left:3%;
+    float:left;
+}
+
+svg.plus{
+    padding-left:6%;
     float:left;
 }
 
